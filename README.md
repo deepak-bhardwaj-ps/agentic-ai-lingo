@@ -1,256 +1,261 @@
-# Agentic AI Buzzwords Dictionary
+# Agentic AI Buzzword Dictionary
 
-A consolidated map of agentic-AI buzzwords, vendor coinages, meme slang, and adjacent operational terms.
+A living dictionary of agentic AI terminology, runtime language, governance terms, protocol vocabulary, and meme slang.
 
-## 1. Core agentic terms
+## Core
 
-- **Agentic AI**: AI that plans, uses tools, and acts with partial autonomy.
-- **AI agents**: the concrete implementation term; often used interchangeably with agentic AI.
-- **Agentic coding**: coding with more autonomous agents than classic copilots.
-- **Agentic workflow**: a task flow executed by agents with tools, memory, and control logic.
-- **Agentic delivery**: running AI projects as delivery systems, not feature demos.
-- **Agentic browser**: browser-native agent execution that can navigate, click, and fill forms.
-- **Computer use**: agents operating software through the UI.
-- **Browser use**: browser-native execution by agents.
-- **Web agent**: an agent that operates across websites and web apps.
-- **Agentic commerce**: autonomous buying, checkout, and payment flows.
-- **Agentic trust**: trust language specific to delegated, autonomous systems.
+- [AI Agents](terms/items/ai-agents.md): Concrete implementations of agentic AI that can reason and act.
+- [Agentic AI](terms/items/agentic-ai.md): AI that plans, uses tools, and acts with partial autonomy.
+- [Agentic Browser](terms/items/agentic-browser.md): A browser interface that agents can navigate and operate directly.
+- [Agentic Coding](terms/items/agentic-coding.md): Software development with more autonomous agent assistance.
+- [Agentic Commerce](terms/items/agentic-commerce.md): Buying, checkout, and payment flows performed by agents.
+- [Agentic Delivery](terms/items/agentic-delivery.md): Running AI projects as operational delivery systems.
+- [Agentic Trust](terms/items/agentic-trust.md): Trust language for delegated and autonomous systems.
+- [Agentic Workflow](terms/items/agentic-workflow.md): A task flow executed by agents, tools, memory, and controls.
+- [Browser Use](terms/items/browser-use.md): Using a browser as an action surface for an agent.
+- [Computer Use](terms/items/computer-use.md): Operating software through the UI instead of direct APIs.
+- [Web Agent](terms/items/web-agent.md): Web Agent is a core agentic AI concept.
 
-## 2. Runtime, loop, and execution
+## Runtime
 
-- **Agent runtime**: the execution environment responsible for planning, tool use, memory access, policy enforcement, state management, and lifecycle control.
-- **Workflow runtime**: execution layer for multi-step workflows.
-- **Reasoning runtime**: runtime specialised for planning and decision-making.
-- **Inference runtime**: infrastructure executing model inference.
-- **Agent kernel**: minimal runtime responsible for core agent behaviour.
-- **Runtime contract**: explicit guarantees governing agent behaviour during execution.
-- **Runtime governance**: governance mechanisms embedded into execution.
-- **Execution boundary**: boundary between reasoning and action.
-- **Execution state**: current operational state of an agent.
-- **Execution graph**: graph representation of workflow execution.
-- **Loop engineering**: designing reusable agent loops rather than one-off prompts.
-- **Agent loop**: the plan-act-observe-refine cycle.
-- **Orchestration loop**: repeated coordination across agents and tools.
-- **ReAct**: reasoning + acting architecture.
-- **Supervisor agent**: central orchestrator that routes work to specialised agents.
-- **Hierarchical agent architecture**: top-down multi-agent structure.
-- **Star topology**: supervisor-in-the-middle agent layout.
-- **Agent swarm**: coordinated mass of agents working in parallel.
-- **Sub-agent swarm**: multiple specialised agents working on different parts of a goal.
-- **Dynamic teaming**: runtime formation of agent teams.
-- **Skill routing**: directing tasks to the right skill, tool, or sub-agent.
-- **Dynamic skill routing**: selecting the right skill at runtime.
-- **Tool router**: a layer that chooses the correct tool or action path.
-- **Verifier**: the component that checks outputs or intermediate steps.
-- **Safety monitor**: the component that blocks unsafe or untrusted actions.
-- **Verification loop**: repeated checking and correction.
-- **Trajectory quality**: judging the quality of the agent’s path, not only the final answer.
-- **Long-horizon workflow**: multi-step work that persists over time.
-- **Long-horizon tasks**: tasks requiring state, retries, and persistence.
-- **Stop-anywhere architecture**: a runtime that can pause, inspect, redirect, or terminate actions safely.
-- **Task assignment**: selecting which agent handles which subtask.
-- **Agentic rendering**: using agents to produce structured outputs or content pipelines.
-- **Test-driven agentic workflow**: agentic development structured around tests.
-- **Pilot-to-production gap**: the recurring failure to operationalise agentic AI beyond experiments.
+- [Agent Control Plane](terms/items/agent-control-plane.md): The governance layer for deploying, observing, and steering agent fleets.
+- [Agent Kernel](terms/items/agent-kernel.md): Agent Kernel is part of the execution layer for agents.
+- [Agent Loop](terms/items/agent-loop.md): Agent Loop is the repeating cycle of reasoning, action, and feedback.
+- [Agent Runtime](terms/items/agent-runtime.md): The execution environment that runs agent planning, tools, memory, and policy.
+- [Agent Swarm](terms/items/agent-swarm.md): Agent Swarm is a coordinated group of agents working in parallel.
+- [Agentic Rendering](terms/items/agentic-rendering.md): Using agents to generate structured output or content pipelines.
+- [Dynamic Skill Routing](terms/items/dynamic-skill-routing.md): Dynamic Skill Routing is part of the execution layer for agents.
+- [Dynamic Teaming](terms/items/dynamic-teaming.md): Dynamic Teaming is a persistent group of agents working together.
+- [Execution Boundary](terms/items/execution-boundary.md): Execution Boundary is part of the execution layer for agents.
+- [Execution Graph](terms/items/execution-graph.md): Execution Graph is a graph-based model for representing relationships, context, or memory.
+- [Execution State](terms/items/execution-state.md): Execution State is part of the execution layer for agents.
+- [Hierarchical Agent Architecture](terms/items/hierarchical-agent-architecture.md): Hierarchical Agent Architecture is part of the execution layer for agents.
+- [Inference Runtime](terms/items/inference-runtime.md): Inference Runtime is the execution environment where an agent runs.
+- [Long-Horizon Tasks](terms/items/long-horizon-tasks.md): Long-Horizon Tasks is part of the execution layer for agents.
+- [Long-Horizon Workflow](terms/items/long-horizon-workflow.md): Long-Horizon Workflow is a multi-step process that an agent or agent system executes.
+- [Loop Engineering](terms/items/loop-engineering.md): Loop Engineering is the repeating cycle of reasoning, action, and feedback.
+- [Orchestration Loop](terms/items/orchestration-loop.md): Orchestration Loop is the repeating cycle of reasoning, action, and feedback.
+- [Pilot-to-Production Gap](terms/items/pilot-to-production-gap.md): Pilot-to-Production Gap is part of the execution layer for agents.
+- [ReAct](terms/items/react.md): A reasoning-and-acting loop that alternates thought and tool use.
+- [Reasoning Runtime](terms/items/reasoning-runtime.md): Reasoning Runtime is the execution environment where an agent runs.
+- [Runtime Contract](terms/items/runtime-contract.md): Runtime Contract is a formal agreement that defines behaviour, permissions, or runtime guarantees.
+- [Runtime Governance](terms/items/runtime-governance.md): Runtime Governance is the mechanism for applying control, oversight, and accountability.
+- [Safety Monitor](terms/items/safety-monitor.md): Safety Monitor is a control that reduces risk when agents take actions.
+- [Skill Routing](terms/items/skill-routing.md): Skill Routing is part of the execution layer for agents.
+- [Star Topology](terms/items/star-topology.md): Star Topology is part of the execution layer for agents.
+- [Stop-Anywhere Architecture](terms/items/stop-anywhere-architecture.md): Stop-Anywhere Architecture is part of the execution layer for agents.
+- [Sub-agent Swarm](terms/items/sub-agent-swarm.md): Sub-agent Swarm is a coordinated group of agents working in parallel.
+- [Supervisor Agent](terms/items/supervisor-agent.md): Supervisor Agent is part of the execution layer for agents.
+- [Task Assignment](terms/items/task-assignment.md): Task Assignment is part of the execution layer for agents.
+- [Test-Driven Agentic Workflow](terms/items/test-driven-agentic-workflow.md): Test-Driven Agentic Workflow is a multi-step process that an agent or agent system executes.
+- [Tool Router](terms/items/tool-router.md): Tool Router is the capability an agent invokes to do work outside the model itself.
+- [Tooling Layer](terms/items/tooling-layer.md): Tooling Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Trajectory Quality](terms/items/trajectory-quality.md): Trajectory Quality is a measure of how consistently an agent produces useful results.
+- [Verification Loop](terms/items/verification-loop.md): Verification Loop is the act of checking that an agent's output or action is correct.
+- [Verifier](terms/items/verifier.md): Verifier is part of the execution layer for agents.
+- [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment where an agent runs.
 
-## 3. Context, memory, and data
+## Context
 
-- **Context engineering**: designing the agent’s informational environment.
-- **Governed context**: context with provenance, permissions, freshness, and retention controls.
-- **Shared context layer**: reusable organisational context across agents and workflows.
-- **Context freshness**: how current the context is, often treated as a runtime SLO.
-- **Context rot**: stale or bloated context that degrades performance.
-- **Context collapse**: context becoming over-mixed or operationally unusable.
-- **Context constructor**: the layer that assembles working context.
-- **Context operating system**: a metaphor for the layered context/memory/retrieval stack.
-- **Context graph**: graph representation of organisational context.
-- **Context mesh**: distributed context architecture.
-- **Context fabric**: unified context infrastructure.
-- **Context topology**: structural arrangement of context.
-- **Context federation**: linking context across domains.
-- **Context supply chain**: lifecycle of context from source to consumption.
-- **Context debt**: accumulated problems caused by poor context management.
-- **Context drift**: gradual deviation of context quality.
-- **Context poisoning**: malicious or accidental corruption of context.
-- **Context saturation**: excessive context reducing effectiveness.
-- **Context fragmentation**: context distributed across disconnected systems.
-- **Agent memory**: persistent state across sessions.
-- **Memory engineering**: discipline of designing memory systems for agents.
-- **Memory architecture**: structural design of memory layers.
-- **Memory substrate**: the underlying storage layer for memory.
-- **Memory graph**: graph-based representation of memory.
-- **Memory federation**: distributed memory architecture.
-- **Working memory**: temporary memory for active reasoning.
-- **Episodic memory**: memory of events and interactions.
-- **Semantic memory**: memory of facts and knowledge.
-- **Procedural memory**: memory of skills and processes.
-- **Memory governance**: lifecycle and compliance controls for memory.
-- **Memory hygiene**: curation, retirement, deduplication, and lifecycle control.
-- **Memory drift**: divergence between memory and reality.
-- **Memory hallucination**: inaccurate memory retrieval.
-- **Memory contamination**: introduction of poor-quality memory.
-- **Memory debt**: unmanaged memory accumulation.
-- **Memory compaction**: reducing memory footprint while preserving usefulness.
-- **State lifecycle**: create, store, refresh, expire, delete, audit.
-- **RAG**: retrieval-augmented generation; increasingly treated as part of a larger context stack.
-- **Identity-resolved data**: data tied to clear actors, permissions, or entities.
-- **Data fabric**: unified data layer used as context infrastructure for agents.
-- **Data mesh**: decentralised data architecture often contrasted with fabric.
-- **Shared meanings**: consistent semantics across agents and systems.
-- **Agentic hub**: central enterprise environment for governed agent operation.
-- **Explicit provenance**: causal traceability for agent actions and responsibility.
-- **Provenance tensor**: formalised provenance across the agent lifecycle.
-- **Causal attribution**: tying outcomes back to actions, principals, or sub-agents.
-- **Verification cost**: the cost of checking agent outputs and actions.
-- **Safe evolution**: controlled change of skills or behaviours over time.
+- [Agentic Hub](terms/items/agentic-hub.md): A governed enterprise environment for agent operation.
+- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is about how context is assembled, managed, or governed for agents.
+- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the point where context becomes mixed, noisy, or operationally unusable.
+- [Context Constructor](terms/items/context-constructor.md): Context Constructor is how information is assembled and presented to an agent at runtime.
+- [Context Debt](terms/items/context-debt.md): Context Debt is accumulated operational cost caused by weak governance or poor design.
+- [Context Drift](terms/items/context-drift.md): Context Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Context Engineering](terms/items/context-engineering.md): The discipline of designing the information agents reason over at each step.
+- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared substrate for moving context across systems and teams.
+- [Context Federation](terms/items/context-federation.md): Context Federation is how information is assembled and presented to an agent at runtime.
+- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is context split across disconnected systems and hard to reuse safely.
+- [Context Freshness](terms/items/context-freshness.md): Context Freshness is how current the information is when an agent uses it.
+- [Context Graph](terms/items/context-graph.md): Context Graph is a graph-based model for representing relationships, context, or memory.
+- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is how information is assembled and presented to an agent at runtime.
+- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is context that has been corrupted, accidentally or deliberately.
+- [Context Rot](terms/items/context-rot.md): Context Rot is stale or degraded context that no longer reflects the real system.
+- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where there is too much context for the agent to use well.
+- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is how information is assembled and presented to an agent at runtime.
+- [Context Topology](terms/items/context-topology.md): Context Topology is how information is assembled and presented to an agent at runtime.
+- [Data Fabric](terms/items/data-fabric.md): Data Fabric is a shared substrate for moving context across systems and teams.
+- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is traceable origin information for actions, inputs, or outputs.
+- [Governed Context](terms/items/governed-context.md): Governed Context is how information is assembled and presented to an agent at runtime.
+- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is how an agent is named, authenticated, and tracked separately from the human.
+- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is traceable origin information for actions, inputs, or outputs.
+- [RAG](terms/items/rag.md): Retrieval-augmented generation that grounds model output in external content.
+- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is about how context is assembled, managed, or governed for agents.
+- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is about how context is assembled, managed, or governed for agents.
+- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the act of checking that an agent's output or action is correct.
 
-## 4. Identity, delegation, and governance
+## Memory
 
-- **Agent identity**: unique identity and lifecycle for an agent, separate from the human user.
-- **Delegated authority**: what an agent is allowed to do on behalf of a user or system.
-- **Act-on-behalf**: an agent acting under scoped user or service authority.
-- **Composite principal**: human + agent + sub-agent identity chain.
-- **Delegation layer**: architectural layer governing delegation.
-- **Delegation boundary**: limit of delegated authority.
-- **Delegation contract**: formalised authority relationship.
-- **Delegation scope**: permissions delegated to an agent.
-- **Delegation policy**: rules governing delegation.
-- **Delegation graph**: chain of delegated authority.
-- **Delegation chain / delegation chains**: traceable authority lineage in multi-agent workflows.
-- **Delegation audit trail**: traceability of delegated actions.
-- **Delegation-aware observability**: tracing which delegated authority caused which action.
-- **Delegation failure**: breakdown of delegated execution.
-- **Delegation recovery**: remediation after failure.
-- **Tool authorization**: deciding whether an agent can call a tool or action.
-- **Action governance**: deciding whether an agent may execute a side effect.
-- **Permission gates**: approval points before risky actions.
-- **Policy interceptor**: runtime control that checks or blocks actions before execution.
-- **Least privilege**: tight scoping of tool and data access.
-- **Blast radius**: the maximum damage a single agent action can cause.
-- **Autonomy boundaries**: the line between safe automation and risky delegation.
-- **Decision sovereignty**: keeping final authority over agent outcomes and transactions.
-- **Governance by design**: embedding governance in the system rather than bolting it on.
-- **Runtime governance**: governance mechanisms embedded into execution.
-- **Control plane architecture**: enterprise architecture governing agent populations.
-- **Agent control plane**: governance, identity, policy, observability, evaluation, and operational layer above agent execution.
-- **Policy plane**: layer enforcing policy decisions.
-- **Identity plane**: layer managing identities and delegation.
-- **Trust plane**: layer establishing trust and accountability.
-- **Decision plane**: layer governing autonomous decisions.
-- **Governance plane**: layer managing risk and compliance.
-- **Action plane**: execution surface for delegated actions.
-- **Trust-by-design**: embedding trust, governance, and observability into the system.
-- **Human oversight**: human supervision over autonomous or semi-autonomous execution.
-- **Ultimate human control**: governance language asserting a human override boundary.
-- **Traceable accountability**: a formal claim that delegated actions can be audited back to a principal.
-- **Guardrails**: constraints on what agentic systems may do.
-- **Agentic misalignment**: when an agent’s actions diverge from intended goals.
-- **Confused deputy**: the classic failure mode where an agent misuses someone else’s authority.
-- **Behaviour assurance**: ensuring acceptable agent behaviour.
-- **Behaviour contract**: expected behavioural constraints.
-- **Behaviour drift**: gradual deviation from expected behaviour.
-- **Goal drift**: deviation from intended objective.
-- **Mission drift**: long-term divergence from mission.
-- **Alignment verification**: validating intended behaviour.
-- **Trustworthy autonomy**: autonomy operating within acceptable risk.
-- **Evidence-based execution**: actions supported by evidence.
-- **Behaviour replay**: replaying agent behaviour for analysis.
+- [Agent Memory](terms/items/agent-memory.md): Persistent state that agents can reuse across sessions.
+- [Episodic Memory](terms/items/episodic-memory.md): Episodic Memory is how an agent stores, retrieves, and reuses information over time.
+- [Memory Architecture](terms/items/memory-architecture.md): Memory Architecture is how an agent stores, retrieves, and reuses information over time.
+- [Memory Compaction](terms/items/memory-compaction.md): Memory Compaction is how an agent stores, retrieves, and reuses information over time.
+- [Memory Contamination](terms/items/memory-contamination.md): Memory Contamination is how an agent stores, retrieves, and reuses information over time.
+- [Memory Debt](terms/items/memory-debt.md): Memory Debt is accumulated operational cost caused by weak governance or poor design.
+- [Memory Drift](terms/items/memory-drift.md): Memory Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Memory Engineering](terms/items/memory-engineering.md): Memory Engineering is how an agent stores, retrieves, and reuses information over time.
+- [Memory Federation](terms/items/memory-federation.md): Memory Federation is how an agent stores, retrieves, and reuses information over time.
+- [Memory Governance](terms/items/memory-governance.md): Memory Governance is the mechanism for applying control, oversight, and accountability.
+- [Memory Graph](terms/items/memory-graph.md): Memory Graph is a graph-based model for representing relationships, context, or memory.
+- [Memory Hallucination](terms/items/memory-hallucination.md): Memory Hallucination is how an agent stores, retrieves, and reuses information over time.
+- [Memory Hygiene](terms/items/memory-hygiene.md): Memory Hygiene is how an agent stores, retrieves, and reuses information over time.
+- [Memory Substrate](terms/items/memory-substrate.md): Memory Substrate is how an agent stores, retrieves, and reuses information over time.
+- [Memory Systems](terms/items/memory-systems.md): Memory Systems is how an agent stores, retrieves, and reuses information over time.
+- [Procedural Memory](terms/items/procedural-memory.md): Procedural Memory is how an agent stores, retrieves, and reuses information over time.
+- [Semantic Memory](terms/items/semantic-memory.md): Semantic Memory is how an agent stores, retrieves, and reuses information over time.
+- [State Lifecycle](terms/items/state-lifecycle.md): State Lifecycle is about how agents store and reuse information over time.
+- [Working Memory](terms/items/working-memory.md): Working Memory is how an agent stores, retrieves, and reuses information over time.
 
-## 5. Protocols, integration, and platform language
+## Governance
 
-- **MCP**: Model Context Protocol.
-- **A2A**: agent-to-agent protocols and communications patterns.
-- **Agentic web**: browsers, APIs, payments, and identity becoming agent-native.
-- **Agent-ready software**: software designed to be machine-readable and callable by agents.
-- **Registry**: catalogues of agents, tools, actions, or MCP servers.
-- **Agent registry**: authoritative record of agents and capabilities.
-- **Tool gateway**: centralised access point for tools, auth, policy, and audit.
-- **Agent architect**: the role of designing the agent environment, not just prompts.
-- **Intent engineering**: encoding goals, trade-offs, and organisational intent into the agent system.
-- **Specification engineering**: turning policies and standards into machine-readable constraints.
-- **Agent training**: in agentic circles, usually shaping behaviour, workflow, or skills rather than model pretraining.
-- **Skill libraries**: reusable agent capabilities or procedures.
-- **Agentic multi-agent architecture**: formal label for a multi-agent orchestration stack.
-- **Agent marketplace**: environment where agents provide capabilities.
-- **Agent assembly**: temporary grouping of agents.
-- **Agent coalition**: goal-oriented group of agents.
-- **Agent federation**: collaboration across independent agent groups.
-- **Agent mesh**: distributed network of agents.
-- **Agent society**: large-scale interacting agent ecosystem.
-- **Agent collective**: coordinated group of agents.
-- **Ambient team**: persistent team of specialised agents sharing context.
-- **Collective intelligence layer**: emergent intelligence from collaboration.
+- [Act-on-Behalf](terms/items/act-on-behalf.md): Act-on-Behalf is about authority, policy, and oversight for agents.
+- [Action Governance](terms/items/action-governance.md): Action Governance is the mechanism for applying control, oversight, and accountability.
+- [Action Plane](terms/items/action-plane.md): Action Plane is the control surface that governs a specific concern in the agent stack.
+- [Agent Identity](terms/items/agent-identity.md): The identity and lifecycle assigned to an agent, separate from the human user.
+- [Agentic Misalignment](terms/items/agentic-misalignment.md): A mismatch between intended goals and agent behaviour.
+- [Alignment Verification](terms/items/alignment-verification.md): Alignment Verification is the act of checking that an agent's output or action is correct.
+- [Autonomy Boundaries](terms/items/autonomy-boundaries.md): Autonomy Boundaries is the degree to which an agent can act without human intervention.
+- [Behaviour Assurance](terms/items/behaviour-assurance.md): Behaviour Assurance is about authority, policy, and oversight for agents.
+- [Behaviour Contract](terms/items/behaviour-contract.md): Behaviour Contract is a formal agreement that defines behaviour, permissions, or runtime guarantees.
+- [Behaviour Drift](terms/items/behaviour-drift.md): Behaviour Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Behaviour Replay](terms/items/behaviour-replay.md): Behaviour Replay is about authority, policy, and oversight for agents.
+- [Blast Radius](terms/items/blast-radius.md): Blast Radius is about authority, policy, and oversight for agents.
+- [Composite Principal](terms/items/composite-principal.md): Composite Principal is about authority, policy, and oversight for agents.
+- [Confused Deputy](terms/items/confused-deputy.md): Confused Deputy is about authority, policy, and oversight for agents.
+- [Control Plane Architecture](terms/items/control-plane-architecture.md): Control Plane Architecture is the control surface that governs a specific concern in the agent stack.
+- [Decision Plane](terms/items/decision-plane.md): Decision Plane is the control surface that governs a specific concern in the agent stack.
+- [Decision Sovereignty](terms/items/decision-sovereignty.md): Decision Sovereignty is about authority, policy, and oversight for agents.
+- [Delegated Authority](terms/items/delegated-authority.md): The permissions an agent is allowed to exercise on someone else's behalf.
+- [Delegation Audit Trail](terms/items/delegation-audit-trail.md): Delegation Audit Trail is how authority is passed, constrained, and audited between principals and agents.
+- [Delegation Boundary](terms/items/delegation-boundary.md): Delegation Boundary is how authority is passed, constrained, and audited between principals and agents.
+- [Delegation Chain](terms/items/delegation-chain.md): Delegation Chain is how authority is passed, constrained, and audited between principals and agents.
+- [Delegation Contract](terms/items/delegation-contract.md): Delegation Contract is a formal agreement that defines behaviour, permissions, or runtime guarantees.
+- [Delegation Failure](terms/items/delegation-failure.md): Delegation Failure is how authority is passed, constrained, and audited between principals and agents.
+- [Delegation Graph](terms/items/delegation-graph.md): Delegation Graph is a graph-based model for representing relationships, context, or memory.
+- [Delegation Layer](terms/items/delegation-layer.md): Delegation Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Delegation Policy](terms/items/delegation-policy.md): Delegation Policy is a rule set that constrains what agents may do.
+- [Delegation Recovery](terms/items/delegation-recovery.md): Delegation Recovery is the process of restoring a system after an agent failure or bad action.
+- [Delegation Scope](terms/items/delegation-scope.md): Delegation Scope is the bounded set of permissions, data, or actions available to an agent.
+- [Delegation-Aware Observability](terms/items/delegation-aware-observability.md): Delegation-Aware Observability is how authority is passed, constrained, and audited between principals and agents.
+- [Evidence-Based Execution](terms/items/evidence-based-execution.md): Evidence-Based Execution is about authority, policy, and oversight for agents.
+- [Goal Drift](terms/items/goal-drift.md): Goal Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Governance Plane](terms/items/governance-plane.md): Governance Plane is the control surface that governs a specific concern in the agent stack.
+- [Governance by Design](terms/items/governance-by-design.md): Governance by Design is the mechanism for applying control, oversight, and accountability.
+- [Guardrails](terms/items/guardrails.md): Guardrails is a control that reduces risk when agents take actions.
+- [Human Oversight](terms/items/human-oversight.md): Human Oversight is the human or system supervision that checks agent behaviour.
+- [Identity Plane](terms/items/identity-plane.md): Identity Plane is the control surface that governs a specific concern in the agent stack.
+- [Least Privilege](terms/items/least-privilege.md): Least Privilege is about authority, policy, and oversight for agents.
+- [Mission Drift](terms/items/mission-drift.md): Mission Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Permission Gates](terms/items/permission-gates.md): Permission Gates is about authority, policy, and oversight for agents.
+- [Policy Interceptor](terms/items/policy-interceptor.md): Policy Interceptor is a rule set that constrains what agents may do.
+- [Policy Plane](terms/items/policy-plane.md): Policy Plane is the control surface that governs a specific concern in the agent stack.
+- [Specification Engineering](terms/items/specification-engineering.md): Specification Engineering is about authority, policy, and oversight for agents.
+- [Tool Authorization](terms/items/tool-authorization.md): Tool Authorization is the capability an agent invokes to do work outside the model itself.
+- [Traceable Accountability](terms/items/traceable-accountability.md): Traceable Accountability is about authority, policy, and oversight for agents.
+- [Trust Plane](terms/items/trust-plane.md): Trust Plane is the control surface that governs a specific concern in the agent stack.
+- [Trust-by-Design](terms/items/trust-by-design.md): Trust-by-Design is about authority, policy, and oversight for agents.
+- [Trustworthy Autonomy](terms/items/trustworthy-autonomy.md): Trustworthy Autonomy is the degree to which an agent can act without human intervention.
+- [Ultimate Human Control](terms/items/ultimate-human-control.md): Ultimate Human Control is about authority, policy, and oversight for agents.
+- [Verifiable Action](terms/items/verifiable-action.md): Verifiable Action is about authority, policy, and oversight for agents.
 
-## 6. Evaluation, reliability, and operations
+## Protocols
 
-- **Agent evals**: evaluation suites for agentic workflows and task performance.
-- **AgentOps**: operational discipline for identity, tooling, evaluation, audit, cost, and recovery.
-- **Evidence-grade audit trail**: audit logs sufficient to reconstruct what happened and why.
-- **Recovery readiness**: rollback, replay, revoke, or correct after failure.
-- **Exception rate**: the share of tasks requiring human intervention.
-- **Verified outcome**: measuring completed work, not model output.
-- **Cost per workflow**: a stronger metric than $/token.
-- **Continuous validation**: ongoing checking rather than one-time testing.
-- **Multi-agent governance**: control structures for multiple collaborating agents.
-- **Autonomous workflow**: a business process executed with minimal human intervention.
-- **Stop-anywhere architecture**: a runtime that can pause, inspect, redirect, or terminate actions safely.
-- **Outcome reliability**: consistency of outcomes.
-- **Execution quality**: quality of task execution.
-- **Trajectory evaluation**: evaluation of execution path.
-- **Behaviour assurance**: ensuring acceptable agent behaviour.
-- **Agent estate**: the total governed population of agents operating across an organisation.
-- **Agent inventory**: catalogue of deployed agents.
-- **Agent portfolio**: collection of agents managed as a strategic capability.
-- **Agent lifecycle management**: creation, deployment, modification, retirement.
-- **Agent ownership model**: accountability structure for agents.
-- **Agent sprawl**: uncontrolled growth of agents.
-- **Ghost agent**: abandoned agent still operating without ownership.
-- **Shadow agent**: agent operating outside governance structures.
-- **Orphan agent**: agent without an accountable owner.
-- **Agent debt**: operational debt created by poorly governed agents.
-- **Pilot purgatory**: endless experimentation without production deployment.
-- **Proof-of-concept graveyard**: accumulation of abandoned AI experiments.
+- [A2A](terms/items/a2a.md): A protocol or pattern for agent-to-agent communication.
+- [Agent Architect](terms/items/agent-architect.md): Agent Architect is a protocol, interface, or platform term used to connect agents and tools.
+- [Agent Assembly](terms/items/agent-assembly.md): Agent Assembly is a temporary or goal-oriented group of cooperating agents.
+- [Agent Coalition](terms/items/agent-coalition.md): Agent Coalition is a temporary or goal-oriented group of cooperating agents.
+- [Agent Collective](terms/items/agent-collective.md): Agent Collective is a temporary or goal-oriented group of cooperating agents.
+- [Agent Federation](terms/items/agent-federation.md): Agent Federation is a distributed arrangement of independent agents or groups that still coordinate.
+- [Agent Marketplace](terms/items/agent-marketplace.md): Agent Marketplace is a catalog or managed set of agents, tools, or capabilities.
+- [Agent Mesh](terms/items/agent-mesh.md): Agent Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Agent Registry](terms/items/agent-registry.md): Agent Registry is a catalog or managed set of agents, tools, or capabilities.
+- [Agent Society](terms/items/agent-society.md): Agent Society is a larger ecosystem of interacting agents.
+- [Agent Training](terms/items/agent-training.md): Agent Training is a protocol, interface, or platform term used to connect agents and tools.
+- [Agent-Ready Software](terms/items/agent-ready-software.md): Agent-Ready Software is a protocol, interface, or platform term used to connect agents and tools.
+- [Agentic Multi-Agent Architecture](terms/items/agentic-multi-agent-architecture.md): A structured orchestration stack for multiple cooperating agents.
+- [Agentic Web](terms/items/agentic-web.md): Web applications, identity, payments, and APIs designed to be agent-native.
+- [Ambient Team](terms/items/ambient-team.md): Ambient Team is a persistent group of agents working together.
+- [Collective Intelligence Layer](terms/items/collective-intelligence-layer.md): Collective Intelligence Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Intent Engineering](terms/items/intent-engineering.md): Intent Engineering is a protocol, interface, or platform term used to connect agents and tools.
+- [Intent Mesh](terms/items/intent-mesh.md): Intent Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [MCP](terms/items/mcp.md): A protocol for connecting models to tools, context, and external systems.
+- [Registry](terms/items/registry.md): Registry is a catalog or managed set of agents, tools, or capabilities.
+- [Skill Libraries](terms/items/skill-libraries.md): Skill Libraries is a protocol, interface, or platform term used to connect agents and tools.
+- [Tool Gateway](terms/items/tool-gateway.md): Tool Gateway is the capability an agent invokes to do work outside the model itself.
 
-## 7. Status signalling, meme slang, and anti-hype language
+## AgentOps
 
-- **Tokenmaxxing**: maximising token spend or usage as a performative productivity signal.
-- **Promptmaxxing**: maximising prompt length or prompt activity as a performative game.
-- **Agentmaxxing**: overusing agents to signal output, scale, or productivity status.
-- **Vibe coding**: building by prompt, steering, and accepting generated code with minimal manual coding.
-- **Harness engineering**: the disciplined wrapper around AI tools, workflows, constraints, and controls.
-- **Slopcoding**: code generated with low discernment and high acceptance of junk output.
-- **AI slop**: low-quality, high-volume AI-generated content.
-- **Workslop**: polished-looking but useless AI-generated workplace output.
-- **Slopaganda**: AI-generated propaganda or persuasion content built for scale and virality.
-- **AI washing**: overstating AI capability in product or company marketing.
-- **Agent washing**: rebranding existing software as “agentic” without real autonomy.
-- **Architecture washing**: marketing simple workflows as architectures.
-- **Control washing**: claiming governance without enforcement.
-- **Governance theatre**: superficial governance without control.
-- **Agent theatre**: simulated autonomy with hidden human intervention.
-- **Autonomy theatre**: claims of autonomy unsupported by reality.
-- **Microslop**: mocking label for low-quality AI output or branding in Microsoft/Copilot-adjacent spaces.
-- **Trendslop**: buzzy, AI-generated advice or trend content with weak reasoning.
-- **Prompt slop**: noisy, bloated, or careless prompts and outputs.
-- **Prompt goblin**: someone who hoards and hacks prompts for output chasing.
-- **Vibe valuation**: startup valuation driven by narrative and vibes more than fundamentals.
-- **Demo-ware**: impressive demos that do not survive contact with real workflows.
-- **Chatbot theatre**: products that look agentic but only repackage a chat UI.
-- **Synthetic sludge**: pejorative for high-volume, low-quality AI output.
-- **Auto-bullshit**: fluent but ungrounded output.
-- **Productivity cosplay**: performative AI use for appearances rather than actual leverage.
-- **AI ribbon-cutting**: hype launch with weak substance.
-- **AI sprawl**: uncontrolled proliferation of AI tools across teams.
-- **Saaspocalypse**: meme term for AI pressure collapsing traditional SaaS moats.
-- **Zombie internet**: feed and search environments saturated with synthetic content and bots.
-- **Dead Internet**: the broader claim that online spaces are increasingly bot-driven.
-- **Clanker**: insult for AI systems or bots, borrowed from online meme culture.
-- **AI leaderboards**: workplace gamification around token use, prompts, or AI activity.
-- **Agent FOMO**: adoption driven by fear of missing out.
+- [Agent Debt](terms/items/agent-debt.md): Agent Debt is accumulated operational cost caused by weak governance or poor design.
+- [Agent Estate](terms/items/agent-estate.md): Agent Estate is an operational term for running agents reliably in production.
+- [Agent Evals](terms/items/agent-evals.md): Agent Evals is a way to measure how well agent behaviour works on real tasks.
+- [Agent Inventory](terms/items/agent-inventory.md): Agent Inventory is a catalog or managed set of agents, tools, or capabilities.
+- [Agent Lifecycle Management](terms/items/agent-lifecycle-management.md): Agent Lifecycle Management is an operational term for running agents reliably in production.
+- [Agent Ownership Model](terms/items/agent-ownership-model.md): Agent Ownership Model is an operational term for running agents reliably in production.
+- [Agent Portfolio](terms/items/agent-portfolio.md): Agent Portfolio is a catalog or managed set of agents, tools, or capabilities.
+- [Agent Sprawl](terms/items/agent-sprawl.md): Agent Sprawl is an operational term for running agents reliably in production.
+- [AgentOps](terms/items/agentops.md): The operational practice of running agents reliably in production.
+- [Agentic Evaluation](terms/items/agentic-evaluation.md): Evaluation methods for multi-step, tool-using agent tasks.
+- [Autonomous Workflow](terms/items/autonomous-workflow.md): Autonomous Workflow is a multi-step process that an agent or agent system executes.
+- [Continuous Validation](terms/items/continuous-validation.md): Continuous Validation is an operational term for running agents reliably in production.
+- [Cost per Workflow](terms/items/cost-per-workflow.md): Cost per Workflow is a multi-step process that an agent or agent system executes.
+- [Evidence-Grade Audit Trail](terms/items/evidence-grade-audit-trail.md): Evidence-Grade Audit Trail is evidence that lets you reconstruct who did what and when.
+- [Exception Rate](terms/items/exception-rate.md): Exception Rate is an operational term for running agents reliably in production.
+- [Execution Quality](terms/items/execution-quality.md): Execution Quality is a measure of how consistently an agent produces useful results.
+- [Ghost Agent](terms/items/ghost-agent.md): Ghost Agent is an operational term for running agents reliably in production.
+- [Harness Engineering](terms/items/harness-engineering.md): Harness Engineering is an operational term for running agents reliably in production.
+- [Multi-Agent Governance](terms/items/multi-agent-governance.md): Multi-Agent Governance is the mechanism for applying control, oversight, and accountability.
+- [Orphan Agent](terms/items/orphan-agent.md): Orphan Agent is an operational term for running agents reliably in production.
+- [Outcome Reliability](terms/items/outcome-reliability.md): Outcome Reliability is a measure of how consistently an agent produces useful results.
+- [Pilot Purgatory](terms/items/pilot-purgatory.md): Pilot Purgatory is an operational term for running agents reliably in production.
+- [Proof-of-Concept Graveyard](terms/items/proof-of-concept-graveyard.md): Proof-of-Concept Graveyard is an operational term for running agents reliably in production.
+- [Recovery Readiness](terms/items/recovery-readiness.md): Recovery Readiness is the process of restoring a system after an agent failure or bad action.
+- [Shadow Agent](terms/items/shadow-agent.md): Shadow Agent is an operational term for running agents reliably in production.
+- [Trajectory Evaluation](terms/items/trajectory-evaluation.md): Trajectory Evaluation is a way to measure how well agent behaviour works on real tasks.
+- [Verified Outcome](terms/items/verified-outcome.md): Verified Outcome is a measure of how consistently an agent produces useful results.
 
-## 8. Social / influence terms adjacent to agentic AI
+## Slang
 
-- **Bot swarm**: coordinated autonomous agents used for influence or manipulation.
-- **Swarm scanner**: defensive tooling to detect bot or swarm activity.
-- **Agentic propaganda**: synthetic persuasion using autonomous agents and scale.
-- **AI bot swarms**: coordinated bot networks that mimic human behaviour.
+- [AI Leaderboards](terms/items/ai-leaderboards.md): AI Leaderboards is a shorthand or meme term used around agentic AI.
+- [AI Ribbon-Cutting](terms/items/ai-ribbon-cutting.md): AI Ribbon-Cutting is a shorthand or meme term used around agentic AI.
+- [AI Slop](terms/items/ai-slop.md): AI Slop is low-quality output, often produced at speed and without enough judgement.
+- [AI Sprawl](terms/items/ai-sprawl.md): AI Sprawl is a shorthand or meme term used around agentic AI.
+- [AI Washing](terms/items/ai-washing.md): AI Washing is branding that overstates how much agentic capability a product really has.
+- [Agent FOMO](terms/items/agent-fomo.md): Agent FOMO is adoption driven more by fear of missing out than by a clear use case.
+- [Agent Theatre](terms/items/agent-theatre.md): Agent Theatre is a fake-autonomy pattern where the system appears agentic but a human is still doing the real work.
+- [Agent Washing](terms/items/agent-washing.md): Agent Washing is branding that overstates how much agentic capability a product really has.
+- [Agentmaxxing](terms/items/agentmaxxing.md): Agentmaxxing is performative overuse of AI or agents as a status signal.
+- [Architecture Washing](terms/items/architecture-washing.md): Architecture Washing is branding that overstates how much agentic capability a product really has.
+- [Auto-bullshit](terms/items/auto-bullshit.md): Auto-bullshit is a shorthand or meme term used around agentic AI.
+- [Autonomy Theatre](terms/items/autonomy-theatre.md): Autonomy Theatre is a fake-autonomy pattern where the system appears agentic but a human is still doing the real work.
+- [Chatbot Theatre](terms/items/chatbot-theatre.md): Chatbot Theatre is a fake-autonomy pattern where the system appears agentic but a human is still doing the real work.
+- [Clanker](terms/items/clanker.md): Clanker is a shorthand or meme term used around agentic AI.
+- [Control Washing](terms/items/control-washing.md): Control Washing is branding that overstates how much agentic capability a product really has.
+- [Dead Internet](terms/items/dead-internet.md): Dead Internet is a shorthand or meme term used around agentic AI.
+- [Demo-ware](terms/items/demo-ware.md): Demo-ware is a shorthand or meme term used around agentic AI.
+- [Governance Theatre](terms/items/governance-theatre.md): Governance Theatre is a fake-autonomy pattern where the system appears agentic but a human is still doing the real work.
+- [Microslop](terms/items/microslop.md): Microslop is low-quality output, often produced at speed and without enough judgement.
+- [Productivity Cosplay](terms/items/productivity-cosplay.md): Productivity Cosplay is a shorthand or meme term used around agentic AI.
+- [Prompt Goblin](terms/items/prompt-goblin.md): Prompt Goblin is a shorthand or meme term used around agentic AI.
+- [Prompt Slop](terms/items/prompt-slop.md): Prompt Slop is low-quality output, often produced at speed and without enough judgement.
+- [Promptmaxxing](terms/items/promptmaxxing.md): Promptmaxxing is performative overuse of AI or agents as a status signal.
+- [Saaspocalypse](terms/items/saaspocalypse.md): Saaspocalypse is a shorthand or meme term used around agentic AI.
+- [Slopaganda](terms/items/slopaganda.md): Slopaganda is low-quality output, often produced at speed and without enough judgement.
+- [Slopcoding](terms/items/slopcoding.md): Slopcoding is low-quality output, often produced at speed and without enough judgement.
+- [Synthetic Sludge](terms/items/synthetic-sludge.md): Synthetic Sludge is a shorthand or meme term used around agentic AI.
+- [Tokenmaxxing](terms/items/tokenmaxxing.md): Tokenmaxxing is performative overuse of AI or agents as a status signal.
+- [Trendslop](terms/items/trendslop.md): Trendslop is low-quality output, often produced at speed and without enough judgement.
+- [Vibe Coding](terms/items/vibe-coding.md): Vibe Coding is a shorthand or meme term used around agentic AI.
+- [Vibe Valuation](terms/items/vibe-valuation.md): Vibe Valuation is a shorthand or meme term used around agentic AI.
+- [Workslop](terms/items/workslop.md): Workslop is low-quality output, often produced at speed and without enough judgement.
+- [Zombie Internet](terms/items/zombie-internet.md): Zombie Internet is a shorthand or meme term used around agentic AI.
+
+## Social
+
+- [AI Bot Swarms](terms/items/ai-bot-swarms.md): AI Bot Swarms is a coordinated group of agents working in parallel.
+- [Agentic Propaganda](terms/items/agentic-propaganda.md): Agentic Propaganda is a social or influence-related term adjacent to agentic AI.
+- [Bot Swarm](terms/items/bot-swarm.md): Bot Swarm is a coordinated group of agents working in parallel.
+- [Swarm Scanner](terms/items/swarm-scanner.md): Swarm Scanner is a coordinated group of agents working in parallel.
