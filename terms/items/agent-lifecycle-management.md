@@ -4,12 +4,14 @@ name: Agent Lifecycle Management
 category: AgentOps
 title: Agent Lifecycle Management
 aliases: []
-short_description: Agent Lifecycle Management is the discipline of introducing, operating,
-  updating, and retiring agents safely.
+short_description: A lifecycle management practice governs the introduction,
+  operation, update, suspension, and retirement of agents.
 termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
+researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
 - https://platform.openai.com/docs/guides/evals
+- https://www.nist.gov/itl/ai-risk-management-framework
+- https://learn.microsoft.com/en-us/entra/agent-id/agent-identities
 ---
 
 ## Term status
@@ -18,16 +20,20 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent lifecycle management covers introduction, operation, update, suspension, and retirement of agents.
+A lifecycle management practice covers introduction, operation, update, suspension, and retirement of agents.
 
 ## Boundary
 
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
+It is not a canonical KPI or formal discipline. Define the event boundary, owner, and operational decision it informs before you count anything.
 
 ## How it is used
 
-Agent Lifecycle Management is used when the full life of an agent matters: approval, rollout, monitoring, update, suspension, and retirement. It is the term that turns “we built an agent” into an operational asset with a clear exit path.
+It is used when the full life of an agent matters: approval, rollout, monitoring, update, suspension, and retirement. It turns “we built an agent” into an operational asset with a clear exit path.
 
 ## Evidence
 
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) frames evaluation as part of operating a system, not a one-off test.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) is the broader governance reference for tracking and managing AI risks across the lifecycle.
+
+[Microsoft Entra Agent ID](https://learn.microsoft.com/en-us/entra/agent-id/agent-identities) reinforces the need to register, manage, and retire agent identities rather than leaving them to drift.
