@@ -4,8 +4,8 @@ name: Agent Theatre
 category: Slang
 title: Agent Theatre
 aliases: []
-short_description: Agent Theatre is a label for demos that look autonomous while the
-  useful work and recovery path are still missing.
+short_description: Agent theatre names demos that look autonomous while the useful
+  work and recovery path are still missing.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -22,12 +22,14 @@ Informal criticism of performative AI activity: visible demonstrations or proces
 
 ## Boundary
 
-It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
+It is not a formal assessment category. Identify the missing evidence: task success, adoption, controls, economics, or ownership.
 
 ## How it is used
 
-Agent Theatre is used when an agent demo is impressive on the surface but the real task completion, tool safety, or failure recovery is still handled by people behind the scenes. The term is a cue to ask what the system actually does once the staged flow ends.
+It is used when an agent demo is impressive on the surface but the real task completion, tool safety, or failure recovery is still handled by people behind the scenes. The term is a cue to ask what the system actually does once the staged flow ends.
 
 ## Evidence
 
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for asking whether the system is actually controlled, measurable, and accountable.
+
+The label is slang, not a formal category. Its value is diagnostic: it flags a gap between presentation and operational reality.
