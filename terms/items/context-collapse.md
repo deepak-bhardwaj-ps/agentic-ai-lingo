@@ -4,8 +4,8 @@ name: Context Collapse
 category: Context
 title: Context Collapse
 aliases: []
-short_description: Context Collapse is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Collapse is the failure mode where too much or the wrong
+  kind of information is packed into a model’s decision context.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Collapse is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Collapse is used when context becomes overloaded, conflicting, or poorly prioritised and the model can no longer separate signal from noise. It is a warning to simplify the source set, not just increase the token budget.
 
 ## Evidence
 

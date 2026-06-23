@@ -4,8 +4,8 @@ name: Supervisor Agent
 category: Runtime
 title: Supervisor Agent
 aliases: []
-short_description: Supervisor Agent is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Supervisor Agent is the top-level agent that delegates, checks,
+  and decides whether work should continue.
 termStatus: Common framework pattern
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not an authoritative control plane. High-risk authorisation and policy che
 
 ## How it is used
 
-Supervisor Agent is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Supervisor Agent is used when one agent is responsible for routing work to specialised workers and deciding whether to continue or stop. It is the right term when orchestration is still model-led, but the system needs a clear top of chain.
 
 ## Evidence
 

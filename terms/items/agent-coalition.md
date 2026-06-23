@@ -4,8 +4,8 @@ name: Agent Coalition
 category: Protocols
 title: Agent Coalition
 aliases: []
-short_description: Agent Coalition is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Coalition is a set of separately owned agents that cooperate
+  under shared constraints.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Coalition is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+An agent coalition is a limited agreement between distinct agents that cooperate on one outcome while remaining independently owned. The useful detail is the agreement surface: who can call whom, on what terms, and for how long.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Coalition is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Coalition is used when the agents remain distinct but are expected to collaborate on a shared outcome. The term becomes meaningful only if the coordination rules, identity model, and trust assumptions are explicit.
 
 ## Evidence
 

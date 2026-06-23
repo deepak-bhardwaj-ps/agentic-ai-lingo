@@ -4,8 +4,8 @@ name: MCP
 category: Protocols
 title: MCP
 aliases: []
-short_description: MCP is used in discussions of coordination or discoverability between
-  independently built agents and services.
+short_description: MCP is the Model Context Protocol for connecting models to tools,
+  resources, and prompts through a standard interface.
 termStatus: Established protocol
 researchBasis: Model Context Protocol specification
 sources:
@@ -26,7 +26,7 @@ MCP is not an agent protocol: it connects an AI host to a capability provider. I
 
 ## How it is used
 
-MCP is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+MCP is used when a model needs a standard way to discover tools, resources, and prompts from an external server. It matters because the protocol constrains the integration surface, but it does not by itself solve orchestration, policy, or trust.
 
 ## Evidence
 

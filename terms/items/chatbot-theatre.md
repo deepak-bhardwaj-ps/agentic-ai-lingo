@@ -4,8 +4,8 @@ name: Chatbot Theatre
 category: Slang
 title: Chatbot Theatre
 aliases: []
-short_description: Chatbot Theatre is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Chatbot Theatre is a label for chat interfaces that imply capability
+  the backend workflow does not actually have.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a formal assessment category. Identify the missing evidence—task suc
 
 ## How it is used
 
-Chatbot Theatre is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Chatbot Theatre is used when the conversational front end creates the impression of a capable assistant but the downstream workflow cannot actually complete the task. It is a precise complaint about interface-led overstatement.
 
 ## Evidence
 

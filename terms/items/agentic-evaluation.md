@@ -4,8 +4,8 @@ name: Agentic Evaluation
 category: AgentOps
 title: Agentic Evaluation
 aliases: []
-short_description: Agentic Evaluation is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agentic Evaluation is evaluation for multi-step, stateful, tool-using
+  systems.
 termStatus: Established practice, informal label
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is a descriptive phrase, not a distinct scientific method. Define the task en
 
 ## How it is used
 
-Agentic Evaluation is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agentic Evaluation is used when the system’s behaviour depends on a trajectory of actions rather than a single answer. It is the right term when you need to assess the path, not just the destination.
 
 ## Evidence
 

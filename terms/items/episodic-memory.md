@@ -4,8 +4,8 @@ name: Episodic Memory
 category: Memory
 title: Episodic Memory
 aliases: []
-short_description: Episodic Memory is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Episodic Memory is stored memory of specific interactions, events,
+  or episodes.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is an implementation convention, not evidence that the system has human-like 
 
 ## How it is used
 
-Episodic Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Episodic Memory is used when the agent needs to remember specific interactions, events, or episodes from earlier work. The design still has to define what counts as an episode and when it expires.
 
 ## Evidence
 

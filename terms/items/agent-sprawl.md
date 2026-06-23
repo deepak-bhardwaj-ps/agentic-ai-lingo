@@ -4,8 +4,8 @@ name: Agent Sprawl
 category: AgentOps
 title: Agent Sprawl
 aliases: []
-short_description: Agent Sprawl is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agent Sprawl is the uncontrolled growth of agents without matching
+  ownership, standards, or lifecycle control.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Sprawl is a practical label for operating or measuring an agentic system in production.
+Agent sprawl is the uncontrolled growth of agents without matching ownership, standards, or lifecycle control.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Sprawl is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Sprawl is used when too many agents exist for the organisation to govern well, often with duplicated functions and unclear ownership. The term should trigger inventory, consolidation, and lifecycle review.
 
 ## Evidence
 

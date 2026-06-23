@@ -4,8 +4,8 @@ name: Agent Marketplace
 category: Protocols
 title: Agent Marketplace
 aliases: []
-short_description: Agent Marketplace is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Marketplace is a directory or market where agents advertise
+  capabilities and can be selected or bought.
 termStatus: Product/operating-model label
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a security boundary. Treat third-party agents as software supply-chain
 
 ## How it is used
 
-Agent Marketplace is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Marketplace is used when agents are exposed as discoverable offerings rather than internal utilities. The important questions are catalogue quality, trust, pricing, and how a buyer knows the agent will actually do what is claimed.
 
 ## Evidence
 

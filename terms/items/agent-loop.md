@@ -4,8 +4,8 @@ name: Agent Loop
 category: Runtime
 title: Agent Loop
 aliases: []
-short_description: Agent Loop is used when a model-driven process repeatedly plans,
-  acts and incorporates observations.
+short_description: Agent Loop is the repeated cycle of planning, acting, and incorporating
+  observations.
 termStatus: Architecture term
 researchBasis: Yao et al., ReAct (ICLR 2023)
 sources:
@@ -26,7 +26,7 @@ It is not necessarily [[ReAct]] and must have explicit loop, cost and failure li
 
 ## How it is used
 
-Agent Loop is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+Agent Loop is used when a system must repeatedly plan, act, and incorporate observations. In production it needs explicit stop conditions, spend limits, and a way to detect looping.
 
 ## Evidence
 

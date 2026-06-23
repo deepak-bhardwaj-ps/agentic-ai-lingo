@@ -4,8 +4,8 @@ name: Workslop
 category: Slang
 title: Workslop
 aliases: []
-short_description: Workslop is used as informal, audience-specific commentary on AI
-  culture or working practice.
+short_description: Workslop is a label for polished-looking AI output that creates
+  extra cleanup or rework downstream.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Workslop is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Workslop is used when an AI-produced deliverable looks finished at first glance but creates more work for the recipient than it saves. It is especially useful in organisations where review, hand-off, or downstream correction is the real cost centre.
 
 ## Evidence
 

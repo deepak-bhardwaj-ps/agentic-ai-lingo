@@ -4,8 +4,8 @@ name: Productivity Cosplay
 category: Slang
 title: Productivity Cosplay
 aliases: []
-short_description: Productivity Cosplay is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Productivity Cosplay is a label for appearing efficient with AI
+  rather than actually improving throughput or quality.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a formal assessment category. Identify the missing evidence—task suc
 
 ## How it is used
 
-Productivity Cosplay is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Productivity Cosplay is used when AI use is performed for the appearance of speed, modernity, or hustle rather than for measurable operational gain. The term usually points to theatre, status signalling, or slide-friendly activity with little real throughput impact.
 
 ## Evidence
 

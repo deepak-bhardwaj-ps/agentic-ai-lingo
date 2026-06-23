@@ -4,7 +4,8 @@ name: Swarm Scanner
 category: Social
 title: Swarm Scanner
 aliases: []
-short_description: Swarm Scanner is used to discuss an agent-system design concern.
+short_description: Swarm Scanner is a tool or process for detecting coordinated bot
+  activity.
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -25,7 +26,7 @@ It is not a precise technical category. Distinguish legitimate automation, coord
 
 ## How it is used
 
-Swarm Scanner is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Swarm Scanner is used when the task is to detect, classify, or investigate coordinated automation at scale. It should produce a defensible signal, not just a score or a hunch.
 
 ## Evidence
 

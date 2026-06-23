@@ -4,8 +4,8 @@ name: Demo-ware
 category: Slang
 title: Demo-ware
 aliases: []
-short_description: Demo-ware is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Demo-ware is a label for software that works in the polished demo
+  path but not in normal production use.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Demo-ware is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Demo-ware is used when a product only behaves correctly in the prepared showcase path and fails once real data, real users, or real failure modes arrive. It is a practical warning that the demo artefact has outrun the production system.
 
 ## Evidence
 

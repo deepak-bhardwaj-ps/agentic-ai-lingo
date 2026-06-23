@@ -4,8 +4,8 @@ name: Governed Context
 category: Context
 title: Governed Context
 aliases: []
-short_description: Governed Context is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Governed Context is context assembled and delivered under explicit
+  policy and access control.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Governed Context is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Governed Context is used when the context surface itself needs policy enforcement: who can see what, which sources are allowed, and what must be redacted or expired. It is a stronger term than generic context management because it implies control, not just assembly.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Long-Horizon Workflow
 category: Runtime
 title: Long-Horizon Workflow
 aliases: []
-short_description: Long-Horizon Workflow is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Long-Horizon Workflow is a workflow that must remain coherent across
+  many turns, retries, and state changes.
 termStatus: Descriptive capability term
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not a benchmark category or proof of autonomy. Define the task horizon, ch
 
 ## How it is used
 
-Long-Horizon Workflow is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Long-Horizon Workflow is used when a workflow has to survive interruptions and still produce a coherent end state. It becomes important once checkpoints, replay, and state reconciliation matter more than the individual action steps.
 
 ## Evidence
 

@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Star Topology describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+A star topology has one central coordinator that all workers or agents communicate through.
 
 ## Boundary
 

@@ -4,8 +4,8 @@ name: Delegation Scope
 category: Governance
 title: Delegation Scope
 aliases: []
-short_description: Delegation Scope is used when authority passes from a person or
-  service to an agent, or between agents.
+short_description: Delegation Scope is the bounded range of actions, data, and time
+  covered by a delegation.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

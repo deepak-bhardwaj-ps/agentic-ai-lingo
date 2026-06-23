@@ -4,8 +4,8 @@ name: Agent Runtime
 category: Runtime
 title: Agent Runtime
 aliases: []
-short_description: Agent Runtime is used in runtime design to name the component that
-  coordinates decisions and side effects.
+short_description: Agent Runtime is the execution environment that hosts an agent’s
+  loop, tools, memory, and side effects.
 termStatus: Architecture term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not the model-serving runtime. An implementation may combine both, but the
 
 ## How it is used
 
-Agent Runtime is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Agent Runtime is used when the discussion is about the whole running environment rather than a single model call. It is the term for the machinery that keeps the agent alive across turns, tool calls, and retries.
 
 ## Evidence
 

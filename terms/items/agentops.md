@@ -4,8 +4,8 @@ name: AgentOps
 category: AgentOps
 title: AgentOps
 aliases: []
-short_description: AgentOps is used in operating reviews to make a production concern
-  observable and owned.
+short_description: AgentOps is the operational practice of deploying, observing, evaluating,
+  and governing agentic applications.
 termStatus: Emerging operational label
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not an established standard or a separate technology layer. Ask which conc
 
 ## How it is used
 
-AgentOps is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+AgentOps is used when the conversation is about keeping agents running safely in production: tracing, evaluation, release control, incident response, and access governance. It is a discipline term, not a product feature.
 
 ## Evidence
 

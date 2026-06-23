@@ -4,8 +4,8 @@ name: Context Engineering
 category: Context
 title: Context Engineering
 aliases: []
-short_description: Context Engineering is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Context Engineering is the deliberate construction of what information
+  reaches a model at decision time.
 termStatus: Emerging practitioner term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not simply prompt engineering with a new name. It becomes meaningful when 
 
 ## How it is used
 
-Context Engineering is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Engineering is used when the team needs to control which instructions, evidence, memory, and tool descriptions a model sees. It is the practical discipline behind selection, freshness, provenance, and token-budget policy.
 
 ## Evidence
 

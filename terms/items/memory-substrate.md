@@ -4,8 +4,8 @@ name: Memory Substrate
 category: Memory
 title: Memory Substrate
 aliases: []
-short_description: Memory Substrate is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Substrate is the persistence layer beneath an agent’s working
+  context.
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ The label does not define an interoperability protocol, trust model or data cont
 
 ## How it is used
 
-Memory Substrate is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Substrate is used when the question is what persistence layer underlies the agent’s active context. It matters once multiple workflows share the same memory backend or retention policy.
 
 ## Evidence
 

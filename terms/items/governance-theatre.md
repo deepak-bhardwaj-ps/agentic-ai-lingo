@@ -4,8 +4,8 @@ name: Governance Theatre
 category: Slang
 title: Governance Theatre
 aliases: []
-short_description: Governance Theatre is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Governance Theatre is a label for oversight structures that signal
+  control without changing decisions.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a formal assessment category. Identify the missing evidence—task suc
 
 ## How it is used
 
-Governance Theatre is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Governance Theatre is used when review boards, policy decks, or approval steps exist mostly to create the appearance of control. The phrase usually appears when the process is visible but the decision rights, enforcement, or follow-through are weak.
 
 ## Evidence
 

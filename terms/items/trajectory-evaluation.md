@@ -4,8 +4,8 @@ name: Trajectory Evaluation
 category: AgentOps
 title: Trajectory Evaluation
 aliases: []
-short_description: Trajectory Evaluation is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Trajectory Evaluation is evaluation of the path an agent took,
+  not just the final answer it produced.
 termStatus: Evaluation technique
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It should not replace outcome evaluation. A valid but unusual path may be accept
 
 ## How it is used
 
-Trajectory Evaluation is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Trajectory Evaluation is used when the intermediate decisions, tool calls, and observations matter as much as the final output. It is useful for spotting unsafe or inefficient paths that outcome-only tests would miss.
 
 ## Evidence
 

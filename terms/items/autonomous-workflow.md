@@ -4,8 +4,8 @@ name: Autonomous Workflow
 category: AgentOps
 title: Autonomous Workflow
 aliases: []
-short_description: Autonomous Workflow is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Autonomous Workflow is a workflow that can progress and recover
+  with limited human intervention.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Autonomous Workflow is a practical label for operating or measuring an agentic system in production.
+An autonomous workflow can progress and recover with limited human intervention.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Autonomous Workflow is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Autonomous Workflow is used when a workflow can carry itself through routine steps, recover from ordinary failures, and only escalate when needed. The term should be backed by a clear threshold for when human intervention is required.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: AI Sprawl
 category: Slang
 title: AI Sprawl
 aliases: []
-short_description: AI Sprawl is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: AI Sprawl is a label for AI tools and pilots multiplying faster
+  than ownership, standards, or integration discipline.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-AI Sprawl is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+AI Sprawl is used when AI tools, pilots, and copilots spread across teams without a common operating model. It usually points to duplicated spend, inconsistent [[Guardrails|guardrails]], and no clear path from experiments to standardised use.
 
 ## Evidence
 

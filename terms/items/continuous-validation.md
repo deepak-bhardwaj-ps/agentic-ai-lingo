@@ -4,8 +4,8 @@ name: Continuous Validation
 category: AgentOps
 title: Continuous Validation
 aliases: []
-short_description: Continuous Validation is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Continuous Validation is ongoing checking that an agent system
+  still behaves within the expected envelope.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Continuous Validation is a practical label for operating or measuring an agentic system in production.
+Continuous validation is ongoing checking that an agent system still behaves within the expected envelope.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Continuous Validation is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Continuous Validation is used when checks run repeatedly over time rather than only at release. It matters for catching drift, regressions, and environmental changes before they become customer-visible failures.
 
 ## Evidence
 

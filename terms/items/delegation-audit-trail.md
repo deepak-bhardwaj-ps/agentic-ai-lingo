@@ -4,8 +4,8 @@ name: Delegation Audit Trail
 category: Governance
 title: Delegation Audit Trail
 aliases: []
-short_description: Delegation Audit Trail is used when authority passes from a person
-  or service to an agent, or between agents.
+short_description: Delegation Audit Trail is the record of who delegated what, to
+  whom, and under which constraints.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

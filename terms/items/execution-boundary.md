@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Execution Boundary describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+The execution boundary is the point where model reasoning stops and external execution, side effects, or enforcement begin.
 
 ## Boundary
 

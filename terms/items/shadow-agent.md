@@ -4,8 +4,8 @@ name: Shadow Agent
 category: AgentOps
 title: Shadow Agent
 aliases: []
-short_description: Shadow Agent is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Shadow Agent is an agent that runs without clear visibility, approval,
+  or governance from the owning team.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Shadow Agent is a practical label for operating or measuring an agentic system in production.
+A shadow agent runs without clear visibility, approval, or governance from the owning team.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Shadow Agent is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Shadow Agent is used when an agent is operating outside the normal governance or visibility path, often because it was introduced informally or without review. It is a risk term for unauthorised or untracked automation.
 
 ## Evidence
 

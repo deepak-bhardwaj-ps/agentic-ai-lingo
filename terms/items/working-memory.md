@@ -4,8 +4,7 @@ name: Working Memory
 category: Memory
 title: Working Memory
 aliases: []
-short_description: Working Memory is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Working Memory is task-local state currently kept in active context.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +25,7 @@ It is not the model's neural memory, and the metaphor should not hide token limi
 
 ## How it is used
 
-Working Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Working Memory is used when the system needs a bounded, task-local state that is only relevant for the current run. It is the active scratchpad, not long-term memory.
 
 ## Evidence
 

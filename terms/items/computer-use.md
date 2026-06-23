@@ -4,7 +4,8 @@ name: Computer Use
 category: Core
 title: Computer Use
 aliases: []
-short_description: Computer Use is used to discuss an agent-system design concern.
+short_description: Computer Use is model-driven interaction with a desktop through
+  cursor, keyboard, and screen control.
 termStatus: Established product capability
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +26,7 @@ It is an interaction modality, not a general autonomy level. UI automation has b
 
 ## How it is used
 
-Computer Use is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Computer Use is used when the agent must operate at the operating-system level instead of through a clean API or browser abstraction. It usually carries a heavier safety and reliability burden because the interface is visible but not structured.
 
 ## Evidence
 

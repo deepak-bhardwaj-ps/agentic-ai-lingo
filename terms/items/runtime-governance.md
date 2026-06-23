@@ -4,8 +4,8 @@ name: Runtime Governance
 category: Runtime
 title: Runtime Governance
 aliases: []
-short_description: Runtime Governance is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Runtime Governance is the set of controls that constrains what
+  a runtime can do and how it is supervised.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Runtime Governance describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+Runtime governance is the set of controls that constrains what a runtime can do and how it is supervised.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard architecture. The useful design question is the decision ru
 
 ## How it is used
 
-Runtime Governance is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Runtime Governance is used when runtime behaviour needs policy, approval, monitoring, or audit rather than just execution. It is the term for the controls that make autonomy reviewable and revocable.
 
 ## Evidence
 

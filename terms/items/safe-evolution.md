@@ -4,8 +4,8 @@ name: Safe Evolution
 category: Context
 title: Safe Evolution
 aliases: []
-short_description: Safe Evolution is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Safe Evolution is the controlled change of an agent system without
+  breaking safety, policy, or reliability constraints.
 termStatus: Safety engineering concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not evidence of safety by name alone. Specify threats, enforcement locatio
 
 ## How it is used
 
-Safe Evolution is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Safe Evolution is used when a system must keep changing while preserving its safety envelope and operating guarantees. It is the right term for governed rollout, regression control, and backwards-compatible evolution.
 
 ## Evidence
 

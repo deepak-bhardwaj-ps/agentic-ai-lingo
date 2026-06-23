@@ -4,8 +4,8 @@ name: Collective Intelligence Layer
 category: Protocols
 title: Collective Intelligence Layer
 aliases: []
-short_description: Collective Intelligence Layer is used in discussions of coordination
-  or discoverability between independently built agents and services.
+short_description: Collective Intelligence Layer is shared coordination that combines
+  multiple agents or sources.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Collective Intelligence Layer is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Collective Intelligence Layer is used when several agents, models, or services are pooled so the system can combine, arbitrate, or route between sources of work or evidence.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Collective Intelligence Layer is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Collective Intelligence Layer is used when several agents, models, or services are pooled so the system can combine, arbitrate, or route between sources of work or evidence. If the phrase is not backed by explicit coordination logic, it is just branding.
 
 ## Evidence
 

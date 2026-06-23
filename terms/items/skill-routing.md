@@ -4,8 +4,8 @@ name: Skill Routing
 category: Runtime
 title: Skill Routing
 aliases: []
-short_description: Skill Routing is used when the system chooses a capability at run
-  time from a set of tools or skills.
+short_description: Skill Routing is selecting the right capability from a tool or
+  skill set at run time.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Skill Routing describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+Skill routing chooses the right capability for a task and delivers it through the execution path that can use it.
 
 ## Boundary
 

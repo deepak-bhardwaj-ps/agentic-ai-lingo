@@ -4,8 +4,8 @@ name: Governance by Design
 category: Governance
 title: Governance by Design
 aliases: []
-short_description: Governance by Design is used in agent governance to make an action
-  attributable and bounded.
+short_description: Governance by Design is governance built into the system rather
+  than added afterwards.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Governance by Design is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Governance by Design is used when controls have to be built into the system itself instead of bolted on later. In practice, the governance needs an enforcement point, not just a policy memo.
 
 ## Evidence
 

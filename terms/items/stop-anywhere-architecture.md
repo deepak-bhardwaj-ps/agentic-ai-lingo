@@ -4,8 +4,8 @@ name: Stop-Anywhere Architecture
 category: Runtime
 title: Stop-Anywhere Architecture
 aliases: []
-short_description: Stop-Anywhere Architecture is used in runtime design to name the
-  component that coordinates decisions and side effects.
+short_description: Stop-Anywhere Architecture is an architecture that lets an agent
+  be interrupted safely at any point.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Stop-Anywhere Architecture is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
+A stop-anywhere architecture lets an agent be interrupted safely at any point without corrupting state.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ Treat it as a proposal, not a capability. Replace it with a concrete mechanism, 
 
 ## How it is used
 
-Stop-Anywhere Architecture is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Stop-Anywhere Architecture is used when the system needs to tolerate interruption, cancellation, or manual takeover without corrupting state. It matters for long-running work, human override, and safety boundaries.
 
 ## Evidence
 

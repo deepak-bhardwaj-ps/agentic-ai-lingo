@@ -4,8 +4,8 @@ name: Verifier
 category: Runtime
 title: Verifier
 aliases: []
-short_description: Verifier is used in runtime design to name the component that coordinates
-  decisions and side effects.
+short_description: Verifier is the component that checks whether outputs or actions
+  satisfy the required criteria.
 termStatus: Architecture component
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ A model verifier has correlated failure modes with the generator. Match verifica
 
 ## How it is used
 
-Verifier is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Verifier is used when the system needs independent checking of an answer, action, or intermediate state before it is trusted or released. It is most valuable when the check is stronger than the generator and tied to a concrete criterion.
 
 ## Evidence
 

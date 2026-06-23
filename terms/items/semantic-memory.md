@@ -4,8 +4,8 @@ name: Semantic Memory
 category: Memory
 title: Semantic Memory
 aliases: []
-short_description: Semantic Memory is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Semantic Memory is stored facts and concepts an agent can reuse
+  across tasks.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ Do not mix it with episodic execution logs. Facts need provenance, ownership and
 
 ## How it is used
 
-Semantic Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Semantic Memory is used when the system needs to remember facts, concepts, or definitions across tasks. It is the memory layer for stable knowledge, not execution traces.
 
 ## Evidence
 

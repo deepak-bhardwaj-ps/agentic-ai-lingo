@@ -4,8 +4,8 @@ name: Synthetic Sludge
 category: Slang
 title: Synthetic Sludge
 aliases: []
-short_description: Synthetic Sludge is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Synthetic Sludge is a label for machine-generated content that
+  builds a thick layer of low-signal material.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Synthetic Sludge is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Synthetic Sludge is used when synthetic content accumulates across a workflow or platform until it obscures the useful signal underneath. The term is often used for content ecosystems where quantity keeps rising but clarity, provenance, and usefulness keep falling.
 
 ## Evidence
 

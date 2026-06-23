@@ -4,8 +4,8 @@ name: Agent Registry
 category: Protocols
 title: Agent Registry
 aliases: []
-short_description: Agent Registry is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Registry is a catalogue of agent identities, capabilities,
+  endpoints, versions, and owners.
 termStatus: Architecture component
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not discovery interoperability by itself, nor a marketplace. Registration 
 
 ## How it is used
 
-Agent Registry is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Registry is used when systems need a durable directory of agents rather than an ad hoc list or marketplace. It matters when identity, lifecycle status, and ownership have to be queried reliably.
 
 ## Evidence
 

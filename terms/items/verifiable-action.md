@@ -5,8 +5,8 @@ category: Governance
 addedDate: May 12, 2025
 title: Verifiable Action
 aliases: []
-short_description: Verifiable Action is used in agent governance to make an action
-  attributable and bounded.
+short_description: Verifiable Action is an action that can be checked against a defined
+  record or criterion.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -27,7 +27,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Verifiable Action is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Verifiable Action is used when an action has to be checked against a defined record or criterion before it counts. In practice, the verification step is part of completion.
 
 ## Evidence
 

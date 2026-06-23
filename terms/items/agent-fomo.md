@@ -4,8 +4,8 @@ name: Agent FOMO
 category: Slang
 title: Agent FOMO
 aliases: []
-short_description: Agent FOMO is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Agent FOMO is a label for adding agents because competitors are
+  doing so, not because the workflow needs one.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Agent FOMO is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Agent FOMO is used when teams add agent features mainly to avoid looking behind the market rather than to automate a specific workflow. It usually appears in roadmap debates where the question is not "should we solve this with an agent?" but "can we afford not to have one?".
 
 ## Evidence
 

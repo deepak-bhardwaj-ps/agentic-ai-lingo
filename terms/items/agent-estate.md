@@ -4,8 +4,8 @@ name: Agent Estate
 category: AgentOps
 title: Agent Estate
 aliases: []
-short_description: Agent Estate is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agent Estate is the collection of agents, workflows, and controls
+  an organisation must run and maintain.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Estate is a practical label for operating or measuring an agentic system in production.
+An agent estate is the whole operational footprint: agents, prompts, policies, connectors, tests, and the people who own them. It is the term you use when the problem has become fleet management rather than a single pilot.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Estate is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Estate is used when the question is the shape and health of the whole deployed [[Agent Portfolio|agent portfolio]] rather than a single system. It is a useful lens for ownership, inventory, risk concentration, and lifecycle hygiene.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Vibe Valuation
 category: Slang
 title: Vibe Valuation
 aliases: []
-short_description: Vibe Valuation is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Vibe Valuation is a label for valuation driven by narrative, demos,
+  or AI momentum rather than durable economics.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Vibe Valuation is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Vibe Valuation is used when market value is being argued from sentiment, demo quality, or AI hype rather than from revenue quality, retention, or operating leverage. It is a finance and strategy critique, not a formal valuation method.
 
 ## Evidence
 

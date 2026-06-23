@@ -4,8 +4,8 @@ name: Context Freshness
 category: Context
 title: Context Freshness
 aliases: []
-short_description: Context Freshness is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Freshness is the degree to which the model sees recent,
+  relevant, unexpired information.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Freshness is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Freshness is used when stale information would produce a wrong answer, an unsafe action, or a misleading summary. It is one of the practical controls that separates up-to-date decisions from cached guesses.
 
 ## Evidence
 

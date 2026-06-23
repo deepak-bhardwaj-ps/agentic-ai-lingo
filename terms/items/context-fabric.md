@@ -4,8 +4,8 @@ name: Context Fabric
 category: Context
 title: Context Fabric
 aliases: []
-short_description: Context Fabric is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Fabric is a shared layer for delivering context across
+  systems.
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ The label does not define an interoperability protocol, trust model or data cont
 
 ## How it is used
 
-Context Fabric is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Fabric is used when several systems need to share, exchange, or broker context through a common layer rather than custom prompt plumbing. The term only matters if the fabric has real policies for ownership, freshness, and access.
 
 ## Evidence
 

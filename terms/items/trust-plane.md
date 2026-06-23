@@ -4,8 +4,8 @@ name: Trust Plane
 category: Governance
 title: Trust Plane
 aliases: []
-short_description: Trust Plane is used as a diagramming label for the services that
-  enforce the stated concern across agents.
+short_description: Trust Plane is the service layer that establishes whether an agent
+  can be trusted to act.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Trust Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Trust Plane is used when trust assessment is handled in a distinct operational layer. It only matters if the layer changes what the system may do.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Behaviour Replay
 category: Governance
 title: Behaviour Replay
 aliases: []
-short_description: Behaviour Replay is used in agent governance to make an action
-  attributable and bounded.
+short_description: Behaviour Replay is rerunning traces to inspect or reproduce an
+  agent’s decisions.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Behaviour Replay is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Behaviour Replay is used when you need to rerun traces and inspect how the agent actually decided. In practice, it is for diagnosis, audit, or incident review.
 
 ## Evidence
 

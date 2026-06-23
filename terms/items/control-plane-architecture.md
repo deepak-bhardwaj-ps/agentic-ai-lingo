@@ -4,8 +4,8 @@ name: Control Plane Architecture
 category: Governance
 title: Control Plane Architecture
 aliases: []
-short_description: Control Plane Architecture is used as a diagramming label for the
-  services that enforce the stated concern across agents.
+short_description: Control Plane Architecture is the service layer that enforces policy,
+  configuration, and lifecycle control.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Control Plane Architecture is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Control Plane Architecture is used when policy, configuration, identity, and lifecycle control sit in a distinct service layer. It only matters if that layer actually enforces something.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Agentic Rendering
 category: Runtime
 title: Agentic Rendering
 aliases: []
-short_description: Agentic Rendering is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Agentic Rendering is rendering that changes output or interface
+  state in response to agent decisions.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Agentic Rendering is used to describe an agent-related role, grouping, catalogue or operating practice.
+Agentic rendering means the presentation layer changes because the agent has learned, decided, or acted, not because the view is static. It matters in systems where generation, layout, and next-step control are tightly coupled.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Agentic Rendering is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Agentic Rendering is used when the output layer itself responds to the agent’s state, not just static view data. The term matters when interface changes, content generation, or screen composition are part of the [[Agent Loop|agent loop]].
 
 ## Evidence
 

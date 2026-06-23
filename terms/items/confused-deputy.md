@@ -4,8 +4,8 @@ name: Confused Deputy
 category: Governance
 title: Confused Deputy
 aliases: []
-short_description: Confused Deputy is used in agent governance to make an action attributable
-  and bounded.
+short_description: Confused Deputy is an agent tricked into using delegated authority
+  for the wrong purpose.
 termStatus: Established security term
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ This is a security design failure, not a hallucination. Preserve caller identity
 
 ## How it is used
 
-Confused Deputy is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Confused Deputy is used when an agent is tricked into using authority it was granted for something else. In practice, the fix is tighter scoping and stronger checks on the caller.
 
 ## Evidence
 

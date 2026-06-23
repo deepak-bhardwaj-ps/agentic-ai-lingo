@@ -4,8 +4,8 @@ name: Agent Federation
 category: Protocols
 title: Agent Federation
 aliases: []
-short_description: Agent Federation is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Federation is a set of interoperating agents that stay independently
+  owned.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Federation is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Agent federation is a model where independently owned agent systems interoperate through shared conventions rather than one central runtime.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Federation is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Federation is used when several agent systems need to cooperate without collapsing into one central runtime. The term usually implies shared conventions, not shared control.
 
 ## Evidence
 

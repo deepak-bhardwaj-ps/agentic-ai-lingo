@@ -4,8 +4,8 @@ name: Context Federation
 category: Context
 title: Context Federation
 aliases: []
-short_description: Context Federation is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Context Federation is the coordination of context across multiple
+  systems or repositories.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Federation is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Federation is used when different systems keep their own context stores but need to cooperate through shared rules. It is useful where ownership stays distributed but retrieval and policy must still feel coherent.
 
 ## Evidence
 

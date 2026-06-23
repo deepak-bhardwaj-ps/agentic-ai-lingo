@@ -4,7 +4,8 @@ name: Bot Swarm
 category: Social
 title: Bot Swarm
 aliases: []
-short_description: Bot Swarm is used to discuss an agent-system design concern.
+short_description: Bot Swarm is a coordinated cluster of automated accounts or agents
+  acting in concert.
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -25,7 +26,7 @@ It is not a precise technical category. Distinguish legitimate automation, coord
 
 ## How it is used
 
-Bot Swarm is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Bot Swarm is used when the focus is on coordinated automated behaviour rather than a single bot. It becomes meaningful when you can describe the shared signals, timing, and intended effect.
 
 ## Evidence
 

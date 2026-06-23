@@ -4,8 +4,8 @@ name: Delegation Graph
 category: Governance
 title: Delegation Graph
 aliases: []
-short_description: Delegation Graph is used when authority passes from a person or
-  service to an agent, or between agents.
+short_description: Delegation Graph is the graph of principals, delegated capabilities,
+  and hand-offs.
 updated_at: '2026-06-22T20:54:07.634112+00:00'
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

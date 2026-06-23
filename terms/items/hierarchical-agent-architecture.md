@@ -4,8 +4,8 @@ name: Hierarchical Agent Architecture
 category: Runtime
 title: Hierarchical Agent Architecture
 aliases: []
-short_description: Hierarchical Agent Architecture is used in runtime design to name
-  the component that coordinates decisions and side effects.
+short_description: Hierarchical Agent Architecture is a multi-level system with supervisors,
+  delegates, and lower-level workers.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Hierarchical Agent Architecture is used to describe an agent-related role, grouping, catalogue or operating practice.
+A hierarchical agent architecture uses supervisors, delegates, and lower-level workers across multiple layers of control.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Hierarchical Agent Architecture is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Hierarchical Agent Architecture is used when one agent allocates, supervises, or verifies the work of others. It is the right term when control and delegation are layered rather than flat.
 
 ## Evidence
 

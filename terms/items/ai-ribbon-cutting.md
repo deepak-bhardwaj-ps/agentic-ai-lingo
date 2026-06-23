@@ -4,8 +4,8 @@ name: AI Ribbon-Cutting
 category: Slang
 title: AI Ribbon-Cutting
 aliases: []
-short_description: AI Ribbon-Cutting is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: AI Ribbon-Cutting is a label for ceremonial AI launches that create
+  publicity without much operational change.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a formal assessment category. Identify the missing evidence—task suc
 
 ## How it is used
 
-AI Ribbon-Cutting is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+AI Ribbon-Cutting is used when a launch event, pilot announcement, or executive demo is more ceremony than production change. It usually signals that the organisation wants the optics of innovation before the delivery side has matured.
 
 ## Evidence
 

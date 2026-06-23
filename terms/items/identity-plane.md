@@ -4,8 +4,8 @@ name: Identity Plane
 category: Governance
 title: Identity Plane
 aliases: []
-short_description: Identity Plane is used as a diagramming label for the services
-  that enforce the stated concern across agents.
+short_description: Identity Plane is the service layer that resolves who or what is
+  acting.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Identity Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Identity Plane is used when identity resolution sits in its own layer. It matters when the system needs to know which principal is acting.
 
 ## Evidence
 

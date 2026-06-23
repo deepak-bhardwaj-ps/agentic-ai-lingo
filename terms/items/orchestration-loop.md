@@ -4,8 +4,8 @@ name: Orchestration Loop
 category: Runtime
 title: Orchestration Loop
 aliases: []
-short_description: Orchestration Loop is used when a model-driven process repeatedly
-  plans, acts and incorporates observations.
+short_description: Orchestration Loop is the control cycle that schedules work, checks
+  results, and decides the next step.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Orchestration Loop describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+An orchestration loop sequences model calls, tool use, state updates, and checks so a task can proceed over time.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard architecture. The useful design question is the decision ru
 
 ## How it is used
 
-Orchestration Loop is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+Orchestration Loop is used when the control layer has to keep scheduling work, checking results, and choosing the next step. In production it needs explicit stop conditions, iteration limits, and spend control.
 
 ## Evidence
 

@@ -4,7 +4,8 @@ name: Agentic Workflow
 category: Core
 title: Agentic Workflow
 aliases: []
-short_description: Agentic Workflow is used to discuss an agent-system design concern.
+short_description: Agentic Workflow is a workflow that includes planning, tool use,
+  state, and recovery rather than a single model call.
 termStatus: Architecture description
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +26,7 @@ Do not equate a workflow with an autonomous agent. Anthropic distinguishes workf
 
 ## How it is used
 
-Agentic Workflow is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Workflow is used when a task is decomposed into steps the system can sequence, inspect, and repair over time. It is the right term when you need to talk about the workflow mechanics, not just the model that happens to sit inside them.
 
 ## Evidence
 

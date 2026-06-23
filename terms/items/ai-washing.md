@@ -4,8 +4,8 @@ name: AI Washing
 category: Slang
 title: AI Washing
 aliases: []
-short_description: AI Washing is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: AI Washing is a label for products described as AI-powered when
+  the AI contribution is thin, cosmetic, or absent.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is rhetoric rather than a technical diagnosis. Test the claim against concret
 
 ## How it is used
 
-AI Washing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+AI Washing is used when marketing claims more AI than the system actually uses or when a minor feature is presented as the core value. In practice it is a challenge to inspect the real implementation, the decision boundary, and who is accountable for failure.
 
 ## Evidence
 

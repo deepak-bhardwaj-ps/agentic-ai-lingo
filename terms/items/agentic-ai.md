@@ -4,7 +4,8 @@ name: Agentic AI
 category: Core
 title: Agentic AI
 aliases: []
-short_description: Agentic AI is used to discuss an agent-system design concern.
+short_description: Agentic AI is an umbrella term for AI systems that can take bounded
+  actions, not just generate text.
 termStatus: Umbrella term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +26,7 @@ It is frequently used as branding. A product is not meaningfully agentic merely 
 
 ## How it is used
 
-Agentic AI is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic AI is used when the point is the shift from passive generation to action-taking systems that can plan, call tools, and influence an environment. It is a broad term, so in serious work it should be followed by the exact task, authority boundary, and failure mode.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Prompt Slop
 category: Slang
 title: Prompt Slop
 aliases: []
-short_description: Prompt Slop is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Prompt Slop is a label for bloated, copied, or poorly structured
+  prompts that are hard to trust or reuse.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Prompt Slop is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Prompt Slop is used when prompts are assembled carelessly, duplicated across teams, or padded with instructions that do not help the model or the operator. It is the prompt-layer version of low-signal output.
 
 ## Evidence
 

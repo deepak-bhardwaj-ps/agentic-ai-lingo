@@ -4,8 +4,8 @@ name: Agentic Multi-Agent Architecture
 category: Protocols
 title: Agentic Multi-Agent Architecture
 aliases: []
-short_description: Agentic Multi-Agent Architecture is used in discussions of coordination
-  or discoverability between independently built agents and services.
+short_description: Agentic Multi-Agent Architecture is a design where multiple specialised
+  agents coordinate on one task or system.
 termStatus: Architecture description
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ More agents do not automatically improve quality. The additional interfaces, cos
 
 ## How it is used
 
-Agentic Multi-Agent Architecture is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agentic Multi-Agent Architecture is used when work is deliberately decomposed across multiple agents with distinct responsibilities. It should only be used if the architecture explains why decomposition beats a single agent or workflow.
 
 ## Evidence
 

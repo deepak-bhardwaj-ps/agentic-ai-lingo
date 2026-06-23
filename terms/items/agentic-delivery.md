@@ -4,7 +4,8 @@ name: Agentic Delivery
 category: Core
 title: Agentic Delivery
 aliases: []
-short_description: Agentic Delivery is used to discuss an agent-system design concern.
+short_description: Agentic Delivery is a label for systems that turn intent into executed
+  work across steps, hand-offs, and checks.
 termStatus: Emerging consultancy label
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +26,7 @@ It is not a defined operating model. Specify the workflow, accountable human, as
 
 ## How it is used
 
-Agentic Delivery is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Delivery is used when the emphasis is on getting work to completion rather than merely generating a plan or suggestion. It is most useful when the system has to coordinate people, tools, retries, and verification to finish a job.
 
 ## Evidence
 

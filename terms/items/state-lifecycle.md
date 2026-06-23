@@ -4,8 +4,8 @@ name: State Lifecycle
 category: Memory
 title: State Lifecycle
 aliases: []
-short_description: State Lifecycle is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: State Lifecycle is the phases an agent state item passes through
+  from creation to retirement.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-State Lifecycle is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+State Lifecycle is used when the design needs a clear path from creation to expiry for each state item. It matters when the team has to know when state is active, stale, archived, or deleted.
 
 ## Evidence
 

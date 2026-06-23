@@ -4,8 +4,8 @@ name: Safety Monitor
 category: Runtime
 title: Safety Monitor
 aliases: []
-short_description: Safety Monitor is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Safety Monitor is the component that watches agent actions for
+  policy violations and interrupts unsafe behaviour.
 termStatus: Safety engineering concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not evidence of safety by name alone. Specify threats, enforcement locatio
 
 ## How it is used
 
-Safety Monitor is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Safety Monitor is used when a system needs active detection and intervention rather than passive logging. It should have explicit triggers, escalation paths, and a clear account of what it can stop.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Agent Identity
 category: Governance
 title: Agent Identity
 aliases: []
-short_description: Agent Identity is used in agent governance to make an action attributable
-  and bounded.
+short_description: Agent Identity is the principal identity under which an agent acts
+  and is audited.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Agent Identity is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Agent Identity is used when the system needs to know which principal is acting and how to audit it. In practice, teams bind identity to permissions, logs, and revocation.
 
 ## Evidence
 

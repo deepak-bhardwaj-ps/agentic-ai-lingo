@@ -4,8 +4,8 @@ name: Memory Systems
 category: Memory
 title: Memory Systems
 aliases: []
-short_description: Memory Systems is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Systems is the full stack that stores, retrieves, updates,
+  and retires agent memory.
 updated_at: '2026-06-22T20:54:07.902480+00:00'
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
@@ -27,7 +27,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-Memory Systems is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Systems is used when the discussion is about the complete stack of [[Agent Memory|agent memory]] rather than one store or one feature. It includes persistence, retrieval, summarisation, correction, and expiry.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Data Fabric
 category: Context
 title: Data Fabric
 aliases: []
-short_description: Data Fabric is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Data Fabric is an integrated layer for connecting distributed data
+  through metadata, governance, and access services.
 termStatus: Established vendor/industry term
 researchBasis: Dehghani, Data Mesh principles
 sources:
@@ -26,7 +26,7 @@ It predates [[Agentic AI|agentic AI]] and has no single normative specification.
 
 ## How it is used
 
-Data Fabric is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Data Fabric is used when a model needs governed access to many data sources through one service layer. In agent systems it becomes relevant when retrieval, lineage, and policy have to be shared rather than re-implemented in every workflow.
 
 ## Evidence
 

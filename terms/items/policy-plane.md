@@ -4,8 +4,8 @@ name: Policy Plane
 category: Governance
 title: Policy Plane
 aliases: []
-short_description: Policy Plane is used as a diagramming label for the services that
-  enforce the stated concern across agents.
+short_description: Policy Plane is the service layer that evaluates rules before an
+  action is allowed.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Policy Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Policy Plane is used when policy evaluation sits in a dedicated layer before execution. It matters only if that layer actually gates action.
 
 ## Evidence
 

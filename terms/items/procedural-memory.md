@@ -4,8 +4,8 @@ name: Procedural Memory
 category: Memory
 title: Procedural Memory
 aliases: []
-short_description: Procedural Memory is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Procedural Memory is stored patterns for how an agent should do
+  tasks.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not a model weight update. Treat it as versioned operational knowledge and
 
 ## How it is used
 
-Procedural Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Procedural Memory is used when the system needs to remember how to do things rather than only what is true. It matters for reusable workflows, habits, and step sequences.
 
 ## Evidence
 

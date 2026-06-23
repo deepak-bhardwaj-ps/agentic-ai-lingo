@@ -4,8 +4,8 @@ name: Agent Kernel
 category: Runtime
 title: Agent Kernel
 aliases: []
-short_description: Agent Kernel is used in runtime design to name the component that
-  coordinates decisions and side effects.
+short_description: Agent Kernel is the core execution loop that turns observations
+  into decisions and tool calls for one agent.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Agent Kernel is used to describe an agent-related role, grouping, catalogue or operating practice.
+An agent kernel is the minimal loop that keeps one agent coherent across turns: state intake, policy application, decision, tool call, and update. The term is useful when you need to isolate the irreducible runtime core from orchestration around it.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Agent Kernel is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Agent Kernel is used when you need to discuss the smallest reliable core of an agent: state, reasoning, tool use, and control flow. It is the place where the agent’s behaviour becomes concrete enough to inspect, test, and constrain.
 
 ## Evidence
 

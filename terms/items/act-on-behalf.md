@@ -4,8 +4,8 @@ name: Act-on-Behalf
 category: Governance
 title: Act-on-Behalf
 aliases: []
-short_description: Act-on-Behalf is used in agent governance to make an action attributable
-  and bounded.
+short_description: Act-on-Behalf is acting under delegated authority for a specific
+  principal and purpose.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Act-on-Behalf is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Act-on-Behalf is used when the agent acts under someone else’s authority rather than its own. In practice, teams tie it to a principal, the granted scope, and a revocation path.
 
 ## Evidence
 

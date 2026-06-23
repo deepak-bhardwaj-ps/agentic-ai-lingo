@@ -5,8 +5,8 @@ category: Runtime
 addedDate: May 10, 2025
 title: Tooling Layer
 aliases: []
-short_description: Tooling Layer is used in runtime design to name the component that
-  coordinates decisions and side effects.
+short_description: Tooling Layer is the set of integrations and adapters that let
+  an agent use external tools.
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -27,7 +27,7 @@ The label does not define an interoperability protocol, trust model or data cont
 
 ## How it is used
 
-Tooling Layer is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Tooling Layer is used when the discussion is about the tool-facing infrastructure around an agent rather than the [[Agent Loop|agent loop]] itself. It covers the capabilities, adapters, and execution shims that make tool use possible.
 
 ## Evidence
 

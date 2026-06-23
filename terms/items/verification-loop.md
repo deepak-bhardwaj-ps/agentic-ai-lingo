@@ -4,8 +4,8 @@ name: Verification Loop
 category: Runtime
 title: Verification Loop
 aliases: []
-short_description: Verification Loop is used when a model-driven process repeatedly
-  plans, acts and incorporates observations.
+short_description: Verification Loop is the cycle of checking results, feeding back
+  evidence, and deciding whether to continue.
 termStatus: Architecture pattern
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not self-verification by assertion. Prefer executable tests, independent d
 
 ## How it is used
 
-Verification Loop is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+Verification Loop is used when the system keeps checking outputs, feeding back evidence, and deciding whether to continue. In production it needs explicit stop conditions, iteration limits, and spend control.
 
 ## Evidence
 

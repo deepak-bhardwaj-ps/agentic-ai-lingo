@@ -4,8 +4,8 @@ name: Saaspocalypse
 category: Slang
 title: Saaspocalypse
 aliases: []
-short_description: Saaspocalypse is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Saaspocalypse is a label for claims that AI will hollow out the
+  SaaS layer or collapse app economics.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Saaspocalypse is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Saaspocalypse is used when people frame AI as a force that will reduce the value of conventional SaaS products or compress software margins. It usually appears in strategic debates about whether application value moves up the stack or disappears into model access.
 
 ## Evidence
 

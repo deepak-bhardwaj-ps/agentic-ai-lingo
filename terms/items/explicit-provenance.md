@@ -4,8 +4,8 @@ name: Explicit Provenance
 category: Context
 title: Explicit Provenance
 aliases: []
-short_description: Explicit Provenance is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Explicit Provenance is provenance that is visible, machine-readable,
+  and carried with the context.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Explicit Provenance is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Explicit Provenance is used when a model’s evidence needs to be traceable back to its source, version, and access path. It is the term to use when provenance is not optional metadata but part of the decision contract.
 
 ## Evidence
 

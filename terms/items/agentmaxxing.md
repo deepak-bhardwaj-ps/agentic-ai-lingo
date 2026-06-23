@@ -4,8 +4,8 @@ name: Agentmaxxing
 category: Slang
 title: Agentmaxxing
 aliases: []
-short_description: Agentmaxxing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Agentmaxxing is a practitioner slang term for pushing an agent
+  stack harder than is operationally necessary.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Agentmaxxing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Agentmaxxing is used in enthusiast and builder circles when someone keeps adding more tools, loops, memory, or orchestration in the name of getting more agent capability. It often implies diminishing returns, where added complexity serves status or curiosity more than reliability.
 
 ## Evidence
 

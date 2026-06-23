@@ -4,8 +4,8 @@ name: Context Operating System
 category: Context
 title: Context Operating System
 aliases: []
-short_description: Context Operating System is used when teams need to reason about
-  the information presented to a model at decision time.
+short_description: Context Operating System is the control layer that manages how
+  context is selected, assembled, and served to a model.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Operating System is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Operating System is used when context handling has become a first-class runtime concern with rules, policies, and shared services. It is the strongest label in this family, but it only earns the name if the system actually orchestrates context as a managed layer.
 
 ## Evidence
 

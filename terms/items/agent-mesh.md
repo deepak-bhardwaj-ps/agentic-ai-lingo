@@ -4,8 +4,8 @@ name: Agent Mesh
 category: Protocols
 title: Agent Mesh
 aliases: []
-short_description: Agent Mesh is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Mesh is a loosely coupled network of agents that can discover
+  and route work to each other.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,8 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Mesh is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+An agent mesh is a loosely coupled network of agents that can discover and route work to one another.
+Agent Mesh is used when coordination is decentralised and agents need discovery, addressing, and routing rules to work together without one central coordinator.
 
 ## Boundary
 
@@ -26,7 +27,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Mesh is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Mesh is used when coordination is decentralised and agents need discovery, addressing, and routing rules to work together without one central coordinator. The phrase only earns its keep if the mesh has real topology and not just a metaphor in a slide deck.
 
 ## Evidence
 

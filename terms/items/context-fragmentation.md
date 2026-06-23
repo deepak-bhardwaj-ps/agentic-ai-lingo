@@ -4,8 +4,8 @@ name: Context Fragmentation
 category: Context
 title: Context Fragmentation
 aliases: []
-short_description: Context Fragmentation is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Context Fragmentation is the splitting of context across too many
+  places, making it hard to reconstruct a decision.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Fragmentation is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Fragmentation is used when the information needed to answer or act is scattered across systems, stores, or formats and no single view is authoritative. It is a design smell because it raises retrieval cost and weakens confidence.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Sub-agent Swarm
 category: Runtime
 title: Sub-agent Swarm
 aliases: []
-short_description: Sub-agent Swarm is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Sub-agent Swarm is a swarm of subordinate agents under a coordinating
+  runtime.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Sub-[[Agent Swarm|agent Swarm]] is used to describe an agent-related role, grouping, catalogue or operating practice.
+A sub-[[Agent Swarm|agent swarm]] is a collection of subordinate agents working under a coordinating runtime.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Sub-agent Swarm is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Sub-[[Agent Swarm|agent Swarm]] is used when a top-level system delegates work to several subordinate agents that can work in parallel or on separate subproblems. It is useful when breadth or decomposition matters, but it increases coordination and observability overhead.
 
 ## Evidence
 

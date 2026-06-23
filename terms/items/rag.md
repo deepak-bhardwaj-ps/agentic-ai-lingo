@@ -4,8 +4,8 @@ name: RAG
 category: Context
 title: RAG
 aliases: []
-short_description: RAG is used when teams need to reason about the information presented
-  to a model at decision time.
+short_description: 'RAG is retrieval-augmented generation: retrieving external evidence
+  at inference time and conditioning the output on it.'
 termStatus: Established research term
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ RAG is not memory, a knowledge graph, or proof that an answer is grounded; retri
 
 ## How it is used
 
-RAG is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+RAG is used when the model should answer from retrieved evidence rather than from parametric memory alone. It is the default term for retrieval-based grounding, but the quality still depends on retrieval, ranking, freshness, and citation discipline.
 
 ## Evidence
 

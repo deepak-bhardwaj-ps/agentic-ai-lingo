@@ -4,8 +4,8 @@ name: Agent Theatre
 category: Slang
 title: Agent Theatre
 aliases: []
-short_description: Agent Theatre is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Agent Theatre is a label for demos that look autonomous while the
+  useful work and recovery path are still missing.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a formal assessment category. Identify the missing evidence—task suc
 
 ## How it is used
 
-Agent Theatre is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Agent Theatre is used when an agent demo is impressive on the surface but the real task completion, tool safety, or failure recovery is still handled by people behind the scenes. The term is a cue to ask what the system actually does once the staged flow ends.
 
 ## Evidence
 

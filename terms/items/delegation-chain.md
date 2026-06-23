@@ -4,8 +4,8 @@ name: Delegation Chain
 category: Governance
 title: Delegation Chain
 aliases: []
-short_description: Delegation Chain is used when authority passes from a person or
-  service to an agent, or between agents.
+short_description: Delegation Chain is the sequence of principals and hand-offs involved
+  in a delegated action.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

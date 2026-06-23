@@ -4,8 +4,8 @@ name: Context Topology
 category: Context
 title: Context Topology
 aliases: []
-short_description: Context Topology is used to describe where context lives and how
-  it travels between users, agents, stores and tools.
+short_description: Context Topology is the map of where context lives and how it moves
+  between systems.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

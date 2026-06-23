@@ -4,8 +4,8 @@ name: Pilot Purgatory
 category: AgentOps
 title: Pilot Purgatory
 aliases: []
-short_description: Pilot Purgatory is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Pilot Purgatory is the state where a promising pilot never gets
+  the investment needed to become production-ready.
 termStatus: Operational shorthand
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not an inevitable lifecycle stage. Diagnose the limiting production capabi
 
 ## How it is used
 
-Pilot Purgatory is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Pilot Purgatory is used when a pilot has traction but is stuck without clear ownership, funding, or integration work. The term is a signal that the project is neither a throwaway experiment nor a supported product.
 
 ## Evidence
 

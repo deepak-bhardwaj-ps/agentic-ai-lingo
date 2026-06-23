@@ -4,8 +4,8 @@ name: Agent Memory
 category: Memory
 title: Agent Memory
 aliases: []
-short_description: Agent Memory is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Agent Memory is externally managed state for carrying facts, preferences,
+  and past work across turns.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not persistent model learning. Memory writes and retrieval must be scoped,
 
 ## How it is used
 
-Agent Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Agent Memory is used when an agent must carry facts, preferences, or past work between turns. Teams still need to define record type, write trigger, provenance, retrieval rule, retention period, and correction route.
 
 ## Evidence
 

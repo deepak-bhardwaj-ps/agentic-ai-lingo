@@ -4,8 +4,8 @@ name: Data Mesh
 category: Context
 title: Data Mesh
 aliases: []
-short_description: Data Mesh is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Data Mesh is a decentralised data architecture based on domain-owned
+  data products and federated governance.
 termStatus: Established data-architecture term
 researchBasis: Dehghani, Data Mesh principles
 sources:
@@ -26,7 +26,7 @@ It predates [[Agentic AI|agentic AI]]. Agents may consume governed data products
 
 ## How it is used
 
-Data Mesh is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Data Mesh is used when teams want domain-owned, interoperable data products rather than one central data lake team. It matters for agents because it changes how authoritative data is published, discovered, and governed.
 
 ## Evidence
 

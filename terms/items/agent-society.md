@@ -4,8 +4,8 @@ name: Agent Society
 category: Protocols
 title: Agent Society
 aliases: []
-short_description: Agent Society is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Society is a population of agents that interact under shared
+  norms or incentives.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Society is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+An agent society is a broad metaphor for many agents interacting under shared norms, incentives, or rules.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Society is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Society is used when the emphasis is on emergent behaviour across many agents rather than a single orchestrated workflow. It is usually a metaphorical term, so it should be translated into actual rules, institutions, or platform constraints before it drives design.
 
 ## Evidence
 

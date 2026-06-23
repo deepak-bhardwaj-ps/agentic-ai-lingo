@@ -4,8 +4,8 @@ name: Architecture Washing
 category: Slang
 title: Architecture Washing
 aliases: []
-short_description: Architecture Washing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Architecture Washing is a label for using architecture language
+  to make a thin AI feature sound rigorous.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is rhetoric rather than a technical diagnosis. Test the claim against concret
 
 ## How it is used
 
-Architecture Washing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Architecture Washing is used when diagrams, layers, or governance language are presented as evidence of maturity while the underlying system is still brittle or underspecified. It is usually a critique of presentation, not of architecture work itself.
 
 ## Evidence
 

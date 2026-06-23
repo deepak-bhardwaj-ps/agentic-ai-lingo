@@ -4,7 +4,8 @@ name: AI Agents
 category: Core
 title: AI Agents
 aliases: []
-short_description: AI Agents is used to discuss an agent-system design concern.
+short_description: AI Agents is a general label for software systems that can choose
+  actions, use tools, and pursue a goal across steps.
 updated_at: '2026-06-22T20:54:06.685468+00:00'
 termStatus: Umbrella term
 researchBasis: Anthropic, Building effective agents
@@ -26,7 +27,7 @@ A chatbot, workflow and autonomous agent are not interchangeable. State the acti
 
 ## How it is used
 
-AI Agents is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+AI Agents is used when the discussion is about a system that can plan, call tools, track state, and recover from failure rather than only answer a prompt. In practice it is the broadest umbrella in the glossary, so it should be narrowed quickly to the real runtime, governance, or workflow question.
 
 ## Evidence
 

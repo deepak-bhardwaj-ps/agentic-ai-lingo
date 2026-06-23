@@ -4,8 +4,8 @@ name: AI Slop
 category: Slang
 title: AI Slop
 aliases: []
-short_description: AI Slop is used as informal, audience-specific commentary on AI
-  culture or working practice.
+short_description: AI Slop is a pejorative for low-value AI-generated output that
+  needs substantial human clean-up before use.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is a cultural judgement, not a measurable quality category. Define the actual
 
 ## How it is used
 
-AI Slop is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+AI Slop is used when AI output is fast to produce but expensive to clean up, usually because it is generic, repetitive, or careless about facts and structure. The label is common in critique of content farms, low-review drafting, and overproduced internal material.
 
 ## Evidence
 

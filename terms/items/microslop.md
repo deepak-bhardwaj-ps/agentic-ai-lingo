@@ -4,8 +4,8 @@ name: Microslop
 category: Slang
 title: Microslop
 aliases: []
-short_description: Microslop is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Microslop is an insider jab at Microsoft-branded software or AI
+  output that feels low-value or overhyped.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Microslop is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Microslop is used as a satirical, often dismissive nickname for Microsoft-branded software or AI output that is seen as noisy, bloated, or weakly integrated. It is colloquial branding criticism, not a neutral technical term.
 
 ## Evidence
 

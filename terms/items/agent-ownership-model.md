@@ -4,8 +4,8 @@ name: Agent Ownership Model
 category: AgentOps
 title: Agent Ownership Model
 aliases: []
-short_description: Agent Ownership Model is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agent Ownership Model is the way responsibility for an agent’s
+  operation, risk, and change is assigned.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Ownership Model is a practical label for operating or measuring an agentic system in production.
+An agent ownership model defines who owns an agent’s behaviour, support, change control, and retirement.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Ownership Model is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Ownership Model is used when it matters who owns the agent, who responds when it fails, and who approves changes. It should resolve ambiguity about support, escalation, and accountability.
 
 ## Evidence
 

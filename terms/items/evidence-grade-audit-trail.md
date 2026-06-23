@@ -4,8 +4,8 @@ name: Evidence-Grade Audit Trail
 category: AgentOps
 title: Evidence-Grade Audit Trail
 aliases: []
-short_description: Evidence-Grade Audit Trail is used in operating reviews to make
-  a production concern observable and owned.
+short_description: Evidence-Grade Audit Trail is an audit trail detailed enough to
+  support review, accountability, and reconstruction.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Evidence-Grade Audit Trail is a practical label for operating or measuring an agentic system in production.
+An evidence-grade audit trail is detailed enough to support review, accountability, and reconstruction.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Evidence-Grade Audit Trail is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Evidence-Grade Audit Trail is used when a system must preserve enough detail to explain what happened, who acted, and on what basis. It is especially important where post-incident review or compliance evidence matters.
 
 ## Evidence
 

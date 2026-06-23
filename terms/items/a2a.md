@@ -4,8 +4,8 @@ name: A2A
 category: Protocols
 title: A2A
 aliases: []
-short_description: A2A is used in discussions of coordination or discoverability between
-  independently built agents and services.
+short_description: A2A is a protocol label for one agent asking another agent or service
+  to take part in work.
 termStatus: Established protocol
 researchBasis: Google, Agent2Agent protocol
 sources:
@@ -26,7 +26,7 @@ It is not a multi-agent framework and does not specify an agent's reasoning loop
 
 ## How it is used
 
-A2A is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+A2A is used when the question is how one agent discovers, addresses, and delegates work to another. If the term is being used seriously, it should come with concrete message shapes, authentication, compatibility, and failure behaviour rather than just “agent-to-agent” branding.
 
 ## Evidence
 

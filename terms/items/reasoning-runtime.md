@@ -4,8 +4,8 @@ name: Reasoning Runtime
 category: Runtime
 title: Reasoning Runtime
 aliases: []
-short_description: Reasoning Runtime is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Reasoning Runtime is the part of the system responsible for deliberation,
+  state updates, and decision-making.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Reasoning Runtime describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+A reasoning runtime is the part of the system responsible for deliberation, state updates, and decision-making.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard architecture. The useful design question is the decision ru
 
 ## How it is used
 
-Reasoning Runtime is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Reasoning Runtime is used when the focus is on the decision machinery that chooses what to do next rather than on the tool or UI layer. It matters when deliberation, memory, and policy all interact in one execution path.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Context Rot
 category: Context
 title: Context Rot
 aliases: []
-short_description: Context Rot is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Rot is the gradual degradation of context quality as sources
+  age, diverge, or become misleading.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Rot is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Rot is used when the model’s context has decayed enough that even correct-looking evidence is no longer dependable. It is the term for stale summaries, obsolete references, and hidden inconsistencies that accumulate over time.
 
 ## Evidence
 

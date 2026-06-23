@@ -4,8 +4,8 @@ name: Runtime Contract
 category: Runtime
 title: Runtime Contract
 aliases: []
-short_description: Runtime Contract is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Runtime Contract is the specification for what a runtime component
+  accepts, does, retries, and returns.
 termStatus: Engineering shorthand
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a legal contract or executable guarantee unless expressed and enforced
 
 ## How it is used
 
-Runtime Contract is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Runtime Contract is used when a runtime component needs a clear, testable description of its inputs, outputs, side effects, and failure handling. It is the artefact that keeps implementation, policy, and operations aligned.
 
 ## Evidence
 

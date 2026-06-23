@@ -4,8 +4,8 @@ name: Agent Swarm
 category: Runtime
 title: Agent Swarm
 aliases: []
-short_description: Agent Swarm is used in runtime design to name the component that
-  coordinates decisions and side effects.
+short_description: Agent Swarm is a loosely coordinated pool of agents working on
+  related tasks in parallel.
 termStatus: Informal architecture label
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not a defined architecture. Parallelism increases coordination, duplicatio
 
 ## How it is used
 
-Agent Swarm is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Agent Swarm is used when several agents can work in parallel and exchange results without a strict hierarchy. It is useful for exploration and breadth, but it needs coordination rules or it turns into noisy duplication.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Promptmaxxing
 category: Slang
 title: Promptmaxxing
 aliases: []
-short_description: Promptmaxxing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Promptmaxxing is a slang term for extreme prompt tuning, usually
+  with more status than operational value.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Promptmaxxing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Promptmaxxing is used in enthusiast circles when people push prompt design, formatting, or instruction layering as far as it will go in search of small gains. The term often implies a mix of experimentation, identity, and diminishing returns.
 
 ## Evidence
 

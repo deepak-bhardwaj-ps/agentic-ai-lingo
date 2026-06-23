@@ -4,8 +4,8 @@ name: Delegation Recovery
 category: Governance
 title: Delegation Recovery
 aliases: []
-short_description: Delegation Recovery is used when authority passes from a person
-  or service to an agent, or between agents.
+short_description: Delegation Recovery is the process for restoring or reassigning
+  authority after a failed hand-off.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

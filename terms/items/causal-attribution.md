@@ -4,8 +4,8 @@ name: Causal Attribution
 category: Context
 title: Causal Attribution
 aliases: []
-short_description: Causal Attribution is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Causal Attribution is the ability to explain which source or step
+  caused a model to see or do something.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ Treat it as a proposal, not a capability. Replace it with a concrete mechanism, 
 
 ## How it is used
 
-Causal Attribution is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Causal Attribution is used when you need to trace a model decision back to the specific source, step, or retrieval event that influenced it. It is the term for turning “the model saw this” into a testable chain of cause and effect.
 
 ## Evidence
 

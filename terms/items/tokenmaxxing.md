@@ -4,8 +4,8 @@ name: Tokenmaxxing
 category: Slang
 title: Tokenmaxxing
 aliases: []
-short_description: Tokenmaxxing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Tokenmaxxing is a term for pushing context, prompt length, or output
+  length to extract more from the model.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Tokenmaxxing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Tokenmaxxing is used when people deliberately stretch context windows, prompts, or outputs to the edge of what the model can handle. It usually implies a trade-off discussion about cost, latency, and whether more tokens are actually buying better judgement.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Delegation Boundary
 category: Governance
 title: Delegation Boundary
 aliases: []
-short_description: Delegation Boundary is used when authority passes from a person
-  or service to an agent, or between agents.
+short_description: Delegation Boundary is the edge where authority moves from one
+  principal to another.
 updated_at: '2026-06-22T20:54:07.614679+00:00'
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

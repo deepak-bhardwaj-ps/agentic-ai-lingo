@@ -4,8 +4,8 @@ name: Context Drift
 category: Context
 title: Context Drift
 aliases: []
-short_description: Context Drift is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Drift is the gradual change in what context a model sees
+  or depends on over time.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Drift is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Drift is used when the context surface changes slowly enough that behaviour shifts without an obvious breakage event. It is the term for when a system starts making different decisions because its evidence set, memory, or prompt assembly has subtly changed.
 
 ## Evidence
 

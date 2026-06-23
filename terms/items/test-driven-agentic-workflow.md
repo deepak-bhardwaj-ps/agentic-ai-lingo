@@ -4,8 +4,8 @@ name: Test-Driven Agentic Workflow
 category: Runtime
 title: Test-Driven Agentic Workflow
 aliases: []
-short_description: Test-Driven Agentic Workflow is used in runtime design to name
-  the component that coordinates decisions and side effects.
+short_description: Test-Driven Agentic Workflow is a workflow where tests define the
+  agent’s target behaviour and acceptance checks.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Test-Driven Agentic Workflow is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Test-Driven Agentic Workflow is used when tests or executable checks are the primary guardrail for what the agent should do next. It is a useful pattern when you want the workflow to fail fast against an observable criterion instead of drifting on vague instructions.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Dynamic Teaming
 category: Runtime
 title: Dynamic Teaming
 aliases: []
-short_description: Dynamic Teaming is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Dynamic Teaming is runtime allocation of work to the most suitable
+  available agent or worker.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ Treat it as a proposal, not a capability. Replace it with a concrete mechanism, 
 
 ## How it is used
 
-Dynamic Teaming is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Dynamic Teaming is used when work is assigned at runtime rather than by a fixed org chart or static queue. The important design question is how the system chooses, reassigns, and recovers when a team member is unavailable or inappropriate for the task.
 
 ## Evidence
 

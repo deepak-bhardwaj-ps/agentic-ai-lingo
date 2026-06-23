@@ -4,8 +4,8 @@ name: Recovery Readiness
 category: AgentOps
 title: Recovery Readiness
 aliases: []
-short_description: Recovery Readiness is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Recovery Readiness is the degree to which an agent system can be
+  restored after a failure or interruption.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Recovery Readiness is a practical label for operating or measuring an agentic system in production.
+Recovery Readiness is used when the team needs to know whether the system can be restored quickly and safely after failure or interruption.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Recovery Readiness is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Recovery Readiness is used when you need to know whether the system can be recovered quickly and safely after failure or interruption. It covers checkpoints, rollback paths, reruns, and the ability to reconstruct state.
 
 ## Evidence
 

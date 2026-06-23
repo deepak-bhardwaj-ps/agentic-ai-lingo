@@ -4,7 +4,8 @@ name: Agentic Commerce
 category: Core
 title: Agentic Commerce
 aliases: []
-short_description: Agentic Commerce is used to discuss an agent-system design concern.
+short_description: Agentic Commerce is commerce in which an agent can compare options,
+  negotiate constraints, or complete transactions.
 termStatus: Emerging industry label
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -25,7 +26,7 @@ It is not a payments protocol. It requires explicit authority, merchant and user
 
 ## How it is used
 
-Agentic Commerce is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Commerce is used when buying, booking, reordering, or negotiating is delegated to a system that can act on the user’s behalf. The hard part is not the shopping flow; it is the authority to spend, the verification of intent, and the audit trail for what was actually agreed.
 
 ## Evidence
 

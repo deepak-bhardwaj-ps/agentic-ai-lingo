@@ -4,8 +4,8 @@ name: Agentic Hub
 category: Context
 title: Agentic Hub
 aliases: []
-short_description: Agentic Hub is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Agentic Hub is a central point for the context, tools, or services
+  an agent needs.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Agentic Hub is used to describe an agent-related role, grouping, catalogue or operating practice.
+An agentic hub is the access point where context, tools, identity, or services are gathered for an agent. It only earns the name if it brokers something operational, not if it is just a homepage with a trendy label.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-Agentic Hub is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Agentic Hub is used when a system needs a central point for discovery, access, or coordination around agent-related resources. It becomes useful only if it actually brokers context or capability instead of just naming a landing page.
 
 ## Evidence
 

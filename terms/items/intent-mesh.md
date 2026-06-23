@@ -5,8 +5,8 @@ category: Protocols
 addedDate: May 9, 2025
 title: Intent Mesh
 aliases: []
-short_description: Intent Mesh is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Intent Mesh is a routing layer that moves intents across agents,
+  tools, or services.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -19,7 +19,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Intent Mesh is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+An intent mesh routes intent across agents, tools, or services before it becomes action.
 
 ## Boundary
 
@@ -27,7 +27,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Intent Mesh is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Intent Mesh is used when intent has to move across several systems before it becomes action. The term only earns its keep if there is a real routing model for resolution, escalation, and ownership.
 
 ## Evidence
 

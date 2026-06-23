@@ -4,8 +4,8 @@ name: Inference Runtime
 category: Runtime
 title: Inference Runtime
 aliases: []
-short_description: Inference Runtime is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Inference Runtime is the serving layer that executes model calls
+  inside a larger agent system.
 termStatus: Established systems term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not an [[Agent Runtime|agent runtime]]. It does not normally own workflow 
 
 ## How it is used
 
-Inference Runtime is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Inference Runtime is used when the concern is model execution infrastructure rather than the agent’s policy or workflow logic. It covers the mechanics of latency, batching, routing, and availability around inference.
 
 ## Evidence
 

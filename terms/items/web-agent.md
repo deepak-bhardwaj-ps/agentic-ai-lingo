@@ -4,7 +4,7 @@ name: Web Agent
 category: Core
 title: Web Agent
 aliases: []
-short_description: Web Agent is used to discuss an agent-system design concern.
+short_description: Web Agent is an agent whose main operating environment is the web.
 termStatus: Descriptive capability term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +25,7 @@ It is not synonymous with a browser extension or a search bot. Separate read-onl
 
 ## How it is used
 
-Web Agent is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Web Agent is used when the agent’s primary job is to inspect, navigate, search, or act on web content. It is a useful term when the question is whether the agent is browser-first, API-first, or able to move between both.
 
 ## Evidence
 

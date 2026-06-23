@@ -4,7 +4,8 @@ name: Agentic Coding
 category: Core
 title: Agentic Coding
 aliases: []
-short_description: Agentic Coding is used to discuss an agent-system design concern.
+short_description: Agentic Coding is coding in which an AI system can propose, edit,
+  run, and revise code with limited supervision.
 termStatus: Emerging practitioner term
 researchBasis: Hashimoto, Harness engineering
 sources:
@@ -25,7 +26,7 @@ It is not autocomplete, and it is not autonomous delivery. The engineering bound
 
 ## How it is used
 
-Agentic Coding is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Coding is used when the coding workflow includes tool use, multi-step revision, and explicit recovery rather than a single code completion. It matters because the control problem is different from autocomplete: you are designing the loop, the review boundary, and the rollback path.
 
 ## Evidence
 

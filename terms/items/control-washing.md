@@ -4,8 +4,8 @@ name: Control Washing
 category: Slang
 title: Control Washing
 aliases: []
-short_description: Control Washing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Control Washing is a label for overstating guardrails, overrides,
+  or governance in an AI system.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is rhetoric rather than a technical diagnosis. Test the claim against concret
 
 ## How it is used
 
-Control Washing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Control Washing is used when a product is described as tightly controlled even though the actual [[Guardrails|guardrails]], override paths, or accountability are weak. It is most useful when comparing claims about control with the testable operational reality.
 
 ## Evidence
 

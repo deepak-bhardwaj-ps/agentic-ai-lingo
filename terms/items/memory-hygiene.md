@@ -4,8 +4,8 @@ name: Memory Hygiene
 category: Memory
 title: Memory Hygiene
 aliases: []
-short_description: Memory Hygiene is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Hygiene is routine cleanup that keeps memory accurate, current,
+  and usable.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-Memory Hygiene is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Hygiene is used when the memory store needs routine cleanup: stale entries removed, duplicates merged, and bad records corrected. It is operational maintenance, not architecture.
 
 ## Evidence
 

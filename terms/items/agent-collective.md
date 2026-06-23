@@ -4,8 +4,8 @@ name: Agent Collective
 category: Protocols
 title: Agent Collective
 aliases: []
-short_description: Agent Collective is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Collective is a group of agents that share a common coordination
+  model or resource pool.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Collective is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+An agent collective is a group of agents that share coordination rules, a common resource pool, or a shared operating model.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Collective is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Collective is used when the focus is on the behaviour of the group rather than a single agent. It is a useful term for shared pools, cooperative tasking, or joint norms, but it should still resolve into concrete routing and ownership.
 
 ## Evidence
 

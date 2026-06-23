@@ -4,8 +4,8 @@ name: Delegation Failure
 category: Governance
 title: Delegation Failure
 aliases: []
-short_description: Delegation Failure is used when authority passes from a person
-  or service to an agent, or between agents.
+short_description: Delegation Failure is a break in the chain of authority, constraint,
+  or revocation.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

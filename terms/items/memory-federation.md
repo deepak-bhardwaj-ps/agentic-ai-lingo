@@ -4,8 +4,8 @@ name: Memory Federation
 category: Memory
 title: Memory Federation
 aliases: []
-short_description: Memory Federation is used when several systems retain their own
-  agent-related state but expose it through a common access pattern.
+short_description: Memory Federation is separate memory stores exposed through a common
+  access pattern.
 updated_at: '2026-06-22T20:54:07.871658+00:00'
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT

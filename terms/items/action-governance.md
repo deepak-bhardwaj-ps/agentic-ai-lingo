@@ -4,8 +4,8 @@ name: Action Governance
 category: Governance
 title: Action Governance
 aliases: []
-short_description: Action Governance is used in agent governance to make an action
-  attributable and bounded.
+short_description: Action Governance is the control layer that decides whether an
+  agent may take a specific action.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Action Governance is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Action Governance is used when a system needs a rule and enforcement point for a specific action. In practice, teams tie it to a principal, a permitted decision, durable evidence, and an escalation path.
 
 ## Evidence
 

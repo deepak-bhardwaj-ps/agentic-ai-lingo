@@ -4,8 +4,8 @@ name: Zombie Internet
 category: Slang
 title: Zombie Internet
 aliases: []
-short_description: Zombie Internet is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Zombie Internet is a label for a web increasingly filled with stale,
+  duplicated, or machine-produced pages.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Zombie Internet is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Zombie Internet is used when people describe a web that feels less like human publishing and more like an ecosystem of copied, automated, or stale material. The term captures the sense that discovery, trust, and originality are all being eroded at once.
 
 ## Evidence
 

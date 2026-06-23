@@ -4,7 +4,8 @@ name: Agentic Trust
 category: Core
 title: Agentic Trust
 aliases: []
-short_description: Agentic Trust is used to discuss an agent-system design concern.
+short_description: Agentic Trust is the degree of confidence that an agent can be
+  allowed to act without creating unacceptable risk.
 termStatus: Emerging marketing/governance label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -25,7 +26,7 @@ It is not a measurable primitive or a control framework. Make each trust claim t
 
 ## How it is used
 
-Agentic Trust is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Trust is used when deciding how much autonomy a system should receive and what evidence is enough to justify it. It is not a sentiment score: it has to be grounded in permissions, failure modes, monitoring, and the cost of being wrong.
 
 ## Evidence
 

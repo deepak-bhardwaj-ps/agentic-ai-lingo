@@ -4,8 +4,8 @@ name: Memory Compaction
 category: Memory
 title: Memory Compaction
 aliases: []
-short_description: Memory Compaction is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Compaction is compressing memory into smaller summaries
+  without losing decision-critical detail.
 termStatus: Implementation technique
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is lossy transformation, not archival. Retain links to source records and eva
 
 ## How it is used
 
-Memory Compaction is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Compaction is used when long context has to be compressed into something smaller without losing decision-critical detail. It matters when the model can no longer carry the full trace but still needs the gist.
 
 ## Evidence
 

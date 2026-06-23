@@ -4,8 +4,8 @@ name: Composite Principal
 category: Governance
 title: Composite Principal
 aliases: []
-short_description: Composite Principal is used in agent governance to make an action
-  attributable and bounded.
+short_description: Composite Principal is a principal made from multiple identities
+  or delegated authorities.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Composite Principal is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Composite Principal is used when multiple identities or delegated authorities have to act as one principal. In practice, the chain of authority has to stay traceable.
 
 ## Evidence
 

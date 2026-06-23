@@ -4,8 +4,8 @@ name: Identity-Resolved Data
 category: Context
 title: Identity-Resolved Data
 aliases: []
-short_description: Identity-Resolved Data is used when teams need to reason about
-  the information presented to a model at decision time.
+short_description: Identity-Resolved Data is data tied to a specific principal, role,
+  or delegation boundary.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ The name is not a control. Define the principal, delegated scope, enforcement po
 
 ## How it is used
 
-Identity-Resolved Data is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Identity-Resolved Data is used when an agent’s access or action depends on whose identity is in play. It matters for delegation, auditability, and deciding whether a piece of context belongs to a user, a service, or an intermediate agent.
 
 ## Evidence
 

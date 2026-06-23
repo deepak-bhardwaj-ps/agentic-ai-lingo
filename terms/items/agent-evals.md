@@ -4,8 +4,8 @@ name: Agent Evals
 category: AgentOps
 title: Agent Evals
 aliases: []
-short_description: Agent Evals is used in operating reviews to make a production concern
-  observable and owned.
+short_description: Agent Evals are tests and measurements that show how an agent behaves
+  under controlled scenarios.
 termStatus: Established practice, informal label
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ A model benchmark or a single success rate is not sufficient for an agent. Evalu
 
 ## How it is used
 
-Agent Evals is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Evals is used when production behaviour needs to be made measurable: task success, policy compliance, recovery, cost, or latency. It is not enough to score the model once; the evaluation has to reflect the actual action surface and failure modes.
 
 ## Evidence
 

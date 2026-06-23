@@ -4,8 +4,8 @@ name: Proof-of-Concept Graveyard
 category: AgentOps
 title: Proof-of-Concept Graveyard
 aliases: []
-short_description: Proof-of-Concept Graveyard is used in operating reviews to make
-  a production concern observable and owned.
+short_description: Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
+  that never made it into production.
 termStatus: Operational shorthand
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not an inevitable lifecycle stage. Diagnose the limiting production capabi
 
 ## How it is used
 
-Proof-of-Concept Graveyard is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Proof-of-Concept Graveyard is used when the organisation has a trail of demos and pilots that were never retired, productised, or learned from. It is a portfolio-management term, not just a complaint about failed innovation.
 
 ## Evidence
 

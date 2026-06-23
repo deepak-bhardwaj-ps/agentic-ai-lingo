@@ -4,8 +4,8 @@ name: Delegation-Aware Observability
 category: Governance
 title: Delegation-Aware Observability
 aliases: []
-short_description: Delegation-Aware Observability is used when authority passes from
-  a person or service to an agent, or between agents.
+short_description: Delegation-Aware Observability is observability that preserves
+  who delegated what and why.
 updated_at: '2026-06-22T20:54:07.608656+00:00'
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

@@ -4,8 +4,8 @@ name: Execution Quality
 category: AgentOps
 title: Execution Quality
 aliases: []
-short_description: Execution Quality is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Execution Quality is the degree to which an agent completes work
+  correctly, safely, and consistently.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Execution Quality is a practical label for operating or measuring an agentic system in production.
+Execution quality is the degree to which an agent completes work correctly, safely, and consistently.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Execution Quality is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Execution Quality is used when you need to talk about the quality of the actual run rather than the model’s raw output. It should connect to correctness, safety, and consistency across real workflows.
 
 ## Evidence
 

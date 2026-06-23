@@ -4,8 +4,8 @@ name: Verification Cost
 category: Context
 title: Verification Cost
 aliases: []
-short_description: Verification Cost is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Verification Cost is the cost of proving a model’s answer or action
+  is correct enough to trust.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Verification Cost is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
+Verification cost is the cost of proving a model’s answer or action is correct enough to trust.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ Treat it as a proposal, not a capability. Replace it with a concrete mechanism, 
 
 ## How it is used
 
-Verification Cost is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Verification Cost is used when the expense of checking an answer, action, or trajectory is itself part of the system design. It is important because some agent workflows are cheap to generate but expensive to verify.
 
 ## Evidence
 

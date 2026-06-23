@@ -4,8 +4,8 @@ name: Context Graph
 category: Context
 title: Context Graph
 aliases: []
-short_description: Context Graph is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Context Graph is a graph representation of the entities and relationships
+  available to an agent.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ A graph representation does not itself provide truth, provenance, permissions or
 
 ## How it is used
 
-Context Graph is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Graph is used when the model benefits from traversable relationships rather than flat retrieved chunks. It is especially useful when context needs to be queried, joined, or explored over time.
 
 ## Evidence
 

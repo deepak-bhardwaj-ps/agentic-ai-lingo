@@ -4,8 +4,8 @@ name: Decision Sovereignty
 category: Governance
 title: Decision Sovereignty
 aliases: []
-short_description: Decision Sovereignty is used in agent governance to make an action
-  attributable and bounded.
+short_description: Decision Sovereignty is who retains final decision rights in an
+  agentic system.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Decision Sovereignty is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Decision Sovereignty is used when the organisation wants to preserve final decision rights instead of handing them to the agent. In practice, it is about who can override whom.
 
 ## Evidence
 

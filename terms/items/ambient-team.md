@@ -4,8 +4,8 @@ name: Ambient Team
 category: Protocols
 title: Ambient Team
 aliases: []
-short_description: Ambient Team is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Ambient Team is a persistent set of agents that supports a human
+  team in the background.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Ambient Team is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Ambient Team is used when agents sit alongside a human team and handle background coordination, triage, or follow-through.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Ambient Team is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Ambient Team is used when agents sit alongside a human team and handle background coordination, triage, or follow-through. The concept only works if the team knows what the agents watch, when they interrupt, and when they stay out of the way.
 
 ## Evidence
 

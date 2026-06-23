@@ -4,8 +4,8 @@ name: Pilot-to-Production Gap
 category: Runtime
 title: Pilot-to-Production Gap
 aliases: []
-short_description: Pilot-to-Production Gap is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Pilot-to-Production Gap is the gap between a successful pilot and
+  a system that is actually production-ready.
 updated_at: '2026-06-22T20:54:07.961272+00:00'
 termStatus: Operational shorthand
 researchBasis: OpenAI, Evals design guide
@@ -27,7 +27,7 @@ It is not an inevitable lifecycle stage. Diagnose the limiting production capabi
 
 ## How it is used
 
-Pilot-to-Production Gap is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Pilot-to-Production Gap is used when a demo or pilot works well enough to impress but still lacks the controls, monitoring, reliability, and operating model needed for real use. The phrase is a reminder that “works in the pilot” is not the same as “operable”.
 
 ## Evidence
 

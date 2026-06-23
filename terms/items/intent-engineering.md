@@ -4,8 +4,8 @@ name: Intent Engineering
 category: Protocols
 title: Intent Engineering
 aliases: []
-short_description: Intent Engineering is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Intent Engineering is turning user intent into tasks or machine-executable
+  objectives.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Intent Engineering is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Intent engineering is the work of shaping a user’s intent into tasks or machine-executable objectives.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Intent Engineering is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Intent Engineering is used when a vague user request has to be turned into something a system can actually execute, verify, and hand off. It is most useful where translation from natural language to task structure is a design problem, not a prompt-writing trick.
 
 ## Evidence
 

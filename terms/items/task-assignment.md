@@ -4,8 +4,8 @@ name: Task Assignment
 category: Runtime
 title: Task Assignment
 aliases: []
-short_description: Task Assignment is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Task Assignment is the mechanism that allocates work to agents
+  or workers.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Task Assignment is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
+Task assignment is the mechanism that allocates work to agents or workers.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ Treat it as a proposal, not a capability. Replace it with a concrete mechanism, 
 
 ## How it is used
 
-Task Assignment is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Task Assignment is used when the system has to decide who should do a piece of work and on what basis. The important details are the assignment rule, the fallback path, and how reassignment is handled if the first choice fails.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Alignment Verification
 category: Governance
 title: Alignment Verification
 aliases: []
-short_description: Alignment Verification is used in agent governance to make an action
-  attributable and bounded.
+short_description: Alignment Verification is checking that agent behaviour matches
+  the stated objective or policy.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Alignment Verification is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Alignment Verification is used when the team needs evidence that behaviour matches the stated objective or policy. In practice, it should produce a testable check, not a slogan.
 
 ## Evidence
 

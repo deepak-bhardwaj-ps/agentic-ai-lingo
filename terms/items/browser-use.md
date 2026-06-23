@@ -4,7 +4,8 @@ name: Browser Use
 category: Core
 title: Browser Use
 aliases: []
-short_description: Browser Use is used to discuss an agent-system design concern.
+short_description: Browser Use is browser automation or page interaction performed
+  by a model-driven agent.
 termStatus: Established capability label
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -25,7 +26,7 @@ It should not be confused with web search or direct API integration. Prefer APIs
 
 ## How it is used
 
-Browser Use is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Browser Use is used when the agent needs to see, click, type, or navigate in a browser rather than consume an API. The term is operationally useful because browser interaction is brittle in ways that API work usually is not.
 
 ## Evidence
 

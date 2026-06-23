@@ -4,8 +4,8 @@ name: Workflow Runtime
 category: Runtime
 title: Workflow Runtime
 aliases: []
-short_description: Workflow Runtime is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Workflow Runtime is the execution environment that runs a workflow
+  and manages its state, retries, and termination.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not a standard architecture. The useful design question is the decision ru
 
 ## How it is used
 
-Workflow Runtime is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Workflow Runtime is used when the conversation is about the machinery that runs a workflow rather than the workflow definition itself. It becomes relevant once state persistence, retry rules, and terminal conditions need to be enforced consistently.
 
 ## Evidence
 

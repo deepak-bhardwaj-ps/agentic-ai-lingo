@@ -4,8 +4,8 @@ name: Multi-Agent Governance
 category: AgentOps
 title: Multi-Agent Governance
 aliases: []
-short_description: Multi-Agent Governance is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Multi-Agent Governance is the set of controls that keeps multiple
+  agents from conflicting or exceeding their authority.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Multi-Agent Governance is a practical label for operating or measuring an agentic system in production.
+Multi-agent governance is the set of controls that keeps multiple agents from conflicting or exceeding their authority.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Multi-Agent Governance is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Multi-Agent Governance is used when several agents can interact, delegate, or compete and the system needs rules for authority, conflict, and oversight. It is the term that turns “many agents” into a managed operating model.
 
 ## Evidence
 

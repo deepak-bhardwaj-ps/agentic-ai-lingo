@@ -4,8 +4,8 @@ name: Autonomy Boundaries
 category: Governance
 title: Autonomy Boundaries
 aliases: []
-short_description: Autonomy Boundaries is used in agent governance to make an action
-  attributable and bounded.
+short_description: Autonomy Boundaries define where the agent can decide alone and
+  where approval is required.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Autonomy Boundaries is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Autonomy Boundaries is used when the team needs to say what the agent may decide alone and when approval is required. In practice, the boundary needs an owner and a fallback.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Agent Washing
 category: Slang
 title: Agent Washing
 aliases: []
-short_description: Agent Washing is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Agent Washing is a label for relabelling ordinary automation as
+  an agent to borrow market hype.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is rhetoric rather than a technical diagnosis. Test the claim against concret
 
 ## How it is used
 
-Agent Washing is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Agent Washing is used when a workflow, bot, or automation layer is repackaged as an agent even though it has no meaningful autonomy. It is a useful term when comparing the marketing description with the actual control flow and decision rights.
 
 ## Evidence
 

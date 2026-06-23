@@ -4,8 +4,8 @@ name: Memory Drift
 category: Memory
 title: Memory Drift
 aliases: []
-short_description: Memory Drift is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Drift is gradual change in stored state or retrieval behaviour
+  that shifts later decisions.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-Memory Drift is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Drift is used when stored state changes slowly enough that behaviour shifts without an obvious breakage event. It is the term for a memory layer that has started to answer differently than it used to.
 
 ## Evidence
 

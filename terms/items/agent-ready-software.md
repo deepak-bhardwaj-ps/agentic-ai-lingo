@@ -4,8 +4,8 @@ name: Agent-Ready Software
 category: Protocols
 title: Agent-Ready Software
 aliases: []
-short_description: Agent-Ready Software is used in discussions of coordination or
-  discoverability between independently built agents and services.
+short_description: Agent-Ready Software is software designed for reliable agent calling,
+  inspection, and safe use.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent-Ready Software is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Agent-ready software exposes enough structure, metadata, and permissions for an agent to call it without guesswork.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent-Ready Software is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent-Ready Software is used when software exposes enough structure, permissions, and metadata for an agent to use it without guesswork. The term is only meaningful if the interface is actually machine-navigable and the failure modes are documented.
 
 ## Evidence
 

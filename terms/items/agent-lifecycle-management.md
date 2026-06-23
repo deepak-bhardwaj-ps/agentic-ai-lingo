@@ -4,8 +4,8 @@ name: Agent Lifecycle Management
 category: AgentOps
 title: Agent Lifecycle Management
 aliases: []
-short_description: Agent Lifecycle Management is used in operating reviews to make
-  a production concern observable and owned.
+short_description: Agent Lifecycle Management is the discipline of introducing, operating,
+  updating, and retiring agents safely.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Lifecycle Management is a practical label for operating or measuring an agentic system in production.
+Agent lifecycle management covers introduction, operation, update, suspension, and retirement of agents.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Lifecycle Management is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Lifecycle Management is used when the full life of an agent matters: approval, rollout, monitoring, update, suspension, and retirement. It is the term that turns “we built an agent” into an operational asset with a clear exit path.
 
 ## Evidence
 

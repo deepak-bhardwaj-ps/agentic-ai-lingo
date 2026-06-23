@@ -4,8 +4,8 @@ name: Tool Gateway
 category: Protocols
 title: Tool Gateway
 aliases: []
-short_description: Tool Gateway is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Tool Gateway is a control point that brokers access to tools and
+  applies policy before execution.
 termStatus: Architecture pattern
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a protocol and does not remove application-level authorisation require
 
 ## How it is used
 
-Tool Gateway is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Tool Gateway is used when tool access needs to be mediated rather than handed directly to the agent. It is the right term when policy, logging, throttling, and approval need to sit between request and side effect.
 
 ## Evidence
 

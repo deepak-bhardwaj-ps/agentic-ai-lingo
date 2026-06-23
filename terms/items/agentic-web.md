@@ -4,8 +4,8 @@ name: Agentic Web
 category: Protocols
 title: Agentic Web
 aliases: []
-short_description: Agentic Web is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agentic Web is a web designed so agents can discover information
+  and complete tasks through structured interfaces.
 termStatus: Emerging industry label
 researchBasis: Model Context Protocol specification
 sources:
@@ -26,7 +26,7 @@ It is not a web standard and should not imply that agents can safely operate arb
 
 ## How it is used
 
-Agentic Web is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agentic Web is used when the web is being treated as machine-navigable infrastructure rather than a purely human-facing interface. The term only earns its keep if discovery, identity, and transactional safety are explicit.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Decision Plane
 category: Governance
 title: Decision Plane
 aliases: []
-short_description: Decision Plane is used as a diagramming label for the services
-  that enforce the stated concern across agents.
+short_description: Decision Plane is the service layer that applies decision policy
+  and records what was decided.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Decision Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Decision Plane is used when decision policy and decision records live in a distinct layer. It only matters if the layer can be pointed to in the architecture.
 
 ## Evidence
 

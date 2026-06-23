@@ -4,8 +4,8 @@ name: Behaviour Assurance
 category: Governance
 title: Behaviour Assurance
 aliases: []
-short_description: Behaviour Assurance is used in agent governance to make an action
-  attributable and bounded.
+short_description: Behaviour Assurance is evidence that an agent reliably stays within
+  its intended behaviour.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Behaviour Assurance is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Behaviour Assurance is used when you need evidence that the agent still behaves as intended. In practice, it belongs in the test and audit layer, not just the policy deck.
 
 ## Evidence
 

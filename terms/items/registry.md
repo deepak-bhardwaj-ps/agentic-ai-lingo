@@ -4,8 +4,8 @@ name: Registry
 category: Protocols
 title: Registry
 aliases: []
-short_description: Registry is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Registry is a catalogue of agents, services, or resources that
+  can be discovered and referenced consistently.
 updated_at: '2026-06-22T20:54:08.031649+00:00'
 termStatus: Established systems term
 researchBasis: Model Context Protocol specification
@@ -27,7 +27,7 @@ In agent systems it may hold tools, skills, agents or [[MCP]] servers; it does n
 
 ## How it is used
 
-Registry is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Registry is used when discovery needs a durable directory rather than an ad hoc list. In agent systems it usually becomes relevant once identity, versioning, and trust are operational concerns rather than nice-to-haves.
 
 ## Evidence
 

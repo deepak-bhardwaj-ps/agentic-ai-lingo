@@ -5,8 +5,8 @@ category: Memory
 addedDate: May 8, 2025
 title: Memory Governance
 aliases: []
-short_description: Memory Governance is used in designs for information an agent retains
-  beyond the immediate prompt.
+short_description: Memory Governance is policy for who can read, write, retain, or
+  delete agent memory.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -27,7 +27,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-Memory Governance is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Governance is used when teams need rules for who may read, write, retain, or delete [[Agent Memory|agent memory]]. It is the control layer that keeps memory from becoming a liability.
 
 ## Evidence
 

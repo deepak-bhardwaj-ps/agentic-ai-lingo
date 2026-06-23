@@ -4,8 +4,8 @@ name: Agent Training
 category: Protocols
 title: Agent Training
 aliases: []
-short_description: Agent Training is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Agent Training is the onboarding or preparation of agents to operate
+  in a shared ecosystem.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:
@@ -18,7 +18,7 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-Agent Training is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
+Agent training is the preparation or calibration of an agent so it can operate correctly inside a wider ecosystem.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a protocol unless it defines a public wire format, lifecycle, compatib
 
 ## How it is used
 
-Agent Training is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Agent Training is used when an agent needs instruction, calibration, or behavioural adaptation before it can join a wider system. It should not be confused with model training unless the underlying weights or policy are actually being updated.
 
 ## Evidence
 

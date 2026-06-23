@@ -5,8 +5,8 @@ category: Governance
 addedDate: May 11, 2025
 title: Delegated Authority
 aliases: []
-short_description: Delegated Authority is used in agent governance to make an action
-  attributable and bounded.
+short_description: Delegated Authority is authority passed from one principal to another
+  for a bounded purpose.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -27,7 +27,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Delegated Authority is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Delegated Authority is used when a principal grants an agent a bounded power to act on its behalf. In practice, it needs a scope, an expiry, and revocation support.
 
 ## Evidence
 

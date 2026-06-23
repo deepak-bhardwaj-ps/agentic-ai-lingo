@@ -4,8 +4,8 @@ name: Governance Plane
 category: Governance
 title: Governance Plane
 aliases: []
-short_description: Governance Plane is used as a diagramming label for the services
-  that enforce the stated concern across agents.
+short_description: Governance Plane is the service layer that applies rules, oversight,
+  and audit controls.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Governance Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Governance Plane is used when oversight, rules, and audit controls are separated into their own layer. It only matters if those controls are real and enforceable.
 
 ## Evidence
 

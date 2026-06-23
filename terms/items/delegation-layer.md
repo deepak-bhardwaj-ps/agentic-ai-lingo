@@ -4,8 +4,8 @@ name: Delegation Layer
 category: Governance
 title: Delegation Layer
 aliases: []
-short_description: Delegation Layer is used when authority passes from a person or
-  service to an agent, or between agents.
+short_description: Delegation Layer is the policy and enforcement layer for delegated
+  authority.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

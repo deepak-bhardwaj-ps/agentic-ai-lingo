@@ -4,8 +4,8 @@ name: Context Saturation
 category: Context
 title: Context Saturation
 aliases: []
-short_description: Context Saturation is used when teams need to reason about the
-  information presented to a model at decision time.
+short_description: Context Saturation is the point where adding more context stops
+  helping and starts reducing decision quality.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Context Saturation is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Context Saturation is used when a model’s window is full of information but no longer has room for distinction, priority, or depth. It is the practical sign that compression, pruning, or better retrieval is needed.
 
 ## Evidence
 

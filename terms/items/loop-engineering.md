@@ -4,8 +4,8 @@ name: Loop Engineering
 category: Runtime
 title: Loop Engineering
 aliases: []
-short_description: Loop Engineering is used when a model-driven process repeatedly
-  plans, acts and incorporates observations.
+short_description: Loop Engineering is the practice of designing repeated plan-act-observe
+  cycles with explicit stops and limits.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -18,7 +18,7 @@ Architecture/implementation term.
 
 ## Meaning
 
-Loop Engineering describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
+Loop engineering is the design of the repetitive plan-act-observe cycle that lets an agent make progress over multiple steps.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a standard architecture. The useful design question is the decision ru
 
 ## How it is used
 
-Loop Engineering is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+Loop Engineering is used when the repeated plan-act-observe cycle itself has to be designed and controlled. It becomes a production concern once stop conditions, iteration limits, and spend limits matter.
 
 ## Evidence
 

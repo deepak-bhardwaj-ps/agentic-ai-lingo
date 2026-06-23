@@ -4,8 +4,8 @@ name: Agent Debt
 category: AgentOps
 title: Agent Debt
 aliases: []
-short_description: Agent Debt is used in operating reviews to make a production concern
-  observable and owned.
+short_description: Agent Debt is the accumulated operational risk created by shortcuts,
+  weak controls, and unresolved failure modes in an agent system.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Debt is a practical label for operating or measuring an agentic system in production.
+Agent debt is the accumulated operational risk created by shortcuts, weak controls, and unresolved failure modes.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Debt is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Debt is used when an agent system is carrying unresolved operational shortcuts that will cost more later: weak tests, poor ownership, brittle prompts, or missing recovery paths. The term is useful if it points to a specific backlog item or remediation plan.
 
 ## Evidence
 

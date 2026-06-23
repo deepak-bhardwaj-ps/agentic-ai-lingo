@@ -4,8 +4,8 @@ name: Agent Control Plane
 category: Runtime
 title: Agent Control Plane
 aliases: []
-short_description: Agent Control Plane is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Agent Control Plane is the service layer that coordinates fleet-level
+  policy, configuration, identity, and lifecycle.
 termStatus: Architecture pattern
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It borrows the control-plane/data-plane metaphor; it is not a standard component
 
 ## How it is used
 
-Agent Control Plane is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Agent Control Plane is used when the conversation is about shared policy and orchestration across many agents rather than one agent’s internal loop. The useful question is what state it owns, what it can change, and which actions it can authorise.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Execution Graph
 category: Runtime
 title: Execution Graph
 aliases: []
-short_description: Execution Graph is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Execution Graph is the graph of steps, dependencies, and side effects
+  that defines how work proceeds.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ A graph representation does not itself provide truth, provenance, permissions or
 
 ## How it is used
 
-Execution Graph is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Execution Graph is used when the system is easier to reason about as connected steps than as a single loop. It helps make explicit what must happen first, what can branch, and where retries or human approvals sit.
 
 ## Evidence
 

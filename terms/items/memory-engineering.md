@@ -4,8 +4,8 @@ name: Memory Engineering
 category: Memory
 title: Memory Engineering
 aliases: []
-short_description: Memory Engineering is used in designs for information an agent
-  retains beyond the immediate prompt.
+short_description: Memory Engineering is the practice of designing and operating agent
+  memory systems.
 updated_at: '2026-06-22T20:54:07.866809+00:00'
 termStatus: Emerging practitioner term
 researchBasis: Packer et al., MemGPT
@@ -27,7 +27,7 @@ It is not a standard discipline. A credible design specifies schemas, write auth
 
 ## How it is used
 
-Memory Engineering is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Engineering is used when teams need to design, implement, and operate the memory layer itself. It covers storage, retrieval, correction, and the trade-off between recall quality and cost.
 
 ## Evidence
 

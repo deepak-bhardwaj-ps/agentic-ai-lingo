@@ -4,8 +4,8 @@ name: Tool Router
 category: Runtime
 title: Tool Router
 aliases: []
-short_description: Tool Router is used in runtime design to name the component that
-  coordinates decisions and side effects.
+short_description: Tool Router is the component that selects and routes tool calls
+  based on task, context, or policy.
 termStatus: Implementation pattern
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not authorisation by itself. The selected tool must independently enforce 
 
 ## How it is used
 
-Tool Router is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Tool Router is used when the system needs to decide which tools are available for a request and which one should be called. It is a control-point term: if the router is weak, the agent becomes over-permissive or unpredictable.
 
 ## Evidence
 

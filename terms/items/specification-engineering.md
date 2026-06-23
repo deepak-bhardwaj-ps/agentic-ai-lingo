@@ -4,8 +4,8 @@ name: Specification Engineering
 category: Governance
 title: Specification Engineering
 aliases: []
-short_description: Specification Engineering is used in agent governance to make an
-  action attributable and bounded.
+short_description: Specification Engineering is turning behaviour into testable, enforceable
+  specifications.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Specification Engineering is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Specification Engineering is used when behaviour has to be translated into something testable and enforceable. In practice, prose alone is not enough.
 
 ## Evidence
 

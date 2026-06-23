@@ -4,8 +4,8 @@ name: Trendslop
 category: Slang
 title: Trendslop
 aliases: []
-short_description: Trendslop is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Trendslop is a label for AI content assembled to match current
+  trends rather than to be useful or durable.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Trendslop is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Trendslop is used when content is built to chase the current trend cycle instead of solving a real problem or holding up over time. It is a critique of opportunism dressed up as relevance.
 
 ## Evidence
 

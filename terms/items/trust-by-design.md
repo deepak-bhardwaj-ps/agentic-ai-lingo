@@ -4,8 +4,8 @@ name: Trust-by-Design
 category: Governance
 title: Trust-by-Design
 aliases: []
-short_description: Trust-by-Design is used in agent governance to make an action attributable
-  and bounded.
+short_description: Trust-by-Design is designing the system so trust is earned by evidence
+  and controls.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Trust-by-Design is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Trust-by-Design is used when trust has to come from evidence, controls, and revocation rather than confidence by default. In practice, it is a design choice, not a slogan.
 
 ## Evidence
 

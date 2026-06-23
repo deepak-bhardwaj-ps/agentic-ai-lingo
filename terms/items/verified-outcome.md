@@ -4,8 +4,8 @@ name: Verified Outcome
 category: AgentOps
 title: Verified Outcome
 aliases: []
-short_description: Verified Outcome is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Verified Outcome is an outcome that has been checked against a
+  defined criterion or independent evidence.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Verified Outcome is a practical label for operating or measuring an agentic system in production.
+A verified outcome is a result that has been checked against a defined criterion or independent evidence.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Verified Outcome is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Verified Outcome is used when you need to distinguish between a result that looked right and one that was actually checked. It is the right term when verification is part of the completion condition.
 
 ## Evidence
 

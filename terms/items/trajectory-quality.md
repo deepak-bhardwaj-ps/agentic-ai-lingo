@@ -18,7 +18,7 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-Trajectory Quality is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
+Trajectory quality is the quality of the path an agent took, including decisions, tool calls, and recovery behaviour.
 
 ## Boundary
 

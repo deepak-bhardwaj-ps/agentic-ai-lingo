@@ -4,8 +4,8 @@ name: Least Privilege
 category: Governance
 title: Least Privilege
 aliases: []
-short_description: Least Privilege is used in agent governance to make an action attributable
-  and bounded.
+short_description: Least Privilege is the principle of giving an agent only the access
+  it needs.
 termStatus: Established security principle
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a model instruction. It must be implemented by the identity, token, to
 
 ## How it is used
 
-Least Privilege is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Least Privilege is used when the agent should have only the access needed for the task. In practice, anything more is risk, not convenience.
 
 ## Evidence
 

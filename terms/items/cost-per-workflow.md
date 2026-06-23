@@ -4,8 +4,8 @@ name: Cost per Workflow
 category: AgentOps
 title: Cost per Workflow
 aliases: []
-short_description: Cost per Workflow is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Cost per Workflow is the average cost of completing one workflow
+  end to end.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Cost per Workflow is a practical label for operating or measuring an agentic system in production.
+Cost per Workflow is the average cost of completing one workflow end to end.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Cost per Workflow is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Cost per Workflow is used when you need to compare the unit economics of different agent flows or versions. It is only useful if the workflow boundary is stable and the cost allocations are explicit.
 
 ## Evidence
 

@@ -4,7 +4,8 @@ name: Agentic Browser
 category: Core
 title: Agentic Browser
 aliases: []
-short_description: Agentic Browser is used to discuss an agent-system design concern.
+short_description: Agentic Browser is a browser-driven agent that can navigate pages,
+  inspect content, and take actions on the web.
 termStatus: Emerging product category
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -25,7 +26,7 @@ It is not a web standard or a security model. The important properties are brows
 
 ## How it is used
 
-Agentic Browser is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Browser is used when the browser itself is the working surface for the agent, typically through clicks, form fills, page reading, and navigation. The useful question is not whether it is “agentic” in the abstract, but what it can reliably do inside the browser without human micromanagement.
 
 ## Evidence
 

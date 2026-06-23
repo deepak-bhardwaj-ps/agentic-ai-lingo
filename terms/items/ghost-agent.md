@@ -4,8 +4,8 @@ name: Ghost Agent
 category: AgentOps
 title: Ghost Agent
 aliases: []
-short_description: Ghost Agent is used in operating reviews to make a production concern
-  observable and owned.
+short_description: Ghost Agent is an agent that exists on paper or in logs but is
+  missing, inactive, or not behaving as expected.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Ghost Agent is a practical label for operating or measuring an agentic system in production.
+A ghost agent exists on paper or in logs but is missing, inactive, or not behaving as expected.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Ghost Agent is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Ghost Agent is used when an agent appears to exist but no longer has a live, owned, or functioning operational presence. It is the term for inventory drift between what is documented and what is actually running.
 
 ## Evidence
 

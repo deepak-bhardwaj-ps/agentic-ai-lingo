@@ -4,8 +4,8 @@ name: Agent Portfolio
 category: AgentOps
 title: Agent Portfolio
 aliases: []
-short_description: Agent Portfolio is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agent Portfolio is the set of agents an organisation operates as
+  a managed portfolio.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Portfolio is a practical label for operating or measuring an agentic system in production.
+An agent portfolio is the set of agents an organisation manages as a portfolio of assets, risks, and investments.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Portfolio is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Portfolio is used when the question is mix, value, and risk across many agents rather than one deployment. It helps compare which agents should grow, stabilise, or be retired.
 
 ## Evidence
 

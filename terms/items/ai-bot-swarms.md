@@ -4,7 +4,8 @@ name: AI Bot Swarms
 category: Social
 title: AI Bot Swarms
 aliases: []
-short_description: AI Bot Swarms is used to discuss an agent-system design concern.
+short_description: AI Bot Swarms are coordinated automated accounts or the effects
+  attributed to them.
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -25,7 +26,7 @@ It is not a precise technical category. Distinguish legitimate automation, coord
 
 ## How it is used
 
-AI Bot Swarms is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+AI Bot Swarms is used when the discussion is about large-scale coordinated automation on social platforms. The term should lead to a testable claim about coordination, timing, identity, or impact rather than a vague suspicion of “bots everywhere”.
 
 ## Evidence
 

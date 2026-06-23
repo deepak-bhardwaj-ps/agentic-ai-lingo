@@ -4,8 +4,8 @@ name: Slopcoding
 category: Slang
 title: Slopcoding
 aliases: []
-short_description: Slopcoding is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Slopcoding is a label for code that is generated quickly but has
+  poor structure, review, or maintainability.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ It is not a technical quality metric. Specify the defect and measure it against 
 
 ## How it is used
 
-Slopcoding is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Slopcoding is used when generated code ships with obvious structural debt: brittle abstractions, shallow tests, or patterns that will cost more to maintain than to rewrite. It is the coding analogue of [[AI Slop|AI slop]].
 
 ## Evidence
 

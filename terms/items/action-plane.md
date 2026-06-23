@@ -4,8 +4,8 @@ name: Action Plane
 category: Governance
 title: Action Plane
 aliases: []
-short_description: Action Plane is used as a diagramming label for the services that
-  enforce the stated concern across agents.
+short_description: Action Plane is the enforcement layer that actually blocks, approves,
+  or logs an action.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Action Plane is used as a diagramming label for the services that enforce the stated concern across agents. It is credible only when mapped to real enforcement points, APIs, records and owners.
+Action Plane is used when the system needs a named enforcement layer for actions. It only matters if it maps to real blocking, approval, or logging points.
 
 ## Evidence
 

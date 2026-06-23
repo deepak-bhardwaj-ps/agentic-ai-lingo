@@ -4,8 +4,8 @@ name: Delegation Policy
 category: Governance
 title: Delegation Policy
 aliases: []
-short_description: Delegation Policy is used when authority passes from a person or
-  service to an agent, or between agents.
+short_description: Delegation Policy is the rule set that decides what can be delegated
+  and under what limits.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

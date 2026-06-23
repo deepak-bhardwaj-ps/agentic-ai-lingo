@@ -4,7 +4,8 @@ name: Agentic Propaganda
 category: Social
 title: Agentic Propaganda
 aliases: []
-short_description: Agentic Propaganda is used to discuss an agent-system design concern.
+short_description: Agentic Propaganda is coordinated automated messaging or the effects
+  it creates.
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -25,7 +26,7 @@ It is not a precise technical category. Distinguish legitimate automation, coord
 
 ## How it is used
 
-Agentic Propaganda is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+Agentic Propaganda is used when the concern is coordinated messaging, amplification, or manipulation carried out by automated accounts or agentic systems. It is a social-risk term, so it should be anchored to evidence of coordination and effect.
 
 ## Evidence
 

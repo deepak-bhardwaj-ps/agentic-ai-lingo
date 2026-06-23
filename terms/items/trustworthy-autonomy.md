@@ -4,8 +4,8 @@ name: Trustworthy Autonomy
 category: Governance
 title: Trustworthy Autonomy
 aliases: []
-short_description: Trustworthy Autonomy is used in agent governance to make an action
-  attributable and bounded.
+short_description: Trustworthy Autonomy is autonomy backed by controls, evidence,
+  and revocation paths.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Trustworthy Autonomy is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Trustworthy Autonomy is used when autonomy is acceptable only if controls, evidence, and revocation are in place. In practice, it is autonomy with receipts.
 
 ## Evidence
 

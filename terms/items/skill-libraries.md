@@ -4,8 +4,8 @@ name: Skill Libraries
 category: Protocols
 title: Skill Libraries
 aliases: []
-short_description: Skill Libraries is used in discussions of coordination or discoverability
-  between independently built agents and services.
+short_description: Skill Libraries are reusable packages of instructions, tools, examples,
+  or code that give agents repeatable capabilities.
 termStatus: Implementation pattern
 researchBasis: Hashimoto, Harness engineering
 sources:
@@ -26,7 +26,7 @@ They are not model capabilities or a protocol. Version, test and permission-scop
 
 ## How it is used
 
-Skill Libraries is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+Skill Libraries is used when agent capabilities are packaged for reuse and versioned like dependencies rather than copied into prompts. It is most useful when skills need testing, permission scoping, and controlled rollout.
 
 ## Evidence
 

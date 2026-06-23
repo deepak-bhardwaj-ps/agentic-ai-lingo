@@ -4,8 +4,8 @@ name: Agent Inventory
 category: AgentOps
 title: Agent Inventory
 aliases: []
-short_description: Agent Inventory is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Agent Inventory is the list of agents, versions, capabilities,
+  and owners that are currently in operation.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Agent Inventory is a practical label for operating or measuring an agentic system in production.
+Agent inventory is the managed list of agents, versions, capabilities, and owners currently in operation.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Agent Inventory is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Agent Inventory is used when an organisation needs a reliable count of what agents exist, where they run, and who owns them. It is the baseline for lifecycle control, risk review, and decommissioning.
 
 ## Evidence
 

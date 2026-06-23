@@ -4,8 +4,8 @@ name: Memory Architecture
 category: Memory
 title: Memory Architecture
 aliases: []
-short_description: Memory Architecture is used in designs for information an agent
-  retains beyond the immediate prompt.
+short_description: Memory Architecture is the design of storage, retrieval, and correction
+  for agent memory.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
@@ -26,7 +26,7 @@ It is not model training or a standard memory type. Specify retention, retrieval
 
 ## How it is used
 
-Memory Architecture is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+Memory Architecture is used when a system has more than one kind of memory and needs a deliberate storage and retrieval design. The question is how facts move, how stale records are retired, and how corrections are applied.
 
 ## Evidence
 

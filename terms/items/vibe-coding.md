@@ -4,8 +4,8 @@ name: Vibe Coding
 category: Slang
 title: Vibe Coding
 aliases: []
-short_description: Vibe Coding is used as informal, audience-specific commentary on
-  AI culture or working practice.
+short_description: Vibe Coding is Andrej Karpathy’s label for steering coding by natural
+  language and light review.
 termStatus: Informal slang
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +26,7 @@ It is not an engineering methodology and is unsuitable as a production assurance
 
 ## How it is used
 
-Vibe Coding is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Vibe coding is used when someone lets an AI assistant generate most of the implementation from loose natural-language direction, then steers mainly by reading and adjusting rather than designing every line. In practice it describes a fast, high-leverage way of coding with real risk if review discipline is weak.
 
 ## Evidence
 

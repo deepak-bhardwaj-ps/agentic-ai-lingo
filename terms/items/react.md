@@ -4,8 +4,8 @@ name: ReAct
 category: Runtime
 title: ReAct
 aliases: []
-short_description: ReAct is used in runtime design to name the component that coordinates
-  decisions and side effects.
+short_description: ReAct is the reasoning-plus-action pattern that interleaves thought,
+  tool use, and observation.
 termStatus: Established research pattern
 researchBasis: Yao et al., ReAct (ICLR 2023)
 sources:
@@ -26,7 +26,7 @@ It is not React the JavaScript library, and it is not a guarantee that hidden re
 
 ## How it is used
 
-ReAct is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+ReAct is used when the system needs to alternate between reasoning and acting rather than answer in one shot. It is the canonical pattern for showing how a tool-using agent can loop through thought, action, and observation.
 
 ## Evidence
 

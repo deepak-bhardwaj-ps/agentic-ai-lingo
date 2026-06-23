@@ -4,8 +4,8 @@ name: Clanker
 category: Slang
 title: Clanker
 aliases: []
-short_description: Clanker is used as informal, audience-specific commentary on AI
-  culture or working practice.
+short_description: Clanker is a blunt pejorative for noisy, brittle, or obviously
+  machine-like AI systems.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Clanker is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Clanker is used in informal technical culture as a sneering name for systems that feel noisy, brittle, or awkwardly mechanical. It is usually expressive shorthand, not a term you would use in neutral documentation.
 
 ## Evidence
 

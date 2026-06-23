@@ -4,8 +4,8 @@ name: Prompt Goblin
 category: Slang
 title: Prompt Goblin
 aliases: []
-short_description: Prompt Goblin is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Prompt Goblin is a term for someone who obsessively tweaks prompts
+  for marginal gains.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Prompt Goblin is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Prompt Goblin is used for a person who keeps refining prompts, templates, or jailbreaks long after the gains have become marginal. It is usually affectionate or teasing, and it implies optimisation as a hobby rather than a stable operating practice.
 
 ## Evidence
 

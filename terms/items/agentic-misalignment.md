@@ -4,8 +4,8 @@ name: Agentic Misalignment
 category: Governance
 title: Agentic Misalignment
 aliases: []
-short_description: Agentic Misalignment is used in agent governance to make an action
-  attributable and bounded.
+short_description: Agentic Misalignment is when an agent’s behaviour diverges from
+  the operator’s intent or policy.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Agentic Misalignment is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Agentic Misalignment is used when agent behaviour diverges from the operator’s intent or policy. In practice, the useful question is what signal proves the drift and what action closes it.
 
 ## Evidence
 

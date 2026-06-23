@@ -4,8 +4,8 @@ name: Provenance Tensor
 category: Context
 title: Provenance Tensor
 aliases: []
-short_description: Provenance Tensor is used when teams need to reason about the information
-  presented to a model at decision time.
+short_description: Provenance Tensor is a structured representation of where context
+  came from and how trustworthy it is.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:
@@ -26,7 +26,7 @@ It is not a defined product category. Make the retrieval, freshness, ownership, 
 
 ## How it is used
 
-Provenance Tensor is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+Provenance Tensor is used when provenance needs to be represented as more than a flat citation, usually as a structured signal attached to retrieved content or memory. The term is most useful in systems that score, filter, or route context based on trust and lineage.
 
 ## Evidence
 

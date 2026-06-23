@@ -4,8 +4,8 @@ name: Memory Contamination
 category: Memory
 title: Memory Contamination
 aliases: []
-short_description: Memory Contamination is used when stored agent state is false,
-  irrelevant, malicious or incorrectly retrieved and then affects a later decision.
+short_description: Memory Contamination is false, irrelevant, malicious, or misretrieved
+  state that later affects decisions.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

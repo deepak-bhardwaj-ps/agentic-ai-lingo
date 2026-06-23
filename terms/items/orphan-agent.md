@@ -4,8 +4,8 @@ name: Orphan Agent
 category: AgentOps
 title: Orphan Agent
 aliases: []
-short_description: Orphan Agent is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Orphan Agent is an agent that exists without a clear owner, support
+  path, or lifecycle plan.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Orphan Agent is a practical label for operating or measuring an agentic system in production.
+Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Orphan Agent is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement. It is a governance smell because failures, changes, and costs become nobody’s problem.
 
 ## Evidence
 

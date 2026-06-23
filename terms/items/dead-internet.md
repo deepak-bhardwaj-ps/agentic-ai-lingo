@@ -4,8 +4,8 @@ name: Dead Internet
 category: Slang
 title: Dead Internet
 aliases: []
-short_description: Dead Internet is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: Dead Internet is a label for the belief that bots and synthetic
+  content are overwhelming human activity online.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-Dead Internet is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+Dead Internet is used when people argue that the web has become saturated with bots, filler pages, and machine-generated content to the point that human signal is harder to find. The term usually marks a cultural diagnosis, not a measurable platform metric.
 
 ## Evidence
 

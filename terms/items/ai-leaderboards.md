@@ -4,8 +4,8 @@ name: AI Leaderboards
 category: Slang
 title: AI Leaderboards
 aliases: []
-short_description: AI Leaderboards is used as informal, audience-specific commentary
-  on AI culture or working practice.
+short_description: AI Leaderboards is a label for treating model rankings or scoreboards
+  as proxy evidence for purchase, adoption, or credibility.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:
@@ -26,7 +26,7 @@ Do not use it in requirements, governance artefacts or architecture decisions wi
 
 ## How it is used
 
-AI Leaderboards is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+AI Leaderboards is used when model rankings, benchmark tables, or vendor scorecards are treated as stand-ins for a real product decision. The term is usually a warning that the ranking is being over-read beyond the actual task, data, or operating context.
 
 ## Evidence
 

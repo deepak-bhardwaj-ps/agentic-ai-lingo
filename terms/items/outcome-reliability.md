@@ -4,8 +4,8 @@ name: Outcome Reliability
 category: AgentOps
 title: Outcome Reliability
 aliases: []
-short_description: Outcome Reliability is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Outcome Reliability is the consistency with which an agent reaches
+  the intended result under real conditions.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Outcome Reliability is a practical label for operating or measuring an agentic system in production.
+Outcome reliability is the consistency with which an agent reaches the intended result under real conditions.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Outcome Reliability is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Outcome Reliability is used when the business question is whether the agent can be trusted to achieve the intended result often enough. It is a useful metric when you care more about successful completion than about any single path.
 
 ## Evidence
 

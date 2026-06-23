@@ -4,8 +4,8 @@ name: Evidence-Based Execution
 category: Governance
 title: Evidence-Based Execution
 aliases: []
-short_description: Evidence-Based Execution is used in agent governance to make an
-  action attributable and bounded.
+short_description: Evidence-Based Execution is taking action only when the evidence
+  meets the required threshold.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:
@@ -26,7 +26,7 @@ It is not a control merely because it is named. Define the accountable principal
 
 ## How it is used
 
-Evidence-Based Execution is used in agent governance to make an action attributable and bounded. In practice, teams tie it to a principal, a permitted decision, an enforcement service, durable evidence and an escalation path.
+Evidence-Based Execution is used when the agent should only act after the required evidence has been established. In practice, it is a gate, not a vibe.
 
 ## Evidence
 

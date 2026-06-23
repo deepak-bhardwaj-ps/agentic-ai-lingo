@@ -4,8 +4,8 @@ name: Exception Rate
 category: AgentOps
 title: Exception Rate
 aliases: []
-short_description: Exception Rate is used in operating reviews to make a production
-  concern observable and owned.
+short_description: Exception Rate is the proportion of workflows that need manual
+  handling, escalation, or fallback.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -18,7 +18,7 @@ Operational metric/practice.
 
 ## Meaning
 
-Exception Rate is a practical label for operating or measuring an agentic system in production.
+Exception rate is the proportion of workflows that need manual handling, escalation, or fallback.
 
 ## Boundary
 
@@ -26,7 +26,7 @@ It is not a canonical KPI or discipline. Define the event boundary, numerator an
 
 ## How it is used
 
-Exception Rate is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+Exception Rate is used when you need to know how often the agent system falls out of the happy path. It is a practical operational metric because it captures where automation is still leaking into manual handling.
 
 ## Evidence
 

@@ -4,8 +4,8 @@ name: Long-Horizon Tasks
 category: Runtime
 title: Long-Horizon Tasks
 aliases: []
-short_description: Long-Horizon Tasks is used in runtime design to name the component
-  that coordinates decisions and side effects.
+short_description: Long-Horizon Tasks are tasks that unfold over many steps and require
+  persistence, recovery, and state.
 termStatus: Descriptive capability term
 researchBasis: OpenAI, Evals design guide
 sources:
@@ -26,7 +26,7 @@ It is not a benchmark category or proof of autonomy. Define the task horizon, ch
 
 ## How it is used
 
-Long-Horizon Tasks is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+Long-Horizon Tasks is used when a task cannot be completed in one model pass and needs durable memory, checkpoints, and error recovery. It is useful for separating “hard because it is long” from “hard because it is complex.”
 
 ## Evidence
 
