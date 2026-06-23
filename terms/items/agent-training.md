@@ -4,12 +4,14 @@ name: Agent Training
 category: Protocols
 title: Agent Training
 aliases: []
-short_description: Agent Training is the onboarding or preparation of agents to operate
-  in a shared ecosystem.
+short_description: Agent training is the onboarding or calibration of agents to
+  operate in a shared ecosystem.
 termStatus: Emerging interoperability/architecture label
-researchBasis: Model Context Protocol specification
+researchBasis: Anthropic, OpenAI Agents SDK, MCP
 sources:
-- https://modelcontextprotocol.io/specification/2025-06-18
+- https://www.anthropic.com/engineering/building-effective-agents
+- https://developers.openai.com/api/docs/guides/agents
+- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
 ---
 
 ## Term status
@@ -22,12 +24,16 @@ Agent training is the preparation or calibration of an agent so it can operate c
 
 ## Boundary
 
-It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
 
 ## How it is used
 
-Agent Training is used when an agent needs instruction, calibration, or behavioural adaptation before it can join a wider system. It should not be confused with model training unless the underlying weights or policy are actually being updated.
+It is used when an agent needs instruction, calibration, or behavioural adaptation before it can join a wider system. It should not be confused with model training unless the underlying weights or policy are actually being updated.
 
 ## Evidence
 
-[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) emphasises that useful agent behaviour comes from simple, composable patterns and good tool design, which is the real substrate for “training” an agent.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration and state from the model itself, which is what makes calibration distinct from model training.
+
+[MCP authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) captures the integration side: onboarding an agent safely requires explicit permissions, not just configuration.
