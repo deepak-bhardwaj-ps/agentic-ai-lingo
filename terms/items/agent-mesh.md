@@ -4,12 +4,14 @@ name: Agent Mesh
 category: Protocols
 title: Agent Mesh
 aliases: []
-short_description: Agent Mesh is a loosely coupled network of agents that can discover
-  and route work to each other.
+short_description: A mesh is a decentralised agent network with real discovery,
+  addressing, and routing rules.
 termStatus: Emerging interoperability/architecture label
-researchBasis: Model Context Protocol specification
+researchBasis: A2A protocol, MCP, Anthropic
 sources:
-- https://modelcontextprotocol.io/specification/2025-06-18
+- https://a2a-protocol.org/dev/specification/
+- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
 ## Term status
@@ -18,17 +20,21 @@ Emerging interoperability/architecture label.
 
 ## Meaning
 
-An agent mesh is a loosely coupled network of agents that can discover and route work to one another.
-Agent Mesh is used when coordination is decentralised and agents need discovery, addressing, and routing rules to work together without one central coordinator.
+A mesh is a decentralised network of agents that can discover and route work to one another.
+The label only earns its keep when discovery, addressing, and routing are explicit enough to survive implementation.
 
 ## Boundary
 
-It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
 
 ## How it is used
 
-Agent Mesh is used when coordination is decentralised and agents need discovery, addressing, and routing rules to work together without one central coordinator. The phrase only earns its keep if the mesh has real topology and not just a metaphor in a slide deck.
+It is used when coordination is decentralised and agents need discovery, addressing, and routing rules to work together without one central coordinator. The phrase only earns its keep if the mesh has real topology and not just a metaphor in a slide deck.
 
 ## Evidence
 
-[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Agent2Agent protocol specification](https://a2a-protocol.org/dev/specification/) shows what real agent-to-agent interoperability has to spell out: discovery, message exchange, and participation rules.
+
+[Model Context Protocol authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) shows the adjacent problem on the tool side: wiring agents to systems safely needs explicit auth, not just connectivity.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) reinforces that most production systems still depend on simple composable patterns rather than vague network metaphors.

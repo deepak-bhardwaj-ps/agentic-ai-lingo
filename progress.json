@@ -21,8 +21,9 @@
     "terms/items/agent-lifecycle-management.md",
     "terms/items/agent-loop.md",
     "terms/items/agent-marketplace.md",
-    "terms/items/agent-memory.md"
+    "terms/items/agent-memory.md",
+    "terms/items/agent-mesh.md"
   ],
   "failed": [],
-  "current": "terms/items/agent-mesh.md"
+  "current": "terms/items/agent-ownership-model.md"
 }
