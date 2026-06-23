@@ -4,12 +4,14 @@ name: Agentic Coding
 category: Core
 title: Agentic Coding
 aliases: []
-short_description: Agentic Coding is coding in which an AI system can propose, edit,
-  run, and revise code with limited supervision.
+short_description: Agentic coding is coding in which an AI system can propose,
+  edit, run, and revise code with limited supervision.
 termStatus: Emerging practitioner term
-researchBasis: Hashimoto, Harness engineering
+researchBasis: Harness engineering, Anthropic, OpenAI Agents SDK
 sources:
 - https://mitchellh.com/writing/my-ai-adoption-journey
+- https://www.anthropic.com/engineering/building-effective-agents
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
 ## Term status
@@ -18,16 +20,20 @@ Emerging practitioner term.
 
 ## Meaning
 
-Agentic coding is software development in which an AI system plans and executes changes through repository tools, terminals, tests and review loops; it may work across many files and turns.
+Agentic coding is software development in which an AI system plans and executes changes through repository tools, terminals, tests, and review loops; it may work across many files and turns.
 
 ## Boundary
 
-It is not autocomplete, and it is not autonomous delivery. The engineering boundary is the permitted repository, command, credential and merge authority.
+It is not autocomplete, and it is not autonomous delivery. The engineering boundary is the permitted repository, command, credential, and merge authority.
 
 ## How it is used
 
-Agentic Coding is used when the coding workflow includes tool use, multi-step revision, and explicit recovery rather than a single code completion. It matters because the control problem is different from autocomplete: you are designing the loop, the review boundary, and the rollback path.
+It is used when the coding workflow includes tool use, multi-step revision, and explicit recovery rather than a single code completion. It matters because the control problem is different from autocomplete: you are designing the loop, the review boundary, and the rollback path.
 
 ## Evidence
 
-[Hashimoto, [[Harness Engineering|Harness engineering]]](https://mitchellh.com/writing/my-ai-adoption-journey) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Harness engineering](https://mitchellh.com/writing/my-ai-adoption-journey) is the practical reference point for coding workflows that depend on explicit loops, verification, and recovery.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) supports the broader point that the useful unit is the tool-using loop, not a single completion.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) makes the same control split explicit with orchestration, tools, state, and evaluation.
