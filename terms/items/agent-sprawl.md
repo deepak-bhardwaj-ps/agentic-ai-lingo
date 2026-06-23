@@ -4,12 +4,14 @@ name: Agent Sprawl
 category: AgentOps
 title: Agent Sprawl
 aliases: []
-short_description: Agent Sprawl is the uncontrolled growth of agents without matching
+short_description: Agent sprawl is uncontrolled growth of agents without matching
   ownership, standards, or lifecycle control.
 termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
+researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
 - https://platform.openai.com/docs/guides/evals
+- https://www.nist.gov/itl/ai-risk-management-framework
+- https://learn.microsoft.com/en-us/entra/agent-id/agent-identities
 ---
 
 ## Term status
@@ -22,12 +24,16 @@ Agent sprawl is the uncontrolled growth of agents without matching ownership, st
 
 ## Boundary
 
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
+It is not a canonical KPI or formal discipline. Define the event boundary, owner, and operational decision it informs before you measure it.
 
 ## How it is used
 
-Agent Sprawl is used when too many agents exist for the organisation to govern well, often with duplicated functions and unclear ownership. The term should trigger inventory, consolidation, and lifecycle review.
+It is used when too many agents exist for the organisation to govern well, often with duplicated functions and unclear ownership. The term should trigger inventory, consolidation, and lifecycle review.
 
 ## Evidence
 
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) supports the operational reality that systems need measurement and review once they proliferate.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) provides the governance frame for controlling risk as the number of systems grows.
+
+[Microsoft Entra Agent ID](https://learn.microsoft.com/en-us/entra/agent-id/agent-identities) reinforces that identity and lifecycle management have to scale with the number of deployed agents.
