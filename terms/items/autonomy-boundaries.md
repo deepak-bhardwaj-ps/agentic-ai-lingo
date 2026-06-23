@@ -3,7 +3,7 @@ slug: autonomy-boundaries
 name: Autonomy Boundaries
 category: Governance
 title: Autonomy Boundaries
-aliases:
+aliases: null
 short_description: Autonomy Boundaries define where the agent can decide alone and
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

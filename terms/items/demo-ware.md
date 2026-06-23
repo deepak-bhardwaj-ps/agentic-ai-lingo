@@ -3,7 +3,7 @@ slug: demo-ware
 name: Demo-ware
 category: Slang
 title: Demo-ware
-aliases:
+aliases: null
 short_description: Demo-ware is a label for software that works in the polished demo
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

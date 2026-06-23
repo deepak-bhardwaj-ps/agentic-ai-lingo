@@ -3,7 +3,7 @@ slug: bot-swarm
 name: Bot Swarm
 category: Social
 title: Bot Swarm
-aliases:
+aliases: null
 short_description: Bot Swarm is a coordinated cluster of automated accounts or agents
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'

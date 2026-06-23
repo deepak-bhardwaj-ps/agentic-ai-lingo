@@ -3,7 +3,7 @@ slug: delegation-contract
 name: Delegation Contract
 category: Governance
 title: Delegation Contract
-aliases:
+aliases: null
 short_description: Delegation Contract is the agreement that defines delegated authority,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

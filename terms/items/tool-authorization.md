@@ -3,7 +3,7 @@ slug: tool-authorization
 name: Tool Authorization
 category: Governance
 title: Tool Authorization
-aliases:
+aliases: null
 short_description: Tool Authorization is used to govern whether a requested action
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

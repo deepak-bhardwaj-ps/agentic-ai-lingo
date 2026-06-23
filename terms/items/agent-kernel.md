@@ -3,7 +3,7 @@ slug: agent-kernel
 name: Agent Kernel
 category: Runtime
 title: Agent Kernel
-aliases:
+aliases: null
 short_description: A kernel is the smallest runtime core that keeps one agent
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, OpenAI Agents SDK, LangGraph

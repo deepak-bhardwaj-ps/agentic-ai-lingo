@@ -27,7 +27,10 @@ def parse_markdown(text: str) -> tuple[dict[str, Any], str]:
         return {}, text
     raw_meta, body = match.groups()
     if yaml is not None:
-        meta = yaml.safe_load(raw_meta) or {}
+        try:
+            meta = yaml.safe_load(raw_meta) or {}
+        except Exception:
+            meta = parse_simple_frontmatter(raw_meta)
     else:
         meta = parse_simple_frontmatter(raw_meta)
     if not isinstance(meta, dict):
@@ -75,10 +78,20 @@ def dump_simple_frontmatter(meta: dict[str, Any]) -> str:
         if isinstance(value, list):
             lines.append(f"{key}:")
             for item in value:
-                lines.append(f"- {item}")
+                lines.append(f"- {dump_simple_scalar(item)}")
         else:
-            lines.append(f"{key}: {value}")
+            lines.append(f"{key}: {dump_simple_scalar(value)}")
     return "\n".join(lines).strip()
+
+
+def dump_simple_scalar(value: Any) -> str:
+    text = str(value)
+    if text == "":
+        return '""'
+    if re.fullmatch(r"[A-Za-z0-9_.:/@+-]+", text):
+        return text
+    escaped = text.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escaped}"'
 
 
 def split_protected(text: str, pattern: re.Pattern[str]) -> list[tuple[str, bool]]:

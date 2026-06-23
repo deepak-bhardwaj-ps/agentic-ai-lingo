@@ -3,7 +3,7 @@ slug: agentmaxxing
 name: Agentmaxxing
 category: Slang
 title: Agentmaxxing
-aliases:
+aliases: null
 short_description: Agentmaxxing is practitioner slang for pushing an agent stack
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

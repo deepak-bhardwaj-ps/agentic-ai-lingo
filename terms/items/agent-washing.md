@@ -3,7 +3,7 @@ slug: agent-washing
 name: Agent Washing
 category: Slang
 title: Agent Washing
-aliases:
+aliases: null
 short_description: Agent washing relabels ordinary automation as an agent to
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

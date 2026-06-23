@@ -3,7 +3,7 @@ slug: browser-use
 name: Browser Use
 category: Core
 title: Browser Use
-aliases:
+aliases: null
 short_description: Browser Use is browser automation or page interaction performed
 termStatus: Established capability label
 researchBasis: Anthropic, Building effective agents

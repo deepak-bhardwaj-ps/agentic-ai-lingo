@@ -3,7 +3,7 @@ slug: agent-assembly
 name: Agent Assembly
 category: Protocols
 title: Agent Assembly
-aliases:
+aliases: null
 short_description: Agent Assembly is the composition of multiple agents into one coordinated
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification

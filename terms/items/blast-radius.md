@@ -3,7 +3,7 @@ slug: blast-radius
 name: Blast Radius
 category: Governance
 title: Blast Radius
-aliases:
+aliases: null
 short_description: Blast Radius is the maximum damage an agent failure or mistake
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

@@ -3,7 +3,7 @@ slug: agent-identity
 name: Agent Identity
 category: Governance
 title: Agent Identity
-aliases:
+aliases: null
 short_description: Agent Identity is the principal identity under which an agent acts
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

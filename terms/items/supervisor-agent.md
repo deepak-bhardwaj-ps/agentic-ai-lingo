@@ -3,7 +3,7 @@ slug: supervisor-agent
 name: Supervisor Agent
 category: Runtime
 title: Supervisor Agent
-aliases:
+aliases: null
 short_description: Supervisor Agent is the top-level agent that delegates, checks,
 termStatus: Common framework pattern
 researchBasis: Anthropic, Building effective agents

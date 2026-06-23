@@ -3,7 +3,7 @@ slug: confused-deputy
 name: Confused Deputy
 category: Governance
 title: Confused Deputy
-aliases:
+aliases: null
 short_description: Confused Deputy is an agent tricked into using delegated authority
 termStatus: Established security term
 researchBasis: OWASP Top 10 for LLM Applications

@@ -3,7 +3,7 @@ slug: context-collapse
 name: Context Collapse
 category: Context
 title: Context Collapse
-aliases:
+aliases: null
 short_description: Context Collapse is the failure mode where too much or the wrong
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

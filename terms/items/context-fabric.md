@@ -3,7 +3,7 @@ slug: context-fabric
 name: Context Fabric
 category: Context
 title: Context Fabric
-aliases:
+aliases: null
 short_description: Context Fabric is a shared layer for delivering context across
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents

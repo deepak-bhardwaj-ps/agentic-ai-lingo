@@ -4,7 +4,7 @@ name: Tooling Layer
 category: Runtime
 addedDate: May 10, 2025
 title: Tooling Layer
-aliases:
+aliases: null
 short_description: Tooling Layer is the set of integrations and adapters that let
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents

@@ -3,7 +3,7 @@ slug: agentic-hub
 name: Agentic Hub
 category: Context
 title: Agentic Hub
-aliases:
+aliases: null
 short_description: An agentic hub is a central point that brokers the context,
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

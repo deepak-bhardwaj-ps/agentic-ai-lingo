@@ -3,7 +3,7 @@ slug: dynamic-teaming
 name: Dynamic Teaming
 category: Runtime
 title: Dynamic Teaming
-aliases:
+aliases: null
 short_description: Dynamic Teaming is runtime allocation of work to the most suitable
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

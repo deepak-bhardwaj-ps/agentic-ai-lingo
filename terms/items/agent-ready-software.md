@@ -3,7 +3,7 @@ slug: agent-ready-software
 name: Agent-Ready Software
 category: Protocols
 title: Agent-Ready Software
-aliases:
+aliases: null
 short_description: Agent-ready software exposes machine-navigable interfaces,
 termStatus: Emerging interoperability/architecture label
 researchBasis: MCP, Anthropic, OpenAI Agents SDK

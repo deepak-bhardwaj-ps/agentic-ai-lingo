@@ -3,7 +3,7 @@ slug: cost-per-workflow
 name: Cost per Workflow
 category: AgentOps
 title: Cost per Workflow
-aliases:
+aliases: null
 short_description: Cost per Workflow is the average cost of completing one workflow
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide

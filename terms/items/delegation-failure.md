@@ -3,7 +3,7 @@ slug: delegation-failure
 name: Delegation Failure
 category: Governance
 title: Delegation Failure
-aliases:
+aliases: null
 short_description: Delegation Failure is a break in the chain of authority, constraint,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

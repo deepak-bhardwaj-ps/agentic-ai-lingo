@@ -3,7 +3,7 @@ slug: action-plane
 name: Action Plane
 category: Governance
 title: Action Plane
-aliases:
+aliases: null
 short_description: Action Plane is the enforcement layer that actually blocks, approves,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

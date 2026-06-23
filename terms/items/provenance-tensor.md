@@ -3,7 +3,7 @@ slug: provenance-tensor
 name: Provenance Tensor
 category: Context
 title: Provenance Tensor
-aliases:
+aliases: null
 short_description: Provenance Tensor is a structured representation of where context
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

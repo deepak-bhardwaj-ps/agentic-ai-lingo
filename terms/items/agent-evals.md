@@ -3,7 +3,7 @@ slug: agent-evals
 name: Agent Evals
 category: AgentOps
 title: Agent Evals
-aliases:
+aliases: null
 short_description: Agent Evals are tests and measurements that show how an agent behaves
 termStatus: Established practice, informal label
 researchBasis: OpenAI, Evals design guide

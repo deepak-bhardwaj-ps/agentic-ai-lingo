@@ -3,7 +3,7 @@ slug: agent-runtime
 name: Agent Runtime
 category: Runtime
 title: Agent Runtime
-aliases:
+aliases: null
 short_description: A runtime is the execution environment that hosts an agent’s
 termStatus: Architecture term
 researchBasis: Anthropic, OpenAI Agents SDK, LangGraph

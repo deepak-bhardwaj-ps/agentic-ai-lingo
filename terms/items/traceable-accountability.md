@@ -3,7 +3,7 @@ slug: traceable-accountability
 name: Traceable Accountability
 category: Governance
 title: Traceable Accountability
-aliases:
+aliases: null
 short_description: Traceable Accountability is accountability that can be traced back
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

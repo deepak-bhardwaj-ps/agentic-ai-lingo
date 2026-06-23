@@ -3,7 +3,7 @@ slug: tokenmaxxing
 name: Tokenmaxxing
 category: Slang
 title: Tokenmaxxing
-aliases:
+aliases: null
 short_description: Tokenmaxxing is a term for pushing context, prompt length, or output
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

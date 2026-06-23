@@ -3,7 +3,7 @@ slug: hierarchical-agent-architecture
 name: Hierarchical Agent Architecture
 category: Runtime
 title: Hierarchical Agent Architecture
-aliases:
+aliases: null
 short_description: Hierarchical Agent Architecture is a multi-level system with supervisors,
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

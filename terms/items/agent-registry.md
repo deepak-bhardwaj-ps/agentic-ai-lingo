@@ -3,7 +3,7 @@ slug: agent-registry
 name: Agent Registry
 category: Protocols
 title: Agent Registry
-aliases:
+aliases: null
 short_description: A registry is a catalogue of agent identities, capabilities,
 termStatus: Architecture component
 researchBasis: OWASP Top 10 for LLM Applications, PROV-AGENT, provenance research

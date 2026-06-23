@@ -3,7 +3,7 @@ slug: agent-swarm
 name: Agent Swarm
 category: Runtime
 title: Agent Swarm
-aliases:
+aliases: null
 short_description: A swarm is a loosely coordinated pool of agents working on
 termStatus: Informal architecture label
 researchBasis: Anthropic, multi-agent coordination research

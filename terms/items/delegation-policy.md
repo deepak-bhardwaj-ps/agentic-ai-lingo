@@ -3,7 +3,7 @@ slug: delegation-policy
 name: Delegation Policy
 category: Governance
 title: Delegation Policy
-aliases:
+aliases: null
 short_description: Delegation Policy is the rule set that decides what can be delegated
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

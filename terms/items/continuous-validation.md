@@ -3,7 +3,7 @@ slug: continuous-validation
 name: Continuous Validation
 category: AgentOps
 title: Continuous Validation
-aliases:
+aliases: null
 short_description: Continuous Validation is ongoing checking that an agent system
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide

@@ -3,7 +3,7 @@ slug: autonomy-theatre
 name: Autonomy Theatre
 category: Slang
 title: Autonomy Theatre
-aliases:
+aliases: null
 short_description: Autonomy Theatre is a label for systems that are described as self-directing
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

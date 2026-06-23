@@ -3,7 +3,7 @@ slug: ai-bot-swarms
 name: AI Bot Swarms
 category: Social
 title: AI Bot Swarms
-aliases:
+aliases: null
 short_description: AI bot swarms are coordinated automated accounts or the effects
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'

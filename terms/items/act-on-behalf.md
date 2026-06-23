@@ -3,7 +3,7 @@ slug: act-on-behalf
 name: Act-on-Behalf
 category: Governance
 title: Act-on-Behalf
-aliases:
+aliases: null
 short_description: Act-on-Behalf is acting under delegated authority for a specific
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

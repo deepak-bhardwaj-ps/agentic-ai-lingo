@@ -3,8 +3,9 @@ slug: agent-architect
 name: Agent Architect
 category: Protocols
 title: Agent Architect
-aliases:
-short_description: Agent Architect names the role that shapes how an agent system is
+aliases: null
+short_description: Agent Architect names the role that shapes how an agent system
+  is
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:

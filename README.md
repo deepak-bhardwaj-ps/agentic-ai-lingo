@@ -2,69 +2,6 @@
 
 A living dictionary of agentic AI terminology, runtime language, governance terms, protocol vocabulary, and meme slang.
 
-## AgentOps
-
-- [Agent Debt](terms/items/agent-debt.md): Agent Debt is the accumulated operational risk created by shortcuts,
-- [Agent Estate](terms/items/agent-estate.md): Agent Estate is the collection of agents, workflows, and controls
-- [Agent Evals](terms/items/agent-evals.md): Agent Evals are tests and measurements that show how an agent behaves
-- [Agent Inventory](terms/items/agent-inventory.md): A maintained agent inventory lists the agents, versions,
-- [Agent Lifecycle Management](terms/items/agent-lifecycle-management.md): A lifecycle management practice governs the introduction,
-- [Agent Ownership Model](terms/items/agent-ownership-model.md): An ownership model assigns responsibility for an agent’s
-- [Agent Portfolio](terms/items/agent-portfolio.md): A portfolio is the set of agents an organisation manages as a
-- [Agent Sprawl](terms/items/agent-sprawl.md): Agent sprawl is uncontrolled growth of agents without matching
-- [AgentOps](terms/items/agentops.md): AgentOps is the operational practice of deploying, observing,
-- [Agentic Evaluation](terms/items/agentic-evaluation.md): Agentic evaluation is evaluation for multi-step, stateful,
-- [Autonomous Workflow](terms/items/autonomous-workflow.md): Autonomous Workflow is a workflow that can progress and recover
-- [Continuous Validation](terms/items/continuous-validation.md): Continuous Validation is ongoing checking that an agent system
-- [Cost per Workflow](terms/items/cost-per-workflow.md): Cost per Workflow is the average cost of completing one workflow
-- [Evidence-Grade Audit Trail](terms/items/evidence-grade-audit-trail.md): Evidence-Grade Audit Trail is an audit trail detailed enough to
-- [Exception Rate](terms/items/exception-rate.md): Exception Rate is the proportion of workflows that need manual
-- [Execution Quality](terms/items/execution-quality.md): Execution Quality is the degree to which an agent completes work
-- [Ghost Agent](terms/items/ghost-agent.md): Ghost Agent is an agent that exists on paper or in logs but is
-- [Harness Engineering](terms/items/harness-engineering.md): Practitioners use Harness Engineering when they improve the operating
-- [Multi-Agent Governance](terms/items/multi-agent-governance.md): Multi-Agent Governance is the set of controls that keeps multiple
-- [Orphan Agent](terms/items/orphan-agent.md): Orphan Agent is an agent that exists without a clear owner, support
-- [Outcome Reliability](terms/items/outcome-reliability.md): Outcome Reliability is the consistency with which an agent reaches
-- [Pilot Purgatory](terms/items/pilot-purgatory.md): Pilot Purgatory is the state where a promising pilot never gets
-- [Proof-of-Concept Graveyard](terms/items/proof-of-concept-graveyard.md): Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
-- [Recovery Readiness](terms/items/recovery-readiness.md): Recovery Readiness is the degree to which an agent system can be
-- [Shadow Agent](terms/items/shadow-agent.md): Shadow Agent is an agent that runs without clear visibility, approval,
-- [Trajectory Evaluation](terms/items/trajectory-evaluation.md): Trajectory Evaluation is evaluation of the path an agent took,
-- [Verified Outcome](terms/items/verified-outcome.md): Verified Outcome is an outcome that has been checked against a
-
-## Context
-
-- [Agentic Hub](terms/items/agentic-hub.md): An agentic hub is a central point that brokers the context,
-- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is the ability to explain which source or step
-- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the failure mode where too much or the wrong
-- [Context Constructor](terms/items/context-constructor.md): Context Constructor is used for the component that assembles the
-- [Context Debt](terms/items/context-debt.md): Context Debt is the accumulation of stale, duplicated, or hard-to-use
-- [Context Drift](terms/items/context-drift.md): Context Drift is the gradual change in what context a model sees
-- [Context Engineering](terms/items/context-engineering.md): Context Engineering is the deliberate construction of what information
-- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared layer for delivering context across
-- [Context Federation](terms/items/context-federation.md): Context Federation is the coordination of context across multiple
-- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is the splitting of context across too many
-- [Context Freshness](terms/items/context-freshness.md): Context Freshness is the degree to which the model sees recent,
-- [Context Graph](terms/items/context-graph.md): Context Graph is a graph representation of the entities and relationships
-- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed layer for exchanging context across
-- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is the control layer that manages how
-- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is used for untrusted content that enters an
-- [Context Rot](terms/items/context-rot.md): Context Rot is the gradual degradation of context quality as sources
-- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where adding more context stops
-- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is used to trace how source data, transformations,
-- [Context Topology](terms/items/context-topology.md): Context Topology is the map of where context lives and how it moves
-- [Data Fabric](terms/items/data-fabric.md): Data Fabric is an integrated layer for connecting distributed data
-- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a decentralised data architecture based on domain-owned
-- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is provenance that is visible, machine-readable,
-- [Governed Context](terms/items/governed-context.md): Governed Context is context assembled and delivered under explicit
-- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is data tied to a specific principal, role,
-- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is a structured representation of where context
-- [RAG](terms/items/rag.md): 'RAG is retrieval-augmented generation: retrieving external evidence
-- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is the controlled change of an agent system without
-- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is a common layer for serving context across
-- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is the alignment layer that keeps people and agents
-- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the cost of proving a model’s answer or action
-
 ## Core
 
 - [AI Agents](terms/items/ai-agents.md): AI agents is the umbrella label for software systems that can
@@ -78,6 +15,67 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Browser Use](terms/items/browser-use.md): Browser Use is browser automation or page interaction performed
 - [Computer Use](terms/items/computer-use.md): Computer Use is model-driven interaction with a desktop through
 - [Web Agent](terms/items/web-agent.md): Web Agent is an agent whose main operating environment is the web.
+
+## Runtime
+
+- [Agent Control Plane](terms/items/agent-control-plane.md): Agent Control Plane is the service layer that coordinates fleet-level
+- [Agent Kernel](terms/items/agent-kernel.md): A kernel is the smallest runtime core that keeps one agent
+- [Agent Loop](terms/items/agent-loop.md): A loop repeats planning, acting, and observation updates until
+- [Agent Runtime](terms/items/agent-runtime.md): A runtime is the execution environment that hosts an agent’s
+- [Agent Swarm](terms/items/agent-swarm.md): A swarm is a loosely coordinated pool of agents working on
+- [Agentic Rendering](terms/items/agentic-rendering.md): Agentic rendering is rendering that changes output or interface
+- [Dynamic Skill Routing](terms/items/dynamic-skill-routing.md): Dynamic Skill Routing is run-time selection of the most appropriate
+- [Dynamic Teaming](terms/items/dynamic-teaming.md): Dynamic Teaming is runtime allocation of work to the most suitable
+- [Execution Boundary](terms/items/execution-boundary.md): Execution Boundary is used to mark the hand-off between model reasoning
+- [Execution Graph](terms/items/execution-graph.md): Execution Graph is the graph of steps, dependencies, and side effects
+- [Execution State](terms/items/execution-state.md): Execution State is used for the mutable record that lets an orchestrator continue a run: plan, observations, tool results, checkpoints and budgets.
+- [Hierarchical Agent Architecture](terms/items/hierarchical-agent-architecture.md): Hierarchical Agent Architecture is a multi-level system with supervisors,
+- [Inference Runtime](terms/items/inference-runtime.md): Inference Runtime is the serving layer that executes model calls
+- [Long-Horizon Tasks](terms/items/long-horizon-tasks.md): Long-Horizon Tasks are tasks that unfold over many steps and require
+- [Long-Horizon Workflow](terms/items/long-horizon-workflow.md): Long-Horizon Workflow is a workflow that must remain coherent across
+- [Loop Engineering](terms/items/loop-engineering.md): Loop Engineering is the practice of designing repeated plan-act-observe
+- [Orchestration Loop](terms/items/orchestration-loop.md): Orchestration Loop is the control cycle that schedules work, checks
+- [Pilot-to-Production Gap](terms/items/pilot-to-production-gap.md): Pilot-to-Production Gap is the gap between a successful pilot and
+- [ReAct](terms/items/react.md): ReAct is the reasoning-plus-action pattern that interleaves thought,
+- [Reasoning Runtime](terms/items/reasoning-runtime.md): Reasoning Runtime is the part of the system responsible for deliberation,
+- [Runtime Contract](terms/items/runtime-contract.md): Runtime Contract is the specification for what a runtime component
+- [Runtime Governance](terms/items/runtime-governance.md): Runtime Governance is the set of controls that constrains what
+- [Safety Monitor](terms/items/safety-monitor.md): Safety Monitor is the component that watches agent actions for
+- [Skill Routing](terms/items/skill-routing.md): Skill Routing is selecting the right capability from a tool or
+- [Star Topology](terms/items/star-topology.md): Star Topology is used to explain the communication shape among
+- [Stop-Anywhere Architecture](terms/items/stop-anywhere-architecture.md): Stop-Anywhere Architecture is an architecture that lets an agent
+- [Sub-agent Swarm](terms/items/sub-agent-swarm.md): Sub-agent Swarm is a swarm of subordinate agents under a coordinating
+- [Supervisor Agent](terms/items/supervisor-agent.md): Supervisor Agent is the top-level agent that delegates, checks,
+- [Task Assignment](terms/items/task-assignment.md): Task Assignment is the mechanism that allocates work to agents
+- [Test-Driven Agentic Workflow](terms/items/test-driven-agentic-workflow.md): Test-Driven Agentic Workflow is a workflow where tests define the
+- [Tool Router](terms/items/tool-router.md): Tool Router is the component that selects and routes tool calls
+- [Tooling Layer](terms/items/tooling-layer.md): Tooling Layer is the set of integrations and adapters that let
+- [Trajectory Quality](terms/items/trajectory-quality.md): Trajectory Quality is used in evaluations to separate a correct
+- [Verification Loop](terms/items/verification-loop.md): Verification Loop is the cycle of checking results, feeding back
+- [Verifier](terms/items/verifier.md): Verifier is the component that checks whether outputs or actions
+- [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment that runs a workflow
+
+## Memory
+
+- [Agent Memory](terms/items/agent-memory.md): A memory layer stores governed state so an agent can reuse
+- [Episodic Memory](terms/items/episodic-memory.md): Episodic Memory is stored memory of specific interactions, events,
+- [Memory Architecture](terms/items/memory-architecture.md): Memory Architecture is the design of storage, retrieval, and correction
+- [Memory Compaction](terms/items/memory-compaction.md): Memory Compaction is compressing memory into smaller summaries
+- [Memory Contamination](terms/items/memory-contamination.md): Memory Contamination is false, irrelevant, malicious, or misretrieved
+- [Memory Debt](terms/items/memory-debt.md): Memory Debt is used for accumulated shortcuts in storage, retrieval
+- [Memory Drift](terms/items/memory-drift.md): Memory Drift is gradual change in stored state or retrieval behaviour
+- [Memory Engineering](terms/items/memory-engineering.md): Memory Engineering is the practice of designing and operating agent
+- [Memory Federation](terms/items/memory-federation.md): Memory Federation is separate memory stores exposed through a common
+- [Memory Governance](terms/items/memory-governance.md): Memory Governance is policy for who can read, write, retain, or
+- [Memory Graph](terms/items/memory-graph.md): Memory Graph is used where entities, facts and relationships need
+- [Memory Hallucination](terms/items/memory-hallucination.md): Memory Hallucination is false, irrelevant, malicious, or misretrieved
+- [Memory Hygiene](terms/items/memory-hygiene.md): Memory Hygiene is routine cleanup that keeps memory accurate, current,
+- [Memory Substrate](terms/items/memory-substrate.md): Memory Substrate is the persistence layer beneath an agent’s working
+- [Memory Systems](terms/items/memory-systems.md): Memory Systems is the full stack that stores, retrieves, updates,
+- [Procedural Memory](terms/items/procedural-memory.md): Procedural Memory is stored patterns for how an agent should do
+- [Semantic Memory](terms/items/semantic-memory.md): Semantic Memory is stored facts and concepts an agent can reuse
+- [State Lifecycle](terms/items/state-lifecycle.md): State Lifecycle is the phases an agent state item passes through
+- [Working Memory](terms/items/working-memory.md): Working Memory is task-local state currently kept in active context.
 
 ## Governance
 
@@ -131,28 +129,6 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Ultimate Human Control](terms/items/ultimate-human-control.md): Ultimate Human Control is used to specify where a human reviews,
 - [Verifiable Action](terms/items/verifiable-action.md): Verifiable Action is an action that can be checked against a defined
 
-## Memory
-
-- [Agent Memory](terms/items/agent-memory.md): A memory layer stores governed state so an agent can reuse
-- [Episodic Memory](terms/items/episodic-memory.md): Episodic Memory is stored memory of specific interactions, events,
-- [Memory Architecture](terms/items/memory-architecture.md): Memory Architecture is the design of storage, retrieval, and correction
-- [Memory Compaction](terms/items/memory-compaction.md): Memory Compaction is compressing memory into smaller summaries
-- [Memory Contamination](terms/items/memory-contamination.md): Memory Contamination is false, irrelevant, malicious, or misretrieved
-- [Memory Debt](terms/items/memory-debt.md): Memory Debt is used for accumulated shortcuts in storage, retrieval
-- [Memory Drift](terms/items/memory-drift.md): Memory Drift is gradual change in stored state or retrieval behaviour
-- [Memory Engineering](terms/items/memory-engineering.md): Memory Engineering is the practice of designing and operating agent
-- [Memory Federation](terms/items/memory-federation.md): Memory Federation is separate memory stores exposed through a common
-- [Memory Governance](terms/items/memory-governance.md): Memory Governance is policy for who can read, write, retain, or
-- [Memory Graph](terms/items/memory-graph.md): Memory Graph is used where entities, facts and relationships need
-- [Memory Hallucination](terms/items/memory-hallucination.md): Memory Hallucination is false, irrelevant, malicious, or misretrieved
-- [Memory Hygiene](terms/items/memory-hygiene.md): Memory Hygiene is routine cleanup that keeps memory accurate, current,
-- [Memory Substrate](terms/items/memory-substrate.md): Memory Substrate is the persistence layer beneath an agent’s working
-- [Memory Systems](terms/items/memory-systems.md): Memory Systems is the full stack that stores, retrieves, updates,
-- [Procedural Memory](terms/items/procedural-memory.md): Procedural Memory is stored patterns for how an agent should do
-- [Semantic Memory](terms/items/semantic-memory.md): Semantic Memory is stored facts and concepts an agent can reuse
-- [State Lifecycle](terms/items/state-lifecycle.md): State Lifecycle is the phases an agent state item passes through
-- [Working Memory](terms/items/working-memory.md): Working Memory is task-local state currently kept in active context.
-
 ## Protocols
 
 - [A2A](terms/items/a2a.md): A2A is a protocol label for one agent asking another agent or service
@@ -178,44 +154,35 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Skill Libraries](terms/items/skill-libraries.md): Skill Libraries are reusable packages of instructions, tools, examples,
 - [Tool Gateway](terms/items/tool-gateway.md): Tool Gateway is a control point that brokers access to tools and
 
-## Runtime
+## AgentOps
 
-- [Agent Control Plane](terms/items/agent-control-plane.md): Agent Control Plane is the service layer that coordinates fleet-level
-- [Agent Kernel](terms/items/agent-kernel.md): A kernel is the smallest runtime core that keeps one agent
-- [Agent Loop](terms/items/agent-loop.md): A loop repeats planning, acting, and observation updates until
-- [Agent Runtime](terms/items/agent-runtime.md): A runtime is the execution environment that hosts an agent’s
-- [Agent Swarm](terms/items/agent-swarm.md): A swarm is a loosely coordinated pool of agents working on
-- [Agentic Rendering](terms/items/agentic-rendering.md): Agentic rendering is rendering that changes output or interface
-- [Dynamic Skill Routing](terms/items/dynamic-skill-routing.md): Dynamic Skill Routing is run-time selection of the most appropriate
-- [Dynamic Teaming](terms/items/dynamic-teaming.md): Dynamic Teaming is runtime allocation of work to the most suitable
-- [Execution Boundary](terms/items/execution-boundary.md): Execution Boundary is used to mark the hand-off between model reasoning
-- [Execution Graph](terms/items/execution-graph.md): Execution Graph is the graph of steps, dependencies, and side effects
-- [Execution State](terms/items/execution-state.md): 'Execution State is used for the mutable record that lets an orchestrator
-- [Hierarchical Agent Architecture](terms/items/hierarchical-agent-architecture.md): Hierarchical Agent Architecture is a multi-level system with supervisors,
-- [Inference Runtime](terms/items/inference-runtime.md): Inference Runtime is the serving layer that executes model calls
-- [Long-Horizon Tasks](terms/items/long-horizon-tasks.md): Long-Horizon Tasks are tasks that unfold over many steps and require
-- [Long-Horizon Workflow](terms/items/long-horizon-workflow.md): Long-Horizon Workflow is a workflow that must remain coherent across
-- [Loop Engineering](terms/items/loop-engineering.md): Loop Engineering is the practice of designing repeated plan-act-observe
-- [Orchestration Loop](terms/items/orchestration-loop.md): Orchestration Loop is the control cycle that schedules work, checks
-- [Pilot-to-Production Gap](terms/items/pilot-to-production-gap.md): Pilot-to-Production Gap is the gap between a successful pilot and
-- [ReAct](terms/items/react.md): ReAct is the reasoning-plus-action pattern that interleaves thought,
-- [Reasoning Runtime](terms/items/reasoning-runtime.md): Reasoning Runtime is the part of the system responsible for deliberation,
-- [Runtime Contract](terms/items/runtime-contract.md): Runtime Contract is the specification for what a runtime component
-- [Runtime Governance](terms/items/runtime-governance.md): Runtime Governance is the set of controls that constrains what
-- [Safety Monitor](terms/items/safety-monitor.md): Safety Monitor is the component that watches agent actions for
-- [Skill Routing](terms/items/skill-routing.md): Skill Routing is selecting the right capability from a tool or
-- [Star Topology](terms/items/star-topology.md): Star Topology is used to explain the communication shape among
-- [Stop-Anywhere Architecture](terms/items/stop-anywhere-architecture.md): Stop-Anywhere Architecture is an architecture that lets an agent
-- [Sub-agent Swarm](terms/items/sub-agent-swarm.md): Sub-agent Swarm is a swarm of subordinate agents under a coordinating
-- [Supervisor Agent](terms/items/supervisor-agent.md): Supervisor Agent is the top-level agent that delegates, checks,
-- [Task Assignment](terms/items/task-assignment.md): Task Assignment is the mechanism that allocates work to agents
-- [Test-Driven Agentic Workflow](terms/items/test-driven-agentic-workflow.md): Test-Driven Agentic Workflow is a workflow where tests define the
-- [Tool Router](terms/items/tool-router.md): Tool Router is the component that selects and routes tool calls
-- [Tooling Layer](terms/items/tooling-layer.md): Tooling Layer is the set of integrations and adapters that let
-- [Trajectory Quality](terms/items/trajectory-quality.md): Trajectory Quality is used in evaluations to separate a correct
-- [Verification Loop](terms/items/verification-loop.md): Verification Loop is the cycle of checking results, feeding back
-- [Verifier](terms/items/verifier.md): Verifier is the component that checks whether outputs or actions
-- [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment that runs a workflow
+- [Agent Debt](terms/items/agent-debt.md): Agent Debt is the accumulated operational risk created by shortcuts,
+- [Agent Estate](terms/items/agent-estate.md): Agent Estate is the collection of agents, workflows, and controls
+- [Agent Evals](terms/items/agent-evals.md): Agent Evals are tests and measurements that show how an agent behaves
+- [Agent Inventory](terms/items/agent-inventory.md): A maintained agent inventory lists the agents, versions,
+- [Agent Lifecycle Management](terms/items/agent-lifecycle-management.md): A lifecycle management practice governs the introduction,
+- [Agent Ownership Model](terms/items/agent-ownership-model.md): An ownership model assigns responsibility for an agent’s
+- [Agent Portfolio](terms/items/agent-portfolio.md): A portfolio is the set of agents an organisation manages as a
+- [Agent Sprawl](terms/items/agent-sprawl.md): Agent sprawl is uncontrolled growth of agents without matching
+- [AgentOps](terms/items/agentops.md): AgentOps is the operational practice of deploying, observing,
+- [Agentic Evaluation](terms/items/agentic-evaluation.md): Agentic evaluation is evaluation for multi-step, stateful,
+- [Autonomous Workflow](terms/items/autonomous-workflow.md): Autonomous Workflow is a workflow that can progress and recover
+- [Continuous Validation](terms/items/continuous-validation.md): Continuous Validation is ongoing checking that an agent system
+- [Cost per Workflow](terms/items/cost-per-workflow.md): Cost per Workflow is the average cost of completing one workflow
+- [Evidence-Grade Audit Trail](terms/items/evidence-grade-audit-trail.md): Evidence-Grade Audit Trail is an audit trail detailed enough to
+- [Exception Rate](terms/items/exception-rate.md): Exception Rate is the proportion of workflows that need manual
+- [Execution Quality](terms/items/execution-quality.md): Execution Quality is the degree to which an agent completes work
+- [Ghost Agent](terms/items/ghost-agent.md): Ghost Agent is an agent that exists on paper or in logs but is
+- [Harness Engineering](terms/items/harness-engineering.md): Practitioners use Harness Engineering when they improve the operating
+- [Multi-Agent Governance](terms/items/multi-agent-governance.md): Multi-Agent Governance is the set of controls that keeps multiple
+- [Orphan Agent](terms/items/orphan-agent.md): Orphan Agent is an agent that exists without a clear owner, support
+- [Outcome Reliability](terms/items/outcome-reliability.md): Outcome Reliability is the consistency with which an agent reaches
+- [Pilot Purgatory](terms/items/pilot-purgatory.md): Pilot Purgatory is the state where a promising pilot never gets
+- [Proof-of-Concept Graveyard](terms/items/proof-of-concept-graveyard.md): Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
+- [Recovery Readiness](terms/items/recovery-readiness.md): Recovery Readiness is the degree to which an agent system can be
+- [Shadow Agent](terms/items/shadow-agent.md): Shadow Agent is an agent that runs without clear visibility, approval,
+- [Trajectory Evaluation](terms/items/trajectory-evaluation.md): Trajectory Evaluation is evaluation of the path an agent took,
+- [Verified Outcome](terms/items/verified-outcome.md): Verified Outcome is an outcome that has been checked against a
 
 ## Slang
 
@@ -252,6 +219,39 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Vibe Valuation](terms/items/vibe-valuation.md): Vibe Valuation is a label for valuation driven by narrative, demos,
 - [Workslop](terms/items/workslop.md): Workslop is a label for polished-looking AI output that creates
 - [Zombie Internet](terms/items/zombie-internet.md): Zombie Internet is a label for a web increasingly filled with stale,
+
+## Context
+
+- [Agentic Hub](terms/items/agentic-hub.md): An agentic hub is a central point that brokers the context,
+- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is the ability to explain which source or step
+- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the failure mode where too much or the wrong
+- [Context Constructor](terms/items/context-constructor.md): Context Constructor is used for the component that assembles the
+- [Context Debt](terms/items/context-debt.md): Context Debt is the accumulation of stale, duplicated, or hard-to-use
+- [Context Drift](terms/items/context-drift.md): Context Drift is the gradual change in what context a model sees
+- [Context Engineering](terms/items/context-engineering.md): Context Engineering is the deliberate construction of what information
+- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared layer for delivering context across
+- [Context Federation](terms/items/context-federation.md): Context Federation is the coordination of context across multiple
+- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is the splitting of context across too many
+- [Context Freshness](terms/items/context-freshness.md): Context Freshness is the degree to which the model sees recent,
+- [Context Graph](terms/items/context-graph.md): Context Graph is a graph representation of the entities and relationships
+- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed layer for exchanging context across
+- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is the control layer that manages how
+- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is used for untrusted content that enters an
+- [Context Rot](terms/items/context-rot.md): Context Rot is the gradual degradation of context quality as sources
+- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where adding more context stops
+- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is used to trace how source data, transformations,
+- [Context Topology](terms/items/context-topology.md): Context Topology is the map of where context lives and how it moves
+- [Data Fabric](terms/items/data-fabric.md): Data Fabric is an integrated layer for connecting distributed data
+- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a decentralised data architecture based on domain-owned
+- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is provenance that is visible, machine-readable,
+- [Governed Context](terms/items/governed-context.md): Governed Context is context assembled and delivered under explicit
+- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is data tied to a specific principal, role,
+- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is a structured representation of where context
+- [RAG](terms/items/rag.md): 'RAG is retrieval-augmented generation: retrieving external evidence
+- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is the controlled change of an agent system without
+- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is a common layer for serving context across
+- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is the alignment layer that keeps people and agents
+- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the cost of proving a model’s answer or action
 
 ## Social
 

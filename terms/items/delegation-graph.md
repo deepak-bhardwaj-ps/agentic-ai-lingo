@@ -3,7 +3,7 @@ slug: delegation-graph
 name: Delegation Graph
 category: Governance
 title: Delegation Graph
-aliases:
+aliases: null
 short_description: Delegation Graph is the graph of principals, delegated capabilities,
 updated_at: '2026-06-22T20:54:07.634112+00:00'
 termStatus: Governance/security concept

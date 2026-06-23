@@ -3,7 +3,7 @@ slug: vibe-valuation
 name: Vibe Valuation
 category: Slang
 title: Vibe Valuation
-aliases:
+aliases: null
 short_description: Vibe Valuation is a label for valuation driven by narrative, demos,
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

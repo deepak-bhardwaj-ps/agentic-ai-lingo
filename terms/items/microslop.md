@@ -3,7 +3,7 @@ slug: microslop
 name: Microslop
 category: Slang
 title: Microslop
-aliases:
+aliases: null
 short_description: Microslop is an insider jab at Microsoft-branded software or AI
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

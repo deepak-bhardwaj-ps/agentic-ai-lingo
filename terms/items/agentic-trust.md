@@ -3,7 +3,7 @@ slug: agentic-trust
 name: Agentic Trust
 category: Core
 title: Agentic Trust
-aliases:
+aliases: null
 short_description: Agentic trust names the confidence threshold for letting an
 termStatus: Emerging marketing/governance label
 researchBasis: 'NIST AI RMF: Generative AI Profile'

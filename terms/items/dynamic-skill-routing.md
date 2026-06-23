@@ -3,7 +3,7 @@ slug: dynamic-skill-routing
 name: Dynamic Skill Routing
 category: Runtime
 title: Dynamic Skill Routing
-aliases:
+aliases: null
 short_description: Dynamic Skill Routing is run-time selection of the most appropriate
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

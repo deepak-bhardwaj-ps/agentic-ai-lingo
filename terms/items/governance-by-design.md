@@ -3,7 +3,7 @@ slug: governance-by-design
 name: Governance by Design
 category: Governance
 title: Governance by Design
-aliases:
+aliases: null
 short_description: Governance by Design is governance built into the system rather
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

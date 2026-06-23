@@ -3,7 +3,7 @@ slug: long-horizon-tasks
 name: Long-Horizon Tasks
 category: Runtime
 title: Long-Horizon Tasks
-aliases:
+aliases: null
 short_description: Long-Horizon Tasks are tasks that unfold over many steps and require
 termStatus: Descriptive capability term
 researchBasis: OpenAI, Evals design guide

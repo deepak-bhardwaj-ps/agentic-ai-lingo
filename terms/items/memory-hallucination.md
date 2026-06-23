@@ -3,7 +3,7 @@ slug: memory-hallucination
 name: Memory Hallucination
 category: Memory
 title: Memory Hallucination
-aliases:
+aliases: null
 short_description: Memory Hallucination is false, irrelevant, malicious, or misretrieved
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT

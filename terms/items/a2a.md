@@ -3,7 +3,7 @@ slug: a2a
 name: A2A
 category: Protocols
 title: A2A
-aliases:
+aliases: null
 short_description: A2A is a protocol label for one agent asking another agent or service
 termStatus: Established protocol
 researchBasis: Google, Agent2Agent protocol

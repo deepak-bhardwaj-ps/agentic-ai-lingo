@@ -3,7 +3,7 @@ slug: agent-mesh
 name: Agent Mesh
 category: Protocols
 title: Agent Mesh
-aliases:
+aliases: null
 short_description: A mesh is a decentralised agent network with real discovery,
 termStatus: Emerging interoperability/architecture label
 researchBasis: A2A protocol, MCP, Anthropic

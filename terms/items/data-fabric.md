@@ -3,7 +3,7 @@ slug: data-fabric
 name: Data Fabric
 category: Context
 title: Data Fabric
-aliases:
+aliases: null
 short_description: Data Fabric is an integrated layer for connecting distributed data
 termStatus: Established vendor/industry term
 researchBasis: Dehghani, Data Mesh principles

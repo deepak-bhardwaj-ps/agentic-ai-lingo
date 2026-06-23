@@ -3,7 +3,7 @@ slug: slopcoding
 name: Slopcoding
 category: Slang
 title: Slopcoding
-aliases:
+aliases: null
 short_description: Slopcoding is a label for code that is generated quickly but has
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

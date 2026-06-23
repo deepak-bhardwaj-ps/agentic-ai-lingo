@@ -3,7 +3,7 @@ slug: inference-runtime
 name: Inference Runtime
 category: Runtime
 title: Inference Runtime
-aliases:
+aliases: null
 short_description: Inference Runtime is the serving layer that executes model calls
 termStatus: Established systems term
 researchBasis: Anthropic, Building effective agents

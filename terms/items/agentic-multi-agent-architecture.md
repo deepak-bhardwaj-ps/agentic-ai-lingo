@@ -3,7 +3,7 @@ slug: agentic-multi-agent-architecture
 name: Agentic Multi-Agent Architecture
 category: Protocols
 title: Agentic Multi-Agent Architecture
-aliases:
+aliases: null
 short_description: Agentic multi-agent architecture is a design where multiple
 termStatus: Architecture description
 researchBasis: Anthropic, OpenAI Agents SDK, LangGraph

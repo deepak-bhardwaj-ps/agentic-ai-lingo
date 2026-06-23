@@ -3,7 +3,7 @@ slug: registry
 name: Registry
 category: Protocols
 title: Registry
-aliases:
+aliases: null
 short_description: Registry is a catalogue of agents, services, or resources that
 updated_at: '2026-06-22T20:54:08.031649+00:00'
 termStatus: Established systems term

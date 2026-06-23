@@ -3,7 +3,7 @@ slug: agentic-browser
 name: Agentic Browser
 category: Core
 title: Agentic Browser
-aliases:
+aliases: null
 short_description: An agentic browser is a browser-driven agent that can navigate
 termStatus: Emerging product category
 researchBasis: OWASP Top 10 for LLM Applications, Anthropic

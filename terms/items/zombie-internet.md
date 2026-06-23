@@ -3,7 +3,7 @@ slug: zombie-internet
 name: Zombie Internet
 category: Slang
 title: Zombie Internet
-aliases:
+aliases: null
 short_description: Zombie Internet is a label for a web increasingly filled with stale,
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

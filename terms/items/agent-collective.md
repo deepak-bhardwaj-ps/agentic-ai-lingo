@@ -3,7 +3,7 @@ slug: agent-collective
 name: Agent Collective
 category: Protocols
 title: Agent Collective
-aliases:
+aliases: null
 short_description: Agent Collective is a group of agents that share a common coordination
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification

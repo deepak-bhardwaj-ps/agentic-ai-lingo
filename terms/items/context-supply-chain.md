@@ -3,7 +3,7 @@ slug: context-supply-chain
 name: Context Supply Chain
 category: Context
 title: Context Supply Chain
-aliases:
+aliases: null
 short_description: Context Supply Chain is used to trace how source data, transformations,
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

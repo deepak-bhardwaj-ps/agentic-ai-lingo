@@ -3,7 +3,7 @@ slug: slopaganda
 name: Slopaganda
 category: Slang
 title: Slopaganda
-aliases:
+aliases: null
 short_description: Slopaganda is a label for mediocre AI output being packaged as
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

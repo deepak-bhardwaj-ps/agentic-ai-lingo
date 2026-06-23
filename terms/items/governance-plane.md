@@ -3,7 +3,7 @@ slug: governance-plane
 name: Governance Plane
 category: Governance
 title: Governance Plane
-aliases:
+aliases: null
 short_description: Governance Plane is the service layer that applies rules, oversight,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

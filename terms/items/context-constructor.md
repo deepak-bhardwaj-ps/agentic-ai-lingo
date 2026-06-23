@@ -3,7 +3,7 @@ slug: context-constructor
 name: Context Constructor
 category: Context
 title: Context Constructor
-aliases:
+aliases: null
 short_description: Context Constructor is used for the component that assembles the
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

@@ -3,7 +3,7 @@ slug: trendslop
 name: Trendslop
 category: Slang
 title: Trendslop
-aliases:
+aliases: null
 short_description: Trendslop is a label for AI content assembled to match current
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

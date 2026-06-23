@@ -3,7 +3,7 @@ slug: delegation-aware-observability
 name: Delegation-Aware Observability
 category: Governance
 title: Delegation-Aware Observability
-aliases:
+aliases: null
 short_description: Delegation-Aware Observability is observability that preserves
 updated_at: '2026-06-22T20:54:07.608656+00:00'
 termStatus: Governance/security concept

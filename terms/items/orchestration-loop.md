@@ -3,7 +3,7 @@ slug: orchestration-loop
 name: Orchestration Loop
 category: Runtime
 title: Orchestration Loop
-aliases:
+aliases: null
 short_description: Orchestration Loop is the control cycle that schedules work, checks
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

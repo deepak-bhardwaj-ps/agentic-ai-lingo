@@ -3,7 +3,7 @@ slug: pilot-to-production-gap
 name: Pilot-to-Production Gap
 category: Runtime
 title: Pilot-to-Production Gap
-aliases:
+aliases: null
 short_description: Pilot-to-Production Gap is the gap between a successful pilot and
 updated_at: '2026-06-22T20:54:07.961272+00:00'
 termStatus: Operational shorthand

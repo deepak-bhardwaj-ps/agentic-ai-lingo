@@ -3,7 +3,7 @@ slug: reasoning-runtime
 name: Reasoning Runtime
 category: Runtime
 title: Reasoning Runtime
-aliases:
+aliases: null
 short_description: Reasoning Runtime is the part of the system responsible for deliberation,
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

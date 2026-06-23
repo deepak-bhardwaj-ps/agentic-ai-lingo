@@ -3,7 +3,7 @@ slug: star-topology
 name: Star Topology
 category: Runtime
 title: Star Topology
-aliases:
+aliases: null
 short_description: Star Topology is used to explain the communication shape among
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

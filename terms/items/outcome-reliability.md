@@ -3,7 +3,7 @@ slug: outcome-reliability
 name: Outcome Reliability
 category: AgentOps
 title: Outcome Reliability
-aliases:
+aliases: null
 short_description: Outcome Reliability is the consistency with which an agent reaches
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide

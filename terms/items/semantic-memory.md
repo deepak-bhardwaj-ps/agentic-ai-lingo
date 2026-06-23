@@ -3,7 +3,7 @@ slug: semantic-memory
 name: Semantic Memory
 category: Memory
 title: Semantic Memory
-aliases:
+aliases: null
 short_description: Semantic Memory is stored facts and concepts an agent can reuse
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT

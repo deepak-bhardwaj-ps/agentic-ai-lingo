@@ -3,7 +3,7 @@ slug: memory-contamination
 name: Memory Contamination
 category: Memory
 title: Memory Contamination
-aliases:
+aliases: null
 short_description: Memory Contamination is false, irrelevant, malicious, or misretrieved
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT

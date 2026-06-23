@@ -3,7 +3,7 @@ slug: prompt-slop
 name: Prompt Slop
 category: Slang
 title: Prompt Slop
-aliases:
+aliases: null
 short_description: Prompt Slop is a label for bloated, copied, or poorly structured
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

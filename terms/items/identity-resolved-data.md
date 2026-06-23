@@ -3,7 +3,7 @@ slug: identity-resolved-data
 name: Identity-Resolved Data
 category: Context
 title: Identity-Resolved Data
-aliases:
+aliases: null
 short_description: Identity-Resolved Data is data tied to a specific principal, role,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

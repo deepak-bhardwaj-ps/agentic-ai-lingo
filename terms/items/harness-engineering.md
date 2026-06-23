@@ -3,7 +3,7 @@ slug: harness-engineering
 name: Harness Engineering
 category: AgentOps
 title: Harness Engineering
-aliases:
+aliases: null
 short_description: Practitioners use Harness Engineering when they improve the operating
 termStatus: Emerging practitioner term
 researchBasis: Hashimoto, Harness engineering

@@ -3,7 +3,7 @@ slug: ai-agents
 name: AI Agents
 category: Core
 title: AI Agents
-aliases:
+aliases: null
 short_description: AI agents is the umbrella label for software systems that can
 updated_at: '2026-06-22T20:54:06.685468+00:00'
 termStatus: Umbrella term

@@ -3,7 +3,7 @@ slug: agent-portfolio
 name: Agent Portfolio
 category: AgentOps
 title: Agent Portfolio
-aliases:
+aliases: null
 short_description: A portfolio is the set of agents an organisation manages as a
 termStatus: Operational metric/practice
 researchBasis: OpenAI, NIST AI RMF, Anthropic

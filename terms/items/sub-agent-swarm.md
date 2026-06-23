@@ -3,7 +3,7 @@ slug: sub-agent-swarm
 name: Sub-agent Swarm
 category: Runtime
 title: Sub-agent Swarm
-aliases:
+aliases: null
 short_description: Sub-agent Swarm is a swarm of subordinate agents under a coordinating
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

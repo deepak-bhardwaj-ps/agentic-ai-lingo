@@ -3,7 +3,7 @@ slug: shared-context-layer
 name: Shared Context Layer
 category: Context
 title: Shared Context Layer
-aliases:
+aliases: null
 short_description: Shared Context Layer is a common layer for serving context across
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents

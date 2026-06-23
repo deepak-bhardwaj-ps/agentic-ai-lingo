@@ -3,7 +3,7 @@ slug: context-fragmentation
 name: Context Fragmentation
 category: Context
 title: Context Fragmentation
-aliases:
+aliases: null
 short_description: Context Fragmentation is the splitting of context across too many
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

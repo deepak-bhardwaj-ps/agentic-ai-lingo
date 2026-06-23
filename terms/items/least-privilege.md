@@ -3,7 +3,7 @@ slug: least-privilege
 name: Least Privilege
 category: Governance
 title: Least Privilege
-aliases:
+aliases: null
 short_description: Least Privilege is the principle of giving an agent only the access
 termStatus: Established security principle
 researchBasis: OWASP Top 10 for LLM Applications

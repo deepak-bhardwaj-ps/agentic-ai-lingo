@@ -3,7 +3,7 @@ slug: agentic-commerce
 name: Agentic Commerce
 category: Core
 title: Agentic Commerce
-aliases:
+aliases: null
 short_description: Agentic commerce is commerce in which an agent can compare
 termStatus: Emerging industry label
 researchBasis: OWASP Top 10 for LLM Applications, Anthropic, OpenAI Agents SDK

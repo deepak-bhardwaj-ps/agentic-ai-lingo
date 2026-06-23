@@ -3,7 +3,7 @@ slug: context-engineering
 name: Context Engineering
 category: Context
 title: Context Engineering
-aliases:
+aliases: null
 short_description: Context Engineering is the deliberate construction of what information
 termStatus: Emerging practitioner term
 researchBasis: Anthropic, Building effective agents

@@ -3,7 +3,7 @@ slug: agent-control-plane
 name: Agent Control Plane
 category: Runtime
 title: Agent Control Plane
-aliases:
+aliases: null
 short_description: Agent Control Plane is the service layer that coordinates fleet-level
 termStatus: Architecture pattern
 researchBasis: 'NIST AI RMF: Generative AI Profile'

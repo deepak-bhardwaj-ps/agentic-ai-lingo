@@ -3,7 +3,7 @@ slug: agent-training
 name: Agent Training
 category: Protocols
 title: Agent Training
-aliases:
+aliases: null
 short_description: Agent training is the onboarding or calibration of agents to
 termStatus: Emerging interoperability/architecture label
 researchBasis: Anthropic, OpenAI Agents SDK, MCP

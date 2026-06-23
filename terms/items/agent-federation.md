@@ -3,7 +3,7 @@ slug: agent-federation
 name: Agent Federation
 category: Protocols
 title: Agent Federation
-aliases:
+aliases: null
 short_description: Agent Federation is a set of interoperating agents that stay independently
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification

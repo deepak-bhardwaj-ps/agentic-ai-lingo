@@ -3,7 +3,7 @@ slug: skill-libraries
 name: Skill Libraries
 category: Protocols
 title: Skill Libraries
-aliases:
+aliases: null
 short_description: Skill Libraries are reusable packages of instructions, tools, examples,
 termStatus: Implementation pattern
 researchBasis: Hashimoto, Harness engineering

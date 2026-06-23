@@ -3,7 +3,7 @@ slug: permission-gates
 name: Permission Gates
 category: Governance
 title: Permission Gates
-aliases:
+aliases: null
 short_description: Permission Gates is used to govern whether a requested action is
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

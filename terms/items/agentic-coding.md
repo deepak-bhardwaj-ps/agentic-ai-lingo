@@ -3,7 +3,7 @@ slug: agentic-coding
 name: Agentic Coding
 category: Core
 title: Agentic Coding
-aliases:
+aliases: null
 short_description: Agentic coding is coding in which an AI system can propose,
 termStatus: Emerging practitioner term
 researchBasis: Harness engineering, Anthropic, OpenAI Agents SDK

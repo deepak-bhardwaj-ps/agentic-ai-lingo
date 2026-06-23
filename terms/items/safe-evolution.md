@@ -3,7 +3,7 @@ slug: safe-evolution
 name: Safe Evolution
 category: Context
 title: Safe Evolution
-aliases:
+aliases: null
 short_description: Safe Evolution is the controlled change of an agent system without
 termStatus: Safety engineering concept
 researchBasis: OWASP Top 10 for LLM Applications

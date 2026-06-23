@@ -3,7 +3,7 @@ slug: policy-interceptor
 name: Policy Interceptor
 category: Governance
 title: Policy Interceptor
-aliases:
+aliases: null
 short_description: Policy Interceptor is used to govern whether a requested action
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

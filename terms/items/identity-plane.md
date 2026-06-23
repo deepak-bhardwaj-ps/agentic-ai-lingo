@@ -3,7 +3,7 @@ slug: identity-plane
 name: Identity Plane
 category: Governance
 title: Identity Plane
-aliases:
+aliases: null
 short_description: Identity Plane is the service layer that resolves who or what is
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

@@ -3,7 +3,7 @@ slug: composite-principal
 name: Composite Principal
 category: Governance
 title: Composite Principal
-aliases:
+aliases: null
 short_description: Composite Principal is a principal made from multiple identities
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

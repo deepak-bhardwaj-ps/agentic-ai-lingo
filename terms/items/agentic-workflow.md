@@ -3,7 +3,7 @@ slug: agentic-workflow
 name: Agentic Workflow
 category: Core
 title: Agentic Workflow
-aliases:
+aliases: null
 short_description: Agentic workflow names a workflow that includes planning,
 termStatus: Architecture description
 researchBasis: Anthropic, OpenAI Agents SDK

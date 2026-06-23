@@ -3,7 +3,7 @@ slug: web-agent
 name: Web Agent
 category: Core
 title: Web Agent
-aliases:
+aliases: null
 short_description: Web Agent is an agent whose main operating environment is the web.
 termStatus: Descriptive capability term
 researchBasis: Anthropic, Building effective agents

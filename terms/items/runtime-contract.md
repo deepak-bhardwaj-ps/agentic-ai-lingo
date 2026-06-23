@@ -3,7 +3,7 @@ slug: runtime-contract
 name: Runtime Contract
 category: Runtime
 title: Runtime Contract
-aliases:
+aliases: null
 short_description: Runtime Contract is the specification for what a runtime component
 termStatus: Engineering shorthand
 researchBasis: 'NIST AI RMF: Generative AI Profile'

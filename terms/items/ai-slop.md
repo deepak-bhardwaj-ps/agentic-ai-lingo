@@ -3,7 +3,7 @@ slug: ai-slop
 name: AI Slop
 category: Slang
 title: AI Slop
-aliases:
+aliases: null
 short_description: AI Slop is a pejorative for low-value AI-generated output that
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

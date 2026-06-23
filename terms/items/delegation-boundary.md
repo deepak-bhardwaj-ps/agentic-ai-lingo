@@ -3,7 +3,7 @@ slug: delegation-boundary
 name: Delegation Boundary
 category: Governance
 title: Delegation Boundary
-aliases:
+aliases: null
 short_description: Delegation Boundary is the edge where authority moves from one
 updated_at: '2026-06-22T20:54:07.614679+00:00'
 termStatus: Governance/security concept

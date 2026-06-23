@@ -3,7 +3,7 @@ slug: task-assignment
 name: Task Assignment
 category: Runtime
 title: Task Assignment
-aliases:
+aliases: null
 short_description: Task Assignment is the mechanism that allocates work to agents
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

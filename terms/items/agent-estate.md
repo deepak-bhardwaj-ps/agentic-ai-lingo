@@ -3,7 +3,7 @@ slug: agent-estate
 name: Agent Estate
 category: AgentOps
 title: Agent Estate
-aliases:
+aliases: null
 short_description: Agent Estate is the collection of agents, workflows, and controls
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide

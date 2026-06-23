@@ -3,7 +3,7 @@ slug: ai-leaderboards
 name: AI Leaderboards
 category: Slang
 title: AI Leaderboards
-aliases:
+aliases: null
 short_description: AI Leaderboards is a label for treating model rankings or scoreboards
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

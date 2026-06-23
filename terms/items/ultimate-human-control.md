@@ -3,7 +3,7 @@ slug: ultimate-human-control
 name: Ultimate Human Control
 category: Governance
 title: Ultimate Human Control
-aliases:
+aliases: null
 short_description: Ultimate Human Control is used to specify where a human reviews,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

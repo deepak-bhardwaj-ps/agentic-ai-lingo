@@ -3,7 +3,7 @@ slug: execution-boundary
 name: Execution Boundary
 category: Runtime
 title: Execution Boundary
-aliases:
+aliases: null
 short_description: Execution Boundary is used to mark the hand-off between model reasoning
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

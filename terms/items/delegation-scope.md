@@ -3,7 +3,7 @@ slug: delegation-scope
 name: Delegation Scope
 category: Governance
 title: Delegation Scope
-aliases:
+aliases: null
 short_description: Delegation Scope is the bounded range of actions, data, and time
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

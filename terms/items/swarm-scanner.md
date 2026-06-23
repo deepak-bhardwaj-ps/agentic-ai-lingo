@@ -3,7 +3,7 @@ slug: swarm-scanner
 name: Swarm Scanner
 category: Social
 title: Swarm Scanner
-aliases:
+aliases: null
 short_description: Swarm Scanner is a tool or process for detecting coordinated bot
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'

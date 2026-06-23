@@ -3,7 +3,7 @@ slug: stop-anywhere-architecture
 name: Stop-Anywhere Architecture
 category: Runtime
 title: Stop-Anywhere Architecture
-aliases:
+aliases: null
 short_description: Stop-Anywhere Architecture is an architecture that lets an agent
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

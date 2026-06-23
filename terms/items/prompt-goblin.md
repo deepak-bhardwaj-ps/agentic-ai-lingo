@@ -3,7 +3,7 @@ slug: prompt-goblin
 name: Prompt Goblin
 category: Slang
 title: Prompt Goblin
-aliases:
+aliases: null
 short_description: Prompt Goblin is a term for someone who obsessively tweaks prompts
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

@@ -3,7 +3,7 @@ slug: safety-monitor
 name: Safety Monitor
 category: Runtime
 title: Safety Monitor
-aliases:
+aliases: null
 short_description: Safety Monitor is the component that watches agent actions for
 termStatus: Safety engineering concept
 researchBasis: OWASP Top 10 for LLM Applications

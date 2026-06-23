@@ -3,7 +3,7 @@ slug: productivity-cosplay
 name: Productivity Cosplay
 category: Slang
 title: Productivity Cosplay
-aliases:
+aliases: null
 short_description: Productivity Cosplay is a label for appearing efficient with AI
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

@@ -3,7 +3,7 @@ slug: memory-graph
 name: Memory Graph
 category: Memory
 title: Memory Graph
-aliases:
+aliases: null
 short_description: Memory Graph is used where entities, facts and relationships need
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT

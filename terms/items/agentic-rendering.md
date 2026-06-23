@@ -3,7 +3,7 @@ slug: agentic-rendering
 name: Agentic Rendering
 category: Runtime
 title: Agentic Rendering
-aliases:
+aliases: null
 short_description: Agentic rendering is rendering that changes output or interface
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, OpenAI Agents SDK, UI/runtime practice

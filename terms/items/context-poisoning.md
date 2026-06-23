@@ -3,7 +3,7 @@ slug: context-poisoning
 name: Context Poisoning
 category: Context
 title: Context Poisoning
-aliases:
+aliases: null
 short_description: Context Poisoning is used for untrusted content that enters an
 termStatus: Security risk
 researchBasis: OWASP Top 10 for LLM Applications

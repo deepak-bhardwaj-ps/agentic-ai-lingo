@@ -3,7 +3,7 @@ slug: agent-coalition
 name: Agent Coalition
 category: Protocols
 title: Agent Coalition
-aliases:
+aliases: null
 short_description: Agent Coalition is a set of separately owned agents that cooperate
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification

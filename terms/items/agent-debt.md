@@ -3,7 +3,7 @@ slug: agent-debt
 name: Agent Debt
 category: AgentOps
 title: Agent Debt
-aliases:
+aliases: null
 short_description: Agent Debt is the accumulated operational risk created by shortcuts,
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide

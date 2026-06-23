@@ -3,7 +3,7 @@ slug: agentic-delivery
 name: Agentic Delivery
 category: Core
 title: Agentic Delivery
-aliases:
+aliases: null
 short_description: Agentic delivery names the operational work of turning intent
 termStatus: Emerging consultancy label
 researchBasis: Anthropic, NIST AI RMF

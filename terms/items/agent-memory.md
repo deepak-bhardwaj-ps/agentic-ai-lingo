@@ -3,7 +3,7 @@ slug: agent-memory
 name: Agent Memory
 category: Memory
 title: Agent Memory
-aliases:
+aliases: null
 short_description: A memory layer stores governed state so an agent can reuse
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT, provenance-focused memory research

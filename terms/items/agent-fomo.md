@@ -3,7 +3,7 @@ slug: agent-fomo
 name: Agent FOMO
 category: Slang
 title: Agent FOMO
-aliases:
+aliases: null
 short_description: Agent FOMO is a label for adding agents because competitors are
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

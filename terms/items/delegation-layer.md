@@ -3,7 +3,7 @@ slug: delegation-layer
 name: Delegation Layer
 category: Governance
 title: Delegation Layer
-aliases:
+aliases: null
 short_description: Delegation Layer is the policy and enforcement layer for delegated
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

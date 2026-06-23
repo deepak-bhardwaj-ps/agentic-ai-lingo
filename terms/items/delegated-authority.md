@@ -4,7 +4,7 @@ name: Delegated Authority
 category: Governance
 addedDate: May 11, 2025
 title: Delegated Authority
-aliases:
+aliases: null
 short_description: Delegated Authority is authority passed from one principal to another
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

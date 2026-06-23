@@ -3,7 +3,7 @@ slug: agentic-web
 name: Agentic Web
 category: Protocols
 title: Agentic Web
-aliases:
+aliases: null
 short_description: Agentic web names web services designed so agents can discover
 termStatus: Emerging industry label
 researchBasis: Model Context Protocol specification, Anthropic

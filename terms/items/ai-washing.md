@@ -3,7 +3,7 @@ slug: ai-washing
 name: AI Washing
 category: Slang
 title: AI Washing
-aliases:
+aliases: null
 short_description: AI Washing is a label for products described as AI-powered when
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

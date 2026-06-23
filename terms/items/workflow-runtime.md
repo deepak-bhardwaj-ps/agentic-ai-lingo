@@ -3,7 +3,7 @@ slug: workflow-runtime
 name: Workflow Runtime
 category: Runtime
 title: Workflow Runtime
-aliases:
+aliases: null
 short_description: Workflow Runtime is the execution environment that runs a workflow
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents

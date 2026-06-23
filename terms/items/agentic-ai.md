@@ -3,7 +3,7 @@ slug: agentic-ai
 name: Agentic AI
 category: Core
 title: Agentic AI
-aliases:
+aliases: null
 short_description: Agentic AI is an umbrella term for AI systems that can take
 termStatus: Umbrella term
 researchBasis: Anthropic, OpenAI Agents SDK, NIST AI RMF

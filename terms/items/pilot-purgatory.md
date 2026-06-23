@@ -3,7 +3,7 @@ slug: pilot-purgatory
 name: Pilot Purgatory
 category: AgentOps
 title: Pilot Purgatory
-aliases:
+aliases: null
 short_description: Pilot Purgatory is the state where a promising pilot never gets
 termStatus: Operational shorthand
 researchBasis: OpenAI, Evals design guide

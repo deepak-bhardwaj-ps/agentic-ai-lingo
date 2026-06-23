@@ -3,7 +3,7 @@ slug: saaspocalypse
 name: Saaspocalypse
 category: Slang
 title: Saaspocalypse
-aliases:
+aliases: null
 short_description: Saaspocalypse is a label for claims that AI will hollow out the
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'

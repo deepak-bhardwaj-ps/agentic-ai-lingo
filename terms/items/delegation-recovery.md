@@ -3,7 +3,7 @@ slug: delegation-recovery
 name: Delegation Recovery
 category: Governance
 title: Delegation Recovery
-aliases:
+aliases: null
 short_description: Delegation Recovery is the process for restoring or reassigning
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

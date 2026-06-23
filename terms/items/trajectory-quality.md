@@ -3,7 +3,7 @@ slug: trajectory-quality
 name: Trajectory Quality
 category: Runtime
 title: Trajectory Quality
-aliases:
+aliases: null
 short_description: Trajectory Quality is used in evaluations to separate a correct
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents

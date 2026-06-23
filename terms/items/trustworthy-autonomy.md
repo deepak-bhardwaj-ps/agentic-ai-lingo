@@ -3,7 +3,7 @@ slug: trustworthy-autonomy
 name: Trustworthy Autonomy
 category: Governance
 title: Trustworthy Autonomy
-aliases:
+aliases: null
 short_description: Trustworthy Autonomy is autonomy backed by controls, evidence,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

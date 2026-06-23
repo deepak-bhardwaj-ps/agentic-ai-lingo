@@ -3,7 +3,7 @@ slug: tool-router
 name: Tool Router
 category: Runtime
 title: Tool Router
-aliases:
+aliases: null
 short_description: Tool Router is the component that selects and routes tool calls
 termStatus: Implementation pattern
 researchBasis: Anthropic, Building effective agents

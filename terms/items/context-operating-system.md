@@ -3,7 +3,7 @@ slug: context-operating-system
 name: Context Operating System
 category: Context
 title: Context Operating System
-aliases:
+aliases: null
 short_description: Context Operating System is the control layer that manages how
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation

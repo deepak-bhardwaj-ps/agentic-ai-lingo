@@ -3,7 +3,7 @@ slug: control-plane-architecture
 name: Control Plane Architecture
 category: Governance
 title: Control Plane Architecture
-aliases:
+aliases: null
 short_description: Control Plane Architecture is the service layer that enforces policy,
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

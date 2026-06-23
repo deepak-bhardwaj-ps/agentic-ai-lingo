@@ -3,7 +3,7 @@ slug: computer-use
 name: Computer Use
 category: Core
 title: Computer Use
-aliases:
+aliases: null
 short_description: Computer Use is model-driven interaction with a desktop through
 termStatus: Established product capability
 researchBasis: Anthropic, Building effective agents

@@ -3,7 +3,7 @@ slug: behaviour-contract
 name: Behaviour Contract
 category: Governance
 title: Behaviour Contract
-aliases:
+aliases: null
 short_description: Behaviour Contract is used to document what an agent or delegate
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

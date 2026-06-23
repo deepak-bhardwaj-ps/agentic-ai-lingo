@@ -3,7 +3,7 @@ slug: action-governance
 name: Action Governance
 category: Governance
 title: Action Governance
-aliases:
+aliases: null
 short_description: Action Governance is the control layer that decides whether an
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications

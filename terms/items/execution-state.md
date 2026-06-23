@@ -3,9 +3,9 @@ slug: execution-state
 name: Execution State
 category: Runtime
 title: Execution State
-aliases:
+aliases: null
 short_description: 'Execution State is used for the mutable record that lets an orchestrator
-continue a run: plan, observations, tool results, checkpoints and budgets.'
+  continue a run: plan, observations, tool results, checkpoints and budgets.'
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:
