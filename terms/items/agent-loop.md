@@ -3,13 +3,11 @@ slug: agent-loop
 name: Agent Loop
 category: Runtime
 title: Agent Loop
-aliases: []
+aliases:
 short_description: A loop repeats planning, acting, and observation updates until
-  a stop condition is met.
 termStatus: Architecture term
 researchBasis: Yao et al., ReAct, Anthropic
 sources:
-- https://arxiv.org/abs/2210.03629
 - https://www.anthropic.com/engineering/building-effective-agents
 ---
 

@@ -3,9 +3,8 @@ slug: memory-compaction
 name: Memory Compaction
 category: Memory
 title: Memory Compaction
-aliases: []
+aliases:
 short_description: Memory Compaction is compressing memory into smaller summaries
-  without losing decision-critical detail.
 termStatus: Implementation technique
 researchBasis: Packer et al., MemGPT
 sources:

@@ -3,9 +3,8 @@ slug: memory-engineering
 name: Memory Engineering
 category: Memory
 title: Memory Engineering
-aliases: []
+aliases:
 short_description: Memory Engineering is the practice of designing and operating agent
-  memory systems.
 updated_at: '2026-06-22T20:54:07.866809+00:00'
 termStatus: Emerging practitioner term
 researchBasis: Packer et al., MemGPT

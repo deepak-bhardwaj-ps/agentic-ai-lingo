@@ -3,9 +3,8 @@ slug: mcp
 name: MCP
 category: Protocols
 title: MCP
-aliases: []
+aliases:
 short_description: MCP is the Model Context Protocol for connecting models to tools,
-  resources, and prompts through a standard interface.
 termStatus: Established protocol
 researchBasis: Model Context Protocol specification
 sources:

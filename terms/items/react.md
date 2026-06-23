@@ -3,9 +3,8 @@ slug: react
 name: ReAct
 category: Runtime
 title: ReAct
-aliases: []
+aliases:
 short_description: ReAct is the reasoning-plus-action pattern that interleaves thought,
-  tool use, and observation.
 termStatus: Established research pattern
 researchBasis: Yao et al., ReAct (ICLR 2023)
 sources:

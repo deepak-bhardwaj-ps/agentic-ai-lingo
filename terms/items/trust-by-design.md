@@ -3,9 +3,8 @@ slug: trust-by-design
 name: Trust-by-Design
 category: Governance
 title: Trust-by-Design
-aliases: []
+aliases:
 short_description: Trust-by-Design is designing the system so trust is earned by evidence
-  and controls.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

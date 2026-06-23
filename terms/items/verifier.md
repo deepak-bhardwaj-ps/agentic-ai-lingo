@@ -3,9 +3,8 @@ slug: verifier
 name: Verifier
 category: Runtime
 title: Verifier
-aliases: []
+aliases:
 short_description: Verifier is the component that checks whether outputs or actions
-  satisfy the required criteria.
 termStatus: Architecture component
 researchBasis: OpenAI, Evals design guide
 sources:

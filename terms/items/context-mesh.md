@@ -3,9 +3,8 @@ slug: context-mesh
 name: Context Mesh
 category: Context
 title: Context Mesh
-aliases: []
+aliases:
 short_description: Context Mesh is a distributed layer for exchanging context across
-  systems.
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents
 sources:

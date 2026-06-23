@@ -3,9 +3,8 @@ slug: trust-plane
 name: Trust Plane
 category: Governance
 title: Trust Plane
-aliases: []
+aliases:
 short_description: Trust Plane is the service layer that establishes whether an agent
-  can be trusted to act.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

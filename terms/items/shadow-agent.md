@@ -3,9 +3,8 @@ slug: shadow-agent
 name: Shadow Agent
 category: AgentOps
 title: Shadow Agent
-aliases: []
+aliases:
 short_description: Shadow Agent is an agent that runs without clear visibility, approval,
-  or governance from the owning team.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

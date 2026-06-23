@@ -3,9 +3,8 @@ slug: shared-meanings
 name: Shared Meanings
 category: Context
 title: Shared Meanings
-aliases: []
+aliases:
 short_description: Shared Meanings is the alignment layer that keeps people and agents
-  using the same terms the same way.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:

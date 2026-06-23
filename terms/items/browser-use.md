@@ -3,9 +3,8 @@ slug: browser-use
 name: Browser Use
 category: Core
 title: Browser Use
-aliases: []
+aliases:
 short_description: Browser Use is browser automation or page interaction performed
-  by a model-driven agent.
 termStatus: Established capability label
 researchBasis: Anthropic, Building effective agents
 sources:

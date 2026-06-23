@@ -3,14 +3,11 @@ slug: agentic-multi-agent-architecture
 name: Agentic Multi-Agent Architecture
 category: Protocols
 title: Agentic Multi-Agent Architecture
-aliases: []
+aliases:
 short_description: Agentic multi-agent architecture is a design where multiple
-  specialised agents coordinate on one task or system.
 termStatus: Architecture description
 researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
 sources:
-- https://www.anthropic.com/engineering/building-effective-agents
-- https://developers.openai.com/api/docs/guides/agents
 - https://www.langchain.com/langgraph
 ---
 
@@ -34,6 +31,6 @@ It is used when work is deliberately decomposed across multiple agents with dist
 
 [Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) treats multiple agents as one pattern among several, with clear trade-offs around coordination and reliability.
 
-[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) shows how orchestration, tools, and guardrails have to be explicit once you move beyond a single loop.
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) shows how orchestration, tools, and [[Guardrails|guardrails]] have to be explicit once you move beyond a single loop.
 
 [LangGraph](https://www.langchain.com/langgraph) reinforces the architectural reason for decomposition: stateful coordination is the thing you have to design, not a side effect you get for free.

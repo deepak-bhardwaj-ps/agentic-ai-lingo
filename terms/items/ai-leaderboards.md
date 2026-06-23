@@ -3,9 +3,8 @@ slug: ai-leaderboards
 name: AI Leaderboards
 category: Slang
 title: AI Leaderboards
-aliases: []
+aliases:
 short_description: AI Leaderboards is a label for treating model rankings or scoreboards
-  as proxy evidence for purchase, adoption, or credibility.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

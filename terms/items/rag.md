@@ -3,9 +3,8 @@ slug: rag
 name: RAG
 category: Context
 title: RAG
-aliases: []
+aliases:
 short_description: 'RAG is retrieval-augmented generation: retrieving external evidence
-  at inference time and conditioning the output on it.'
 termStatus: Established research term
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

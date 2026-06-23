@@ -4,9 +4,8 @@ name: Intent Mesh
 category: Protocols
 addedDate: May 9, 2025
 title: Intent Mesh
-aliases: []
+aliases:
 short_description: Intent Mesh is a routing layer that moves intents across agents,
-  tools, or services.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:

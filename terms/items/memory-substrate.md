@@ -3,9 +3,8 @@ slug: memory-substrate
 name: Memory Substrate
 category: Memory
 title: Memory Substrate
-aliases: []
+aliases:
 short_description: Memory Substrate is the persistence layer beneath an agent’s working
-  context.
 termStatus: Architecture metaphor
 researchBasis: Anthropic, Building effective agents
 sources:

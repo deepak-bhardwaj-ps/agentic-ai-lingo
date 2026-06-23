@@ -3,9 +3,8 @@ slug: context-graph
 name: Context Graph
 category: Context
 title: Context Graph
-aliases: []
+aliases:
 short_description: Context Graph is a graph representation of the entities and relationships
-  available to an agent.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

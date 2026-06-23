@@ -3,9 +3,8 @@ slug: architecture-washing
 name: Architecture Washing
 category: Slang
 title: Architecture Washing
-aliases: []
+aliases:
 short_description: Architecture Washing is a label for using architecture language
-  to make a thin AI feature sound rigorous.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

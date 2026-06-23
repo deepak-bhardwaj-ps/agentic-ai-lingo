@@ -3,13 +3,11 @@ slug: agent-inventory
 name: Agent Inventory
 category: AgentOps
 title: Agent Inventory
-aliases: []
+aliases:
 short_description: A maintained agent inventory lists the agents, versions,
-  capabilities, and owners currently in operation.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, NIST AI RMF
 sources:
-- https://platform.openai.com/docs/guides/evals
 - https://www.nist.gov/itl/ai-risk-management-framework
 ---
 

@@ -3,9 +3,8 @@ slug: trajectory-evaluation
 name: Trajectory Evaluation
 category: AgentOps
 title: Trajectory Evaluation
-aliases: []
+aliases:
 short_description: Trajectory Evaluation is evaluation of the path an agent took,
-  not just the final answer it produced.
 termStatus: Evaluation technique
 researchBasis: OpenAI, Evals design guide
 sources:

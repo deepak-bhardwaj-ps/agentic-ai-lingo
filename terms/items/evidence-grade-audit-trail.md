@@ -3,9 +3,8 @@ slug: evidence-grade-audit-trail
 name: Evidence-Grade Audit Trail
 category: AgentOps
 title: Evidence-Grade Audit Trail
-aliases: []
+aliases:
 short_description: Evidence-Grade Audit Trail is an audit trail detailed enough to
-  support review, accountability, and reconstruction.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

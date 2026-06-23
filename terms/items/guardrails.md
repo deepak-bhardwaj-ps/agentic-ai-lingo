@@ -3,9 +3,8 @@ slug: guardrails
 name: Guardrails
 category: Governance
 title: Guardrails
-aliases: []
+aliases:
 short_description: Guardrails are the rules and constraints that limit what an agent
-  may do.
 termStatus: Established industry label
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

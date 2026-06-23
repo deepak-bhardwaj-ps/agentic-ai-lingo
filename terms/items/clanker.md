@@ -3,9 +3,8 @@ slug: clanker
 name: Clanker
 category: Slang
 title: Clanker
-aliases: []
+aliases:
 short_description: Clanker is a blunt pejorative for noisy, brittle, or obviously
-  machine-like AI systems.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

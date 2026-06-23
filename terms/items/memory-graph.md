@@ -3,9 +3,8 @@ slug: memory-graph
 name: Memory Graph
 category: Memory
 title: Memory Graph
-aliases: []
+aliases:
 short_description: Memory Graph is used where entities, facts and relationships need
-  traversable structure rather than flat retrieved chunks.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

@@ -3,9 +3,8 @@ slug: memory-systems
 name: Memory Systems
 category: Memory
 title: Memory Systems
-aliases: []
+aliases:
 short_description: Memory Systems is the full stack that stores, retrieves, updates,
-  and retires agent memory.
 updated_at: '2026-06-22T20:54:07.902480+00:00'
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT

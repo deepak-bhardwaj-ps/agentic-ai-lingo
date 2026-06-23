@@ -3,9 +3,8 @@ slug: causal-attribution
 name: Causal Attribution
 category: Context
 title: Causal Attribution
-aliases: []
+aliases:
 short_description: Causal Attribution is the ability to explain which source or step
-  caused a model to see or do something.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:

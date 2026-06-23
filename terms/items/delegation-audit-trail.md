@@ -3,9 +3,8 @@ slug: delegation-audit-trail
 name: Delegation Audit Trail
 category: Governance
 title: Delegation Audit Trail
-aliases: []
+aliases:
 short_description: Delegation Audit Trail is the record of who delegated what, to
-  whom, and under which constraints.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

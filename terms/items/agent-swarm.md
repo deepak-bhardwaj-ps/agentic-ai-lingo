@@ -3,14 +3,11 @@ slug: agent-swarm
 name: Agent Swarm
 category: Runtime
 title: Agent Swarm
-aliases: []
+aliases:
 short_description: A swarm is a loosely coordinated pool of agents working on
-  related tasks in parallel.
 termStatus: Informal architecture label
 researchBasis: Anthropic, multi-agent coordination research
 sources:
-- https://www.anthropic.com/engineering/building-effective-agents
-- https://arxiv.org/abs/2603.19431
 - https://arxiv.org/abs/2510.10047
 ---
 

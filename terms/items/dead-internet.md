@@ -3,9 +3,8 @@ slug: dead-internet
 name: Dead Internet
 category: Slang
 title: Dead Internet
-aliases: []
+aliases:
 short_description: Dead Internet is a label for the belief that bots and synthetic
-  content are overwhelming human activity online.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

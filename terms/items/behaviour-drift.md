@@ -3,9 +3,8 @@ slug: behaviour-drift
 name: Behaviour Drift
 category: Governance
 title: Behaviour Drift
-aliases: []
+aliases:
 short_description: Behaviour Drift is used in risk reviews for a gradual divergence
-  from a stated goal, policy or expected behaviour.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

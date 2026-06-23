@@ -3,10 +3,8 @@ slug: harness-engineering
 name: Harness Engineering
 category: AgentOps
 title: Harness Engineering
-aliases: []
+aliases:
 short_description: Practitioners use Harness Engineering when they improve the operating
-  environment around an agent after observing a failure—for example by adding repository
-  guidance, a typed tool, a sandbox rule or an executable check.
 termStatus: Emerging practitioner term
 researchBasis: Hashimoto, Harness engineering
 sources:

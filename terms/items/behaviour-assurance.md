@@ -3,9 +3,8 @@ slug: behaviour-assurance
 name: Behaviour Assurance
 category: Governance
 title: Behaviour Assurance
-aliases: []
+aliases:
 short_description: Behaviour Assurance is evidence that an agent reliably stays within
-  its intended behaviour.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

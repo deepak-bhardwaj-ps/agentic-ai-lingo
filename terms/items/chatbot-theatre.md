@@ -3,9 +3,8 @@ slug: chatbot-theatre
 name: Chatbot Theatre
 category: Slang
 title: Chatbot Theatre
-aliases: []
+aliases:
 short_description: Chatbot Theatre is a label for chat interfaces that imply capability
-  the backend workflow does not actually have.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

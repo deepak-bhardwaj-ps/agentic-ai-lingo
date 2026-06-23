@@ -3,13 +3,12 @@ slug: agent-evals
 name: Agent Evals
 category: AgentOps
 title: Agent Evals
-aliases: []
+aliases:
 short_description: Agent Evals are tests and measurements that show how an agent behaves
-  under controlled scenarios.
 termStatus: Established practice, informal label
 researchBasis: OpenAI, Evals design guide
 sources:
-- https://platform.openai.com/docs/guides/evals
+- https://arxiv.org/abs/2308.03688
 ---
 
 ## Term status
@@ -18,16 +17,22 @@ Established practice, informal label.
 
 ## Meaning
 
-Agent evaluation measures task outcomes and intermediate trajectories under controlled scenarios. Useful suites include tool-call correctness, policy compliance, recovery behaviour, cost and latency.
+Agent evals are reproducible tests that measure whether an agent completes a task safely and correctly across realistic scenarios. Unlike a model-only benchmark, they inspect the full action system: supplied context, routing, tool choice and arguments, side effects, hand-offs, recovery, cost, latency, and the final outcome.
 
-## Boundary
+“Evals” is established engineering shorthand rather than a single methodology. The exact design must follow the risk and behaviour of the workload.
 
-A model benchmark or a single success rate is not sufficient for an agent. Evaluate the real action surface and adversarial failure modes.
+## Common misconceptions
+
+A favourable chat response is not proof that an agent works. A support agent can sound correct while selecting the wrong customer record; a research agent can produce a polished answer with unsupported sources. Test the action surface and the failure modes that matter, including malicious inputs and unavailable tools.
+
+One aggregate score is not sufficient. Separate outcome quality from policy compliance, tool-call validity, approval behaviour, recovery, and operational limits. Automated graders need calibration against expert human judgement, particularly for consequential decisions.
 
 ## How it is used
 
-Agent Evals is used when production behaviour needs to be made measurable: task success, policy compliance, recovery, cost, or latency. It is not enough to score the model once; the evaluation has to reflect the actual action surface and failure modes.
+For a finance-operations agent, an evaluation suite might replay ambiguous invoices, supplier-name collisions, policy exceptions, withheld approvals, API timeouts, and prompt-injection attempts. It should assert both the final disposition and the trace: whether the right account was queried, the payment action was withheld, and escalation occurred when evidence was insufficient.
+
+Run the suite on prompt, model, tool, policy, and orchestration changes. Mine production traces for new cases, retain a held-out regression set, and treat evaluation gaps as a release risk rather than post-launch housekeeping.
 
 ## Evidence
 
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[OpenAI’s evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices) and [agent evals guide](https://platform.openai.com/docs/guides/agent-evals) define current production practice, while [trace grading](https://platform.openai.com/docs/guides/trace-grading) addresses intermediate decisions and tool calls. [AgentBench](https://arxiv.org/abs/2308.03688) supplies research context for evaluating agents across multi-turn environments.

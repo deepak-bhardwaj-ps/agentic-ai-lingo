@@ -3,9 +3,8 @@ slug: multi-agent-governance
 name: Multi-Agent Governance
 category: AgentOps
 title: Multi-Agent Governance
-aliases: []
+aliases:
 short_description: Multi-Agent Governance is the set of controls that keeps multiple
-  agents from conflicting or exceeding their authority.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

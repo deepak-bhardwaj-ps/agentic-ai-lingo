@@ -3,9 +3,8 @@ slug: trendslop
 name: Trendslop
 category: Slang
 title: Trendslop
-aliases: []
+aliases:
 short_description: Trendslop is a label for AI content assembled to match current
-  trends rather than to be useful or durable.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

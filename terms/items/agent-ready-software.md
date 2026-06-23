@@ -3,14 +3,11 @@ slug: agent-ready-software
 name: Agent-Ready Software
 category: Protocols
 title: Agent-Ready Software
-aliases: []
+aliases:
 short_description: Agent-ready software exposes machine-navigable interfaces,
-  metadata, and permissions that agents can call safely.
 termStatus: Emerging interoperability/architecture label
 researchBasis: MCP, Anthropic, OpenAI Agents SDK
 sources:
-- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
-- https://www.anthropic.com/engineering/building-effective-agents
 - https://developers.openai.com/api/docs/guides/agents
 ---
 
@@ -32,7 +29,7 @@ It is used when software exposes enough structure, permissions, and metadata for
 
 ## Evidence
 
-[MCP authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) shows the minimum bar for safe integration: explicit auth, not just connectivity.
+[[[MCP]] authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) shows the minimum bar for safe integration: explicit auth, not just connectivity.
 
 [Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) argues for simple, composable interfaces with well-documented tools rather than opaque frameworks.
 

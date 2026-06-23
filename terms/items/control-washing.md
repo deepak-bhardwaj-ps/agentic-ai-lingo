@@ -3,9 +3,8 @@ slug: control-washing
 name: Control Washing
 category: Slang
 title: Control Washing
-aliases: []
+aliases:
 short_description: Control Washing is a label for overstating guardrails, overrides,
-  or governance in an AI system.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

@@ -3,9 +3,8 @@ slug: autonomous-workflow
 name: Autonomous Workflow
 category: AgentOps
 title: Autonomous Workflow
-aliases: []
+aliases:
 short_description: Autonomous Workflow is a workflow that can progress and recover
-  with limited human intervention.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

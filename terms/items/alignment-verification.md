@@ -3,9 +3,8 @@ slug: alignment-verification
 name: Alignment Verification
 category: Governance
 title: Alignment Verification
-aliases: []
+aliases:
 short_description: Alignment Verification is checking that agent behaviour matches
-  the stated objective or policy.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

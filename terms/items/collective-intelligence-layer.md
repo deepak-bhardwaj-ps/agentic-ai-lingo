@@ -3,9 +3,8 @@ slug: collective-intelligence-layer
 name: Collective Intelligence Layer
 category: Protocols
 title: Collective Intelligence Layer
-aliases: []
+aliases:
 short_description: Collective Intelligence Layer is shared coordination that combines
-  multiple agents or sources.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:

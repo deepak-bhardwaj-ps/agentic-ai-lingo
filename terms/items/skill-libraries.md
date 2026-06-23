@@ -3,9 +3,8 @@ slug: skill-libraries
 name: Skill Libraries
 category: Protocols
 title: Skill Libraries
-aliases: []
+aliases:
 short_description: Skill Libraries are reusable packages of instructions, tools, examples,
-  or code that give agents repeatable capabilities.
 termStatus: Implementation pattern
 researchBasis: Hashimoto, Harness engineering
 sources:

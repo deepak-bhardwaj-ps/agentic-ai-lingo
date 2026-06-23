@@ -3,14 +3,11 @@ slug: agent-mesh
 name: Agent Mesh
 category: Protocols
 title: Agent Mesh
-aliases: []
+aliases:
 short_description: A mesh is a decentralised agent network with real discovery,
-  addressing, and routing rules.
 termStatus: Emerging interoperability/architecture label
 researchBasis: A2A protocol, MCP, Anthropic
 sources:
-- https://a2a-protocol.org/dev/specification/
-- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
 - https://www.anthropic.com/engineering/building-effective-agents
 ---
 
@@ -33,7 +30,7 @@ It is used when coordination is decentralised and agents need discovery, address
 
 ## Evidence
 
-[Agent2Agent protocol specification](https://a2a-protocol.org/dev/specification/) shows what real agent-to-agent interoperability has to spell out: discovery, message exchange, and participation rules.
+[Agent2Agent protocol specification](https://[[A2A|a2a]]-protocol.org/dev/specification/) shows what real agent-to-agent interoperability has to spell out: discovery, message exchange, and participation rules.
 
 [Model Context Protocol authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) shows the adjacent problem on the tool side: wiring agents to systems safely needs explicit auth, not just connectivity.
 

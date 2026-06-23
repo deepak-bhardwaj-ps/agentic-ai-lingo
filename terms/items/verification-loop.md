@@ -3,9 +3,8 @@ slug: verification-loop
 name: Verification Loop
 category: Runtime
 title: Verification Loop
-aliases: []
+aliases:
 short_description: Verification Loop is the cycle of checking results, feeding back
-  evidence, and deciding whether to continue.
 termStatus: Architecture pattern
 researchBasis: OpenAI, Evals design guide
 sources:

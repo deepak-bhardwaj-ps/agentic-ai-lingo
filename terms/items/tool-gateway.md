@@ -3,9 +3,8 @@ slug: tool-gateway
 name: Tool Gateway
 category: Protocols
 title: Tool Gateway
-aliases: []
+aliases:
 short_description: Tool Gateway is a control point that brokers access to tools and
-  applies policy before execution.
 termStatus: Architecture pattern
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

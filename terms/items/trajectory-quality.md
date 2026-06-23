@@ -3,9 +3,8 @@ slug: trajectory-quality
 name: Trajectory Quality
 category: Runtime
 title: Trajectory Quality
-aliases: []
+aliases:
 short_description: Trajectory Quality is used in evaluations to separate a correct
-  final result from a safe, efficient execution path.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:

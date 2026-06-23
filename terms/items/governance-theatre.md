@@ -3,9 +3,8 @@ slug: governance-theatre
 name: Governance Theatre
 category: Slang
 title: Governance Theatre
-aliases: []
+aliases:
 short_description: Governance Theatre is a label for oversight structures that signal
-  control without changing decisions.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

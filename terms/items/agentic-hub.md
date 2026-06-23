@@ -3,9 +3,8 @@ slug: agentic-hub
 name: Agentic Hub
 category: Context
 title: Agentic Hub
-aliases: []
-short_description: An agentic hub is a central point for the context, tools, or
-  services an agent needs.
+aliases:
+short_description: An agentic hub is a central point that brokers the context,
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:
@@ -26,7 +25,7 @@ It is not a standard term unless a specific product or protocol defines it. Stat
 
 ## How it is used
 
-It is used when a system needs a central point for discovery, access, or coordination around agent-related resources. It becomes useful only if it actually brokers context or capability instead of just naming a landing page.
+Use it when a system needs a central point for discovery, access, or coordination around agent-related resources. It becomes useful only if it actually brokers context or capability instead of just naming a landing page.
 
 ## Evidence
 

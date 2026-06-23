@@ -3,9 +3,8 @@ slug: promptmaxxing
 name: Promptmaxxing
 category: Slang
 title: Promptmaxxing
-aliases: []
+aliases:
 short_description: Promptmaxxing is a slang term for extreme prompt tuning, usually
-  with more status than operational value.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

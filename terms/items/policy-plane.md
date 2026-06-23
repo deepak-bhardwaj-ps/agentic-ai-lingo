@@ -3,9 +3,8 @@ slug: policy-plane
 name: Policy Plane
 category: Governance
 title: Policy Plane
-aliases: []
+aliases:
 short_description: Policy Plane is the service layer that evaluates rules before an
-  action is allowed.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

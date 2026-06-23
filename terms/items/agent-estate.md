@@ -3,13 +3,12 @@ slug: agent-estate
 name: Agent Estate
 category: AgentOps
 title: Agent Estate
-aliases: []
+aliases:
 short_description: Agent Estate is the collection of agents, workflows, and controls
-  an organisation must run and maintain.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
-- https://platform.openai.com/docs/guides/evals
+- https://openai.com/business/frontier/
 ---
 
 ## Term status
@@ -18,16 +17,22 @@ Operational metric/practice.
 
 ## Meaning
 
-An agent estate is the whole operational footprint: agents, prompts, policies, connectors, tests, and the people who own them. It is the term you use when the problem has become fleet management rather than a single pilot.
+Agent estate describes the organisation-wide operational footprint of deployed agents and the dependencies that make them real systems: prompts, models, tools, identities, data connections, evaluations, policies, run histories, and accountable owners. It becomes the right lens when isolated pilots turn into a managed population with shared risk and cost.
 
-## Boundary
+The phrase is borrowed from enterprise IT “application estate” language. It is useful operational shorthand, not a standardised inventory model.
 
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
+## Common misconceptions
+
+An estate is not an agent count. Ten low-permission assistants with one approved connector present a different operating problem from ten agents that can change customer records. Inventory must capture purpose, owner, publisher, identity, permissions, data classes, lifecycle state, and actual usage.
+
+It is also broader than a portfolio of business cases. An [[Agent Portfolio|agent portfolio]] helps decide where to invest; the estate includes the technical and governance assets needed to operate whatever has been approved.
 
 ## How it is used
 
-Agent Estate is used when the question is the shape and health of the whole deployed [[Agent Portfolio|agent portfolio]] rather than a single system. It is a useful lens for ownership, inventory, risk concentration, and lifecycle hygiene.
+An estate review should expose orphaned agents, duplicated connectors, owners who have left, dormant but still privileged workloads, untested prompt versions, and concentration around a shared model or system of record. Microsoft’s [[Agent Registry|agent registry]] illustrates the practical core: centralised discovery, governance, lifecycle actions, and ownership assignment.
+
+Maintain an estate register as a controlled configuration record rather than a spreadsheet for quarterly reporting. Join it to deployment pipelines, identity governance, spend data, incident records, evaluations, and retirement workflows so it can answer: what agents exist, who is responsible, what can they do, and should they still run?
 
 ## Evidence
 
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+“Agent estate” itself has no canonical specification. [Microsoft’s agent lifecycle actions](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions) and [agent registry](https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/agent-registry-convergence) show the inventory and control requirements in practice; [OpenAI Frontier](https://openai.com/business/frontier/) supplies a current enterprise operating-platform example.

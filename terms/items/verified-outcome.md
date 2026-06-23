@@ -3,9 +3,8 @@ slug: verified-outcome
 name: Verified Outcome
 category: AgentOps
 title: Verified Outcome
-aliases: []
+aliases:
 short_description: Verified Outcome is an outcome that has been checked against a
-  defined criterion or independent evidence.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

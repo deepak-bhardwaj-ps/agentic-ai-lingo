@@ -3,13 +3,11 @@ slug: agentic-misalignment
 name: Agentic Misalignment
 category: Governance
 title: Agentic Misalignment
-aliases: []
+aliases:
 short_description: Agentic misalignment is when an agent’s behaviour diverges
-  from the operator’s intent or policy.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications, NIST AI RMF
 sources:
-- https://genai.owasp.org/llm-top-10/
 - https://www.nist.gov/itl/ai-risk-management-framework
 ---
 

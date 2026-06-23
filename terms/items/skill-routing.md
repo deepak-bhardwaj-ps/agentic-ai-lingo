@@ -3,9 +3,8 @@ slug: skill-routing
 name: Skill Routing
 category: Runtime
 title: Skill Routing
-aliases: []
+aliases:
 short_description: Skill Routing is selecting the right capability from a tool or
-  skill set at run time.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:

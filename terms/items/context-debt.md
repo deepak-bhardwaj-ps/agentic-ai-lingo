@@ -3,9 +3,8 @@ slug: context-debt
 name: Context Debt
 category: Context
 title: Context Debt
-aliases: []
+aliases:
 short_description: Context Debt is the accumulation of stale, duplicated, or hard-to-use
-  context that makes future decisions worse.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

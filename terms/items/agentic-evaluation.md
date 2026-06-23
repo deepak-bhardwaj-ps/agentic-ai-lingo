@@ -3,14 +3,11 @@ slug: agentic-evaluation
 name: Agentic Evaluation
 category: AgentOps
 title: Agentic Evaluation
-aliases: []
+aliases:
 short_description: Agentic evaluation is evaluation for multi-step, stateful,
-  tool-using systems.
 termStatus: Established practice, informal label
 researchBasis: OpenAI, trace grading, Anthropic
 sources:
-- https://platform.openai.com/docs/guides/evals
-- https://platform.openai.com/docs/guides/trace-grading
 - https://www.anthropic.com/engineering/building-effective-agents
 ---
 

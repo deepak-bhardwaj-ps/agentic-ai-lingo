@@ -3,9 +3,8 @@ slug: episodic-memory
 name: Episodic Memory
 category: Memory
 title: Episodic Memory
-aliases: []
+aliases:
 short_description: Episodic Memory is stored memory of specific interactions, events,
-  or episodes.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:

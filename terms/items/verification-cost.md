@@ -3,9 +3,8 @@ slug: verification-cost
 name: Verification Cost
 category: Context
 title: Verification Cost
-aliases: []
+aliases:
 short_description: Verification Cost is the cost of proving a model’s answer or action
-  is correct enough to trust.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:

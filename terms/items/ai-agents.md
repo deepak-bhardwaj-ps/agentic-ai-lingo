@@ -3,9 +3,8 @@ slug: ai-agents
 name: AI Agents
 category: Core
 title: AI Agents
-aliases: []
-short_description: AI agents is a general label for software systems that can
-  choose actions, use tools, and pursue a goal across steps.
+aliases:
+short_description: AI agents is the umbrella label for software systems that can
 updated_at: '2026-06-22T20:54:06.685468+00:00'
 termStatus: Umbrella term
 researchBasis: Anthropic, Building effective agents
@@ -19,7 +18,7 @@ Umbrella term.
 
 ## Meaning
 
-AI agent is an overloaded label for a model-based system that selects actions towards a goal, commonly by invoking tools and using observations. The autonomy and planning depth vary widely.
+AI agent is an overloaded label for a model-based system that selects actions towards a goal, commonly by invoking tools and using observations. The autonomy and planning depth vary widely, so the label only becomes useful once you name the actual runtime shape.
 
 ## Boundary
 
@@ -27,7 +26,7 @@ A chatbot, workflow, and autonomous agent are not interchangeable. State the act
 
 ## How it is used
 
-It is used when the discussion is about a system that can plan, call tools, track state, and recover from failure rather than only answer a prompt. In practice it is the broadest umbrella in the glossary, so it should be narrowed quickly to the real runtime, governance, or workflow question.
+Use it when the discussion is about a system that can plan, call tools, track state, and recover from failure rather than only answer a prompt. In practice it is the broadest umbrella in the glossary, so it should be narrowed quickly to the real runtime, governance, or workflow question.
 
 ## Evidence
 

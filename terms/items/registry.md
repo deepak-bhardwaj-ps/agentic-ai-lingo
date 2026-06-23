@@ -3,9 +3,8 @@ slug: registry
 name: Registry
 category: Protocols
 title: Registry
-aliases: []
+aliases:
 short_description: Registry is a catalogue of agents, services, or resources that
-  can be discovered and referenced consistently.
 updated_at: '2026-06-22T20:54:08.031649+00:00'
 termStatus: Established systems term
 researchBasis: Model Context Protocol specification

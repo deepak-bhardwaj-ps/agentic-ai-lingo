@@ -3,9 +3,8 @@ slug: delegation-chain
 name: Delegation Chain
 category: Governance
 title: Delegation Chain
-aliases: []
+aliases:
 short_description: Delegation Chain is the sequence of principals and hand-offs involved
-  in a delegated action.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

@@ -3,9 +3,8 @@ slug: workslop
 name: Workslop
 category: Slang
 title: Workslop
-aliases: []
+aliases:
 short_description: Workslop is a label for polished-looking AI output that creates
-  extra cleanup or rework downstream.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

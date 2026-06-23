@@ -3,9 +3,8 @@ slug: evidence-based-execution
 name: Evidence-Based Execution
 category: Governance
 title: Evidence-Based Execution
-aliases: []
+aliases:
 short_description: Evidence-Based Execution is taking action only when the evidence
-  meets the required threshold.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

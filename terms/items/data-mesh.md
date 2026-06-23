@@ -3,9 +3,8 @@ slug: data-mesh
 name: Data Mesh
 category: Context
 title: Data Mesh
-aliases: []
+aliases:
 short_description: Data Mesh is a decentralised data architecture based on domain-owned
-  data products and federated governance.
 termStatus: Established data-architecture term
 researchBasis: Dehghani, Data Mesh principles
 sources:

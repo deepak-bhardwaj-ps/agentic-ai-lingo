@@ -3,14 +3,11 @@ slug: agent-kernel
 name: Agent Kernel
 category: Runtime
 title: Agent Kernel
-aliases: []
+aliases:
 short_description: A kernel is the smallest runtime core that keeps one agent
-  coherent across state, decision, tool use, and control flow.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
 sources:
-- https://www.anthropic.com/engineering/building-effective-agents
-- https://developers.openai.com/api/docs/guides/agents
 - https://www.langchain.com/langgraph
 ---
 
@@ -32,8 +29,8 @@ A kernel is used when you need to discuss the smallest reliable core of an agent
 
 ## Evidence
 
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes the agent loop from surrounding workflow orchestration and keeps the runtime core small and explicit.
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes the [[Agent Loop|agent loop]] from surrounding workflow orchestration and keeps the runtime core small and explicit.
 
-[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration, guardrails, state, tools, and observability from the app’s own logic.
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration, [[Guardrails|guardrails]], state, tools, and observability from the app’s own logic.
 
 [LangGraph](https://www.langchain.com/langgraph) frames reliable agents around explicit stateful graphs rather than an opaque loop, which is the same design pressure behind the kernel label.

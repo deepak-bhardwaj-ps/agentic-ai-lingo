@@ -3,9 +3,8 @@ slug: permission-gates
 name: Permission Gates
 category: Governance
 title: Permission Gates
-aliases: []
+aliases:
 short_description: Permission Gates is used to govern whether a requested action is
-  allowed for a particular agent and principal.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

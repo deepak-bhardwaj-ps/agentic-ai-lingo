@@ -3,14 +3,11 @@ slug: agentic-coding
 name: Agentic Coding
 category: Core
 title: Agentic Coding
-aliases: []
+aliases:
 short_description: Agentic coding is coding in which an AI system can propose,
-  edit, run, and revise code with limited supervision.
 termStatus: Emerging practitioner term
 researchBasis: Harness engineering, Anthropic, OpenAI Agents SDK
 sources:
-- https://mitchellh.com/writing/my-ai-adoption-journey
-- https://www.anthropic.com/engineering/building-effective-agents
 - https://developers.openai.com/api/docs/guides/agents
 ---
 
@@ -32,7 +29,7 @@ It is used when the coding workflow includes tool use, multi-step revision, and 
 
 ## Evidence
 
-[Harness engineering](https://mitchellh.com/writing/my-ai-adoption-journey) is the practical reference point for coding workflows that depend on explicit loops, verification, and recovery.
+[[[Harness Engineering|Harness engineering]]](https://mitchellh.com/writing/my-ai-adoption-journey) is the practical reference point for coding workflows that depend on explicit loops, verification, and recovery.
 
 [Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) supports the broader point that the useful unit is the tool-using loop, not a single completion.
 

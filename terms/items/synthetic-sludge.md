@@ -3,9 +3,8 @@ slug: synthetic-sludge
 name: Synthetic Sludge
 category: Slang
 title: Synthetic Sludge
-aliases: []
+aliases:
 short_description: Synthetic Sludge is a label for machine-generated content that
-  builds a thick layer of low-signal material.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

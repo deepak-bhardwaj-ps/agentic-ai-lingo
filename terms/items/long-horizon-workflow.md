@@ -3,9 +3,8 @@ slug: long-horizon-workflow
 name: Long-Horizon Workflow
 category: Runtime
 title: Long-Horizon Workflow
-aliases: []
+aliases:
 short_description: Long-Horizon Workflow is a workflow that must remain coherent across
-  many turns, retries, and state changes.
 termStatus: Descriptive capability term
 researchBasis: OpenAI, Evals design guide
 sources:

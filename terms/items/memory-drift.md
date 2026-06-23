@@ -3,9 +3,8 @@ slug: memory-drift
 name: Memory Drift
 category: Memory
 title: Memory Drift
-aliases: []
+aliases:
 short_description: Memory Drift is gradual change in stored state or retrieval behaviour
-  that shifts later decisions.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

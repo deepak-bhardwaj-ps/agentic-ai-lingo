@@ -3,9 +3,8 @@ slug: governed-context
 name: Governed Context
 category: Context
 title: Governed Context
-aliases: []
+aliases:
 short_description: Governed Context is context assembled and delivered under explicit
-  policy and access control.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

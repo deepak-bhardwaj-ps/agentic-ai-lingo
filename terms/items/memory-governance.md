@@ -4,9 +4,8 @@ name: Memory Governance
 category: Memory
 addedDate: May 8, 2025
 title: Memory Governance
-aliases: []
+aliases:
 short_description: Memory Governance is policy for who can read, write, retain, or
-  delete agent memory.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

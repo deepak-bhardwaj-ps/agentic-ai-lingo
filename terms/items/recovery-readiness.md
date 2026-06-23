@@ -3,9 +3,8 @@ slug: recovery-readiness
 name: Recovery Readiness
 category: AgentOps
 title: Recovery Readiness
-aliases: []
+aliases:
 short_description: Recovery Readiness is the degree to which an agent system can be
-  restored after a failure or interruption.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

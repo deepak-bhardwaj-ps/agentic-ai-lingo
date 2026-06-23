@@ -3,9 +3,8 @@ slug: long-horizon-tasks
 name: Long-Horizon Tasks
 category: Runtime
 title: Long-Horizon Tasks
-aliases: []
+aliases:
 short_description: Long-Horizon Tasks are tasks that unfold over many steps and require
-  persistence, recovery, and state.
 termStatus: Descriptive capability term
 researchBasis: OpenAI, Evals design guide
 sources:

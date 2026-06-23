@@ -3,9 +3,8 @@ slug: context-freshness
 name: Context Freshness
 category: Context
 title: Context Freshness
-aliases: []
+aliases:
 short_description: Context Freshness is the degree to which the model sees recent,
-  relevant, unexpired information.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

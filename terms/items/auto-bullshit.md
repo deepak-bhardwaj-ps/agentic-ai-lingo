@@ -3,9 +3,8 @@ slug: auto-bullshit
 name: Auto-bullshit
 category: Slang
 title: Auto-bullshit
-aliases: []
+aliases:
 short_description: Auto-bullshit is a blunt label for confident but false or meaningless
-  AI output.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

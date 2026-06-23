@@ -4,9 +4,8 @@ name: Verifiable Action
 category: Governance
 addedDate: May 12, 2025
 title: Verifiable Action
-aliases: []
+aliases:
 short_description: Verifiable Action is an action that can be checked against a defined
-  record or criterion.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

@@ -3,9 +3,8 @@ slug: runtime-governance
 name: Runtime Governance
 category: Runtime
 title: Runtime Governance
-aliases: []
+aliases:
 short_description: Runtime Governance is the set of controls that constrains what
-  a runtime can do and how it is supervised.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:

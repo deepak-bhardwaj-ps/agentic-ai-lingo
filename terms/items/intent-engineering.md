@@ -3,9 +3,8 @@ slug: intent-engineering
 name: Intent Engineering
 category: Protocols
 title: Intent Engineering
-aliases: []
+aliases:
 short_description: Intent Engineering is turning user intent into tasks or machine-executable
-  objectives.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:

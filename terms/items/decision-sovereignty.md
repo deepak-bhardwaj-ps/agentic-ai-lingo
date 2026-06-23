@@ -3,9 +3,8 @@ slug: decision-sovereignty
 name: Decision Sovereignty
 category: Governance
 title: Decision Sovereignty
-aliases: []
+aliases:
 short_description: Decision Sovereignty is who retains final decision rights in an
-  agentic system.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

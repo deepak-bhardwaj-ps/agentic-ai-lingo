@@ -3,9 +3,8 @@ slug: procedural-memory
 name: Procedural Memory
 category: Memory
 title: Procedural Memory
-aliases: []
+aliases:
 short_description: Procedural Memory is stored patterns for how an agent should do
-  tasks.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT
 sources:

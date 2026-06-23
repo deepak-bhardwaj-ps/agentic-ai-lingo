@@ -3,14 +3,11 @@ slug: agent-society
 name: Agent Society
 category: Protocols
 title: Agent Society
-aliases: []
+aliases:
 short_description: A society is a metaphor for many agents interacting under
-  shared norms, incentives, or rules.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Multi-agent norms research, Anthropic
 sources:
-- https://arxiv.org/abs/2405.19328
-- https://arxiv.org/abs/2105.00124
 - https://www.anthropic.com/engineering/building-effective-agents
 ---
 

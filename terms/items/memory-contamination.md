@@ -3,9 +3,8 @@ slug: memory-contamination
 name: Memory Contamination
 category: Memory
 title: Memory Contamination
-aliases: []
+aliases:
 short_description: Memory Contamination is false, irrelevant, malicious, or misretrieved
-  state that later affects decisions.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

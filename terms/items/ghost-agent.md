@@ -3,9 +3,8 @@ slug: ghost-agent
 name: Ghost Agent
 category: AgentOps
 title: Ghost Agent
-aliases: []
+aliases:
 short_description: Ghost Agent is an agent that exists on paper or in logs but is
-  missing, inactive, or not behaving as expected.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

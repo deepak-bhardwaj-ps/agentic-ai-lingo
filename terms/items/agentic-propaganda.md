@@ -3,9 +3,8 @@ slug: agentic-propaganda
 name: Agentic Propaganda
 category: Social
 title: Agentic Propaganda
-aliases: []
+aliases:
 short_description: Agentic propaganda is coordinated automated messaging or the
-  effects it creates.
 termStatus: Descriptive/social label
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

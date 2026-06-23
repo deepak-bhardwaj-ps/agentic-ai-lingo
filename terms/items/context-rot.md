@@ -3,9 +3,8 @@ slug: context-rot
 name: Context Rot
 category: Context
 title: Context Rot
-aliases: []
+aliases:
 short_description: Context Rot is the gradual degradation of context quality as sources
-  age, diverge, or become misleading.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

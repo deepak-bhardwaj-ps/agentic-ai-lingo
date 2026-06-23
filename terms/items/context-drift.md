@@ -3,9 +3,8 @@ slug: context-drift
 name: Context Drift
 category: Context
 title: Context Drift
-aliases: []
+aliases:
 short_description: Context Drift is the gradual change in what context a model sees
-  or depends on over time.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

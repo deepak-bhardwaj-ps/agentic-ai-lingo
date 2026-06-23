@@ -3,9 +3,8 @@ slug: orphan-agent
 name: Orphan Agent
 category: AgentOps
 title: Orphan Agent
-aliases: []
+aliases:
 short_description: Orphan Agent is an agent that exists without a clear owner, support
-  path, or lifecycle plan.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

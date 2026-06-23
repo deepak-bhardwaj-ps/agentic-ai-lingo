@@ -3,9 +3,8 @@ slug: memory-architecture
 name: Memory Architecture
 category: Memory
 title: Memory Architecture
-aliases: []
+aliases:
 short_description: Memory Architecture is the design of storage, retrieval, and correction
-  for agent memory.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

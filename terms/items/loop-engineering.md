@@ -3,9 +3,8 @@ slug: loop-engineering
 name: Loop Engineering
 category: Runtime
 title: Loop Engineering
-aliases: []
+aliases:
 short_description: Loop Engineering is the practice of designing repeated plan-act-observe
-  cycles with explicit stops and limits.
 termStatus: Architecture/implementation term
 researchBasis: Anthropic, Building effective agents
 sources:

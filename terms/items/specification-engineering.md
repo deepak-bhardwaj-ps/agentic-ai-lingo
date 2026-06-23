@@ -3,9 +3,8 @@ slug: specification-engineering
 name: Specification Engineering
 category: Governance
 title: Specification Engineering
-aliases: []
+aliases:
 short_description: Specification Engineering is turning behaviour into testable, enforceable
-  specifications.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

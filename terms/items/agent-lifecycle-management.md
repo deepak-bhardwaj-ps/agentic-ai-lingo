@@ -3,14 +3,11 @@ slug: agent-lifecycle-management
 name: Agent Lifecycle Management
 category: AgentOps
 title: Agent Lifecycle Management
-aliases: []
+aliases:
 short_description: A lifecycle management practice governs the introduction,
-  operation, update, suspension, and retirement of agents.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
-- https://platform.openai.com/docs/guides/evals
-- https://www.nist.gov/itl/ai-risk-management-framework
 - https://learn.microsoft.com/en-us/entra/agent-id/agent-identities
 ---
 

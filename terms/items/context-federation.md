@@ -3,9 +3,8 @@ slug: context-federation
 name: Context Federation
 category: Context
 title: Context Federation
-aliases: []
+aliases:
 short_description: Context Federation is the coordination of context across multiple
-  systems or repositories.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

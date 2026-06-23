@@ -3,9 +3,8 @@ slug: execution-graph
 name: Execution Graph
 category: Runtime
 title: Execution Graph
-aliases: []
+aliases:
 short_description: Execution Graph is the graph of steps, dependencies, and side effects
-  that defines how work proceeds.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

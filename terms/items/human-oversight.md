@@ -3,9 +3,8 @@ slug: human-oversight
 name: Human Oversight
 category: Governance
 title: Human Oversight
-aliases: []
+aliases:
 short_description: Human Oversight is used to specify where a human reviews, approves,
-  interrupts or overrides an agent.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

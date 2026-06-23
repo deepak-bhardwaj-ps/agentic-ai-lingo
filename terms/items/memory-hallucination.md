@@ -3,9 +3,8 @@ slug: memory-hallucination
 name: Memory Hallucination
 category: Memory
 title: Memory Hallucination
-aliases: []
+aliases:
 short_description: Memory Hallucination is false, irrelevant, malicious, or misretrieved
-  state that later affects decisions.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

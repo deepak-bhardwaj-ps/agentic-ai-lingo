@@ -3,9 +3,8 @@ slug: ambient-team
 name: Ambient Team
 category: Protocols
 title: Ambient Team
-aliases: []
+aliases:
 short_description: Ambient Team is a persistent set of agents that supports a human
-  team in the background.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Model Context Protocol specification
 sources:

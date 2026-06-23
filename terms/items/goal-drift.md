@@ -3,9 +3,8 @@ slug: goal-drift
 name: Goal Drift
 category: Governance
 title: Goal Drift
-aliases: []
+aliases:
 short_description: Goal Drift is used in risk reviews for a gradual divergence from
-  a stated goal, policy or expected behaviour.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

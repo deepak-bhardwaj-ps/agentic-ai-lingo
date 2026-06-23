@@ -3,14 +3,11 @@ slug: agent-sprawl
 name: Agent Sprawl
 category: AgentOps
 title: Agent Sprawl
-aliases: []
+aliases:
 short_description: Agent sprawl is uncontrolled growth of agents without matching
-  ownership, standards, or lifecycle control.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
-- https://platform.openai.com/docs/guides/evals
-- https://www.nist.gov/itl/ai-risk-management-framework
 - https://learn.microsoft.com/en-us/entra/agent-id/agent-identities
 ---
 

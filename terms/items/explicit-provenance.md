@@ -3,9 +3,8 @@ slug: explicit-provenance
 name: Explicit Provenance
 category: Context
 title: Explicit Provenance
-aliases: []
+aliases:
 short_description: Explicit Provenance is provenance that is visible, machine-readable,
-  and carried with the context.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

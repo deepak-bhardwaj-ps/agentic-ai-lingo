@@ -3,7 +3,7 @@ slug: working-memory
 name: Working Memory
 category: Memory
 title: Working Memory
-aliases: []
+aliases:
 short_description: Working Memory is task-local state currently kept in active context.
 termStatus: Established cognitive term; applied metaphor
 researchBasis: Packer et al., MemGPT

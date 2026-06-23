@@ -3,9 +3,8 @@ slug: decision-plane
 name: Decision Plane
 category: Governance
 title: Decision Plane
-aliases: []
+aliases:
 short_description: Decision Plane is the service layer that applies decision policy
-  and records what was decided.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

@@ -3,9 +3,8 @@ slug: test-driven-agentic-workflow
 name: Test-Driven Agentic Workflow
 category: Runtime
 title: Test-Driven Agentic Workflow
-aliases: []
+aliases:
 short_description: Test-Driven Agentic Workflow is a workflow where tests define the
-  agent’s target behaviour and acceptance checks.
 termStatus: Emerging practitioner shorthand
 researchBasis: Anthropic, Building effective agents
 sources:

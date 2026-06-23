@@ -3,14 +3,11 @@ slug: agent-marketplace
 name: Agent Marketplace
 category: Protocols
 title: Agent Marketplace
-aliases: []
+aliases:
 short_description: A marketplace is a catalogue for discovering, selecting, and
-  governing agents or skills.
 termStatus: Product/operating-model label
 researchBasis: OWASP Top 10 for LLM Applications, PROV-AGENT, Anthropic
 sources:
-- https://genai.owasp.org/llm-top-10/
-- https://arxiv.org/abs/2508.02866
 - https://www.anthropic.com/engineering/building-effective-agents
 ---
 

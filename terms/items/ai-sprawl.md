@@ -3,9 +3,8 @@ slug: ai-sprawl
 name: AI Sprawl
 category: Slang
 title: AI Sprawl
-aliases: []
+aliases:
 short_description: AI Sprawl is a label for AI tools and pilots multiplying faster
-  than ownership, standards, or integration discipline.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

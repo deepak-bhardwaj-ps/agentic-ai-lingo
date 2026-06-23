@@ -3,14 +3,11 @@ slug: agent-training
 name: Agent Training
 category: Protocols
 title: Agent Training
-aliases: []
+aliases:
 short_description: Agent training is the onboarding or calibration of agents to
-  operate in a shared ecosystem.
 termStatus: Emerging interoperability/architecture label
 researchBasis: Anthropic, OpenAI Agents SDK, MCP
 sources:
-- https://www.anthropic.com/engineering/building-effective-agents
-- https://developers.openai.com/api/docs/guides/agents
 - https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
 ---
 
@@ -36,4 +33,4 @@ It is used when an agent needs instruction, calibration, or behavioural adaptati
 
 [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration and state from the model itself, which is what makes calibration distinct from model training.
 
-[MCP authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) captures the integration side: onboarding an agent safely requires explicit permissions, not just configuration.
+[[[MCP]] authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) captures the integration side: onboarding an agent safely requires explicit permissions, not just configuration.

@@ -3,9 +3,8 @@ slug: exception-rate
 name: Exception Rate
 category: AgentOps
 title: Exception Rate
-aliases: []
+aliases:
 short_description: Exception Rate is the proportion of workflows that need manual
-  handling, escalation, or fallback.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:

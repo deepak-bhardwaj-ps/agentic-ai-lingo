@@ -3,9 +3,8 @@ slug: context-saturation
 name: Context Saturation
 category: Context
 title: Context Saturation
-aliases: []
+aliases:
 short_description: Context Saturation is the point where adding more context stops
-  helping and starts reducing decision quality.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

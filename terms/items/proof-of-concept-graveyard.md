@@ -3,9 +3,8 @@ slug: proof-of-concept-graveyard
 name: Proof-of-Concept Graveyard
 category: AgentOps
 title: Proof-of-Concept Graveyard
-aliases: []
+aliases:
 short_description: Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
-  that never made it into production.
 termStatus: Operational shorthand
 researchBasis: OpenAI, Evals design guide
 sources:

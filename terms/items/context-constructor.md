@@ -3,9 +3,8 @@ slug: context-constructor
 name: Context Constructor
 category: Context
 title: Context Constructor
-aliases: []
+aliases:
 short_description: Context Constructor is used for the component that assembles the
-  actual model input from instructions, state, retrieved records and tool descriptions.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

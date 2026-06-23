@@ -3,14 +3,11 @@ slug: agentic-commerce
 name: Agentic Commerce
 category: Core
 title: Agentic Commerce
-aliases: []
+aliases:
 short_description: Agentic commerce is commerce in which an agent can compare
-  options, negotiate constraints, or complete transactions.
 termStatus: Emerging industry label
 researchBasis: OWASP Top 10 for LLM Applications, Anthropic, OpenAI Agents SDK
 sources:
-- https://genai.owasp.org/llm-top-10/
-- https://www.anthropic.com/engineering/building-effective-agents
 - https://developers.openai.com/api/docs/guides/agents
 ---
 
@@ -36,4 +33,4 @@ It is used when buying, booking, reordering, or negotiating is delegated to a sy
 
 [Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) emphasises tool use, checkpoints, and human feedback when autonomy crosses into action.
 
-[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces the same operational split between orchestration, state, tools, and guardrails.
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces the same operational split between orchestration, state, tools, and [[Guardrails|guardrails]].

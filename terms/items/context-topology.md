@@ -3,9 +3,8 @@ slug: context-topology
 name: Context Topology
 category: Context
 title: Context Topology
-aliases: []
+aliases:
 short_description: Context Topology is the map of where context lives and how it moves
-  between systems.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

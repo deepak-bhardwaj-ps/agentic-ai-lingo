@@ -3,9 +3,8 @@ slug: ai-slop
 name: AI Slop
 category: Slang
 title: AI Slop
-aliases: []
+aliases:
 short_description: AI Slop is a pejorative for low-value AI-generated output that
-  needs substantial human clean-up before use.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

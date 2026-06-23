@@ -3,9 +3,8 @@ slug: memory-debt
 name: Memory Debt
 category: Memory
 title: Memory Debt
-aliases: []
+aliases:
 short_description: Memory Debt is used for accumulated shortcuts in storage, retrieval
-  and summarisation that make an agent’s state unreliable or expensive to change.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

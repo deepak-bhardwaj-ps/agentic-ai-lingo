@@ -3,9 +3,8 @@ slug: state-lifecycle
 name: State Lifecycle
 category: Memory
 title: State Lifecycle
-aliases: []
+aliases:
 short_description: State Lifecycle is the phases an agent state item passes through
-  from creation to retirement.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

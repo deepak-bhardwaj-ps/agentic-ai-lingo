@@ -3,13 +3,11 @@ slug: agentops
 name: AgentOps
 category: AgentOps
 title: AgentOps
-aliases: []
+aliases:
 short_description: AgentOps is the operational practice of deploying, observing,
-  evaluating, and governing agentic applications.
 termStatus: Emerging operational label
 researchBasis: OpenAI, Evals design guide, NIST AI RMF
 sources:
-- https://platform.openai.com/docs/guides/evals
 - https://www.nist.gov/itl/ai-risk-management-framework
 ---
 

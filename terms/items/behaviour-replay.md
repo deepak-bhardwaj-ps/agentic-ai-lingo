@@ -3,9 +3,8 @@ slug: behaviour-replay
 name: Behaviour Replay
 category: Governance
 title: Behaviour Replay
-aliases: []
+aliases:
 short_description: Behaviour Replay is rerunning traces to inspect or reproduce an
-  agent’s decisions.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

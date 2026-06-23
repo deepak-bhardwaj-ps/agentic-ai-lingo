@@ -3,9 +3,8 @@ slug: vibe-coding
 name: Vibe Coding
 category: Slang
 title: Vibe Coding
-aliases: []
+aliases:
 short_description: Vibe Coding is Andrej Karpathy’s label for steering coding by natural
-  language and light review.
 termStatus: Informal slang
 researchBasis: Anthropic, Building effective agents
 sources:

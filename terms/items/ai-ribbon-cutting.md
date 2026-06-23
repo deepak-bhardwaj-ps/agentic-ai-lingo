@@ -3,9 +3,8 @@ slug: ai-ribbon-cutting
 name: AI Ribbon-Cutting
 category: Slang
 title: AI Ribbon-Cutting
-aliases: []
+aliases:
 short_description: AI Ribbon-Cutting is a label for ceremonial AI launches that create
-  publicity without much operational change.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

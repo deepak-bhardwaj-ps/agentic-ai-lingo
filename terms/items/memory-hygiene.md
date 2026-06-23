@@ -3,9 +3,8 @@ slug: memory-hygiene
 name: Memory Hygiene
 category: Memory
 title: Memory Hygiene
-aliases: []
+aliases:
 short_description: Memory Hygiene is routine cleanup that keeps memory accurate, current,
-  and usable.
 termStatus: Implementation pattern
 researchBasis: Packer et al., MemGPT
 sources:

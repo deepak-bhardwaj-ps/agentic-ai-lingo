@@ -3,9 +3,8 @@ slug: agent-theatre
 name: Agent Theatre
 category: Slang
 title: Agent Theatre
-aliases: []
+aliases:
 short_description: Agent theatre names demos that look autonomous while the useful
-  work and recovery path are still missing.
 termStatus: Informal slang
 researchBasis: 'NIST AI RMF: Generative AI Profile'
 sources:

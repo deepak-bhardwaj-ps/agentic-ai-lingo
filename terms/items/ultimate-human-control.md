@@ -3,9 +3,8 @@ slug: ultimate-human-control
 name: Ultimate Human Control
 category: Governance
 title: Ultimate Human Control
-aliases: []
+aliases:
 short_description: Ultimate Human Control is used to specify where a human reviews,
-  approves, interrupts or overrides an agent.
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
 sources:

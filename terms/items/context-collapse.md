@@ -3,9 +3,8 @@ slug: context-collapse
 name: Context Collapse
 category: Context
 title: Context Collapse
-aliases: []
+aliases:
 short_description: Context Collapse is the failure mode where too much or the wrong
-  kind of information is packed into a model’s decision context.
 termStatus: Emerging practitioner shorthand
 researchBasis: Lewis et al., Retrieval-Augmented Generation
 sources:

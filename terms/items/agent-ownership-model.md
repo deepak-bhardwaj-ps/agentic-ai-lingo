@@ -3,14 +3,11 @@ slug: agent-ownership-model
 name: Agent Ownership Model
 category: AgentOps
 title: Agent Ownership Model
-aliases: []
+aliases:
 short_description: An ownership model assigns responsibility for an agent’s
-  operation, risk, change, and retirement.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
-- https://platform.openai.com/docs/guides/evals
-- https://www.nist.gov/itl/ai-risk-management-framework
 - https://learn.microsoft.com/en-us/entra/agent-id/manage-agent-identities-admin
 ---
 

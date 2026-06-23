@@ -3,9 +3,8 @@ slug: execution-quality
 name: Execution Quality
 category: AgentOps
 title: Execution Quality
-aliases: []
+aliases:
 short_description: Execution Quality is the degree to which an agent completes work
-  correctly, safely, and consistently.
 termStatus: Operational metric/practice
 researchBasis: OpenAI, Evals design guide
 sources:
