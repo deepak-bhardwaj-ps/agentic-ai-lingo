@@ -4,12 +4,14 @@ name: Agent-Ready Software
 category: Protocols
 title: Agent-Ready Software
 aliases: []
-short_description: Agent-Ready Software is software designed for reliable agent calling,
-  inspection, and safe use.
+short_description: Agent-ready software exposes machine-navigable interfaces,
+  metadata, and permissions that agents can call safely.
 termStatus: Emerging interoperability/architecture label
-researchBasis: Model Context Protocol specification
+researchBasis: MCP, Anthropic, OpenAI Agents SDK
 sources:
-- https://modelcontextprotocol.io/specification/2025-06-18
+- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
+- https://www.anthropic.com/engineering/building-effective-agents
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
 ## Term status
@@ -22,12 +24,16 @@ Agent-ready software exposes enough structure, metadata, and permissions for an 
 
 ## Boundary
 
-It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
 
 ## How it is used
 
-Agent-Ready Software is used when software exposes enough structure, permissions, and metadata for an agent to use it without guesswork. The term is only meaningful if the interface is actually machine-navigable and the failure modes are documented.
+It is used when software exposes enough structure, permissions, and metadata for an agent to use it without guesswork. The term is only meaningful if the interface is actually machine-navigable and the failure modes are documented.
 
 ## Evidence
 
-[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[MCP authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) shows the minimum bar for safe integration: explicit auth, not just connectivity.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) argues for simple, composable interfaces with well-documented tools rather than opaque frameworks.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) makes the same point from the platform side: orchestration, state, tools, and evaluation need explicit surfaces.

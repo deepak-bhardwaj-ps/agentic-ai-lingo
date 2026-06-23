@@ -24,8 +24,9 @@
     "terms/items/agent-memory.md",
     "terms/items/agent-mesh.md",
     "terms/items/agent-ownership-model.md",
-    "terms/items/agent-portfolio.md"
+    "terms/items/agent-portfolio.md",
+    "terms/items/agent-ready-software.md"
   ],
   "failed": [],
-  "current": "terms/items/agent-ready-software.md"
+  "current": "terms/items/agent-registry.md"
 }
