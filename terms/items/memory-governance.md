@@ -2,34 +2,32 @@
 slug: memory-governance
 name: Memory Governance
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 47
-buzzScore: 26
-enterpriseReadiness: 51
-firstSeen: 2025
 addedDate: May 8, 2025
-trend: upward
 title: Memory Governance
-aliases: []
-short_description: Memory Governance is the mechanism for applying control, oversight,
-  and accountability.
+aliases: null
+short_description: Memory Governance is policy for who can read, write, retain, or
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Memory Governance is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, memory governance matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 47, enterprise readiness 51, first seen 2025.
+Memory Governance concerns how agent state is stored, selected, updated or retired across model calls and sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Memory Governance is used when teams need rules for who may read, write, retain, or delete [[Agent Memory|agent memory]]. It is the control layer that keeps memory from becoming a liability.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

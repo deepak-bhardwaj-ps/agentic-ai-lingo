@@ -2,32 +2,37 @@
 slug: agent-identity
 name: Agent Identity
 category: Governance
-status: stabilizing
-tags:
-- Governance
-- Stabilizing
-signalScore: 64
-buzzScore: 38
-enterpriseReadiness: 64
-trend: neutral
 title: Agent Identity
-aliases: []
-short_description: The identity and lifecycle assigned to an agent, separate from
-  the human user.
+aliases: null
+short_description: Agent Identity is the principal identity under which an agent acts
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://www.ietf.org/archive/id/draft-klrc-aiagent-auth-02.html
 ---
 
-## What it means
+## Term status
 
-Agent Identity is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, agent identity matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 64.
+Agent identity is the durable principal under which an agent authenticates, receives authority, acts, and is audited. It links a deployed workload to an accountable owner and makes its permissions, policy decisions, and actions distinguishable from both the user who requested work and the platform that hosts it.
 
-## Watch-outs
+For enterprise systems, an agent identity should be first-class rather than a shared integration account or a label embedded in a prompt.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+The agent’s identity is not the user’s identity. An agent may act on a user’s behalf, but its own credential needs separately bounded permissions, provenance, expiry, and revocation. Otherwise a trace cannot answer whether a user, an agent, or a downstream service made a change.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Nor does identity by itself secure an agent. The design still needs authentication, least-privilege authorisation, delegated scopes, policy enforcement at tools and data, session handling, monitoring, and an emergency disable path.
+
+## How it is used
+
+Give a procurement agent a distinct workload identity and narrowly scoped grants to read approved supplier data, draft a purchase request, and submit it only after a human approval. Record the initiating user, the agent identity, the approval, each tool call, and the resulting transaction as separate facts.
+
+Microsoft Entra Agent ID illustrates the pattern by representing an agent identity as a specialised service principal and supporting tenant-wide authentication controls. The IETF’s draft guidance on AI-agent authentication and authorisation highlights the emerging cross-platform concern, but it is not yet a final standard.
+
+## Evidence
+
+[Microsoft Entra’s agent-identity overview](https://learn.microsoft.com/en-us/entra/agent-id/agent-identities) and [administration guidance](https://learn.microsoft.com/en-us/entra/agent-id/manage-agent-identities-admin) provide concrete product evidence. The [IETF AI-agent authentication and authorisation draft](https://www.ietf.org/archive/id/draft-klrc-aiagent-auth-02.html) and [OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) provide broader security context.

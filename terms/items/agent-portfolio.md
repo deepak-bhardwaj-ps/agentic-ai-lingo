@@ -2,32 +2,35 @@
 slug: agent-portfolio
 name: Agent Portfolio
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 38
-buzzScore: 19
-enterpriseReadiness: 30
-trend: upward
 title: Agent Portfolio
-aliases: []
-short_description: Agent Portfolio is a catalog or managed set of agents, tools, or
-  capabilities.
+aliases: null
+short_description: A portfolio is the set of agents an organisation manages as a
+termStatus: Operational metric/practice
+researchBasis: OpenAI, NIST AI RMF, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agent Portfolio is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, agent portfolio matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 38, enterprise readiness 30.
+A portfolio is the set of agents an organisation manages as a mix of assets, risks, and investments.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or formal discipline. Define the event boundary, owner, and decision it informs before turning it into a dashboard.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the question is mix, value, and risk across many agents rather than one deployment. It helps compare which agents should grow, stabilise, or be retired.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) supports comparing systems through measurement, which is what portfolio management depends on.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) gives the broader governance frame for balancing risk across many systems.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) reinforces the practical point that simple, composable systems tend to beat excessive architectural sprawl.

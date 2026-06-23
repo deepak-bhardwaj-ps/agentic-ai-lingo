@@ -2,31 +2,33 @@
 slug: agentic-delivery
 name: Agentic Delivery
 category: Core
-status: stabilizing
-tags:
-- Core
-- Stabilizing
-signalScore: 58
-buzzScore: 32
-enterpriseReadiness: 41
-trend: neutral
 title: Agentic Delivery
-aliases: []
-short_description: Running AI projects as operational delivery systems.
+aliases: null
+short_description: Agentic delivery names the operational work of turning intent
+termStatus: Emerging consultancy label
+researchBasis: Anthropic, NIST AI RMF
+sources:
+- https://www.nist.gov/itl/ai-risk-management-framework
 ---
 
-## What it means
+## Term status
 
-Agentic Delivery is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Emerging consultancy label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic delivery matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 58, enterprise readiness 41.
+Agentic delivery is a loose label for using agents to execute parts of a delivery process such as discovery, implementation, testing, or operations. It is most useful when someone cares about how work actually gets finished, not whether the system can produce a plan.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined operating model. Specify the workflow, accountable human, assurance gates, and business outcome instead.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Use it when the emphasis is on getting work to completion rather than merely generating a plan or suggestion. It fits systems that have to coordinate people, tools, retries, and verification to finish a job.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) is the best reference for the practical mechanics: tool use, checkpoints, and handoffs around a task.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) supplies the governance angle: delivery only matters if the work is measurable, accountable, and controlled.

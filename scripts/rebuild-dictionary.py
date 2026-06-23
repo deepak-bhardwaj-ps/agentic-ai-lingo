@@ -5,7 +5,10 @@ import re
 from pathlib import Path
 from typing import Any
 
-import yaml
+try:
+    import yaml  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover
+    yaml = None
 
 ROOT = Path(__file__).resolve().parents[1]
 ITEMS_DIR = ROOT / "terms" / "items"
@@ -23,15 +26,72 @@ def parse_markdown(text: str) -> tuple[dict[str, Any], str]:
     if not match:
         return {}, text
     raw_meta, body = match.groups()
-    meta = yaml.safe_load(raw_meta) or {}
+    if yaml is not None:
+        try:
+            meta = yaml.safe_load(raw_meta) or {}
+        except Exception:
+            meta = parse_simple_frontmatter(raw_meta)
+    else:
+        meta = parse_simple_frontmatter(raw_meta)
     if not isinstance(meta, dict):
         raise TypeError("Frontmatter must be a mapping.")
     return meta, body
 
 
 def build_markdown(meta: dict[str, Any], body: str) -> str:
-    raw_meta = yaml.safe_dump(meta, sort_keys=False, allow_unicode=True, default_flow_style=False).strip()
+    if yaml is not None:
+        raw_meta = yaml.safe_dump(meta, sort_keys=False, allow_unicode=True, default_flow_style=False).strip()
+    else:
+        raw_meta = dump_simple_frontmatter(meta)
     return f"---\n{raw_meta}\n---\n\n{body.lstrip()}"
+
+
+def parse_simple_frontmatter(raw_meta: str) -> dict[str, Any]:
+    meta: dict[str, Any] = {}
+    current_key: str | None = None
+    for line in raw_meta.splitlines():
+        if line.startswith("- ") and current_key and isinstance(meta.get(current_key), list):
+            item = line[2:].strip().strip('"')
+            item = item.replace("https: //", "https://").replace("http: //", "http://")
+            meta[current_key].append(item)
+            continue
+        if line.startswith(" ") or ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        key = key.strip()
+        value = value.strip()
+        current_key = key
+        if value == "":
+            meta[key] = []
+        elif value.startswith("[") and value.endswith("]"):
+            meta[key] = [item.strip().strip('"') for item in value[1:-1].split(",") if item.strip()]
+        elif value.startswith('"') and value.endswith('"'):
+            meta[key] = value[1:-1]
+        else:
+            meta[key] = value
+    return meta
+
+
+def dump_simple_frontmatter(meta: dict[str, Any]) -> str:
+    lines: list[str] = []
+    for key, value in meta.items():
+        if isinstance(value, list):
+            lines.append(f"{key}:")
+            for item in value:
+                lines.append(f"- {dump_simple_scalar(item)}")
+        else:
+            lines.append(f"{key}: {dump_simple_scalar(value)}")
+    return "\n".join(lines).strip()
+
+
+def dump_simple_scalar(value: Any) -> str:
+    text = str(value)
+    if text == "":
+        return '""'
+    if re.fullmatch(r"[A-Za-z0-9_.:/@+-]+", text):
+        return text
+    escaped = text.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escaped}"'
 
 
 def split_protected(text: str, pattern: re.Pattern[str]) -> list[tuple[str, bool]]:
@@ -104,7 +164,10 @@ def section_lines(title: str, text: str) -> list[str]:
 def load_meta() -> dict[str, Any]:
     if not META_PATH.exists():
         return {}
-    return yaml.safe_load(META_PATH.read_text(encoding="utf-8")) or {}
+    text = META_PATH.read_text(encoding="utf-8")
+    if yaml is not None:
+        return yaml.safe_load(text) or {}
+    return parse_simple_frontmatter(text)
 
 
 def load_terms() -> list[dict[str, Any]]:

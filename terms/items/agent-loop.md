@@ -2,31 +2,33 @@
 slug: agent-loop
 name: Agent Loop
 category: Runtime
-status: growing
-tags:
-- Runtime
-- Growing
-signalScore: 72
-buzzScore: 48
-enterpriseReadiness: 39
-trend: upward
 title: Agent Loop
-aliases: []
-short_description: Agent Loop is the repeating cycle of reasoning, action, and feedback.
+aliases: null
+short_description: A loop repeats planning, acting, and observation updates until
+termStatus: Architecture term
+researchBasis: Yao et al., ReAct, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agent Loop is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Architecture term.
 
-## Why it matters
+## Meaning
 
-In practice, agent loop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 72, enterprise readiness 39.
+A loop repeatedly feeds state to a model, interprets the decision, executes an allowed action, appends the observation, and stops on a success, budget, or policy condition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not necessarily [[ReAct]] and it is not safe by default. It needs explicit loop, cost, and failure limits, otherwise it becomes an uncontrolled retry mechanism.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when a system must repeatedly plan, act, and incorporate observations. In production it needs explicit stop conditions, spend limits, and a way to detect looping.
+
+## Evidence
+
+[Yao et al., ReAct](https://arxiv.org/abs/2210.03629) gives the canonical reasoning-and-acting loop that many agent implementations build on.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) describes agents as tool-using systems that operate in a loop with checkpoints, stop conditions, and human feedback when needed.

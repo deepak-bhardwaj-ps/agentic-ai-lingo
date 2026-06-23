@@ -2,32 +2,37 @@
 slug: agent-evals
 name: Agent Evals
 category: AgentOps
-status: growing
-tags:
-- AgentOps
-- Growing
-signalScore: 76
-buzzScore: 52
-enterpriseReadiness: 67
-trend: upward
 title: Agent Evals
-aliases: []
-short_description: Agent Evals is a way to measure how well agent behaviour works
-  on real tasks.
+aliases: null
+short_description: Agent Evals are tests and measurements that show how an agent behaves
+termStatus: Established practice, informal label
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://arxiv.org/abs/2308.03688
 ---
 
-## What it means
+## Term status
 
-Agent Evals is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established practice, informal label.
 
-## Why it matters
+## Meaning
 
-In practice, agent evals matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 76, enterprise readiness 67.
+Agent evals are reproducible tests that measure whether an agent completes a task safely and correctly across realistic scenarios. Unlike a model-only benchmark, they inspect the full action system: supplied context, routing, tool choice and arguments, side effects, hand-offs, recovery, cost, latency, and the final outcome.
 
-## Watch-outs
+“Evals” is established engineering shorthand rather than a single methodology. The exact design must follow the risk and behaviour of the workload.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+A favourable chat response is not proof that an agent works. A support agent can sound correct while selecting the wrong customer record; a research agent can produce a polished answer with unsupported sources. Test the action surface and the failure modes that matter, including malicious inputs and unavailable tools.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+One aggregate score is not sufficient. Separate outcome quality from policy compliance, tool-call validity, approval behaviour, recovery, and operational limits. Automated graders need calibration against expert human judgement, particularly for consequential decisions.
+
+## How it is used
+
+For a finance-operations agent, an evaluation suite might replay ambiguous invoices, supplier-name collisions, policy exceptions, withheld approvals, API timeouts, and prompt-injection attempts. It should assert both the final disposition and the trace: whether the right account was queried, the payment action was withheld, and escalation occurred when evidence was insufficient.
+
+Run the suite on prompt, model, tool, policy, and orchestration changes. Mine production traces for new cases, retain a held-out regression set, and treat evaluation gaps as a release risk rather than post-launch housekeeping.
+
+## Evidence
+
+[OpenAI’s evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices) and [agent evals guide](https://platform.openai.com/docs/guides/agent-evals) define current production practice, while [trace grading](https://platform.openai.com/docs/guides/trace-grading) addresses intermediate decisions and tool calls. [AgentBench](https://arxiv.org/abs/2308.03688) supplies research context for evaluating agents across multi-turn environments.

@@ -2,32 +2,31 @@
 slug: decision-plane
 name: Decision Plane
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 32
-buzzScore: 14
-enterpriseReadiness: 66
-trend: upward
 title: Decision Plane
-aliases: []
-short_description: Decision Plane is the control surface that governs a specific concern
-  in the agent stack.
+aliases: null
+short_description: Decision Plane is the service layer that applies decision policy
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Decision Plane is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, decision plane matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 32, enterprise readiness 66.
+Decision Plane concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Decision Plane is used when decision policy and decision records live in a distinct layer. It only matters if the layer can be pointed to in the architecture.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

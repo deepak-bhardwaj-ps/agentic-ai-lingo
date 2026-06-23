@@ -2,32 +2,31 @@
 slug: runtime-governance
 name: Runtime Governance
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 56
-buzzScore: 27
-enterpriseReadiness: 32
-trend: neutral
 title: Runtime Governance
-aliases: []
-short_description: Runtime Governance is the mechanism for applying control, oversight,
-  and accountability.
+aliases: null
+short_description: Runtime Governance is the set of controls that constrains what
+termStatus: Architecture/implementation term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Runtime Governance is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Architecture/implementation term.
 
-## Why it matters
+## Meaning
 
-In practice, runtime governance matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 32.
+Runtime governance is the set of controls that constrains what a runtime can do and how it is supervised.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Runtime Governance is used when runtime behaviour needs policy, approval, monitoring, or audit rather than just execution. It is the term for the controls that make autonomy reviewable and revocable.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

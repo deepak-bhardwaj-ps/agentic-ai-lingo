@@ -2,32 +2,31 @@
 slug: continuous-validation
 name: Continuous Validation
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 49
-buzzScore: 26
-enterpriseReadiness: 32
-trend: upward
 title: Continuous Validation
-aliases: []
-short_description: Continuous Validation is an operational term for running agents
-  reliably in production.
+aliases: null
+short_description: Continuous Validation is ongoing checking that an agent system
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Continuous Validation is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, continuous validation matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 49, enterprise readiness 32.
+Continuous validation is ongoing checking that an agent system still behaves within the expected envelope.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Continuous Validation is used when checks run repeatedly over time rather than only at release. It matters for catching drift, regressions, and environmental changes before they become customer-visible failures.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,32 +2,31 @@
 slug: behaviour-replay
 name: Behaviour Replay
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 28
-buzzScore: 12
-enterpriseReadiness: 28
-trend: upward
 title: Behaviour Replay
-aliases: []
-short_description: Behaviour Replay is about authority, policy, and oversight for
-  agents.
+aliases: null
+short_description: Behaviour Replay is rerunning traces to inspect or reproduce an
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Behaviour Replay is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, behaviour replay matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 28, enterprise readiness 28.
+Behaviour Replay concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Behaviour Replay is used when you need to rerun traces and inspect how the agent actually decided. In practice, it is for diagnosis, audit, or incident review.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

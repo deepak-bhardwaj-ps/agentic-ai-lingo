@@ -2,32 +2,31 @@
 slug: promptmaxxing
 name: Promptmaxxing
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 34
-buzzScore: 58
-enterpriseReadiness: 51
-trend: upward
 title: Promptmaxxing
-aliases: []
-short_description: Promptmaxxing is performative overuse of AI or agents as a status
-  signal.
+aliases: null
+short_description: Promptmaxxing is a slang term for extreme prompt tuning, usually
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Promptmaxxing is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, promptmaxxing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 34, enterprise readiness 51.
+Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Promptmaxxing is used in enthusiast circles when people push prompt design, formatting, or instruction layering as far as it will go in search of small gains. The term often implies a mix of experimentation, identity, and diminishing returns.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

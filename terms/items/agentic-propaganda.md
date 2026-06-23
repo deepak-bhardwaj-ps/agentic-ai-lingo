@@ -2,32 +2,33 @@
 slug: agentic-propaganda
 name: Agentic Propaganda
 category: Social
-status: emerging
-tags:
-- Social
-- Emerging
-signalScore: 47
-buzzScore: 41
-enterpriseReadiness: 27
-trend: upward
 title: Agentic Propaganda
-aliases: []
-short_description: Agentic Propaganda is a social or influence-related term adjacent
-  to agentic AI.
+aliases: null
+short_description: Agentic propaganda is coordinated automated messaging or the
+termStatus: Descriptive/social label
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Agentic Propaganda is a social term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Descriptive/social label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic propaganda matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 47, enterprise readiness 27.
+Agentic propaganda describes coordinated automated accounts or the social effects attributed to them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy, and evidence of real-world impact.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the concern is coordinated messaging, amplification, or manipulation carried out by automated accounts or agentic systems. It is a social-risk term, so it should be anchored to evidence of coordination and effect.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for separating capability from misuse and for asking for evidence before assigning a risk label.
+
+The label is descriptive, not a technical category. Its job is to focus attention on coordination, amplification, and impact rather than on the model itself.

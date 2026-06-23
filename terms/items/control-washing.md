@@ -2,32 +2,31 @@
 slug: control-washing
 name: Control Washing
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 32
-buzzScore: 38
-enterpriseReadiness: 53
-trend: upward
 title: Control Washing
-aliases: []
-short_description: Control Washing is branding that overstates how much agentic capability
-  a product really has.
+aliases: null
+short_description: Control Washing is a label for overstating guardrails, overrides,
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Control Washing is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, control washing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 32, enterprise readiness 53.
+An informal accusation that a product or programme is presented as more capable, autonomous or controlled than its implementation supports.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls and accountable owners.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Control Washing is used when a product is described as tightly controlled even though the actual [[Guardrails|guardrails]], override paths, or accountability are weak. It is most useful when comparing claims about control with the testable operational reality.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

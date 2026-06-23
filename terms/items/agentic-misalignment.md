@@ -2,31 +2,33 @@
 slug: agentic-misalignment
 name: Agentic Misalignment
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 47
-buzzScore: 31
-enterpriseReadiness: 46
-trend: upward
 title: Agentic Misalignment
-aliases: []
-short_description: A mismatch between intended goals and agent behaviour.
+aliases: null
+short_description: Agentic misalignment is when an agent’s behaviour diverges
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications, NIST AI RMF
+sources:
+- https://www.nist.gov/itl/ai-risk-management-framework
 ---
 
-## What it means
+## Term status
 
-Agentic Misalignment is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, agentic misalignment matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 47, enterprise readiness 46.
+Agentic misalignment concerns how an agent's authority, obligations, actions, or oversight are defined and evidenced.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation, and human escalation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when agent behaviour diverges from the operator’s intent or policy. In practice, the useful question is what signal proves the drift and what action closes it.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) frames the security side of untrusted or misdirected behaviour.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) provides the governance vocabulary for intent, oversight, and risk treatment.

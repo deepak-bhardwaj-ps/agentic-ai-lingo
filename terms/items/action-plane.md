@@ -2,32 +2,31 @@
 slug: action-plane
 name: Action Plane
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 34
-buzzScore: 15
-enterpriseReadiness: 37
-trend: upward
 title: Action Plane
-aliases: []
-short_description: Action Plane is the control surface that governs a specific concern
-  in the agent stack.
+aliases: null
+short_description: Action Plane is the enforcement layer that actually blocks, approves,
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Action Plane is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, action plane matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 34, enterprise readiness 37.
+Action Plane is the runtime enforcement layer that sits between intent and execution. It is where an action gets blocked, approved, modified, logged, or escalated.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not just a label for governance. A real action plane has a concrete enforcement point, a defined principal, a scoped policy, durable logs, a revocation path, and a human override route.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Action Plane is used when a system needs to make action control visible and operational. If nothing actually intercepts execution, the term is decorative.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) is the relevant reference point. For coined labels, it supports the underlying concept, not the claim that the label itself is standard.

@@ -2,33 +2,35 @@
 slug: agentic-ai
 name: Agentic AI
 category: Core
-status: peak
-tags:
-- Core
-- Peak
-signalScore: 98
-buzzScore: 96
-enterpriseReadiness: 64
-firstSeen: 2023
-popularizedBy: Andrew Ng, Lilian Weng, Anthropic
-trend: neutral
 title: Agentic AI
-aliases: []
-short_description: AI that plans, uses tools, and acts with partial autonomy.
+aliases: null
+short_description: Agentic AI is an umbrella term for AI systems that can take
+termStatus: Umbrella term
+researchBasis: Anthropic, OpenAI Agents SDK, NIST AI RMF
+sources:
+- https://www.nist.gov/itl/ai-risk-management-framework
 ---
 
-## What it means
+## Term status
 
-Agentic AI is a core term used to describe a specific pattern, capability, or operating model in agentic AI. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Umbrella term.
 
-## Why it matters
+## Meaning
 
-In practice, agentic ai matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 98, enterprise readiness 64, first seen 2023, popularised by Andrew Ng, Lilian Weng, Anthropic.
+Agentic AI describes systems that use a model in an action-and-feedback loop rather than only returning a single response. It is useful as a broad category, not a technical standard, and it should be narrowed as soon as the design question gets concrete.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is frequently used as branding. A product is not meaningfully agentic merely because it calls an LLM or has a multi-step backend workflow.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Use it when the point is the shift from passive generation to action-taking systems that can plan, call tools, and influence an environment. It is a broad term, so in serious work it should be followed by the exact task, authority boundary, and failure mode.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) is the clearest product-side reference for the shift from passive generation to tool-using systems.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) shows the same pattern in platform terms: orchestration, tools, state, and evaluation are first-class concerns.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) is the governance backdrop for making that broad category operational rather than rhetorical.

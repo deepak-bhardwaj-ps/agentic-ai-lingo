@@ -2,31 +2,33 @@
 slug: agentic-web
 name: Agentic Web
 category: Protocols
-status: stabilizing
-tags:
-- Protocols
-- Stabilizing
-signalScore: 64
-buzzScore: 58
-enterpriseReadiness: 65
-trend: neutral
 title: Agentic Web
-aliases: []
-short_description: Web applications, identity, payments, and APIs designed to be agent-native.
+aliases: null
+short_description: Agentic web names web services designed so agents can discover
+termStatus: Emerging industry label
+researchBasis: Model Context Protocol specification, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agentic Web is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Emerging industry label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic web matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 65.
+Agentic web describes web services designed so software agents can discover information and complete tasks, usually through structured interfaces, identity, and transactional controls. The point is machine actionability, not a new web standard.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a web standard and should not imply that agents can safely operate arbitrary sites. Use documented APIs and explicit authorisation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Use it when the web is being treated as machine-navigable infrastructure rather than a purely human-facing interface. The term only earns its keep if discovery, identity, and transactional safety are explicit.
+
+## Evidence
+
+[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the closest protocol-side reference for machine-navigable surfaces and the auth model around them.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) supports the broader design pressure: keep tool surfaces explicit, simple, and auditable.

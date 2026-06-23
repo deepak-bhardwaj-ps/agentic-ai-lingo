@@ -2,31 +2,31 @@
 slug: act-on-behalf
 name: Act-on-Behalf
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 42
-buzzScore: 19
-enterpriseReadiness: 57
-trend: upward
 title: Act-on-Behalf
-aliases: []
-short_description: Act-on-Behalf is about authority, policy, and oversight for agents.
+aliases: null
+short_description: Act-on-Behalf is acting under delegated authority for a specific
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Act-on-Behalf is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, act-on-behalf matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 57.
+Act-on-Behalf describes delegated action: an agent performs work under another principal’s authority, with the scope and responsibility still attached to that principal.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control by itself. The accountable principal, permitted scope, enforcement point, audit record, revocation path, and human escalation route all need to be explicit.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Act-on-Behalf is used when an agent is operating for someone else rather than on its own behalf. In a real system, the delegation should be traceable to a named principal, bounded by scope, and removable without ambiguity.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) is the relevant reference point. For coined labels, it supports the underlying concept, not the claim that the label itself is standard.

@@ -2,32 +2,31 @@
 slug: intent-engineering
 name: Intent Engineering
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 51
-buzzScore: 33
-enterpriseReadiness: 31
-trend: upward
 title: Intent Engineering
-aliases: []
-short_description: Intent Engineering is a protocol, interface, or platform term used
-  to connect agents and tools.
+aliases: null
+short_description: Intent Engineering is turning user intent into tasks or machine-executable
+termStatus: Emerging interoperability/architecture label
+researchBasis: Model Context Protocol specification
+sources:
+- https://modelcontextprotocol.io/specification/2025-06-18
 ---
 
-## What it means
+## Term status
 
-Intent Engineering is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, intent engineering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 51, enterprise readiness 31.
+Intent engineering is the work of shaping a user’s intent into tasks or machine-executable objectives.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Intent Engineering is used when a vague user request has to be turned into something a system can actually execute, verify, and hand off. It is most useful where translation from natural language to task structure is a design problem, not a prompt-writing trick.
+
+## Evidence
+
+[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

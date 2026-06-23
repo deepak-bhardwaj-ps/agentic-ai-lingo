@@ -2,32 +2,31 @@
 slug: productivity-cosplay
 name: Productivity Cosplay
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 38
-buzzScore: 52
-enterpriseReadiness: 21
-trend: upward
 title: Productivity Cosplay
-aliases: []
-short_description: Productivity Cosplay is a shorthand or meme term used around agentic
-  AI.
+aliases: null
+short_description: Productivity Cosplay is a label for appearing efficient with AI
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Productivity Cosplay is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, productivity cosplay matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 38, enterprise readiness 21.
+Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Productivity Cosplay is used when AI use is performed for the appearance of speed, modernity, or hustle rather than for measurable operational gain. The term usually points to theatre, status signalling, or slide-friendly activity with little real throughput impact.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

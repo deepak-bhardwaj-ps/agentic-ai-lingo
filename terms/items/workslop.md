@@ -2,32 +2,31 @@
 slug: workslop
 name: Workslop
 category: Slang
-status: stabilizing
-tags:
-- Slang
-- Stabilizing
-signalScore: 64
-buzzScore: 81
-enterpriseReadiness: 55
-trend: neutral
 title: Workslop
-aliases: []
-short_description: Workslop is low-quality output, often produced at speed and without
-  enough judgement.
+aliases: null
+short_description: Workslop is a label for polished-looking AI output that creates
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Workslop is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, workslop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 55.
+Informal pejorative for low-value, insufficiently reviewed AI-generated material.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Workslop is used when an AI-produced deliverable looks finished at first glance but creates more work for the recipient than it saves. It is especially useful in organisations where review, hand-off, or downstream correction is the real cost centre.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

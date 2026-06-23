@@ -2,35 +2,35 @@
 slug: agent-runtime
 name: Agent Runtime
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Core Term
-- Emerging
-signalScore: 91
-buzzScore: 22
-enterpriseReadiness: 84
-firstSeen: 2024
-popularizedBy: Enterprise Architecture Community
-trend: neutral
 title: Agent Runtime
-aliases: []
-short_description: The execution environment that runs agent planning, tools, memory,
-  and policy.
+aliases: null
+short_description: A runtime is the execution environment that hosts an agent’s
+termStatus: Architecture term
+researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
+sources:
+- https://www.langchain.com/langgraph
 ---
 
-## What it means
+## Term status
 
-Agent Runtime is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Architecture term.
 
-## Why it matters
+## Meaning
 
-In practice, agent runtime matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 91, enterprise readiness 84, first seen 2024, popularised by Enterprise Architecture Community.
+A runtime is the software that executes an [[Agent Loop|agent loop]]: it manages model calls, state, tool invocation, retries, events, and termination.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not the model-serving runtime. An implementation may combine both, but their scaling and security responsibilities differ.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the discussion is about the whole running environment rather than a single model call. It is the machinery that keeps the agent alive across turns, tool calls, and retries.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) separates agent orchestration from the model call and describes the runtime machinery around state, tools, and termination.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) makes the same split explicit through orchestration, state, tools, guardrails, and observability.
+
+[LangGraph](https://www.langchain.com/langgraph) reinforces the architectural shape: a stateful execution substrate, not just a model endpoint.

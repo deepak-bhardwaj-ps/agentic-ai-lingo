@@ -2,32 +2,31 @@
 slug: orphan-agent
 name: Orphan Agent
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 32
-buzzScore: 18
-enterpriseReadiness: 62
-trend: upward
 title: Orphan Agent
-aliases: []
-short_description: Orphan Agent is an operational term for running agents reliably
-  in production.
+aliases: null
+short_description: Orphan Agent is an agent that exists without a clear owner, support
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Orphan Agent is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, orphan agent matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 32, enterprise readiness 62.
+Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement. It is a governance smell because failures, changes, and costs become nobody’s problem.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

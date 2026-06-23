@@ -2,31 +2,31 @@
 slug: task-assignment
 name: Task Assignment
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 44
-buzzScore: 22
-enterpriseReadiness: 29
-trend: upward
 title: Task Assignment
-aliases: []
-short_description: Task Assignment is part of the execution layer for agents.
+aliases: null
+short_description: Task Assignment is the mechanism that allocates work to agents
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Task Assignment is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, task assignment matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 44, enterprise readiness 29.
+Task assignment is the mechanism that allocates work to agents or workers.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Task Assignment is used when the system has to decide who should do a piece of work and on what basis. The important details are the assignment rule, the fallback path, and how reassignment is handled if the first choice fails.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

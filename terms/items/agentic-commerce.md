@@ -2,32 +2,35 @@
 slug: agentic-commerce
 name: Agentic Commerce
 category: Core
-status: stabilizing
-tags:
-- Core
-- Stabilizing
-signalScore: 68
-buzzScore: 71
-enterpriseReadiness: 34
-popularizedBy: Stripe, Visa, Mastercard
-trend: neutral
 title: Agentic Commerce
-aliases: []
-short_description: Buying, checkout, and payment flows performed by agents.
+aliases: null
+short_description: Agentic commerce is commerce in which an agent can compare
+termStatus: Emerging industry label
+researchBasis: OWASP Top 10 for LLM Applications, Anthropic, OpenAI Agents SDK
+sources:
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
-## What it means
+## Term status
 
-Agentic Commerce is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Emerging industry label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic commerce matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 68, enterprise readiness 34, popularised by Stripe, Visa, Mastercard.
+Agentic commerce describes shopping, comparison, ordering, and payment flows initiated or completed by an agent for a user or business.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a payments protocol. It requires explicit authority, merchant and user identity, transaction limits, confirmation, receipts, and dispute handling.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when buying, booking, reordering, or negotiating is delegated to a system that can act on the user’s behalf. The hard part is not the shopping flow; it is the authority to spend, the verification of intent, and the audit trail for what was actually agreed.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) frames the security side: delegated actions need explicit controls and auditability.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) emphasises tool use, checkpoints, and human feedback when autonomy crosses into action.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces the same operational split between orchestration, state, tools, and [[Guardrails|guardrails]].

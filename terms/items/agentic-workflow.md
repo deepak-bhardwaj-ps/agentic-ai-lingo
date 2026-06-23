@@ -2,31 +2,33 @@
 slug: agentic-workflow
 name: Agentic Workflow
 category: Core
-status: peak
-tags:
-- Core
-- Peak
-signalScore: 87
-buzzScore: 78
-enterpriseReadiness: 51
-trend: neutral
 title: Agentic Workflow
-aliases: []
-short_description: A task flow executed by agents, tools, memory, and controls.
+aliases: null
+short_description: Agentic workflow names a workflow that includes planning,
+termStatus: Architecture description
+researchBasis: Anthropic, OpenAI Agents SDK
+sources:
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
-## What it means
+## Term status
 
-Agentic Workflow is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Architecture description.
 
-## Why it matters
+## Meaning
 
-In practice, agentic workflow matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 87, enterprise readiness 51.
+A workflow is a pre-defined control flow that invokes model steps, tools, or agents. It may include branching and retries, but the orchestration logic is largely explicit. In agentic systems, the useful distinction is that the control flow is still visible.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not equate a workflow with an autonomous agent. Anthropic distinguishes workflows, which follow predefined paths, from agents, which let the model direct more of the process and tool use.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Use it when a task is decomposed into steps the system can sequence, inspect, and repair over time. It is the right term when you need to talk about the workflow mechanics, not just the model that happens to sit inside them.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) is the clearest reference for the workflow-versus-agent distinction.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces that explicit orchestration and [[Guardrails|guardrails]] matter once you are sequencing work across steps.

@@ -2,32 +2,31 @@
 slug: ghost-agent
 name: Ghost Agent
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 36
-buzzScore: 28
-enterpriseReadiness: 29
-trend: upward
 title: Ghost Agent
-aliases: []
-short_description: Ghost Agent is an operational term for running agents reliably
-  in production.
+aliases: null
+short_description: Ghost Agent is an agent that exists on paper or in logs but is
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Ghost Agent is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, ghost agent matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 36, enterprise readiness 29.
+A ghost agent exists on paper or in logs but is missing, inactive, or not behaving as expected.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Ghost Agent is used when an agent appears to exist but no longer has a live, owned, or functioning operational presence. It is the term for inventory drift between what is documented and what is actually running.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

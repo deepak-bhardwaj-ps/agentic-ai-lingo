@@ -2,31 +2,31 @@
 slug: sub-agent-swarm
 name: Sub-agent Swarm
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 48
-buzzScore: 36
-enterpriseReadiness: 32
-trend: upward
 title: Sub-agent Swarm
-aliases: []
-short_description: Sub-agent Swarm is a coordinated group of agents working in parallel.
+aliases: null
+short_description: Sub-agent Swarm is a swarm of subordinate agents under a coordinating
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Sub-[[Agent Swarm|agent Swarm]] is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, sub-[[Agent Swarm|agent swarm]] matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 48, enterprise readiness 32.
+A sub-[[Agent Swarm|agent swarm]] is a collection of subordinate agents working under a coordinating runtime.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces and ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Sub-[[Agent Swarm|agent Swarm]] is used when a top-level system delegates work to several subordinate agents that can work in parallel or on separate subproblems. It is useful when breadth or decomposition matters, but it increases coordination and observability overhead.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

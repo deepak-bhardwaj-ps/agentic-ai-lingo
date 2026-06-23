@@ -2,32 +2,31 @@
 slug: identity-resolved-data
 name: Identity-Resolved Data
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 34
-buzzScore: 15
-enterpriseReadiness: 43
-trend: upward
 title: Identity-Resolved Data
-aliases: []
-short_description: Identity-Resolved Data is how an agent is named, authenticated,
-  and tracked separately from the human.
+aliases: null
+short_description: Identity-Resolved Data is data tied to a specific principal, role,
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Identity-Resolved Data is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, identity-resolved data matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 34, enterprise readiness 43.
+Identity-Resolved Data concerns constraining, attributing or reviewing an agent's ability to act on behalf of a principal.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+The name is not a control. Define the principal, delegated scope, enforcement point, audit record, revocation and escalation path.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Identity-Resolved Data is used when an agent’s access or action depends on whose identity is in play. It matters for delegation, auditability, and deciding whether a piece of context belongs to a user, a service, or an intermediate agent.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,33 +2,37 @@
 slug: agent-control-plane
 name: Agent Control Plane
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 67
-buzzScore: 38
-enterpriseReadiness: 33
-firstSeen: 2024
-trend: neutral
 title: Agent Control Plane
-aliases: []
-short_description: The governance layer for deploying, observing, and steering agent
-  fleets.
+aliases: null
+short_description: Agent Control Plane is the service layer that coordinates fleet-level
+termStatus: Architecture pattern
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://learn.microsoft.com/en-us/agents/adoption-maturity-model/maturity-model-security-governance
 ---
 
-## What it means
+## Term status
 
-Agent Control Plane is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Architecture pattern.
 
-## Why it matters
+## Meaning
 
-In practice, agent control plane matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 67, enterprise readiness 33, first seen 2024.
+An agent control plane manages the conditions under which an agent fleet may exist and operate: registration, identity, policy, configuration, release, telemetry, incident response, and retirement. It borrows the infrastructure meaning of control plane—global decisions and desired state—rather than describing an agent’s local reasoning loop.
 
-## Watch-outs
+The pattern has moved beyond theory: Microsoft Foundry now uses “Control Plane” for its fleet-management product. The broader label remains an architecture pattern, not a portable standard component.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+The control plane should not sit in the execution path for every model token. That turns governance into a latency and availability bottleneck. It publishes policy, credentials, configuration, and controls; the runtime or data plane executes individual tasks and must still fail safely when central services are unavailable.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It also is not an “agent brain”. Prompt logic, planning, tool selection, and short-lived task state belong with the runtime. A control plane may constrain those behaviours, but it should not disguise centrally managed prompts as enterprise governance.
+
+## How it is used
+
+A practical implementation provides an [[Agent Registry|agent registry]], workload identities, scoped tool grants, versioned policy, approved model and connector catalogues, deployment promotion, traces, evaluation records, and emergency revocation. Kubernetes supplies the relevant systems analogy: its control plane manages cluster state while worker nodes run workloads.
+
+Define authority boundaries early. The platform team might revoke an agent’s tool credential and quarantine a release; the business owner approves its purpose and data use; the runtime enforces a per-request decision. NIST’s GenAI profile supports the need for lifecycle risk management, but does not prescribe this particular topology.
+
+## Evidence
+
+[Kubernetes’ architecture](https://kubernetes.io/docs/concepts/architecture/) defines the original control-plane metaphor. [Microsoft Foundry Control Plane](https://learn.microsoft.com/en-us/azure/foundry/control-plane/overview) demonstrates current agent-fleet usage, while [NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1) and [Microsoft’s governance guidance](https://learn.microsoft.com/en-us/agents/adoption-maturity-model/maturity-model-security-governance) support the associated risk and lifecycle concerns.

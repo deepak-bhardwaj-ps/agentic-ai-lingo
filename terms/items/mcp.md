@@ -2,34 +2,31 @@
 slug: mcp
 name: MCP
 category: Protocols
-status: peak
-tags:
-- Protocols
-- Peak
-signalScore: 92
-buzzScore: 88
-enterpriseReadiness: 54
-firstSeen: 2024
-popularizedBy: Anthropic
-trend: neutral
 title: MCP
-aliases: []
-short_description: A protocol for connecting models to tools, context, and external
-  systems.
+aliases: null
+short_description: MCP is the Model Context Protocol for connecting models to tools,
+termStatus: Established protocol
+researchBasis: Model Context Protocol specification
+sources:
+- https://modelcontextprotocol.io/specification/2025-06-18
 ---
 
-## What it means
+## Term status
 
-MCP is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Established protocol.
 
-## Why it matters
+## Meaning
 
-In practice, mcp matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 92, enterprise readiness 54, first seen 2024, popularised by Anthropic.
+Model Context Protocol is a client-server protocol through which an AI application can discover and call tools, read resources and use prompt templates supplied by an MCP server.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+MCP is not an agent protocol: it connects an AI host to a capability provider. It does not grant trust, authorisation or safe execution by itself.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+MCP is used when a model needs a standard way to discover tools, resources, and prompts from an external server. It matters because the protocol constrains the integration surface, but it does not by itself solve orchestration, policy, or trust.
+
+## Evidence
+
+[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

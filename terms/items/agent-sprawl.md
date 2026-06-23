@@ -2,32 +2,35 @@
 slug: agent-sprawl
 name: Agent Sprawl
 category: AgentOps
-status: stabilizing
-tags:
-- AgentOps
-- Stabilizing
-signalScore: 62
-buzzScore: 54
-enterpriseReadiness: 47
-trend: neutral
 title: Agent Sprawl
-aliases: []
-short_description: Agent Sprawl is an operational term for running agents reliably
-  in production.
+aliases: null
+short_description: Agent sprawl is uncontrolled growth of agents without matching
+termStatus: Operational metric/practice
+researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
+sources:
+- https://learn.microsoft.com/en-us/entra/agent-id/agent-identities
 ---
 
-## What it means
+## Term status
 
-Agent Sprawl is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, agent sprawl matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 62, enterprise readiness 47.
+Agent sprawl is the uncontrolled growth of agents without matching ownership, standards, or lifecycle control.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or formal discipline. Define the event boundary, owner, and operational decision it informs before you measure it.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when too many agents exist for the organisation to govern well, often with duplicated functions and unclear ownership. The term should trigger inventory, consolidation, and lifecycle review.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) supports the operational reality that systems need measurement and review once they proliferate.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) provides the governance frame for controlling risk as the number of systems grows.
+
+[Microsoft Entra Agent ID](https://learn.microsoft.com/en-us/entra/agent-id/agent-identities) reinforces that identity and lifecycle management have to scale with the number of deployed agents.

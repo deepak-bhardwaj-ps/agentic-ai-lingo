@@ -2,32 +2,31 @@
 slug: procedural-memory
 name: Procedural Memory
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 44
-buzzScore: 22
-enterpriseReadiness: 35
-trend: upward
 title: Procedural Memory
-aliases: []
-short_description: Procedural Memory is how an agent stores, retrieves, and reuses
-  information over time.
+aliases: null
+short_description: Procedural Memory is stored patterns for how an agent should do
+termStatus: Established cognitive term; applied metaphor
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Procedural Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Established cognitive term; applied metaphor.
 
-## Why it matters
+## Meaning
 
-In practice, procedural memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 44, enterprise readiness 35.
+Procedural memory denotes reusable know-how: tool instructions, playbooks, policies, code or skills that guide task execution.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a model weight update. Treat it as versioned operational knowledge and test changes.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Procedural Memory is used when the system needs to remember how to do things rather than only what is true. It matters for reusable workflows, habits, and step sequences.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

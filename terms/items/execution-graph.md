@@ -2,32 +2,31 @@
 slug: execution-graph
 name: Execution Graph
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 49
-buzzScore: 26
-enterpriseReadiness: 29
-trend: upward
 title: Execution Graph
-aliases: []
-short_description: Execution Graph is a graph-based model for representing relationships,
-  context, or memory.
+aliases: null
+short_description: Execution Graph is the graph of steps, dependencies, and side effects
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Execution Graph is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, execution graph matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 49, enterprise readiness 29.
+Execution Graph means representing the relevant entities and relationships as a graph so an agent can query or traverse them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+A graph representation does not itself provide truth, provenance, permissions or reasoning. Define the schema and update authority.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Execution Graph is used when the system is easier to reason about as connected steps than as a single loop. It helps make explicit what must happen first, what can branch, and where retries or human approvals sit.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

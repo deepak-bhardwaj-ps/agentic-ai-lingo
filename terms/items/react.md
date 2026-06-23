@@ -2,33 +2,31 @@
 slug: react
 name: ReAct
 category: Runtime
-status: growing
-tags:
-- Runtime
-- Growing
-signalScore: 79
-buzzScore: 41
-enterpriseReadiness: 31
-firstSeen: 2022
-popularizedBy: Yao et al. (Princeton)
-trend: upward
 title: ReAct
-aliases: []
-short_description: A reasoning-and-acting loop that alternates thought and tool use.
+aliases: null
+short_description: ReAct is the reasoning-plus-action pattern that interleaves thought,
+termStatus: Established research pattern
+researchBasis: Yao et al., ReAct (ICLR 2023)
+sources:
+- https://arxiv.org/abs/2210.03629
 ---
 
-## What it means
+## Term status
 
-ReAct is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established research pattern.
 
-## Why it matters
+## Meaning
 
-In practice, react matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 79, enterprise readiness 31, first seen 2022, popularised by Yao et al. (Princeton).
+ReAct is the prompting pattern from Yao et al. that interleaves reasoning traces with actions and observations. It is one implementation pattern for tool-using agents.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not React the JavaScript library, and it is not a guarantee that hidden reasoning is faithful or that tool calls are safe.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+ReAct is used when the system needs to alternate between reasoning and acting rather than answer in one shot. It is the canonical pattern for showing how a tool-using agent can loop through thought, action, and observation.
+
+## Evidence
+
+[Yao et al., ReAct (ICLR 2023)](https://arxiv.org/abs/2210.03629) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,33 +2,31 @@
 slug: computer-use
 name: Computer Use
 category: Core
-status: growing
-tags:
-- Core
-- Growing
-signalScore: 82
-buzzScore: 84
-enterpriseReadiness: 34
-firstSeen: 2024
-popularizedBy: Anthropic
-trend: upward
 title: Computer Use
-aliases: []
-short_description: Operating software through the UI instead of direct APIs.
+aliases: null
+short_description: Computer Use is model-driven interaction with a desktop through
+termStatus: Established product capability
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Computer Use is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established product capability.
 
-## Why it matters
+## Meaning
 
-In practice, computer use matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 82, enterprise readiness 34, first seen 2024, popularised by Anthropic.
+Computer use means an agent observes and operates a graphical desktop or browser through mouse, keyboard and screen actions, rather than an application API.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is an interaction modality, not a general autonomy level. UI automation has brittle selectors, weak transaction semantics and a larger prompt-injection surface.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Computer Use is used when the agent must operate at the operating-system level instead of through a clean API or browser abstraction. It usually carries a heavier safety and reliability burden because the interface is visible but not structured.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
