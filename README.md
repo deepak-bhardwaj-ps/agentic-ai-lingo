@@ -54,6 +54,42 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Verification Loop](terms/items/verification-loop.md): Verification Loop is the cycle of checking results, feeding back evidence, and deciding whether to continue.
 - [Verifier](terms/items/verifier.md): Verifier is the component that checks whether outputs or actions satisfy the required criteria.
 - [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment that runs a workflow and manages its state, retries, and termination.
+- [Agent Control Plane](terms/items/agent-control-plane.md): The governance layer for deploying, observing, and steering agent fleets.
+- [Agent Kernel](terms/items/agent-kernel.md): Agent Kernel is part of the execution layer for agents.
+- [Agent Loop](terms/items/agent-loop.md): Agent Loop is the repeating cycle of reasoning, action, and feedback.
+- [Agent Runtime](terms/items/agent-runtime.md): The execution environment that runs agent planning, tools, memory, and policy.
+- [Agent Swarm](terms/items/agent-swarm.md): Agent Swarm is a coordinated group of agents working in parallel.
+- [Agentic Rendering](terms/items/agentic-rendering.md): Using agents to generate structured output or content pipelines.
+- [Dynamic Skill Routing](terms/items/dynamic-skill-routing.md): Dynamic Skill Routing is part of the execution layer for agents.
+- [Dynamic Teaming](terms/items/dynamic-teaming.md): Dynamic Teaming is a persistent group of agents working together.
+- [Execution Boundary](terms/items/execution-boundary.md): Execution Boundary is part of the execution layer for agents.
+- [Execution Graph](terms/items/execution-graph.md): Execution Graph is a graph-based model for representing relationships, context, or memory.
+- [Execution State](terms/items/execution-state.md): Execution State is part of the execution layer for agents.
+- [Hierarchical Agent Architecture](terms/items/hierarchical-agent-architecture.md): Hierarchical Agent Architecture is part of the execution layer for agents.
+- [Inference Runtime](terms/items/inference-runtime.md): Inference Runtime is the execution environment where an agent runs.
+- [Long-Horizon Tasks](terms/items/long-horizon-tasks.md): Long-Horizon Tasks is part of the execution layer for agents.
+- [Long-Horizon Workflow](terms/items/long-horizon-workflow.md): Long-Horizon Workflow is a multi-step process that an agent or agent system executes.
+- [Loop Engineering](terms/items/loop-engineering.md): Loop Engineering is the repeating cycle of reasoning, action, and feedback.
+- [Orchestration Loop](terms/items/orchestration-loop.md): Orchestration Loop is the repeating cycle of reasoning, action, and feedback.
+- [Pilot-to-Production Gap](terms/items/pilot-to-production-gap.md): Pilot-to-Production Gap is part of the execution layer for agents.
+- [ReAct](terms/items/react.md): A reasoning-and-acting loop that alternates thought and tool use.
+- [Reasoning Runtime](terms/items/reasoning-runtime.md): Reasoning Runtime is the execution environment where an agent runs.
+- [Runtime Contract](terms/items/runtime-contract.md): Runtime Contract is a formal agreement that defines behaviour, permissions, or runtime guarantees.
+- [Runtime Governance](terms/items/runtime-governance.md): Runtime Governance is the mechanism for applying control, oversight, and accountability.
+- [Safety Monitor](terms/items/safety-monitor.md): Safety Monitor is a control that reduces risk when agents take actions.
+- [Skill Routing](terms/items/skill-routing.md): Skill Routing is part of the execution layer for agents.
+- [Star Topology](terms/items/star-topology.md): Star Topology is part of the execution layer for agents.
+- [Stop-Anywhere Architecture](terms/items/stop-anywhere-architecture.md): Stop-Anywhere Architecture is part of the execution layer for agents.
+- [Sub-agent Swarm](terms/items/sub-agent-swarm.md): Sub-agent Swarm is a coordinated group of agents working in parallel.
+- [Supervisor Agent](terms/items/supervisor-agent.md): Supervisor Agent is part of the execution layer for agents.
+- [Task Assignment](terms/items/task-assignment.md): Task Assignment is part of the execution layer for agents.
+- [Test-Driven Agentic Workflow](terms/items/test-driven-agentic-workflow.md): Test-Driven Agentic Workflow is a multi-step process that an agent or agent system executes.
+- [Tool Router](terms/items/tool-router.md): Tool Router is the capability an agent invokes to do work outside the model itself.
+- [Tooling Layer](terms/items/tooling-layer.md): Tooling Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Trajectory Quality](terms/items/trajectory-quality.md): Trajectory Quality is a measure of how consistently an agent produces useful results.
+- [Verification Loop](terms/items/verification-loop.md): Verification Loop is the act of checking that an agent's output or action is correct.
+- [Verifier](terms/items/verifier.md): Verifier is part of the execution layer for agents.
+- [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment where an agent runs.
 
 ## Memory
 
@@ -252,6 +288,39 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is a common layer for serving context across multiple agentic systems.
 - [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is the alignment layer that keeps people and agents using the same terms the same way.
 - [Verification Cost](terms/items/verification-cost.md): Verification Cost is the cost of proving a model’s answer or action is correct enough to trust.
+
+## Context
+
+- [Agentic Hub](terms/items/agentic-hub.md): A governed enterprise environment for agent operation.
+- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is about how context is assembled, managed, or governed for agents.
+- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the point where context becomes mixed, noisy, or operationally unusable.
+- [Context Constructor](terms/items/context-constructor.md): Context Constructor is how information is assembled and presented to an agent at runtime.
+- [Context Debt](terms/items/context-debt.md): Context Debt is accumulated operational cost caused by weak governance or poor design.
+- [Context Drift](terms/items/context-drift.md): Context Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Context Engineering](terms/items/context-engineering.md): The discipline of designing the information agents reason over at each step.
+- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared substrate for moving context across systems and teams.
+- [Context Federation](terms/items/context-federation.md): Context Federation is how information is assembled and presented to an agent at runtime.
+- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is context split across disconnected systems and hard to reuse safely.
+- [Context Freshness](terms/items/context-freshness.md): Context Freshness is how current the information is when an agent uses it.
+- [Context Graph](terms/items/context-graph.md): Context Graph is a graph-based model for representing relationships, context, or memory.
+- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is how information is assembled and presented to an agent at runtime.
+- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is context that has been corrupted, accidentally or deliberately.
+- [Context Rot](terms/items/context-rot.md): Context Rot is stale or degraded context that no longer reflects the real system.
+- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where there is too much context for the agent to use well.
+- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is how information is assembled and presented to an agent at runtime.
+- [Context Topology](terms/items/context-topology.md): Context Topology is how information is assembled and presented to an agent at runtime.
+- [Data Fabric](terms/items/data-fabric.md): Data Fabric is a shared substrate for moving context across systems and teams.
+- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is traceable origin information for actions, inputs, or outputs.
+- [Governed Context](terms/items/governed-context.md): Governed Context is how information is assembled and presented to an agent at runtime.
+- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is how an agent is named, authenticated, and tracked separately from the human.
+- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is traceable origin information for actions, inputs, or outputs.
+- [RAG](terms/items/rag.md): Retrieval-augmented generation that grounds model output in external content.
+- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is about how context is assembled, managed, or governed for agents.
+- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is about how context is assembled, managed, or governed for agents.
+- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the act of checking that an agent's output or action is correct.
 
 ## Social
 
