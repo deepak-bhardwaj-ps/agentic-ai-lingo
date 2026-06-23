@@ -4,12 +4,14 @@ name: Agent Ownership Model
 category: AgentOps
 title: Agent Ownership Model
 aliases: []
-short_description: Agent Ownership Model is the way responsibility for an agent’s
-  operation, risk, and change is assigned.
+short_description: An ownership model assigns responsibility for an agent’s
+  operation, risk, change, and retirement.
 termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
+researchBasis: OpenAI, NIST AI RMF, Microsoft Entra Agent ID
 sources:
 - https://platform.openai.com/docs/guides/evals
+- https://www.nist.gov/itl/ai-risk-management-framework
+- https://learn.microsoft.com/en-us/entra/agent-id/manage-agent-identities-admin
 ---
 
 ## Term status
@@ -18,16 +20,20 @@ Operational metric/practice.
 
 ## Meaning
 
-An agent ownership model defines who owns an agent’s behaviour, support, change control, and retirement.
+An ownership model defines who owns an agent’s behaviour, support, change control, and retirement.
 
 ## Boundary
 
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
+It is not a canonical KPI or formal discipline. Define the event boundary, owner, and operational decision it informs before you count anything.
 
 ## How it is used
 
-Agent Ownership Model is used when it matters who owns the agent, who responds when it fails, and who approves changes. It should resolve ambiguity about support, escalation, and accountability.
+It is used when it matters who owns the agent, who responds when it fails, and who approves changes. It should remove ambiguity about support, escalation, and accountability.
 
 ## Evidence
 
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) treats evaluation as part of operating the system, which depends on clear ownership.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) frames AI governance around accountable functions and responsibilities, which is the real reason ownership models matter.
+
+[Microsoft Entra Agent ID](https://learn.microsoft.com/en-us/entra/agent-id/manage-agent-identities-admin) shows the operational side: identities need management, not just creation.
