@@ -55,39 +55,6 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Verifier](terms/items/verifier.md): Verifier is part of the execution layer for agents.
 - [Workflow Runtime](terms/items/workflow-runtime.md): Workflow Runtime is the execution environment where an agent runs.
 
-## Context
-
-- [Agentic Hub](terms/items/agentic-hub.md): A governed enterprise environment for agent operation.
-- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is about how context is assembled, managed, or governed for agents.
-- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the point where context becomes mixed, noisy, or operationally unusable.
-- [Context Constructor](terms/items/context-constructor.md): Context Constructor is how information is assembled and presented to an agent at runtime.
-- [Context Debt](terms/items/context-debt.md): Context Debt is accumulated operational cost caused by weak governance or poor design.
-- [Context Drift](terms/items/context-drift.md): Context Drift is gradual divergence from the intended state, meaning, or behaviour.
-- [Context Engineering](terms/items/context-engineering.md): The discipline of designing the information agents reason over at each step.
-- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared substrate for moving context across systems and teams.
-- [Context Federation](terms/items/context-federation.md): Context Federation is how information is assembled and presented to an agent at runtime.
-- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is context split across disconnected systems and hard to reuse safely.
-- [Context Freshness](terms/items/context-freshness.md): Context Freshness is how current the information is when an agent uses it.
-- [Context Graph](terms/items/context-graph.md): Context Graph is a graph-based model for representing relationships, context, or memory.
-- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed architecture where context or agents are connected across boundaries.
-- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is how information is assembled and presented to an agent at runtime.
-- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is context that has been corrupted, accidentally or deliberately.
-- [Context Rot](terms/items/context-rot.md): Context Rot is stale or degraded context that no longer reflects the real system.
-- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where there is too much context for the agent to use well.
-- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is how information is assembled and presented to an agent at runtime.
-- [Context Topology](terms/items/context-topology.md): Context Topology is how information is assembled and presented to an agent at runtime.
-- [Data Fabric](terms/items/data-fabric.md): Data Fabric is a shared substrate for moving context across systems and teams.
-- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a distributed architecture where context or agents are connected across boundaries.
-- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is traceable origin information for actions, inputs, or outputs.
-- [Governed Context](terms/items/governed-context.md): Governed Context is how information is assembled and presented to an agent at runtime.
-- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is how an agent is named, authenticated, and tracked separately from the human.
-- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is traceable origin information for actions, inputs, or outputs.
-- [RAG](terms/items/rag.md): Retrieval-augmented generation that grounds model output in external content.
-- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is about how context is assembled, managed, or governed for agents.
-- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is an abstraction layer that mediates capabilities, context, or governance.
-- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is about how context is assembled, managed, or governed for agents.
-- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the act of checking that an agent's output or action is correct.
-
 ## Memory
 
 - [Agent Memory](terms/items/agent-memory.md): Persistent state that agents can reuse across sessions.
@@ -252,6 +219,39 @@ A living dictionary of agentic AI terminology, runtime language, governance term
 - [Vibe Valuation](terms/items/vibe-valuation.md): Vibe Valuation is a shorthand or meme term used around agentic AI.
 - [Workslop](terms/items/workslop.md): Workslop is low-quality output, often produced at speed and without enough judgement.
 - [Zombie Internet](terms/items/zombie-internet.md): Zombie Internet is a shorthand or meme term used around agentic AI.
+
+## Context
+
+- [Agentic Hub](terms/items/agentic-hub.md): A governed enterprise environment for agent operation.
+- [Causal Attribution](terms/items/causal-attribution.md): Causal Attribution is about how context is assembled, managed, or governed for agents.
+- [Context Collapse](terms/items/context-collapse.md): Context Collapse is the point where context becomes mixed, noisy, or operationally unusable.
+- [Context Constructor](terms/items/context-constructor.md): Context Constructor is how information is assembled and presented to an agent at runtime.
+- [Context Debt](terms/items/context-debt.md): Context Debt is accumulated operational cost caused by weak governance or poor design.
+- [Context Drift](terms/items/context-drift.md): Context Drift is gradual divergence from the intended state, meaning, or behaviour.
+- [Context Engineering](terms/items/context-engineering.md): The discipline of designing the information agents reason over at each step.
+- [Context Fabric](terms/items/context-fabric.md): Context Fabric is a shared substrate for moving context across systems and teams.
+- [Context Federation](terms/items/context-federation.md): Context Federation is how information is assembled and presented to an agent at runtime.
+- [Context Fragmentation](terms/items/context-fragmentation.md): Context Fragmentation is context split across disconnected systems and hard to reuse safely.
+- [Context Freshness](terms/items/context-freshness.md): Context Freshness is how current the information is when an agent uses it.
+- [Context Graph](terms/items/context-graph.md): Context Graph is a graph-based model for representing relationships, context, or memory.
+- [Context Mesh](terms/items/context-mesh.md): Context Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Context Operating System](terms/items/context-operating-system.md): Context Operating System is how information is assembled and presented to an agent at runtime.
+- [Context Poisoning](terms/items/context-poisoning.md): Context Poisoning is context that has been corrupted, accidentally or deliberately.
+- [Context Rot](terms/items/context-rot.md): Context Rot is stale or degraded context that no longer reflects the real system.
+- [Context Saturation](terms/items/context-saturation.md): Context Saturation is the point where there is too much context for the agent to use well.
+- [Context Supply Chain](terms/items/context-supply-chain.md): Context Supply Chain is how information is assembled and presented to an agent at runtime.
+- [Context Topology](terms/items/context-topology.md): Context Topology is how information is assembled and presented to an agent at runtime.
+- [Data Fabric](terms/items/data-fabric.md): Data Fabric is a shared substrate for moving context across systems and teams.
+- [Data Mesh](terms/items/data-mesh.md): Data Mesh is a distributed architecture where context or agents are connected across boundaries.
+- [Explicit Provenance](terms/items/explicit-provenance.md): Explicit Provenance is traceable origin information for actions, inputs, or outputs.
+- [Governed Context](terms/items/governed-context.md): Governed Context is how information is assembled and presented to an agent at runtime.
+- [Identity-Resolved Data](terms/items/identity-resolved-data.md): Identity-Resolved Data is how an agent is named, authenticated, and tracked separately from the human.
+- [Provenance Tensor](terms/items/provenance-tensor.md): Provenance Tensor is traceable origin information for actions, inputs, or outputs.
+- [RAG](terms/items/rag.md): Retrieval-augmented generation that grounds model output in external content.
+- [Safe Evolution](terms/items/safe-evolution.md): Safe Evolution is about how context is assembled, managed, or governed for agents.
+- [Shared Context Layer](terms/items/shared-context-layer.md): Shared Context Layer is an abstraction layer that mediates capabilities, context, or governance.
+- [Shared Meanings](terms/items/shared-meanings.md): Shared Meanings is about how context is assembled, managed, or governed for agents.
+- [Verification Cost](terms/items/verification-cost.md): Verification Cost is the act of checking that an agent's output or action is correct.
 
 ## Social
 

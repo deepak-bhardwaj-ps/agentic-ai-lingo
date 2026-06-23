@@ -102,7 +102,9 @@ def section_lines(title: str, text: str) -> list[str]:
 
 
 def load_meta() -> dict[str, Any]:
-    return yaml.safe_load(META_PATH.read_text(encoding="utf-8"))
+    if not META_PATH.exists():
+        return {}
+    return yaml.safe_load(META_PATH.read_text(encoding="utf-8")) or {}
 
 
 def load_terms() -> list[dict[str, Any]]:
