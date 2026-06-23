@@ -19,8 +19,9 @@
     "terms/items/agent-inventory.md",
     "terms/items/agent-kernel.md",
     "terms/items/agent-lifecycle-management.md",
-    "terms/items/agent-loop.md"
+    "terms/items/agent-loop.md",
+    "terms/items/agent-marketplace.md"
   ],
   "failed": [],
-  "current": "terms/items/agent-marketplace.md"
+  "current": "terms/items/agent-memory.md"
 }
