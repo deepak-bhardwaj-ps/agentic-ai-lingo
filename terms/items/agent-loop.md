@@ -4,12 +4,13 @@ name: Agent Loop
 category: Runtime
 title: Agent Loop
 aliases: []
-short_description: Agent Loop is the repeated cycle of planning, acting, and incorporating
-  observations.
+short_description: A loop repeats planning, acting, and observation updates until
+  a stop condition is met.
 termStatus: Architecture term
-researchBasis: Yao et al., ReAct (ICLR 2023)
+researchBasis: Yao et al., ReAct, Anthropic
 sources:
 - https://arxiv.org/abs/2210.03629
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
 ## Term status
@@ -18,16 +19,18 @@ Architecture term.
 
 ## Meaning
 
-An agent loop repeatedly provides state to a model, interprets its decision, executes an allowed action, appends the observation and stops on a success, budget or policy condition.
+A loop repeatedly feeds state to a model, interprets the decision, executes an allowed action, appends the observation, and stops on a success, budget, or policy condition.
 
 ## Boundary
 
-It is not necessarily [[ReAct]] and must have explicit loop, cost and failure limits.
+It is not necessarily [[ReAct]] and it is not safe by default. It needs explicit loop, cost, and failure limits, otherwise it becomes an uncontrolled retry mechanism.
 
 ## How it is used
 
-Agent Loop is used when a system must repeatedly plan, act, and incorporate observations. In production it needs explicit stop conditions, spend limits, and a way to detect looping.
+It is used when a system must repeatedly plan, act, and incorporate observations. In production it needs explicit stop conditions, spend limits, and a way to detect looping.
 
 ## Evidence
 
-[Yao et al., [[ReAct]] (ICLR 2023)](https://arxiv.org/abs/2210.03629) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Yao et al., ReAct](https://arxiv.org/abs/2210.03629) gives the canonical reasoning-and-acting loop that many agent implementations build on.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) describes agents as tool-using systems that operate in a loop with checkpoints, stop conditions, and human feedback when needed.
