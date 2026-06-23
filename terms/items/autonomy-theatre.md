@@ -2,32 +2,32 @@
 slug: autonomy-theatre
 name: Autonomy Theatre
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 38
-buzzScore: 44
-enterpriseReadiness: 35
-trend: upward
 title: Autonomy Theatre
 aliases: []
-short_description: Autonomy Theatre is a fake-autonomy pattern where the system appears
-  agentic but a human is still doing the real work.
+short_description: Autonomy Theatre is used as informal, audience-specific commentary
+  on AI culture or working practice.
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Autonomy Theatre is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, autonomy theatre matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 38, enterprise readiness 35.
+Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Autonomy Theatre is used as informal, audience-specific commentary on AI culture or working practice. It may be useful for critique, but it should be translated into an observable product, quality, governance or economic claim in professional artefacts.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

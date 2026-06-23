@@ -2,32 +2,32 @@
 slug: tool-router
 name: Tool Router
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 58
-buzzScore: 36
-enterpriseReadiness: 71
-trend: neutral
 title: Tool Router
 aliases: []
-short_description: Tool Router is the capability an agent invokes to do work outside
-  the model itself.
+short_description: Tool Router is used in runtime design to name the component that
+  coordinates decisions and side effects.
+termStatus: Implementation pattern
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Tool Router is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, tool router matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 58, enterprise readiness 71.
+A tool router selects or exposes the subset of callable tools for a request based on task, context or policy.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not authorisation by itself. The selected tool must independently enforce identity, scope and input validation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Tool Router is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

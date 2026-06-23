@@ -2,32 +2,32 @@
 slug: agent-ready-software
 name: Agent-Ready Software
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 52
-buzzScore: 34
-enterpriseReadiness: 69
-trend: upward
 title: Agent-Ready Software
 aliases: []
-short_description: Agent-Ready Software is a protocol, interface, or platform term
-  used to connect agents and tools.
+short_description: Agent-Ready Software is used in discussions of coordination or
+  discoverability between independently built agents and services.
+termStatus: Emerging interoperability/architecture label
+researchBasis: Model Context Protocol specification
+sources:
+- https://modelcontextprotocol.io/specification/2025-06-18
 ---
 
-## What it means
+## Term status
 
-Agent-Ready Software is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent-ready software matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 52, enterprise readiness 69.
+Agent-Ready Software is used to describe how agents, skills or services might be grouped, discovered or cooperate across boundaries.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent-Ready Software is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+
+## Evidence
+
+[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

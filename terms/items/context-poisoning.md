@@ -2,32 +2,32 @@
 slug: context-poisoning
 name: Context Poisoning
 category: Context
-status: stabilizing
-tags:
-- Context
-- Stabilizing
-signalScore: 56
-buzzScore: 33
-enterpriseReadiness: 39
-trend: neutral
 title: Context Poisoning
 aliases: []
-short_description: Context Poisoning is context that has been corrupted, accidentally
-  or deliberately.
+short_description: Context Poisoning is used for untrusted content that enters an
+  agent’s active prompt or retrieved evidence and attempts to steer its tool use.
+termStatus: Security risk
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Context Poisoning is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Security risk.
 
-## Why it matters
+## Meaning
 
-In practice, context poisoning matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 39.
+Context poisoning is untrusted or manipulated content entering an agent's active context and steering its subsequent model behaviour or tool use.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not solved by asking the model to ignore instructions. Apply provenance, isolation, parsing, tool policy and confirmation controls.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Context Poisoning is used for untrusted content that enters an agent’s active prompt or retrieved evidence and attempts to steer its tool use. Treat it as an input-integrity threat: label untrusted content, isolate instructions and gate consequential actions.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

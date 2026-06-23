@@ -2,32 +2,32 @@
 slug: tool-authorization
 name: Tool Authorization
 category: Governance
-status: stabilizing
-tags:
-- Governance
-- Stabilizing
-signalScore: 56
-buzzScore: 28
-enterpriseReadiness: 41
-trend: neutral
 title: Tool Authorization
 aliases: []
-short_description: Tool Authorization is the capability an agent invokes to do work
-  outside the model itself.
+short_description: Tool Authorization is used to govern whether a requested action
+  is allowed for a particular agent and principal.
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Tool Authorization is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, tool authorization matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 41.
+Tool Authorization concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Tool Authorization is used to govern whether a requested action is allowed for a particular agent and principal. The policy decision needs a deterministic enforcement point, a reason record and revocation support.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

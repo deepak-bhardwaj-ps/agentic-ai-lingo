@@ -2,33 +2,33 @@
 slug: memory-engineering
 name: Memory Engineering
 category: Memory
-status: stabilizing
-tags:
-- Memory
-- Stabilizing
-signalScore: 64
-buzzScore: 39
-enterpriseReadiness: 54
-trend: neutral
 title: Memory Engineering
 aliases: []
-short_description: Memory Engineering is how an agent stores, retrieves, and reuses
-  information over time.
+short_description: Memory Engineering is used in designs for information an agent
+  retains beyond the immediate prompt.
 updated_at: '2026-06-22T20:54:07.866809+00:00'
+termStatus: Emerging practitioner term
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Memory Engineering is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Emerging practitioner term.
 
-## Why it matters
+## Meaning
 
-In practice, memory engineering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 54.
+Memory engineering is the design of what an agent stores, how it is summarised and retrieved, and when it expires or is corrected.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard discipline. A credible design specifies schemas, write authority, retrieval evaluation and deletion behaviour.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Memory Engineering is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

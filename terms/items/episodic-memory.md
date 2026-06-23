@@ -2,32 +2,32 @@
 slug: episodic-memory
 name: Episodic Memory
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 53
-buzzScore: 29
-enterpriseReadiness: 29
-trend: upward
 title: Episodic Memory
 aliases: []
-short_description: Episodic Memory is how an agent stores, retrieves, and reuses information
-  over time.
+short_description: Episodic Memory is used in designs for information an agent retains
+  beyond the immediate prompt.
+termStatus: Established cognitive term; applied metaphor
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Episodic Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Established cognitive term; applied metaphor.
 
-## Why it matters
+## Meaning
 
-In practice, episodic memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 53, enterprise readiness 29.
+Episodic memory is commonly used for stored records of prior agent interactions or task runs, retrieved when relevant to a new task.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is an implementation convention, not evidence that the system has human-like memory. Define retention, retrieval and correction policies.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Episodic Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

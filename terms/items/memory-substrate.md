@@ -2,32 +2,32 @@
 slug: memory-substrate
 name: Memory Substrate
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 39
-buzzScore: 17
-enterpriseReadiness: 39
-trend: upward
 title: Memory Substrate
 aliases: []
-short_description: Memory Substrate is how an agent stores, retrieves, and reuses
-  information over time.
+short_description: Memory Substrate is used in designs for information an agent retains
+  beyond the immediate prompt.
+termStatus: Architecture metaphor
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Memory Substrate is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Architecture metaphor.
 
-## Why it matters
+## Meaning
 
-In practice, memory substrate matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 39, enterprise readiness 39.
+Memory Substrate describes a proposed shared or distributed layer for exchanging the stated resource across systems.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+The label does not define an interoperability protocol, trust model or data contract. Those must be specified independently.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Memory Substrate is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

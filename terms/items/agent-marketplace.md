@@ -2,32 +2,32 @@
 slug: agent-marketplace
 name: Agent Marketplace
 category: Protocols
-status: stabilizing
-tags:
-- Protocols
-- Stabilizing
-signalScore: 56
-buzzScore: 48
-enterpriseReadiness: 59
-trend: neutral
 title: Agent Marketplace
 aliases: []
-short_description: Agent Marketplace is a catalog or managed set of agents, tools,
-  or capabilities.
+short_description: Agent Marketplace is used in discussions of coordination or discoverability
+  between independently built agents and services.
+termStatus: Product/operating-model label
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Agent Marketplace is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Product/operating-model label.
 
-## Why it matters
+## Meaning
 
-In practice, agent marketplace matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 59.
+An agent marketplace is a catalogue and distribution mechanism for agents or skills, often with discovery, installation and governance features.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a security boundary. Treat third-party agents as software supply-chain dependencies with review, provenance and permission controls.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent Marketplace is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

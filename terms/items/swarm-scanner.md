@@ -2,31 +2,31 @@
 slug: swarm-scanner
 name: Swarm Scanner
 category: Social
-status: emerging
-tags:
-- Social
-- Emerging
-signalScore: 32
-buzzScore: 18
-enterpriseReadiness: 73
-trend: upward
 title: Swarm Scanner
 aliases: []
-short_description: Swarm Scanner is a coordinated group of agents working in parallel.
+short_description: Swarm Scanner is used to discuss an agent-system design concern.
+termStatus: Descriptive/social label
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Swarm Scanner is a social term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Descriptive/social label.
 
-## Why it matters
+## Meaning
 
-In practice, swarm scanner matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 32, enterprise readiness 73.
+Swarm Scanner describes coordinated automated accounts or the social effects attributed to them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy and evidence of real-world impact.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Swarm Scanner is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

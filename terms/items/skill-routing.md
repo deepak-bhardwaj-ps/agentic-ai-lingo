@@ -2,31 +2,32 @@
 slug: skill-routing
 name: Skill Routing
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 52
-buzzScore: 30
-enterpriseReadiness: 66
-trend: upward
 title: Skill Routing
 aliases: []
-short_description: Skill Routing is part of the execution layer for agents.
+short_description: Skill Routing is used when the system chooses a capability at run
+  time from a set of tools or skills.
+termStatus: Architecture/implementation term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Skill Routing is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Architecture/implementation term.
 
-## Why it matters
+## Meaning
 
-In practice, skill routing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 52, enterprise readiness 66.
+Skill Routing describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Skill Routing is used when the system chooses a capability at run time from a set of tools or skills. The routing policy should expose candidate selection, permission filtering, fallback and how a bad selection is observed.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

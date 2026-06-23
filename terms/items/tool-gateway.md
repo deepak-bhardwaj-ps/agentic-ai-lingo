@@ -2,32 +2,32 @@
 slug: tool-gateway
 name: Tool Gateway
 category: Protocols
-status: stabilizing
-tags:
-- Protocols
-- Stabilizing
-signalScore: 56
-buzzScore: 32
-enterpriseReadiness: 21
-trend: neutral
 title: Tool Gateway
 aliases: []
-short_description: Tool Gateway is the capability an agent invokes to do work outside
-  the model itself.
+short_description: Tool Gateway is used in discussions of coordination or discoverability
+  between independently built agents and services.
+termStatus: Architecture pattern
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Tool Gateway is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Architecture pattern.
 
-## Why it matters
+## Meaning
 
-In practice, tool gateway matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 21.
+A tool gateway is an intermediary service through which agents access tools or APIs, commonly centralising authentication, policy checks, logging, rate limits and schema validation.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a protocol and does not remove application-level authorisation requirements.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Tool Gateway is used in discussions of coordination or discoverability between independently built agents and services. Before adopting the label, identify the concrete message format, discovery method, identity exchange, compatibility commitment and failure semantics.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

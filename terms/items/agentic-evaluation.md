@@ -2,32 +2,32 @@
 slug: agentic-evaluation
 name: Agentic Evaluation
 category: AgentOps
-status: growing
-tags:
-- AgentOps
-- Growing
-signalScore: 78
-buzzScore: 44
-enterpriseReadiness: 21
-firstSeen: 2024
-trend: upward
 title: Agentic Evaluation
 aliases: []
-short_description: Evaluation methods for multi-step, tool-using agent tasks.
+short_description: Agentic Evaluation is used in operating reviews to make a production
+  concern observable and owned.
+termStatus: Established practice, informal label
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Agentic Evaluation is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established practice, informal label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic evaluation matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 21, first seen 2024.
+Agentic evaluation is evaluation designed for multi-step, stateful, tool-using systems rather than isolated text outputs.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is a descriptive phrase, not a distinct scientific method. Define the task environment, oracle, trajectory checks and release threshold.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agentic Evaluation is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

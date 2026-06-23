@@ -2,32 +2,32 @@
 slug: cost-per-workflow
 name: Cost per Workflow
 category: AgentOps
-status: stabilizing
-tags:
-- AgentOps
-- Stabilizing
-signalScore: 58
-buzzScore: 36
-enterpriseReadiness: 56
-trend: neutral
 title: Cost per Workflow
 aliases: []
-short_description: Cost per Workflow is a multi-step process that an agent or agent
-  system executes.
+short_description: Cost per Workflow is used in operating reviews to make a production
+  concern observable and owned.
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Cost per Workflow is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, cost per workflow matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 58, enterprise readiness 56.
+Cost per Workflow is a practical label for operating or measuring an agentic system in production.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Cost per Workflow is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,31 +2,31 @@
 slug: web-agent
 name: Web Agent
 category: Core
-status: growing
-tags:
-- Core
-- Growing
-signalScore: 74
-buzzScore: 66
-enterpriseReadiness: 67
-trend: upward
 title: Web Agent
 aliases: []
-short_description: Web Agent is a core agentic AI concept.
+short_description: Web Agent is used to discuss an agent-system design concern.
+termStatus: Descriptive capability term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Web Agent is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Descriptive capability term.
 
-## Why it matters
+## Meaning
 
-In practice, web agent matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 74, enterprise readiness 67.
+A web agent is an agent whose observation and action environment is the web, using browser automation, search, scraping or web APIs.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not synonymous with a browser extension or a search bot. Separate read-only retrieval from authenticated or consequential action.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Web Agent is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

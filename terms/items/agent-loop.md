@@ -2,31 +2,32 @@
 slug: agent-loop
 name: Agent Loop
 category: Runtime
-status: growing
-tags:
-- Runtime
-- Growing
-signalScore: 72
-buzzScore: 48
-enterpriseReadiness: 39
-trend: upward
 title: Agent Loop
 aliases: []
-short_description: Agent Loop is the repeating cycle of reasoning, action, and feedback.
+short_description: Agent Loop is used when a model-driven process repeatedly plans,
+  acts and incorporates observations.
+termStatus: Architecture term
+researchBasis: Yao et al., ReAct (ICLR 2023)
+sources:
+- https://arxiv.org/abs/2210.03629
 ---
 
-## What it means
+## Term status
 
-Agent Loop is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Architecture term.
 
-## Why it matters
+## Meaning
 
-In practice, agent loop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 72, enterprise readiness 39.
+An agent loop repeatedly provides state to a model, interprets its decision, executes an allowed action, appends the observation and stops on a success, budget or policy condition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not necessarily [[ReAct]] and must have explicit loop, cost and failure limits.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent Loop is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+
+## Evidence
+
+[Yao et al., [[ReAct]] (ICLR 2023)](https://arxiv.org/abs/2210.03629) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

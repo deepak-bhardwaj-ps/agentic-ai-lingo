@@ -2,31 +2,31 @@
 slug: bot-swarm
 name: Bot Swarm
 category: Social
-status: stabilizing
-tags:
-- Social
-- Stabilizing
-signalScore: 64
-buzzScore: 58
-enterpriseReadiness: 51
-trend: neutral
 title: Bot Swarm
 aliases: []
-short_description: Bot Swarm is a coordinated group of agents working in parallel.
+short_description: Bot Swarm is used to discuss an agent-system design concern.
+termStatus: Descriptive/social label
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Bot Swarm is a social term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Descriptive/social label.
 
-## Why it matters
+## Meaning
 
-In practice, bot swarm matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 51.
+Bot Swarm describes coordinated automated accounts or the social effects attributed to them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy and evidence of real-world impact.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Bot Swarm is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

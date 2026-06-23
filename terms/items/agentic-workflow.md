@@ -2,31 +2,31 @@
 slug: agentic-workflow
 name: Agentic Workflow
 category: Core
-status: peak
-tags:
-- Core
-- Peak
-signalScore: 87
-buzzScore: 78
-enterpriseReadiness: 51
-trend: neutral
 title: Agentic Workflow
 aliases: []
-short_description: A task flow executed by agents, tools, memory, and controls.
+short_description: Agentic Workflow is used to discuss an agent-system design concern.
+termStatus: Architecture description
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agentic Workflow is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Architecture description.
 
-## Why it matters
+## Meaning
 
-In practice, agentic workflow matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 87, enterprise readiness 51.
+A workflow is a pre-defined control flow that invokes model steps, tools or agents. It may include branching and retries, but the orchestration logic is largely explicit.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not equate a workflow with an autonomous agent. Anthropic distinguishes workflows (predefined paths) from agents (model-directed process and tool use).
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agentic Workflow is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

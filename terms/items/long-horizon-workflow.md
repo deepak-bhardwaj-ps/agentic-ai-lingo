@@ -2,32 +2,32 @@
 slug: long-horizon-workflow
 name: Long-Horizon Workflow
 category: Runtime
-status: growing
-tags:
-- Runtime
-- Growing
-signalScore: 71
-buzzScore: 44
-enterpriseReadiness: 25
-trend: upward
 title: Long-Horizon Workflow
 aliases: []
-short_description: Long-Horizon Workflow is a multi-step process that an agent or
-  agent system executes.
+short_description: Long-Horizon Workflow is used in runtime design to name the component
+  that coordinates decisions and side effects.
+termStatus: Descriptive capability term
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Long-Horizon Workflow is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Descriptive capability term.
 
-## Why it matters
+## Meaning
 
-In practice, long-horizon workflow matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 71, enterprise readiness 25.
+Long-Horizon Workflow describes work that requires an agent to preserve state and make progress across many dependent steps, often with retries or interruption.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a benchmark category or proof of autonomy. Define the task horizon, checkpointing, budget, recovery and success criteria.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Long-Horizon Workflow is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

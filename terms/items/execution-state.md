@@ -2,31 +2,32 @@
 slug: execution-state
 name: Execution State
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 51
-buzzScore: 22
-enterpriseReadiness: 54
-trend: upward
 title: Execution State
 aliases: []
-short_description: Execution State is part of the execution layer for agents.
+short_description: 'Execution State is used for the mutable record that lets an orchestrator
+  continue a run: plan, observations, tool results, checkpoints and budgets.'
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Execution State is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, execution state matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 51, enterprise readiness 54.
+Execution State concerns how agent state is stored, selected, updated or retired across model calls and sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Execution State is used for the mutable record that lets an orchestrator continue a run: plan, observations, tool results, checkpoints and budgets. Its schema determines resumability and should not contain unbounded conversation history.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

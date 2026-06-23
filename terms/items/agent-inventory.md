@@ -2,32 +2,32 @@
 slug: agent-inventory
 name: Agent Inventory
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 42
-buzzScore: 21
-enterpriseReadiness: 30
-trend: upward
 title: Agent Inventory
 aliases: []
-short_description: Agent Inventory is a catalog or managed set of agents, tools, or
-  capabilities.
+short_description: Agent Inventory is used in operating reviews to make a production
+  concern observable and owned.
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Agent Inventory is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, agent inventory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 30.
+Agent Inventory is a practical label for operating or measuring an agentic system in production.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent Inventory is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

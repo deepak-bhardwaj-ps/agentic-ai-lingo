@@ -2,32 +2,32 @@
 slug: ai-agents
 name: AI Agents
 category: Core
-status: peak
-tags:
-- Core
-- Peak
-signalScore: 95
-buzzScore: 94
-enterpriseReadiness: 62
-trend: neutral
 title: AI Agents
 aliases: []
-short_description: Concrete implementations of agentic AI that can reason and act.
+short_description: AI Agents is used to discuss an agent-system design concern.
 updated_at: '2026-06-22T20:54:06.685468+00:00'
+termStatus: Umbrella term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-AI Agents is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Umbrella term.
 
-## Why it matters
+## Meaning
 
-In practice, ai agents matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 95, enterprise readiness 62.
+AI agent is an overloaded label for a model-based system that selects actions towards a goal, commonly by invoking tools and using observations. The autonomy and planning depth vary widely.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+A chatbot, workflow and autonomous agent are not interchangeable. State the action surface, stopping condition and human approval points.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+AI Agents is used to discuss an agent-system design concern. Its practical value is in turning the label into an explicit interface, state model, policy or testable outcome.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

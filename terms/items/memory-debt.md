@@ -2,32 +2,32 @@
 slug: memory-debt
 name: Memory Debt
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 36
-buzzScore: 20
-enterpriseReadiness: 29
-trend: upward
 title: Memory Debt
 aliases: []
-short_description: Memory Debt is accumulated operational cost caused by weak governance
-  or poor design.
+short_description: Memory Debt is used for accumulated shortcuts in storage, retrieval
+  and summarisation that make an agent’s state unreliable or expensive to change.
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Memory Debt is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, memory debt matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 36, enterprise readiness 29.
+Memory Debt concerns how agent state is stored, selected, updated or retired across model calls and sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Memory Debt is used for accumulated shortcuts in storage, retrieval and summarisation that make an agent’s state unreliable or expensive to change. It should be tracked through concrete defects such as stale records, missing provenance or uncontrolled growth.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

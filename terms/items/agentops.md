@@ -2,33 +2,32 @@
 slug: agentops
 name: AgentOps
 category: AgentOps
-status: growing
-tags:
-- AgentOps
-- Growing
-signalScore: 74
-buzzScore: 52
-enterpriseReadiness: 56
-firstSeen: 2024
-popularizedBy: DevOps community
-trend: upward
 title: AgentOps
 aliases: []
-short_description: The operational practice of running agents reliably in production.
+short_description: AgentOps is used in operating reviews to make a production concern
+  observable and owned.
+termStatus: Emerging operational label
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-AgentOps is a agentops term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Emerging operational label.
 
-## Why it matters
+## Meaning
 
-In practice, agentops matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 74, enterprise readiness 56, first seen 2024, popularised by DevOps community.
+AgentOps is the operational practice of deploying, observing, evaluating and governing agentic applications. It borrows heavily from MLOps, DevOps, SRE and application security.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not an established standard or a separate technology layer. Ask which concrete capabilities are meant: tracing, evaluation, release control, incident response or access governance.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+AgentOps is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

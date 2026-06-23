@@ -2,32 +2,33 @@
 slug: pilot-to-production-gap
 name: Pilot-to-Production Gap
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 67
-buzzScore: 52
-enterpriseReadiness: 67
-trend: neutral
 title: Pilot-to-Production Gap
 aliases: []
-short_description: Pilot-to-Production Gap is part of the execution layer for agents.
+short_description: Pilot-to-Production Gap is used in runtime design to name the component
+  that coordinates decisions and side effects.
 updated_at: '2026-06-22T20:54:07.961272+00:00'
+termStatus: Operational shorthand
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Pilot-to-Production Gap is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Operational shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, pilot-to-production gap matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 67, enterprise readiness 67.
+Pilot-to-Production Gap describes the gap between a convincing limited demonstration and a production service with ownership, integration, reliability, security and measurable value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not an inevitable lifecycle stage. Diagnose the limiting production capability rather than treating the label as an explanation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Pilot-to-Production Gap is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

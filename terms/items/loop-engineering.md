@@ -2,33 +2,32 @@
 slug: loop-engineering
 name: Loop Engineering
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 61
-buzzScore: 39
-enterpriseReadiness: 43
-firstSeen: 2024
-trend: neutral
 title: Loop Engineering
 aliases: []
-short_description: Loop Engineering is the repeating cycle of reasoning, action, and
-  feedback.
+short_description: Loop Engineering is used when a model-driven process repeatedly
+  plans, acts and incorporates observations.
+termStatus: Architecture/implementation term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Loop Engineering is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Architecture/implementation term.
 
-## Why it matters
+## Meaning
 
-In practice, loop engineering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 61, enterprise readiness 43, first seen 2024.
+Loop Engineering describes a runtime mechanism for sequencing model calls, selecting capabilities, holding state or checking a result.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Loop Engineering is used when a model-driven process repeatedly plans, acts and incorporates observations. In production it needs a maximum iteration count, spend limit, loop-detection signal and explicit stop outcomes.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

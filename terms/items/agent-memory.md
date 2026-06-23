@@ -2,31 +2,32 @@
 slug: agent-memory
 name: Agent Memory
 category: Memory
-status: growing
-tags:
-- Memory
-- Growing
-signalScore: 78
-buzzScore: 58
-enterpriseReadiness: 50
-trend: upward
 title: Agent Memory
 aliases: []
-short_description: Persistent state that agents can reuse across sessions.
+short_description: Agent Memory is used in designs for information an agent retains
+  beyond the immediate prompt.
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Agent Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, agent memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 50.
+Agent memory is externally managed state that helps an agent retain task context, facts, preferences or past experiences across model calls or sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not persistent model learning. Memory writes and retrieval must be scoped, attributable, correctable and access-controlled.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent Memory is used in designs for information an agent retains beyond the immediate prompt. Teams specify record type, write trigger, source provenance, retrieval rule, retention period and correction route.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,31 +2,32 @@
 slug: agent-kernel
 name: Agent Kernel
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 41
-buzzScore: 18
-enterpriseReadiness: 42
-trend: upward
 title: Agent Kernel
 aliases: []
-short_description: Agent Kernel is part of the execution layer for agents.
+short_description: Agent Kernel is used in runtime design to name the component that
+  coordinates decisions and side effects.
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agent Kernel is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, agent kernel matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 41, enterprise readiness 42.
+Agent Kernel is used to describe an agent-related role, grouping, catalogue or operating practice.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces and ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Agent Kernel is used in runtime design to name the component that coordinates decisions and side effects. A useful specification gives its input event, durable state, action contract, retry policy, timeout and terminal states.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

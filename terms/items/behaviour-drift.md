@@ -2,32 +2,32 @@
 slug: behaviour-drift
 name: Behaviour Drift
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 41
-buzzScore: 22
-enterpriseReadiness: 35
-trend: upward
 title: Behaviour Drift
 aliases: []
-short_description: Behaviour Drift is gradual divergence from the intended state,
-  meaning, or behaviour.
+short_description: Behaviour Drift is used in risk reviews for a gradual divergence
+  from a stated goal, policy or expected behaviour.
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Behaviour Drift is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, behaviour drift matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 41, enterprise readiness 35.
+Behaviour Drift concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Behaviour Drift is used in risk reviews for a gradual divergence from a stated goal, policy or expected behaviour. It requires a baseline, monitoring signal, tolerance and named intervention owner.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,32 +2,32 @@
 slug: context-collapse
 name: Context Collapse
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 44
-buzzScore: 31
-enterpriseReadiness: 66
-trend: upward
 title: Context Collapse
 aliases: []
-short_description: Context Collapse is the point where context becomes mixed, noisy,
-  or operationally unusable.
+short_description: Context Collapse is used when teams need to reason about the information
+  presented to a model at decision time.
+termStatus: Emerging practitioner shorthand
+researchBasis: Lewis et al., Retrieval-Augmented Generation
+sources:
+- https://arxiv.org/abs/2005.11401
 ---
 
-## What it means
+## Term status
 
-Context Collapse is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, context collapse matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 44, enterprise readiness 66.
+Context Collapse concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Context Collapse is used when teams need to reason about the information presented to a model at decision time. It should result in explicit source selection, provenance, freshness, permissions and token-budget behaviour.
+
+## Evidence
+
+[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

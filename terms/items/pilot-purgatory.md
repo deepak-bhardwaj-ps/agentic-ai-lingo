@@ -2,32 +2,32 @@
 slug: pilot-purgatory
 name: Pilot Purgatory
 category: AgentOps
-status: stabilizing
-tags:
-- AgentOps
-- Stabilizing
-signalScore: 56
-buzzScore: 47
-enterpriseReadiness: 59
-trend: neutral
 title: Pilot Purgatory
 aliases: []
-short_description: Pilot Purgatory is an operational term for running agents reliably
-  in production.
+short_description: Pilot Purgatory is used in operating reviews to make a production
+  concern observable and owned.
+termStatus: Operational shorthand
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Pilot Purgatory is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Operational shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, pilot purgatory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 59.
+Pilot Purgatory describes the gap between a convincing limited demonstration and a production service with ownership, integration, reliability, security and measurable value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not an inevitable lifecycle stage. Diagnose the limiting production capability rather than treating the label as an explanation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Pilot Purgatory is used in operating reviews to make a production concern observable and owned. Define the underlying event, measurement method, threshold, operational response and accountable team rather than using it as a broad maturity label.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
