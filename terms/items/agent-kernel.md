@@ -4,12 +4,14 @@ name: Agent Kernel
 category: Runtime
 title: Agent Kernel
 aliases: []
-short_description: Agent Kernel is the core execution loop that turns observations
-  into decisions and tool calls for one agent.
+short_description: A kernel is the smallest runtime core that keeps one agent
+  coherent across state, decision, tool use, and control flow.
 termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
+researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
 sources:
 - https://www.anthropic.com/engineering/building-effective-agents
+- https://developers.openai.com/api/docs/guides/agents
+- https://www.langchain.com/langgraph
 ---
 
 ## Term status
@@ -18,16 +20,20 @@ Emerging practitioner shorthand.
 
 ## Meaning
 
-An agent kernel is the minimal loop that keeps one agent coherent across turns: state intake, policy application, decision, tool call, and update. The term is useful when you need to isolate the irreducible runtime core from orchestration around it.
+A kernel is the smallest runtime core that keeps one agent coherent across turns: state intake, policy application, decision, tool call, and update. The term is useful when you need to isolate the irreducible loop from orchestration, handoffs, and surrounding infrastructure.
 
 ## Boundary
 
-It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces and ownership.
+It is not a standard term unless a specific product or protocol defines it. Use it only when you can name the concrete responsibilities, interfaces, and ownership of the loop you mean.
 
 ## How it is used
 
-Agent Kernel is used when you need to discuss the smallest reliable core of an agent: state, reasoning, tool use, and control flow. It is the place where the agent’s behaviour becomes concrete enough to inspect, test, and constrain.
+A kernel is used when you need to discuss the smallest reliable core of an agent: state, reasoning, tool use, and control flow. It is the place where behaviour becomes concrete enough to inspect, test, and constrain.
 
 ## Evidence
 
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes the agent loop from surrounding workflow orchestration and keeps the runtime core small and explicit.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration, guardrails, state, tools, and observability from the app’s own logic.
+
+[LangGraph](https://www.langchain.com/langgraph) frames reliable agents around explicit stateful graphs rather than an opaque loop, which is the same design pressure behind the kernel label.
