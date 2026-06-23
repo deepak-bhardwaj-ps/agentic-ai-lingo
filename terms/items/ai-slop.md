@@ -2,32 +2,31 @@
 slug: ai-slop
 name: AI Slop
 category: Slang
-status: growing
-tags:
-- Slang
-- Growing
-signalScore: 76
-buzzScore: 88
-enterpriseReadiness: 65
-trend: upward
 title: AI Slop
-aliases: []
-short_description: AI Slop is low-quality output, often produced at speed and without
-  enough judgement.
+aliases: null
+short_description: AI Slop is a pejorative for low-value AI-generated output that
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-AI Slop is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, ai slop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 76, enterprise readiness 65.
+AI slop is a pejorative for abundant, low-value or poorly reviewed AI-generated content.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is a cultural judgement, not a measurable quality category. Define the actual defect: inaccuracy, duplication, deception, poor fit or lack of provenance.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+AI Slop is used when AI output is fast to produce but expensive to clean up, usually because it is generic, repetitive, or careless about facts and structure. The label is common in critique of content farms, low-review drafting, and overproduced internal material.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

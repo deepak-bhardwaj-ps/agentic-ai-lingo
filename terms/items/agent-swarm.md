@@ -2,31 +2,35 @@
 slug: agent-swarm
 name: Agent Swarm
 category: Runtime
-status: stabilizing
-tags:
-- Runtime
-- Stabilizing
-signalScore: 64
-buzzScore: 57
-enterpriseReadiness: 42
-trend: neutral
 title: Agent Swarm
-aliases: []
-short_description: Agent Swarm is a coordinated group of agents working in parallel.
+aliases: null
+short_description: A swarm is a loosely coordinated pool of agents working on
+termStatus: Informal architecture label
+researchBasis: Anthropic, multi-agent coordination research
+sources:
+- https://arxiv.org/abs/2510.10047
 ---
 
-## What it means
+## Term status
 
-Agent Swarm is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Informal architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent swarm matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 42.
+A swarm usually means a set of agents operating concurrently on related tasks, sometimes with shared state or aggregation.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined architecture. Parallelism increases coordination, duplication, and privilege risks; use it only when tasks are genuinely separable.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when several agents can work in parallel and exchange results without a strict hierarchy. It is useful for exploration and breadth, but it needs coordination rules or it turns into noisy duplication.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) treats parallelization as one pattern among several, not as a default design.
+
+[SWARM+](https://arxiv.org/abs/2603.19431) shows that decentralised multi-agent coordination needs explicit consensus and failure handling to scale.
+
+[SwarmSys](https://arxiv.org/abs/2510.10047) shows the same point from a reasoning perspective: swarm-like coordination only works when the interaction protocol is designed, not improvised.

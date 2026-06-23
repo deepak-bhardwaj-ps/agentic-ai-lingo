@@ -2,32 +2,31 @@
 slug: memory-architecture
 name: Memory Architecture
 category: Memory
-status: emerging
-tags:
-- Memory
-- Emerging
-signalScore: 51
-buzzScore: 26
-enterpriseReadiness: 43
-trend: upward
 title: Memory Architecture
-aliases: []
-short_description: Memory Architecture is how an agent stores, retrieves, and reuses
-  information over time.
+aliases: null
+short_description: Memory Architecture is the design of storage, retrieval, and correction
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Memory Architecture is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, memory architecture matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 51, enterprise readiness 43.
+Memory Architecture concerns how agent state is stored, selected, updated or retired across model calls and sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Memory Architecture is used when a system has more than one kind of memory and needs a deliberate storage and retrieval design. The question is how facts move, how stale records are retired, and how corrections are applied.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

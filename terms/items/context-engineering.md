@@ -2,34 +2,31 @@
 slug: context-engineering
 name: Context Engineering
 category: Context
-status: peak
-tags:
-- Context
-- Peak
-signalScore: 96
-buzzScore: 82
-enterpriseReadiness: 71
-firstSeen: 2024
-popularizedBy: LangChain, Anthropic researchers
-trend: neutral
 title: Context Engineering
-aliases: []
-short_description: The discipline of designing the information agents reason over
-  at each step.
+aliases: null
+short_description: Context Engineering is the deliberate construction of what information
+termStatus: Emerging practitioner term
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Context Engineering is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Emerging practitioner term.
 
-## Why it matters
+## Meaning
 
-In practice, context engineering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 96, enterprise readiness 71, first seen 2024, popularised by LangChain, Anthropic researchers.
+Context engineering is deliberate construction of the information available at a model call: instructions, retrieved evidence, tool descriptions, state, memory and compression. It is a broader systems task than prompt wording.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not simply prompt engineering with a new name. It becomes meaningful when the system has selection, freshness, provenance and budget policies.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Context Engineering is used when the team needs to control which instructions, evidence, memory, and tool descriptions a model sees. It is the practical discipline behind selection, freshness, provenance, and token-budget policy.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

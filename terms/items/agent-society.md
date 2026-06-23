@@ -2,31 +2,35 @@
 slug: agent-society
 name: Agent Society
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 36
-buzzScore: 21
-enterpriseReadiness: 39
-trend: upward
 title: Agent Society
-aliases: []
-short_description: Agent Society is a larger ecosystem of interacting agents.
+aliases: null
+short_description: A society is a metaphor for many agents interacting under
+termStatus: Emerging interoperability/architecture label
+researchBasis: Multi-agent norms research, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agent Society is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent society matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 36, enterprise readiness 39.
+A society is a broad metaphor for many agents interacting under shared norms, incentives, or rules.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the emphasis is on emergent behaviour across many agents rather than a single orchestrated workflow. It is usually metaphorical, so it should be translated into actual rules, institutions, or platform constraints before it drives design.
+
+## Evidence
+
+[Normative Modules](https://arxiv.org/abs/2405.19328) shows that cooperation across agents depends on explicit norms and authoritative institutions, not just “many agents in a room.”
+
+[Run-time Norms Synthesis in Multi-Objective Multi-Agent Systems](https://arxiv.org/abs/2105.00124) reinforces that norms are operational controls, not slogans.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) pushes the practical side: use simple composable patterns before inventing a grand social metaphor.

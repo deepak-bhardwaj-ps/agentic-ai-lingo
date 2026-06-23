@@ -2,32 +2,35 @@
 slug: agentic-evaluation
 name: Agentic Evaluation
 category: AgentOps
-status: growing
-tags:
-- AgentOps
-- Growing
-signalScore: 78
-buzzScore: 44
-enterpriseReadiness: 21
-firstSeen: 2024
-trend: upward
 title: Agentic Evaluation
-aliases: []
-short_description: Evaluation methods for multi-step, tool-using agent tasks.
+aliases: null
+short_description: Agentic evaluation is evaluation for multi-step, stateful,
+termStatus: Established practice, informal label
+researchBasis: OpenAI, trace grading, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agentic Evaluation is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established practice, informal label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic evaluation matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 21, first seen 2024.
+Agentic evaluation is evaluation designed for multi-step, stateful, tool-using systems rather than isolated text outputs.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is a descriptive phrase, not a distinct scientific method. Define the task environment, oracle, trajectory checks, and release threshold.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the system’s behaviour depends on a trajectory of actions rather than a single answer. It is the right term when you need to assess the path, not just the destination.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) covers the basic scaffolding for evaluating agent behaviour rather than isolated outputs.
+
+[Trace grading](https://platform.openai.com/docs/guides/trace-grading) is the clearest platform reference for scoring multi-step behaviour from traces.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) reinforces why trajectories, checkpoints, and recovery matter more than one-shot answers in these systems.

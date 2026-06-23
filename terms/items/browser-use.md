@@ -2,31 +2,31 @@
 slug: browser-use
 name: Browser Use
 category: Core
-status: stabilizing
-tags:
-- Core
-- Stabilizing
-signalScore: 70
-buzzScore: 72
-enterpriseReadiness: 27
-trend: neutral
 title: Browser Use
-aliases: []
-short_description: Using a browser as an action surface for an agent.
+aliases: null
+short_description: Browser Use is browser automation or page interaction performed
+termStatus: Established capability label
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Browser Use is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Established capability label.
 
-## Why it matters
+## Meaning
 
-In practice, browser use matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 70, enterprise readiness 27.
+Browser use is [[Computer Use|computer use]] restricted to web pages: navigation, form filling, reading and interaction via a browser automation surface.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It should not be confused with web search or direct API integration. Prefer APIs for consequential actions where available.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Browser Use is used when the agent needs to see, click, type, or navigate in a browser rather than consume an API. The term is operationally useful because browser interaction is brittle in ways that API work usually is not.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

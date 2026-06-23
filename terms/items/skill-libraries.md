@@ -2,32 +2,31 @@
 slug: skill-libraries
 name: Skill Libraries
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 47
-buzzScore: 29
-enterpriseReadiness: 22
-trend: upward
 title: Skill Libraries
-aliases: []
-short_description: Skill Libraries is a protocol, interface, or platform term used
-  to connect agents and tools.
+aliases: null
+short_description: Skill Libraries are reusable packages of instructions, tools, examples,
+termStatus: Implementation pattern
+researchBasis: Hashimoto, Harness engineering
+sources:
+- https://mitchellh.com/writing/my-ai-adoption-journey
 ---
 
-## What it means
+## Term status
 
-Skill Libraries is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, skill libraries matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 47, enterprise readiness 22.
+Skill libraries are reusable packages of instructions, tools, examples and sometimes code that give agents repeatable capabilities.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+They are not model capabilities or a protocol. Version, test and permission-scope them as executable dependencies.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Skill Libraries is used when agent capabilities are packaged for reuse and versioned like dependencies rather than copied into prompts. It is most useful when skills need testing, permission scoping, and controlled rollout.
+
+## Evidence
+
+[Hashimoto, [[Harness Engineering|Harness engineering]]](https://mitchellh.com/writing/my-ai-adoption-journey) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

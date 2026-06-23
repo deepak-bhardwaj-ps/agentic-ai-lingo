@@ -2,31 +2,35 @@
 slug: agentic-multi-agent-architecture
 name: Agentic Multi-Agent Architecture
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 38
-buzzScore: 22
-enterpriseReadiness: 22
-trend: upward
 title: Agentic Multi-Agent Architecture
-aliases: []
-short_description: A structured orchestration stack for multiple cooperating agents.
+aliases: null
+short_description: Agentic multi-agent architecture is a design where multiple
+termStatus: Architecture description
+researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
+sources:
+- https://www.langchain.com/langgraph
 ---
 
-## What it means
+## Term status
 
-Agentic Multi-Agent Architecture is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Architecture description.
 
-## Why it matters
+## Meaning
 
-In practice, agentic multi-agent architecture matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 38, enterprise readiness 22.
+A multi-agent architecture assigns specialised roles or tasks to multiple model-driven workers and coordinates their messages, shared state, and termination.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+More agents do not automatically improve quality. The additional interfaces, cost, and error propagation require a measurable reason to decompose work.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when work is deliberately decomposed across multiple agents with distinct responsibilities. It should only be used if the architecture explains why decomposition beats a single agent or workflow.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) treats multiple agents as one pattern among several, with clear trade-offs around coordination and reliability.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) shows how orchestration, tools, and [[Guardrails|guardrails]] have to be explicit once you move beyond a single loop.
+
+[LangGraph](https://www.langchain.com/langgraph) reinforces the architectural reason for decomposition: stateful coordination is the thing you have to design, not a side effect you get for free.

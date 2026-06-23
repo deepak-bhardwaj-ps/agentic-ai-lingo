@@ -2,32 +2,31 @@
 slug: trendslop
 name: Trendslop
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 34
-buzzScore: 51
-enterpriseReadiness: 39
-trend: upward
 title: Trendslop
-aliases: []
-short_description: Trendslop is low-quality output, often produced at speed and without
-  enough judgement.
+aliases: null
+short_description: Trendslop is a label for AI content assembled to match current
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Trendslop is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, trendslop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 34, enterprise readiness 39.
+Informal pejorative for low-value, insufficiently reviewed AI-generated material.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Trendslop is used when content is built to chase the current trend cycle instead of solving a real problem or holding up over time. It is a critique of opportunism dressed up as relevance.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

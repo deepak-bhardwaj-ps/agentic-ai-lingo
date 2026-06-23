@@ -2,32 +2,31 @@
 slug: autonomous-workflow
 name: Autonomous Workflow
 category: AgentOps
-status: stabilizing
-tags:
-- AgentOps
-- Stabilizing
-signalScore: 68
-buzzScore: 47
-enterpriseReadiness: 34
-trend: neutral
 title: Autonomous Workflow
-aliases: []
-short_description: Autonomous Workflow is a multi-step process that an agent or agent
-  system executes.
+aliases: null
+short_description: Autonomous Workflow is a workflow that can progress and recover
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Autonomous Workflow is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, autonomous workflow matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 68, enterprise readiness 34.
+An autonomous workflow can progress and recover with limited human intervention.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Autonomous Workflow is used when a workflow can carry itself through routine steps, recover from ordinary failures, and only escalate when needed. The term should be backed by a clear threshold for when human intervention is required.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

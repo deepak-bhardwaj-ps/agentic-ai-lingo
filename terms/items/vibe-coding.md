@@ -2,33 +2,31 @@
 slug: vibe-coding
 name: Vibe Coding
 category: Slang
-status: growing
-tags:
-- Slang
-- Growing
-signalScore: 84
-buzzScore: 92
-enterpriseReadiness: 63
-firstSeen: 2025
-popularizedBy: Andrej Karpathy
-trend: upward
 title: Vibe Coding
-aliases: []
-short_description: Vibe Coding is a shorthand or meme term used around agentic AI.
+aliases: null
+short_description: Vibe Coding is Andrej Karpathy’s label for steering coding by natural
+termStatus: Informal slang
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Vibe Coding is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, vibe coding matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 84, enterprise readiness 63, first seen 2025, popularised by Andrej Karpathy.
+Vibe coding is Andrej Karpathy's informal label for directing an AI coding assistant in natural language while accepting generated code with limited direct inspection.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not an engineering methodology and is unsuitable as a production assurance claim. The risk is unreviewed behaviour and accumulated maintenance debt.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Vibe coding is used when someone lets an AI assistant generate most of the implementation from loose natural-language direction, then steers mainly by reading and adjusting rather than designing every line. In practice it describes a fast, high-leverage way of coding with real risk if review discipline is weak.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

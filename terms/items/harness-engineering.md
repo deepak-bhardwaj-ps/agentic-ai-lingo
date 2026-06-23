@@ -2,35 +2,31 @@
 slug: harness-engineering
 name: Harness Engineering
 category: AgentOps
-status: stabilizing
-tags:
-- AgentOps
-- Stabilizing
-signalScore: 64
-buzzScore: 18
-enterpriseReadiness: 27
-firstSeen: 2025
-popularizedBy: METR, frontier labs
-isNew: true
-trend: neutral
 title: Harness Engineering
-aliases: []
-short_description: Harness Engineering is an operational term for running agents reliably
-  in production.
+aliases: null
+short_description: Practitioners use Harness Engineering when they improve the operating
+termStatus: Emerging practitioner term
+researchBasis: Hashimoto, Harness engineering
+sources:
+- https://mitchellh.com/writing/my-ai-adoption-journey
 ---
 
-## What it means
+## Term status
 
-Harness Engineering is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Emerging practitioner term.
 
-## Why it matters
+## Meaning
 
-In practice, harness engineering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 64, enterprise readiness 27, first seen 2025, popularised by METR, frontier labs.
+Harness engineering is the work around a coding or tool-using agent that makes behaviour repeatable: task specification, context selection, tools, sandbox, hooks, tests, review and recovery. The label became prominent in 2026 practitioner writing.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a settled discipline or a replacement for software engineering. The useful claim is specific: turn a recurring agent failure into a deterministic constraint, test or feedback loop.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Practitioners use Harness Engineering when they improve the operating environment around an agent after observing a failure—for example by adding repository guidance, a typed tool, a sandbox rule or an executable check. The result should be a regression-resistant change to the harness, not a better prompt alone.
+
+## Evidence
+
+[Hashimoto, Harness engineering](https://mitchellh.com/writing/my-ai-adoption-journey) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

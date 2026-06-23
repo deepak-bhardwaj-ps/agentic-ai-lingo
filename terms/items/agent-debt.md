@@ -2,32 +2,37 @@
 slug: agent-debt
 name: Agent Debt
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 41
-buzzScore: 24
-enterpriseReadiness: 33
-trend: upward
 title: Agent Debt
-aliases: []
-short_description: Agent Debt is accumulated operational cost caused by weak governance
-  or poor design.
+aliases: null
+short_description: Agent Debt is the accumulated operational risk created by shortcuts,
+termStatus: Operational metric/practice
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/prompting
 ---
 
-## What it means
+## Term status
 
-Agent Debt is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, agent debt matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 41, enterprise readiness 33.
+Agent debt is a useful adaptation of technical debt for the liabilities hidden in an agent system: untested tool choices, opaque hand-offs, prompt changes without regression evidence, broad credentials, brittle recovery logic, and unowned production traces. The debt is not the defect itself; it is the growing cost and risk of changing or operating the system while that defect remains unresolved.
 
-## Watch-outs
+This is an operational practice, not a recognised metric or formal discipline.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+Model error rate is not agent debt. A model may be imperfect while the surrounding system has good evaluation coverage, safe fallbacks, and clear ownership. Conversely, an agent with apparently good headline accuracy can carry serious debt if nobody can explain a tool call or safely roll back a prompt.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Do not turn the label into a vanity KPI. Counting “debt items” conflates an expired credential with an untested payment action. Record severity, [[Blast Radius|blast radius]], exploitability, owner, evidence gap, and a remediation decision.
+
+## How it is used
+
+After a failed procurement-agent run, a team might log three debt items: no test set covering supplier-name ambiguity, no trace grader for approval bypass, and no circuit breaker around a vendor API. Each item needs a named owner and a release or risk deadline; “improve reliability” is not a debt register entry.
+
+OpenAI’s evaluation guidance reinforces the practical discipline: agent architecture choices introduce distinct nondeterminism and should be supported by reproducible evals and trace-level evidence. Treat unresolved gaps in that evidence as debt before expanding autonomy or permissions.
+
+## Evidence
+
+“Agent debt” has no canonical definition. The operational basis comes from [OpenAI’s evaluation best practices](https://platform.openai.com/docs/guides/evaluation-best-practices), [agent evals](https://platform.openai.com/docs/guides/agent-evals), [trace grading](https://platform.openai.com/docs/guides/trace-grading), and the recommendation to run linked evals when publishing a prompt in the [prompting guide](https://platform.openai.com/docs/guides/prompting).

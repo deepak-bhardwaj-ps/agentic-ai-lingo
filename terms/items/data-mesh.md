@@ -2,32 +2,31 @@
 slug: data-mesh
 name: Data Mesh
 category: Context
-status: growing
-tags:
-- Context
-- Growing
-signalScore: 71
-buzzScore: 38
-enterpriseReadiness: 74
-trend: upward
 title: Data Mesh
-aliases: []
-short_description: Data Mesh is a distributed architecture where context or agents
-  are connected across boundaries.
+aliases: null
+short_description: Data Mesh is a decentralised data architecture based on domain-owned
+termStatus: Established data-architecture term
+researchBasis: Dehghani, Data Mesh principles
+sources:
+- https://martinfowler.com/articles/data-mesh-principles.html
 ---
 
-## What it means
+## Term status
 
-Data Mesh is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established data-architecture term.
 
-## Why it matters
+## Meaning
 
-In practice, data mesh matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 71, enterprise readiness 74.
+Data mesh is a decentralised data architecture organised around domain-owned data products, self-serve platform capabilities, federated governance and interoperability.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It predates [[Agentic AI|agentic AI]]. Agents may consume governed data products, but data mesh is not an agent communication architecture.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Data Mesh is used when teams want domain-owned, interoperable data products rather than one central data lake team. It matters for agents because it changes how authoritative data is published, discovered, and governed.
+
+## Evidence
+
+[Dehghani, Data Mesh principles](https://martinfowler.com/articles/data-mesh-principles.html) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

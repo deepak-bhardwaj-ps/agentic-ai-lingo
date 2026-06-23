@@ -2,32 +2,35 @@
 slug: agent-marketplace
 name: Agent Marketplace
 category: Protocols
-status: stabilizing
-tags:
-- Protocols
-- Stabilizing
-signalScore: 56
-buzzScore: 48
-enterpriseReadiness: 59
-trend: neutral
 title: Agent Marketplace
-aliases: []
-short_description: Agent Marketplace is a catalog or managed set of agents, tools,
-  or capabilities.
+aliases: null
+short_description: A marketplace is a catalogue for discovering, selecting, and
+termStatus: Product/operating-model label
+researchBasis: OWASP Top 10 for LLM Applications, PROV-AGENT, Anthropic
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Agent Marketplace is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Product/operating-model label.
 
-## Why it matters
+## Meaning
 
-In practice, agent marketplace matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 59.
+A marketplace is a catalogue and distribution mechanism for agents or skills, usually with discovery, installation, versioning, and governance features.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a security boundary. Treat third-party agents as software supply-chain dependencies with review, provenance, and permission controls.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when agents are exposed as discoverable offerings rather than internal utilities. The hard questions are catalogue quality, trust, pricing, and how a buyer knows the agent will actually do what is claimed.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) is the strongest security-side reference for treating third-party agent capabilities as a supply-chain and permission problem.
+
+[PROV-AGENT](https://arxiv.org/abs/2508.02866) reinforces the need for provenance when agents, prompts, and downstream actions are distributed across heterogeneous environments.
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) supports the operational distinction between internal agent patterns and packaging those capabilities into something reusable and discoverable.

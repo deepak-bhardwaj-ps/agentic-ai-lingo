@@ -2,32 +2,37 @@
 slug: agent-assembly
 name: Agent Assembly
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 31
-buzzScore: 14
-enterpriseReadiness: 56
-trend: upward
 title: Agent Assembly
-aliases: []
-short_description: Agent Assembly is a temporary or goal-oriented group of cooperating
-  agents.
+aliases: null
+short_description: Agent Assembly is the composition of multiple agents into one coordinated
+termStatus: Emerging interoperability/architecture label
+researchBasis: Model Context Protocol specification
+sources:
+- https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/teams.html
 ---
 
-## What it means
+## Term status
 
-Agent Assembly is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent assembly matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 31, enterprise readiness 56.
+Agent assembly is emerging architecture language for composing specialist agents, deterministic steps, state, and tool boundaries into one executable system. It describes the construction work: deciding who owns each decision, what crosses a hand-off, where state lives, and how the overall run terminates.
 
-## Watch-outs
+The label is not an established standard. In practice, builders more often call the resulting design a multi-agent workflow, team, graph, or supervisor pattern. LangGraph documents subagents, hand-offs, routers, and skills as distinct coordination patterns; AutoGen calls a cooperating group a team.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+Adding several prompts does not amount to an assembly. A real assembly has contracts at the seams: typed or otherwise testable inputs and outputs, ownership of shared state, retry and escalation rules, and an observable execution path.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Nor does the term imply that independently built agents interoperate. That needs a published protocol, lifecycle, compatibility policy, authentication model, and security controls. The Model Context Protocol addresses parts of that integration problem; “agent assembly” does not.
+
+## How it is used
+
+An enterprise research service might assemble a planner, a retrieval worker, a source [[Verifier|verifier]], and a report writer. The useful design artefacts are not the agents’ job titles but the routing policy, evidence schema, deadline behaviour, approval gate, and trace linking the final report to its sources.
+
+Assembly earns its added complexity only when context isolation, parallel work, different permissions, or distinct evaluation criteria materially improve the result. A single agent with well-designed tools is usually easier to operate when those conditions do not apply.
+
+## Evidence
+
+The term itself lacks a canonical specification. Its underlying practices are documented through multi-agent patterns in [LangGraph](https://langchain-ai.github.io/langgraph/tutorials/multi_agent/multi-agent-collaboration/), [AutoGen teams](https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/teams.html), and the integration boundary described by the [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18).

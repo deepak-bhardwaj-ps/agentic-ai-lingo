@@ -2,31 +2,35 @@
 slug: agent-memory
 name: Agent Memory
 category: Memory
-status: growing
-tags:
-- Memory
-- Growing
-signalScore: 78
-buzzScore: 58
-enterpriseReadiness: 50
-trend: upward
 title: Agent Memory
-aliases: []
-short_description: Persistent state that agents can reuse across sessions.
+aliases: null
+short_description: A memory layer stores governed state so an agent can reuse
+termStatus: Implementation pattern
+researchBasis: Packer et al., MemGPT, provenance-focused memory research
+sources:
+- https://arxiv.org/abs/2603.02473
 ---
 
-## What it means
+## Term status
 
-Agent Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Implementation pattern.
 
-## Why it matters
+## Meaning
 
-In practice, agent memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 50.
+A memory layer is externally managed state that helps an agent retain task context, facts, preferences, or past experiences across model calls or sessions.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not persistent model learning. Memory writes and retrieval must be scoped, attributable, correctable, and access-controlled.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when an agent must carry facts, preferences, or past work between turns. Teams still need to define record type, write trigger, provenance, retrieval rule, retention period, and correction route.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) is the baseline reference for separating an agent’s working context from longer-lived memory.
+
+[Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation](https://arxiv.org/abs/2605.25869) shows why memory has to preserve source and claim structure, not just raw text.
+
+[Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473) highlights that retrieval quality can dominate write-time sophistication in real systems.

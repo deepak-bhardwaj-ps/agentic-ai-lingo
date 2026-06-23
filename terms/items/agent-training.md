@@ -2,32 +2,35 @@
 slug: agent-training
 name: Agent Training
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 42
-buzzScore: 24
-enterpriseReadiness: 52
-trend: upward
 title: Agent Training
-aliases: []
-short_description: Agent Training is a protocol, interface, or platform term used
-  to connect agents and tools.
+aliases: null
+short_description: Agent training is the onboarding or calibration of agents to
+termStatus: Emerging interoperability/architecture label
+researchBasis: Anthropic, OpenAI Agents SDK, MCP
+sources:
+- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
 ---
 
-## What it means
+## Term status
 
-Agent Training is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent training matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 52.
+Agent training is the preparation or calibration of an agent so it can operate correctly inside a wider ecosystem.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when an agent needs instruction, calibration, or behavioural adaptation before it can join a wider system. It should not be confused with model training unless the underlying weights or policy are actually being updated.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) emphasises that useful agent behaviour comes from simple, composable patterns and good tool design, which is the real substrate for “training” an agent.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration and state from the model itself, which is what makes calibration distinct from model training.
+
+[[[MCP]] authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) captures the integration side: onboarding an agent safely requires explicit permissions, not just configuration.

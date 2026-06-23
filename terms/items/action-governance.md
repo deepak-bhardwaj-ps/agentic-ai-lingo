@@ -2,32 +2,31 @@
 slug: action-governance
 name: Action Governance
 category: Governance
-status: emerging
-tags:
-- Governance
-- Emerging
-signalScore: 49
-buzzScore: 24
-enterpriseReadiness: 23
-trend: upward
 title: Action Governance
-aliases: []
-short_description: Action Governance is the mechanism for applying control, oversight,
-  and accountability.
+aliases: null
+short_description: Action Governance is the control layer that decides whether an
+termStatus: Governance/security concept
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Action Governance is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Governance/security concept.
 
-## Why it matters
+## Meaning
 
-In practice, action governance matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 49, enterprise readiness 23.
+Action Governance is the decision and enforcement layer that determines whether a specific agent action is allowed, denied, delayed, or escalated.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not governance in the abstract. The principal, policy, enforcement point, audit trail, revocation path, and escalation route all need to be explicit and operational.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Action Governance is used when a system needs a concrete gate for a concrete action. In practice, the useful version names the actor, the action, the policy that applies, the evidence produced, and the fallback when the decision is contested.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) is the relevant reference point. For coined labels, it supports the underlying concept, not the claim that the label itself is standard.

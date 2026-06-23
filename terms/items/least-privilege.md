@@ -2,33 +2,31 @@
 slug: least-privilege
 name: Least Privilege
 category: Governance
-status: growing
-tags:
-- Governance
-- Growing
-signalScore: 78
-buzzScore: 41
-enterpriseReadiness: 41
-firstSeen: 1975
-popularizedBy: Security community
-trend: upward
 title: Least Privilege
-aliases: []
-short_description: Least Privilege is about authority, policy, and oversight for agents.
+aliases: null
+short_description: Least Privilege is the principle of giving an agent only the access
+termStatus: Established security principle
+researchBasis: OWASP Top 10 for LLM Applications
+sources:
+- https://genai.owasp.org/llm-top-10/
 ---
 
-## What it means
+## Term status
 
-Least Privilege is a governance term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established security principle.
 
-## Why it matters
+## Meaning
 
-In practice, least privilege matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 41, first seen 1975, popularised by Security community.
+Least privilege grants an agent only the identities, data scopes and actions required for its current task, preferably with short-lived credentials.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a model instruction. It must be implemented by the identity, token, tool and data-access layers.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Least Privilege is used when the agent should have only the access needed for the task. In practice, anything more is risk, not convenience.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

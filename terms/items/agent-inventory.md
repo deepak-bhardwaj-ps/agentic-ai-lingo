@@ -2,32 +2,33 @@
 slug: agent-inventory
 name: Agent Inventory
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 42
-buzzScore: 21
-enterpriseReadiness: 30
-trend: upward
 title: Agent Inventory
-aliases: []
-short_description: Agent Inventory is a catalog or managed set of agents, tools, or
-  capabilities.
+aliases: null
+short_description: A maintained agent inventory lists the agents, versions,
+termStatus: Operational metric/practice
+researchBasis: OpenAI, NIST AI RMF
+sources:
+- https://www.nist.gov/itl/ai-risk-management-framework
 ---
 
-## What it means
+## Term status
 
-Agent Inventory is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational metric/practice.
 
-## Why it matters
+## Meaning
 
-In practice, agent inventory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 30.
+A maintained agent inventory records the agents, versions, capabilities, owners, and deployment scope currently in operation.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a universal KPI or a formal discipline. Treat it as a control object: define what counts as an agent, when a record enters or leaves the inventory, and which operational decision the inventory supports.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when an organisation needs a reliable count of what agents exist, where they run, and who owns them. It is the baseline for lifecycle control, risk review, exception handling, and decommissioning.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) is the clearest product-side reference for tracking what exists, what changed, and what is being measured.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) supports the governance framing: inventorying systems, documenting scope, and assigning ownership are prerequisites for managing AI risk in production.

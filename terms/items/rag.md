@@ -2,34 +2,31 @@
 slug: rag
 name: RAG
 category: Context
-status: peak
-tags:
-- Context
-- Peak
-signalScore: 88
-buzzScore: 72
-enterpriseReadiness: 73
-firstSeen: 2020
-popularizedBy: Meta AI
-trend: neutral
 title: RAG
 aliases: []
-short_description: Retrieval-augmented generation that grounds model output in external
-  content.
+short_description: '''RAG is retrieval-augmented generation: retrieving external evidence'
+termStatus: Established research term
+researchBasis: Lewis et al., Retrieval-Augmented Generation
+sources:
+- https://arxiv.org/abs/2005.11401
 ---
 
-## What it means
+## Term status
 
-RAG is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This is a high-signal term you should recognise quickly. The label is now fairly established.
+Established research term.
 
-## Why it matters
+## Meaning
 
-In practice, rag matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 88, enterprise readiness 73, first seen 2020, popularised by Meta AI.
+Retrieval-augmented generation retrieves external passages at inference time and conditions generation on them. In an agent, retrieval is usually one tool or context-construction step.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+RAG is not memory, a knowledge graph, or proof that an answer is grounded; retrieval relevance, provenance and citation still need evaluation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+RAG is used when the model should answer from retrieved evidence rather than from parametric memory alone. It is the default term for retrieval-based grounding, but the quality still depends on retrieval, ranking, freshness, and citation discipline.
+
+## Evidence
+
+[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

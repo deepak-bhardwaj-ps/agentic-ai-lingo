@@ -2,31 +2,33 @@
 slug: ai-bot-swarms
 name: AI Bot Swarms
 category: Social
-status: emerging
-tags:
-- Social
-- Emerging
-signalScore: 51
-buzzScore: 54
-enterpriseReadiness: 66
-trend: upward
 title: AI Bot Swarms
-aliases: []
-short_description: AI Bot Swarms is a coordinated group of agents working in parallel.
+aliases: null
+short_description: AI bot swarms are coordinated automated accounts or the effects
+termStatus: Descriptive/social label
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-AI Bot Swarms is a social term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Descriptive/social label.
 
-## Why it matters
+## Meaning
 
-In practice, ai bot swarms matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 51, enterprise readiness 66.
+AI bot swarms describes coordinated automated accounts or the social effects attributed to them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy, and evidence of real-world impact.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the discussion is about large-scale coordinated automation on social platforms. The term should lead to a testable claim about coordination, timing, identity, or impact rather than a vague suspicion of “bots everywhere”.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for separating plausible concern from evidence.
+
+The label is descriptive, not a technical category. Its value is to force a claim that can be checked against coordination and effect.

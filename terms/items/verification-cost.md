@@ -2,32 +2,31 @@
 slug: verification-cost
 name: Verification Cost
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 36
-buzzScore: 18
-enterpriseReadiness: 24
-trend: upward
 title: Verification Cost
-aliases: []
-short_description: Verification Cost is the act of checking that an agent's output
-  or action is correct.
+aliases: null
+short_description: Verification Cost is the cost of proving a model’s answer or action
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, Building effective agents
+sources:
+- https://www.anthropic.com/engineering/building-effective-agents
 ---
 
-## What it means
+## Term status
 
-Verification Cost is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, verification cost matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 36, enterprise readiness 24.
+Verification cost is the cost of proving a model’s answer or action is correct enough to trust.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Verification Cost is used when the expense of checking an answer, action, or trajectory is itself part of the system design. It is important because some agent workflows are cheap to generate but expensive to verify.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

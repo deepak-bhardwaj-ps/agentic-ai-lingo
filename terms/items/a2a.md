@@ -2,33 +2,31 @@
 slug: a2a
 name: A2A
 category: Protocols
-status: growing
-tags:
-- Protocols
-- Growing
-signalScore: 71
-buzzScore: 66
-enterpriseReadiness: 43
-firstSeen: 2025
-popularizedBy: Google
-trend: upward
 title: A2A
-aliases: []
-short_description: A protocol or pattern for agent-to-agent communication.
+aliases: null
+short_description: A2A is a protocol label for one agent asking another agent or service
+termStatus: Established protocol
+researchBasis: Google, Agent2Agent protocol
+sources:
+- https://google.github.io/A2A/
 ---
 
-## What it means
+## Term status
 
-A2A is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Established protocol.
 
-## Why it matters
+## Meaning
 
-In practice, a2a matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 71, enterprise readiness 43, first seen 2025, popularised by Google.
+A2A is an open protocol for agent-to-agent communication. It defines how independently built agents discover one another, advertise capabilities, exchange tasks, move artefacts, and stream progress.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a multi-agent framework. It does not prescribe the agent's reasoning loop, toolset, or safety policy.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+A2A is used when the question is how one agent finds, addresses, and delegates to another. If someone uses the label seriously, they should be able to name the message shapes, authentication model, compatibility rules, and failure behaviour.
+
+## Evidence
+
+[Google's Agent2Agent protocol](https://google.github.io/A2A/) is the relevant reference point. For coined labels, it supports the underlying concept, not the claim that the label itself is standard.

@@ -2,32 +2,31 @@
 slug: ai-washing
 name: AI Washing
 category: Slang
-status: growing
-tags:
-- Slang
-- Growing
-signalScore: 78
-buzzScore: 84
-enterpriseReadiness: 60
-trend: upward
 title: AI Washing
-aliases: []
-short_description: AI Washing is branding that overstates how much agentic capability
-  a product really has.
+aliases: null
+short_description: AI Washing is a label for products described as AI-powered when
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-AI Washing is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is increasingly common in practice. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, ai washing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 78, enterprise readiness 60.
+An informal accusation that a product or programme is presented as more capable, autonomous or controlled than its implementation supports.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls and accountable owners.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+AI Washing is used when marketing claims more AI than the system actually uses or when a minor feature is presented as the core value. In practice it is a challenge to inspect the real implementation, the decision boundary, and who is accountable for failure.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

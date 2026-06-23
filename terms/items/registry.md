@@ -2,32 +2,32 @@
 slug: registry
 name: Registry
 category: Protocols
-status: stabilizing
-tags:
-- Protocols
-- Stabilizing
-signalScore: 58
-buzzScore: 39
-enterpriseReadiness: 23
-trend: neutral
 title: Registry
-aliases: []
-short_description: Registry is a catalog or managed set of agents, tools, or capabilities.
+aliases: null
+short_description: Registry is a catalogue of agents, services, or resources that
 updated_at: '2026-06-22T20:54:08.031649+00:00'
+termStatus: Established systems term
+researchBasis: Model Context Protocol specification
+sources:
+- https://modelcontextprotocol.io/specification/2025-06-18
 ---
 
-## What it means
+## Term status
 
-Registry is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Established systems term.
 
-## Why it matters
+## Meaning
 
-In practice, registry matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 58, enterprise readiness 23.
+A registry is a catalogue that stores named, versioned artefacts or services so clients can locate them.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+In agent systems it may hold tools, skills, agents or [[MCP]] servers; it does not define trust or compatibility without supporting policy and contracts.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Registry is used when discovery needs a durable directory rather than an ad hoc list. In agent systems it usually becomes relevant once identity, versioning, and trust are operational concerns rather than nice-to-haves.
+
+## Evidence
+
+[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

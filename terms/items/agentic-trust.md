@@ -2,31 +2,35 @@
 slug: agentic-trust
 name: Agentic Trust
 category: Core
-status: emerging
-tags:
-- Core
-- Emerging
-signalScore: 52
-buzzScore: 38
-enterpriseReadiness: 34
-trend: upward
 title: Agentic Trust
-aliases: []
-short_description: Trust language for delegated and autonomous systems.
+aliases: null
+short_description: Agentic trust names the confidence threshold for letting an
+termStatus: Emerging marketing/governance label
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://www.nist.gov/itl/ai-risk-management-framework
 ---
 
-## What it means
+## Term status
 
-Agentic Trust is a core term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging marketing/governance label.
 
-## Why it matters
+## Meaning
 
-In practice, agentic trust matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 52, enterprise readiness 34.
+Agentic trust is a broad label for the conditions under which people and organisations will allow an agent to act: competence, predictable constraints, security, traceability, and recourse. The phrase is useful only when it points to a real control decision.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a measurable primitive or a control framework. Make each trust claim testable against a specific risk and control.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Use it when deciding how much autonomy a system should receive and what evidence is enough to justify it. It is not a sentiment score: it has to be grounded in permissions, failure modes, monitoring, and the cost of being wrong.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the governance backdrop for assessing when a system is safe enough to act.
+
+[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) is the broader risk-management frame behind that question.
+
+The label is useful only if the trust claim can be tied to concrete controls, failure modes, and recourse.

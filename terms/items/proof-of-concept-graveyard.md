@@ -2,32 +2,31 @@
 slug: proof-of-concept-graveyard
 name: Proof-of-Concept Graveyard
 category: AgentOps
-status: emerging
-tags:
-- AgentOps
-- Emerging
-signalScore: 44
-buzzScore: 32
-enterpriseReadiness: 68
-trend: upward
 title: Proof-of-Concept Graveyard
-aliases: []
-short_description: Proof-of-Concept Graveyard is an operational term for running agents
-  reliably in production.
+aliases: null
+short_description: Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
+termStatus: Operational shorthand
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Proof-of-Concept Graveyard is a [[AgentOps|agentops]] term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Operational shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, proof-of-concept graveyard matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 44, enterprise readiness 68.
+Proof-of-Concept Graveyard describes the gap between a convincing limited demonstration and a production service with ownership, integration, reliability, security and measurable value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not an inevitable lifecycle stage. Diagnose the limiting production capability rather than treating the label as an explanation.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Proof-of-Concept Graveyard is used when the organisation has a trail of demos and pilots that were never retired, productised, or learned from. It is a portfolio-management term, not just a complaint about failed innovation.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

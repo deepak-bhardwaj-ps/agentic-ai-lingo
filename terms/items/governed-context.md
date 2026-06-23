@@ -2,32 +2,31 @@
 slug: governed-context
 name: Governed Context
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 46
-buzzScore: 22
-enterpriseReadiness: 33
-trend: upward
 title: Governed Context
-aliases: []
-short_description: Governed Context is how information is assembled and presented
-  to an agent at runtime.
+aliases: null
+short_description: Governed Context is context assembled and delivered under explicit
+termStatus: Emerging practitioner shorthand
+researchBasis: Lewis et al., Retrieval-Augmented Generation
+sources:
+- https://arxiv.org/abs/2005.11401
 ---
 
-## What it means
+## Term status
 
-Governed Context is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, governed context matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 46, enterprise readiness 33.
+Governed Context concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Governed Context is used when the context surface itself needs policy enforcement: who can see what, which sources are allowed, and what must be redacted or expired. It is a stronger term than generic context management because it implies control, not just assembly.
+
+## Evidence
+
+[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

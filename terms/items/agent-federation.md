@@ -2,32 +2,37 @@
 slug: agent-federation
 name: Agent Federation
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 38
-buzzScore: 19
-enterpriseReadiness: 42
-trend: upward
 title: Agent Federation
-aliases: []
-short_description: Agent Federation is a distributed arrangement of independent agents
-  or groups that still coordinate.
+aliases: null
+short_description: Agent Federation is a set of interoperating agents that stay independently
+termStatus: Emerging interoperability/architecture label
+researchBasis: Model Context Protocol specification
+sources:
+- https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization
 ---
 
-## What it means
+## Term status
 
-Agent Federation is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging interoperability/architecture label.
 
-## Why it matters
+## Meaning
 
-In practice, agent federation matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 38, enterprise readiness 42.
+Agent federation describes an architecture in which separately operated agent systems collaborate across organisational or runtime boundaries while retaining their own ownership, policies, deployment cadence, and internal implementation. Federation becomes real only through governed agreements for discovery, identity, message exchange, [[Delegated Authority|delegated authority]], and audit—not through a shared aspiration to cooperate.
 
-## Watch-outs
+It is emerging architecture language rather than a named, universally accepted protocol pattern.
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+## Common misconceptions
 
-## Related terms
+Multiple agents behind one orchestration service are not federated; they are a centrally managed multi-agent application. Conversely, remote HTTP calls alone do not establish federation if callers hard-code proprietary contracts and share no trust or lifecycle model.
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Federation does not remove central controls. Enterprises commonly need a [[Registry|registry]], trust anchor, consent and [[Delegation Policy|delegation policy]], data-sharing rules, cross-domain observability, and revocation. The control may be distributed, but accountability cannot be.
+
+## How it is used
+
+An insurer’s claims agent might seek evidence from a repair-network agent and a fleet provider’s maintenance agent. Each party exposes only approved capabilities, authenticates the caller, limits the delegated scope and lifetime, and returns evidence with traceable provenance. Its internal prompts and systems remain private.
+
+[[[A2A]]](https://[[A2A|a2a]]-protocol.org/dev/specification/) supplies concrete interoperability mechanisms: Agent Cards describe identity, capabilities, endpoints, and authentication requirements. Treat a federation programme as a broader operating model around such protocols, with versioning, onboarding, incident response, commercial terms, and exit procedures.
+
+## Evidence
+
+[[[A2A]]’s specification](https://[[A2A|a2a]]-protocol.org/dev/specification/) and [agent-discovery guidance](https://a2a-protocol.org/latest/topics/agent-discovery/) document interoperable discovery and interaction mechanisms. The [MCP authorisation specification](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization) demonstrates the adjacent delegated-access concern. Neither standard defines “agent federation” as a formal term.

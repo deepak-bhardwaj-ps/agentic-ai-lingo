@@ -2,31 +2,31 @@
 slug: clanker
 name: Clanker
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 42
-buzzScore: 76
-enterpriseReadiness: 53
-trend: upward
 title: Clanker
-aliases: []
-short_description: Clanker is a shorthand or meme term used around agentic AI.
+aliases: null
+short_description: Clanker is a blunt pejorative for noisy, brittle, or obviously
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Clanker is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, clanker matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 53.
+Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Clanker is used in informal technical culture as a sneering name for systems that feel noisy, brittle, or awkwardly mechanical. It is usually expressive shorthand, not a term you would use in neutral documentation.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

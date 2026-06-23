@@ -2,32 +2,31 @@
 slug: verification-loop
 name: Verification Loop
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 53
-buzzScore: 26
-enterpriseReadiness: 35
-trend: upward
 title: Verification Loop
-aliases: []
-short_description: Verification Loop is the act of checking that an agent's output
-  or action is correct.
+aliases: null
+short_description: Verification Loop is the cycle of checking results, feeding back
+termStatus: Architecture pattern
+researchBasis: OpenAI, Evals design guide
+sources:
+- https://platform.openai.com/docs/guides/evals
 ---
 
-## What it means
+## Term status
 
-Verification Loop is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Architecture pattern.
 
-## Why it matters
+## Meaning
 
-In practice, verification loop matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 53, enterprise readiness 35.
+A verification loop generates or executes a check on an agent's proposed result, then feeds the evidence into a retry, repair or escalation decision.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not self-verification by assertion. Prefer executable tests, independent data sources or separated [[Verifier|verifier]] roles for high-stakes claims.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Verification Loop is used when the system keeps checking outputs, feeding back evidence, and deciding whether to continue. In production it needs explicit stop conditions, iteration limits, and spend control.
+
+## Evidence
+
+[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

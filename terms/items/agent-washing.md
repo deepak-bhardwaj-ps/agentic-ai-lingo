@@ -2,32 +2,33 @@
 slug: agent-washing
 name: Agent Washing
 category: Slang
-status: stabilizing
-tags:
-- Slang
-- Stabilizing
-signalScore: 67
-buzzScore: 79
-enterpriseReadiness: 40
-trend: neutral
 title: Agent Washing
-aliases: []
-short_description: Agent Washing is branding that overstates how much agentic capability
-  a product really has.
+aliases: null
+short_description: Agent washing relabels ordinary automation as an agent to
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Agent Washing is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, agent washing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 67, enterprise readiness 40.
+An informal accusation that a product or programme is presented as more capable, autonomous, or controlled than its implementation supports.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls, and accountable owners.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when a workflow, bot, or automation layer is repackaged as an agent even though it has no meaningful autonomy. It is useful when comparing the marketing description with the actual control flow and decision rights.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for challenging claims that exceed the system’s real controls and accountability.
+
+The label is slang, not a formal category. Its value is diagnostic: it spots a mismatch between branding and operational reality.

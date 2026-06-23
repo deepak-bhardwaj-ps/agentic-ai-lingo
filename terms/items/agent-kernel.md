@@ -2,31 +2,35 @@
 slug: agent-kernel
 name: Agent Kernel
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 41
-buzzScore: 18
-enterpriseReadiness: 42
-trend: upward
 title: Agent Kernel
-aliases: []
-short_description: Agent Kernel is part of the execution layer for agents.
+aliases: null
+short_description: A kernel is the smallest runtime core that keeps one agent
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, OpenAI Agents SDK, LangGraph
+sources:
+- https://www.langchain.com/langgraph
 ---
 
-## What it means
+## Term status
 
-Agent Kernel is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, agent kernel matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 41, enterprise readiness 42.
+A kernel is the smallest runtime core that keeps one agent coherent across turns: state intake, policy application, decision, tool call, and update. The term is useful when you need to isolate the irreducible loop from orchestration, handoffs, and surrounding infrastructure.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard term unless a specific product or protocol defines it. Use it only when you can name the concrete responsibilities, interfaces, and ownership of the loop you mean.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+A kernel is used when you need to discuss the smallest reliable core of an agent: state, reasoning, tool use, and control flow. It is the place where behaviour becomes concrete enough to inspect, test, and constrain.
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes the [[Agent Loop|agent loop]] from surrounding workflow orchestration and keeps the runtime core small and explicit.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) separates orchestration, [[Guardrails|guardrails]], state, tools, and observability from the app’s own logic.
+
+[LangGraph](https://www.langchain.com/langgraph) frames reliable agents around explicit stateful graphs rather than an opaque loop, which is the same design pressure behind the kernel label.

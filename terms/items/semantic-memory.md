@@ -2,32 +2,31 @@
 slug: semantic-memory
 name: Semantic Memory
 category: Memory
-status: stabilizing
-tags:
-- Memory
-- Stabilizing
-signalScore: 58
-buzzScore: 33
-enterpriseReadiness: 31
-trend: neutral
 title: Semantic Memory
-aliases: []
-short_description: Semantic Memory is how an agent stores, retrieves, and reuses information
-  over time.
+aliases: null
+short_description: Semantic Memory is stored facts and concepts an agent can reuse
+termStatus: Established cognitive term; applied metaphor
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Semantic Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Established cognitive term; applied metaphor.
 
-## Why it matters
+## Meaning
 
-In practice, semantic memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 58, enterprise readiness 31.
+Semantic memory denotes durable facts, entities and relationships available to an agent, often held in a database, graph or curated knowledge base.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not mix it with episodic execution logs. Facts need provenance, ownership and update controls.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Semantic Memory is used when the system needs to remember facts, concepts, or definitions across tasks. It is the memory layer for stable knowledge, not execution traces.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

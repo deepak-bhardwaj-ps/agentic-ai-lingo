@@ -2,32 +2,31 @@
 slug: working-memory
 name: Working Memory
 category: Memory
-status: stabilizing
-tags:
-- Memory
-- Stabilizing
-signalScore: 56
-buzzScore: 31
-enterpriseReadiness: 73
-trend: neutral
 title: Working Memory
-aliases: []
-short_description: Working Memory is how an agent stores, retrieves, and reuses information
-  over time.
+aliases: null
+short_description: Working Memory is task-local state currently kept in active context.
+termStatus: Established cognitive term; applied metaphor
+researchBasis: Packer et al., MemGPT
+sources:
+- https://arxiv.org/abs/2310.08560
 ---
 
-## What it means
+## Term status
 
-Working Memory is a memory term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Established cognitive term; applied metaphor.
 
-## Why it matters
+## Meaning
 
-In practice, working memory matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 56, enterprise readiness 73.
+Working memory in agent systems usually means the bounded, task-local state currently supplied to the model: recent observations, scratch state and active plan.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not the model's neural memory, and the metaphor should not hide token limits, eviction policy or confidentiality controls.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Working Memory is used when the system needs a bounded, task-local state that is only relevant for the current run. It is the active scratchpad, not long-term memory.
+
+## Evidence
+
+[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

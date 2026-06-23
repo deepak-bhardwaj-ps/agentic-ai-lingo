@@ -2,31 +2,31 @@
 slug: demo-ware
 name: Demo-ware
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 48
-buzzScore: 58
-enterpriseReadiness: 66
-trend: upward
 title: Demo-ware
-aliases: []
-short_description: Demo-ware is a shorthand or meme term used around agentic AI.
+aliases: null
+short_description: Demo-ware is a label for software that works in the polished demo
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Demo-ware is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, demo-ware matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 48, enterprise readiness 66.
+Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Demo-ware is used when a product only behaves correctly in the prepared showcase path and fails once real data, real users, or real failure modes arrive. It is a practical warning that the demo artefact has outrun the production system.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

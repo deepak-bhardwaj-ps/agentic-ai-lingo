@@ -2,31 +2,35 @@
 slug: agentic-rendering
 name: Agentic Rendering
 category: Runtime
-status: emerging
-tags:
-- Runtime
-- Emerging
-signalScore: 36
-buzzScore: 19
-enterpriseReadiness: 60
-trend: upward
 title: Agentic Rendering
-aliases: []
-short_description: Using agents to generate structured output or content pipelines.
+aliases: null
+short_description: Agentic rendering is rendering that changes output or interface
+termStatus: Emerging practitioner shorthand
+researchBasis: Anthropic, OpenAI Agents SDK, UI/runtime practice
+sources:
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
-## What it means
+## Term status
 
-Agentic Rendering is a runtime term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, agentic rendering matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 36, enterprise readiness 60.
+Agentic rendering means the presentation layer changes because the agent has learned, decided, or acted, not because the view is static. It matters in systems where generation, layout, and next-step control are tightly coupled.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces, and ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when the output layer itself responds to the agent’s state, not just static view data. The term matters when interface changes, content generation, or screen composition are part of the [[Agent Loop|agent loop]].
+
+## Evidence
+
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the general loop-and-tool framing that makes stateful presentation plausible.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces that presentation changes should hang off explicit state, tools, and orchestration rather than implicit side effects.
+
+The label is practitioner shorthand. It matters only when the rendering path is actually coupled to agent state and decision flow.

@@ -2,32 +2,33 @@
 slug: agentmaxxing
 name: Agentmaxxing
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 42
-buzzScore: 71
-enterpriseReadiness: 43
-trend: upward
 title: Agentmaxxing
-aliases: []
-short_description: Agentmaxxing is performative overuse of AI or agents as a status
-  signal.
+aliases: null
+short_description: Agentmaxxing is practitioner slang for pushing an agent stack
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Agentmaxxing is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, agentmaxxing matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 43.
+Informal online shorthand used in discussion of AI, software, or work. Its meaning varies by speaker and has no normative definition.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+Do not use it in requirements, governance artefacts, or architecture decisions without replacing it with observable criteria.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used in enthusiast and builder circles when someone keeps adding more tools, loops, memory, or orchestration in the name of getting more agent capability. It often implies diminishing returns, where added complexity serves status or curiosity more than reliability.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance backdrop for challenging complexity that is not tied to a measurable outcome.
+
+The label is slang, not a formal category. Its value is rhetorical: it calls out overreach, not a technical defect class.

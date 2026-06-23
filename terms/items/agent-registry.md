@@ -2,32 +2,35 @@
 slug: agent-registry
 name: Agent Registry
 category: Protocols
-status: emerging
-tags:
-- Protocols
-- Emerging
-signalScore: 48
-buzzScore: 27
-enterpriseReadiness: 70
-trend: upward
 title: Agent Registry
-aliases: []
-short_description: Agent Registry is a catalog or managed set of agents, tools, or
-  capabilities.
+aliases: null
+short_description: A registry is a catalogue of agent identities, capabilities,
+termStatus: Architecture component
+researchBasis: OWASP Top 10 for LLM Applications, PROV-AGENT, provenance research
+sources:
+- https://arxiv.org/abs/1703.03835
 ---
 
-## What it means
+## Term status
 
-Agent [[Registry]] is a protocols term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Architecture component.
 
-## Why it matters
+## Meaning
 
-In practice, agent [[Registry|registry]] matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 48, enterprise readiness 70.
+A [[Registry|registry]] is a catalogue of agent identities and metadata such as owner, capabilities, endpoints, versions, and lifecycle status.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not discovery interoperability by itself, nor a marketplace. Registration should not grant execution authority.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when systems need a durable directory of agents rather than an ad hoc list or marketplace. It matters when identity, lifecycle status, and ownership have to be queried reliably.
+
+## Evidence
+
+[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) supports the governance framing: third-party or untrusted capabilities need review and provenance, not blind registration.
+
+[PROV-AGENT](https://arxiv.org/abs/2508.02866) shows why [[Registry|registry]] metadata needs to connect to downstream interactions and traceability.
+
+[Provenance Threat Modeling](https://arxiv.org/abs/1703.03835) is an older but still relevant reference for why metadata and provenance matter for ownership attribution and debugging.

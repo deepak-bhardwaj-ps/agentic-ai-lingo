@@ -2,32 +2,31 @@
 slug: data-fabric
 name: Data Fabric
 category: Context
-status: stabilizing
-tags:
-- Context
-- Stabilizing
-signalScore: 62
-buzzScore: 41
-enterpriseReadiness: 22
-trend: neutral
 title: Data Fabric
-aliases: []
-short_description: Data Fabric is a shared substrate for moving context across systems
-  and teams.
+aliases: null
+short_description: Data Fabric is an integrated layer for connecting distributed data
+termStatus: Established vendor/industry term
+researchBasis: Dehghani, Data Mesh principles
+sources:
+- https://martinfowler.com/articles/data-mesh-principles.html
 ---
 
-## What it means
+## Term status
 
-Data Fabric is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is settling into a more standard meaning. The label is now fairly established.
+Established vendor/industry term.
 
-## Why it matters
+## Meaning
 
-In practice, data fabric matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 62, enterprise readiness 22.
+Data fabric describes an integrated data-management layer that connects distributed data through metadata, integration, governance and access services.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It predates [[Agentic AI|agentic AI]] and has no single normative specification. Do not present it as a replacement for context management or memory.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Data Fabric is used when a model needs governed access to many data sources through one service layer. In agent systems it becomes relevant when retrieval, lineage, and policy have to be shared rather than re-implemented in every workflow.
+
+## Evidence
+
+[Dehghani, [[Data Mesh]] principles](https://martinfowler.com/articles/data-mesh-principles.html) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

@@ -2,32 +2,31 @@
 slug: explicit-provenance
 name: Explicit Provenance
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 39
-buzzScore: 17
-enterpriseReadiness: 37
-trend: upward
 title: Explicit Provenance
-aliases: []
-short_description: Explicit Provenance is traceable origin information for actions,
-  inputs, or outputs.
+aliases: null
+short_description: Explicit Provenance is provenance that is visible, machine-readable,
+termStatus: Emerging practitioner shorthand
+researchBasis: Lewis et al., Retrieval-Augmented Generation
+sources:
+- https://arxiv.org/abs/2005.11401
 ---
 
-## What it means
+## Term status
 
-Explicit Provenance is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, explicit provenance matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 39, enterprise readiness 37.
+Explicit Provenance concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Explicit Provenance is used when a model’s evidence needs to be traceable back to its source, version, and access path. It is the term to use when provenance is not optional metadata but part of the decision contract.
+
+## Evidence
+
+[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.

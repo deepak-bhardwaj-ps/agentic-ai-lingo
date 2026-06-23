@@ -2,32 +2,33 @@
 slug: agent-theatre
 name: Agent Theatre
 category: Slang
-status: emerging
-tags:
-- Slang
-- Emerging
-signalScore: 47
-buzzScore: 56
-enterpriseReadiness: 50
-trend: upward
 title: Agent Theatre
-aliases: []
-short_description: Agent Theatre is a fake-autonomy pattern where the system appears
-  agentic but a human is still doing the real work.
+aliases: null
+short_description: Agent theatre names demos that look autonomous while the useful
+termStatus: Informal slang
+researchBasis: 'NIST AI RMF: Generative AI Profile'
+sources:
+- https://doi.org/10.6028/NIST.AI.600-1
 ---
 
-## What it means
+## Term status
 
-Agent Theatre is a slang term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Informal slang.
 
-## Why it matters
+## Meaning
 
-In practice, agent theatre matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 47, enterprise readiness 50.
+Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a formal assessment category. Identify the missing evidence: task success, adoption, controls, economics, or ownership.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+It is used when an agent demo is impressive on the surface but the real task completion, tool safety, or failure recovery is still handled by people behind the scenes. The term is a cue to ask what the system actually does once the staged flow ends.
+
+## Evidence
+
+[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for asking whether the system is actually controlled, measurable, and accountable.
+
+The label is slang, not a formal category. Its value is diagnostic: it flags a gap between presentation and operational reality.

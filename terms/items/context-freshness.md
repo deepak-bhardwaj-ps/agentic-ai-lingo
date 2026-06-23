@@ -2,32 +2,31 @@
 slug: context-freshness
 name: Context Freshness
 category: Context
-status: emerging
-tags:
-- Context
-- Emerging
-signalScore: 42
-buzzScore: 19
-enterpriseReadiness: 62
-trend: upward
 title: Context Freshness
-aliases: []
-short_description: Context Freshness is how current the information is when an agent
-  uses it.
+aliases: null
+short_description: Context Freshness is the degree to which the model sees recent,
+termStatus: Emerging practitioner shorthand
+researchBasis: Lewis et al., Retrieval-Augmented Generation
+sources:
+- https://arxiv.org/abs/2005.11401
 ---
 
-## What it means
+## Term status
 
-Context Freshness is a context term used to describe a specific pattern, capability, or operating model in [[Agentic AI|agentic AI]]. This term is still fluid and often used loosely. Adoption is still expanding.
+Emerging practitioner shorthand.
 
-## Why it matters
+## Meaning
 
-In practice, context freshness matters because teams use it to design systems, compare vendor claims, and set expectations about what the agent actually does rather than what the demo suggests. Metadata signals: signal score 42, enterprise readiness 62.
+Context Freshness concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
 
-## Watch-outs
+## Boundary
 
-Watch for vague usage, vendor rebranding, and category creep. If a team cannot explain the authority boundary, inputs, outputs, and failure mode, the term is probably being used too loosely.
+It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
 
-## Related terms
+## How it is used
 
-Related concepts usually include [[Agentic AI]], [[Agent Runtime]], [[Context Engineering]], and [[AgentOps]], depending on where the term sits in the stack.
+Context Freshness is used when stale information would produce a wrong answer, an unsafe action, or a misleading summary. It is one of the practical controls that separates up-to-date decisions from cached guesses.
+
+## Evidence
+
+[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
