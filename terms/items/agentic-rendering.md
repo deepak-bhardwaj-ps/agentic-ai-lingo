@@ -4,12 +4,13 @@ name: Agentic Rendering
 category: Runtime
 title: Agentic Rendering
 aliases: []
-short_description: Agentic Rendering is rendering that changes output or interface
+short_description: Agentic rendering is rendering that changes output or interface
   state in response to agent decisions.
 termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
+researchBasis: Anthropic, OpenAI Agents SDK, UI/runtime practice
 sources:
 - https://www.anthropic.com/engineering/building-effective-agents
+- https://developers.openai.com/api/docs/guides/agents
 ---
 
 ## Term status
@@ -22,12 +23,16 @@ Agentic rendering means the presentation layer changes because the agent has lea
 
 ## Boundary
 
-It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces and ownership.
+It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces, and ownership.
 
 ## How it is used
 
-Agentic Rendering is used when the output layer itself responds to the agent’s state, not just static view data. The term matters when interface changes, content generation, or screen composition are part of the [[Agent Loop|agent loop]].
+It is used when the output layer itself responds to the agent’s state, not just static view data. The term matters when interface changes, content generation, or screen composition are part of the [[Agent Loop|agent loop]].
 
 ## Evidence
 
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the general loop-and-tool framing that makes stateful presentation plausible.
+
+[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces that presentation changes should hang off explicit state, tools, and orchestration rather than implicit side effects.
+
+The label is practitioner shorthand. It matters only when the rendering path is actually coupled to agent state and decision flow.
