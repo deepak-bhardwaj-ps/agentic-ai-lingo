@@ -1,0 +1,17 @@
+progress.json
+update_terms.py
+
+.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+
+.claude/
+.codex/
+
+node_modules/
+dist/
+build/
+coverage/
+*.log
