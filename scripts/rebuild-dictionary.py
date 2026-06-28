@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ITEMS_DIR = ROOT / "terms" / "items"
 META_PATH = ROOT / "terms" / "meta.json"
 README_PATH = ROOT / "README.md"
+STATS_PATH = ROOT / "terms" / "stats.svg"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", re.DOTALL)
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
@@ -161,6 +163,16 @@ def section_lines(title: str, text: str) -> list[str]:
     return [f"## {title}", "", text, ""]
 
 
+def svg_escape(value: Any) -> str:
+    return (
+        str(value)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
 def load_meta() -> dict[str, Any]:
     if not META_PATH.exists():
         return {}
@@ -176,6 +188,96 @@ def load_terms() -> list[dict[str, Any]]:
         meta, body = parse_markdown(path.read_text(encoding="utf-8"))
         terms.append({"path": path, "meta": meta, "body": body})
     return terms
+
+
+def build_stats_svg(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
+    categories = [str(category).strip() for category in (meta.get("categories") or []) if str(category).strip()]
+    if not categories:
+        categories = sorted({str(term["meta"].get("category") or "Uncategorised") for term in terms})
+    canonical_by_lower = {category.lower(): category for category in categories}
+    counts = {category: 0 for category in categories}
+    source_urls: set[str] = set()
+    for term in terms:
+        raw_category = str(term["meta"].get("category") or "Uncategorised").strip()
+        category = canonical_by_lower.get(raw_category.lower(), raw_category)
+        if category not in counts:
+            continue
+        counts[category] = counts.get(category, 0) + 1
+        source_url = str(term["meta"].get("source_url") or "").strip()
+        if source_url:
+            source_urls.add(source_url)
+
+    total_terms = len(terms)
+    total_categories = len(categories)
+    emerging_terms = sum(
+        1
+        for term in terms
+        if str(term["meta"].get("status") or term["meta"].get("maturity") or "").lower() in {"emerging", "draft", "experimental"}
+    )
+    updated = date.today().strftime("%d %b %Y")
+
+    cards = [
+        ("Terms", str(total_terms), "#B3E6EC"),
+        ("Categories", str(total_categories), "#F3A880"),
+        ("Emerging", str(emerging_terms), "#9BB982"),
+        ("Sources", str(len(source_urls)), "#FFA5A4"),
+        ("Updated", updated.split()[0] + " " + updated.split()[1] + "\n" + updated.split()[2], "#4DC5D4"),
+    ]
+
+    widths = [165] * len(cards)
+    gap = 22
+    start_x = 44
+    card_y = 51
+    card_h = 108
+    svg_width = 1000
+    svg_height = 456
+    parts = [
+        f'<svg width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}" fill="none" xmlns="http://www.w3.org/2000/svg">',
+        '<rect width="1000" height="456" fill="white"/>',
+    ]
+    x = start_x
+    for idx, (label, value, fill) in enumerate(cards):
+        parts.append(f'<rect x="{x + 1}" y="{card_y + 1}" width="{widths[idx] + 2}" height="{card_h}" rx="20" fill="{fill}"/>')
+        parts.append(f'<rect x="{x}" y="{card_y}" width="{widths[idx]}" height="{card_h - 2}" rx="19" fill="#EFEFEF" opacity="0.0"/>')
+        parts.append(f'<rect x="{x}" y="{card_y}" width="{widths[idx]}" height="{card_h - 2}" rx="19" fill="{fill}"/>')
+        parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{x + 52}" y="78">{svg_escape(label)}</tspan></text>')
+        if label == "Updated":
+            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="{x + 46}" y="114">{svg_escape(value.split()[0] + " " + value.split()[1])}</tspan></text>')
+            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{x + 62}" y="140">{svg_escape(value.split()[2])}</tspan></text>')
+        else:
+            font_size = 48 if len(value) < 3 else 40
+            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="{font_size}" font-weight="900"><tspan x="{x + (49 if len(value) < 3 else 30)}" y="135">{svg_escape(value)}</tspan></text>')
+        x += widths[idx] + gap
+
+    parts.append('<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="32"><tspan x="43.5898" y="227.594">Number of terms by category</tspan></text>')
+    parts.append('<g clip-path="url(#clip0)">')
+    max_count = max(counts.values()) if counts else 1
+    label_x = 43.5898
+    label_font = 18
+    label_w = max((len(category) for category in categories), default=0) * 10
+    bar_x = min(350, label_x + label_w + 28)
+    bar_y = 252
+    row_h = 28
+    chart_h = max(146, row_h * len(categories) + 8)
+    svg_height = 456 + max(0, chart_h - 146)
+    parts[0] = f'<svg width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}" fill="none" xmlns="http://www.w3.org/2000/svg">'
+    parts[1] = f'<rect width="1000" height="{svg_height}" fill="white"/>'
+    for index, category in enumerate(categories):
+        count = counts.get(category, 0)
+        y = bar_y + row_h * index
+        bar_max = 1000 - bar_x - 110
+        width = bar_max * (count / max_count) if max_count else 0
+        text_y = y + 18
+        parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="{label_font}"><tspan x="{label_x}" y="{text_y:.3f}">{svg_escape(category)}</tspan></text>')
+        if count:
+            parts.append(f'<path d="M{bar_x} {y + 2}H{bar_x + width}C{bar_x + width + 5.8} {y + 2} {bar_x + width + 10.5} {y + 6.701} {bar_x + width + 10.5} {y + 12.5}V{y + 13.5}C{bar_x + width + 10.5} {y + 19.299} {bar_x + width + 5.8} {y + 24} {bar_x + width} {y + 24}H{bar_x}V{y + 2}Z" fill="#60A5FA"/>')
+        else:
+            parts.append(f'<path d="M{bar_x} {y + 2}H{bar_x + 10}V{y + 24}H{bar_x}V{y + 2}Z" fill="#E5E7EB"/>')
+        parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="{text_y:.3f}">{count}</tspan></text>')
+    parts.append('</g>')
+    parts.append(f'<defs><clipPath id="clip0"><rect width="915" height="{chart_h}" fill="white" transform="translate(43.5898 240)"/></clipPath></defs>')
+    parts.append("</svg>")
+    return "\n".join(parts)
 
 
 def validate_terms(terms: list[dict[str, Any]]) -> list[str]:
@@ -219,6 +321,8 @@ def generate_readme(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
     lines = [
         "# Agentic AI Buzzword Dictionary",
         "",
+        "![Dictionary stats](terms/stats.svg)",
+        "",
         "A living dictionary of agentic AI terminology, runtime language, governance terms, protocol vocabulary, and meme slang.",
         "",
     ]
@@ -249,31 +353,9 @@ def main() -> None:
         for error in validation_errors:
             print(error)
         raise SystemExit(1)
-    candidates = build_candidates(terms)
-    mapping = {item["phrase"].lower(): item["title"] for item in candidates}
-    stats = {"links_added": 0, "links_normalized": 0}
-
-    for term in terms:
-        meta_doc = term["meta"]
-        name = str(meta_doc.get("name") or "").strip()
-        if name:
-            meta_doc["title"] = name
-        elif not str(meta_doc.get("title") or "").strip():
-            meta_doc["title"] = term["path"].stem.replace("-", " ").title()
-        body = term["body"]
-        chunks: list[str] = []
-        for chunk, protected in split_protected(body, CODE_SPAN_RE):
-            if protected:
-                chunks.append(chunk)
-                continue
-            filtered = [item for item in candidates if item["title"].lower() != str(meta_doc["title"]).lower()]
-            normalized = normalise_existing_wikilinks(chunk, mapping, stats)
-            chunks.append(add_missing_wikilinks(normalized, filtered, stats))
-        term["body"] = "".join(chunks).strip() + "\n"
-        term["path"].write_text(build_markdown(meta_doc, term["body"]), encoding="utf-8")
-
+    STATS_PATH.write_text(build_stats_svg(meta, terms), encoding="utf-8")
     README_PATH.write_text(generate_readme(meta, terms), encoding="utf-8")
-    print(f"updated {len(terms)} terms, added {stats['links_added']} links, normalised {stats['links_normalized']} links")
+    print(f"updated stats and README for {len(terms)} terms")
 
 
 if __name__ == "__main__":
