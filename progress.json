@@ -1,0 +1,32 @@
+{
+  "total": 231,
+  "completed": [
+    "terms/items/a2a.md",
+    "terms/items/act-on-behalf.md",
+    "terms/items/action-governance.md",
+    "terms/items/action-plane.md",
+    "terms/items/agent-architect.md",
+    "terms/items/agent-assembly.md",
+    "terms/items/agent-coalition.md",
+    "terms/items/agent-collective.md",
+    "terms/items/agent-control-plane.md",
+    "terms/items/agent-debt.md",
+    "terms/items/agent-estate.md",
+    "terms/items/agent-evals.md",
+    "terms/items/agent-federation.md",
+    "terms/items/agent-fomo.md",
+    "terms/items/agent-identity.md",
+    "terms/items/agent-inventory.md",
+    "terms/items/agent-kernel.md",
+    "terms/items/agent-lifecycle-management.md",
+    "terms/items/agent-loop.md",
+    "terms/items/agent-marketplace.md",
+    "terms/items/agent-memory.md",
+    "terms/items/agent-mesh.md",
+    "terms/items/agent-ownership-model.md",
+    "terms/items/agent-portfolio.md",
+    "terms/items/agent-ready-software.md"
+  ],
+  "failed": [],
+  "current": "terms/items/ai-leaderboards.md"
+}
