@@ -1,32 +1,59 @@
 ---
 slug: shared-meanings
-name: Shared Meanings
-category: Context
 title: Shared Meanings
-aliases: null
-short_description: Shared Meanings is the alignment layer that keeps people and agents
-termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: Shared meanings are the shared understanding that lets people and
+  agents use words in the same way.
+category: Context
+tags:
+- context
+- communication
+- grounding
+- agents
+status: emerging
+aliases:
+- common ground
+- shared understanding
+meaning_type: emerging_unsettled
+novelty_level: low
+maturity_level: emerging
+common_misuse:
+- Treating it like a fixed technical feature instead of a communication problem.
+- Assuming the model and the user mean the same thing without checking.
+- Using the phrase as a vague way to describe any good prompt or context.
+related_terms:
+- grounding
+- common ground
+- context engineering
+- handoff
+- ambiguity
+evidence:
+- source_title: Building effective agents
+  source_url: https://www.anthropic.com/engineering/building-effective-agents
+  source_type: official_docs
+  relevance: Shows that agent systems work better when instructions and tools are
+    kept simple and clear, which depends on shared understanding.
+  key_point: Anthropic says effective agents are built with simple, composable patterns
+    rather than complex frameworks.
+- source_title: Effective context engineering for AI agents
+  source_url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+  source_type: official_docs
+  relevance: Explains that agents need carefully curated context so the model can
+    act on the right information.
+  key_point: Anthropic describes context engineering as choosing and maintaining the
+    right set of tokens and other information for the model.
+- source_title: Grounding Gaps in Language Model Generations
+  source_url: https://arxiv.org/pdf/2311.09144
+  source_type: research_paper
+  relevance: Supports the idea that shared understanding in conversation does not
+    happen automatically and often needs clarification.
+  key_point: The paper says effective conversation requires common ground, and LLMs
+    often generate less grounding than humans.
 ---
 
-## Term status
+Shared meanings are the shared understanding that lets people and agents use the same words in the same way.
 
-Emerging practitioner shorthand.
+In practice, this means both sides know what a term refers to, what counts as a correct answer, and when something needs clarification. If that understanding is missing, instructions can be followed badly even when the words look clear.
 
-## Meaning
+This matters because many agent failures are really meaning failures. A user may say one thing and the system may interpret it another way. Shared meanings reduce confusion, bad hand-offs, and wasted work.
 
-Shared meanings are the semantic alignment that keeps people and agents using the same terms the same way.
-
-## Boundary
-
-Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
-
-## How it is used
-
-Shared Meanings is used when ambiguity in vocabulary is creating bad retrieval, bad instructions, or bad hand-offs. It is a strong reminder that context quality is partly semantic, not just technical.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a special model feature. It is not the same as intelligence. It is not proof that the system truly understands the world. It is just a useful way to describe whether people and agents are aligned on what words and tasks mean.

@@ -1,32 +1,24 @@
 ---
 slug: auto-bullshit
-name: Auto-bullshit
-category: Slang
 title: Auto-bullshit
-aliases: null
-short_description: Auto-bullshit is a blunt label for confident but false or meaningless
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Informal slang for AI output that sounds confident but is wrong,
+  unsupported, or meaningless.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Auto-bullshit is informal slang for AI text that sounds confident but is wrong, unsupported, or made up.
 
-Informal slang.
+In practice, people use it when a model gives an answer that looks polished but falls apart when you check it. The words may sound certain, but the facts are weak or missing.
 
-## Meaning
+The term matters because fluent AI can be convincing even when it is wrong. That can mislead people into trusting bad advice, bad summaries, or fake explanations.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Auto-bullshit is used when a model or workflow sounds fluent but produces claims, explanations, or recommendations that do not survive inspection. It is typically applied where the confidence is high and the evidence is weak.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical term. In careful writing, it is better to say exactly what went wrong, such as hallucination, unsupported claim, or false output.

@@ -1,32 +1,24 @@
 ---
 slug: provenance-tensor
-name: Provenance Tensor
-category: Context
 title: Provenance Tensor
-aliases: null
-short_description: Provenance Tensor is a structured representation of where context
-termStatus: Emerging practitioner shorthand
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+short_description: A proposed way to describe where agent context came from, how trustworthy
+  it is, and how it should be handled.
+category: Context
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: high
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Provenance Tensor is a proposed way to describe where an agent's context came from, how reliable it is, and how it should be treated.
 
-Emerging practitioner shorthand.
+In practice, it means keeping the source of each piece of context attached to the context itself. That source might be a document, a memory, a tool result, a retrieval step, or a human note. The idea is to track more than just the words. It also tracks where they came from, whether they are fresh, and whether the system is allowed to use them.
 
-## Meaning
+This matters because [[Agentic AI|agentic systems]] often mix many inputs. Some are trusted. Some are stale. Some are only allowed for certain users. If the system cannot tell those apart, it can use the wrong context or explain itself badly.
 
-Provenance Tensor concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
-
-## Boundary
-
-It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
-
-## How it is used
-
-Provenance Tensor is used when provenance needs to be represented as more than a flat citation, usually as a structured signal attached to retrieved content or memory. The term is most useful in systems that score, filter, or route context based on trust and lineage.
-
-## Evidence
-
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a standard term with one agreed meaning. It is not a formal product category, and it is [[Context Collapse|n]]ot the same thing as a citation list. It is closer to a structured way of carrying provenance through an agent pipeline.

@@ -3,30 +3,27 @@ slug: execution-graph
 name: Execution Graph
 category: Runtime
 title: Execution Graph
-aliases: null
-short_description: Execution Graph is the graph of steps, dependencies, and side effects
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+aliases: []
+short_description: A way to show the steps in a task, what depends on what, and when
+  things happen.
+tags: []
+status: active
+meaning_type: rebranded_old_idea
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An execution graph is a picture of the steps in a task and the order they should happen in.
 
-Implementation pattern.
+It shows which step comes first, which steps can happen at the same time, and which steps depend on other steps finishing first.
 
-## Meaning
+In practice, people use an execution graph to organise an agent or automation so the system can follow a clear path instead of guessing what to do next. It helps with retries, pauses for approval, and tracking where something failed.
 
-Execution Graph means representing the relevant entities and relationships as a graph so an agent can query or traverse them.
+This matters because agent systems often do more than one thing. They may search, call tools, save results, and ask for help from a person. A graph makes that flow easier to see and control.
 
-## Boundary
+An execution graph is not the same as intelligence. It does not decide the goal for you, and it does not make the system correct by itself. It is just a way to describe and run the work.
 
-A graph representation does not itself provide truth, provenance, permissions or reasoning. Define the schema and update authority.
-
-## How it is used
-
-Execution Graph is used when the system is easier to reason about as connected steps than as a single loop. It helps make explicit what must happen first, what can branch, and where retries or human approvals sit.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+The term is also not perfectly standard. Different teams may use it to mean a workflow graph, an orchestration graph, or a dependency graph.

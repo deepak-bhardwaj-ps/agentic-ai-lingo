@@ -1,32 +1,24 @@
 ---
 slug: blast-radius
-name: Blast Radius
-category: Governance
 title: Blast Radius
-aliases: null
-short_description: Blast Radius is the maximum damage an agent failure or mistake
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: How much damage a mistake, bug, or security problem could cause
+  before it is stopped.
+category: Governance
+tags: []
+status: active
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Blast radius is how much damage a mistake, bug, or security problem could cause before it is stopped.
 
-Governance/security concept.
+In practice, it means asking: if one part fails, what else could be affected? That could be one user, one database, one app, or many connected systems.
 
-## Meaning
+The term matters because good systems try to keep problems small. If the blast radius is low, a failure is easier to contain and fix. If it is high, one mistake can spread widely.
 
-Blast Radius concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Blast Radius is used when the team needs to know how much damage a failure could cause. In practice, it should map to concrete systems, data, and users, not just severity language.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+Blast radius is not the same as the problem itself. It is not a fix, and it is not just a scary-sounding word for “risk”. It is a way to describe how far damage could spread, so teams can design better boundaries and safer controls.

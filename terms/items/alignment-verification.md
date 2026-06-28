@@ -3,30 +3,26 @@ slug: alignment-verification
 name: Alignment Verification
 category: Governance
 title: Alignment Verification
-aliases: null
-short_description: Alignment Verification is checking that agent behaviour matches
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+aliases: []
+short_description: Checking whether an AI agent keeps to its stated rules, purpose,
+  and limits.
+status: active
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Alignment verification means checking whether an AI agent keeps to the rules, purpose, and limits it was given.
 
-Governance/security concept.
+In practice, this means asking simple but important questions: Did the agent do what it was supposed to do? Did it stay within its allowed scope? Did it avoid actions the team said were not allowed? Can we prove that with tests, logs, or review?
 
-## Meaning
+This matters because an agent can look useful and still do the wrong thing. It may follow the user’s request too far, ignore safety rules, or act in ways that the team did not approve. Verification is the check that tries to catch that.
 
-Alignment Verification concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
+It is not the same as general accuracy. A system can be factually right and still be poorly aligned with its instructions, safety rules, or job.
 
-## Boundary
+It is also not a single magic control. It is usually a repeatable set of checks, reviews, and monitoring steps.
 
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Alignment Verification is used when the team needs evidence that behaviour matches the stated objective or policy. In practice, it should produce a testable check, not a slogan.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+The term is not yet widely standardised, so people may mean slightly different things by it. In most cases, it is best understood as verifying that an AI agent behaves as intended.

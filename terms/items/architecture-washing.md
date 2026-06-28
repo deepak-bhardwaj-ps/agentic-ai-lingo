@@ -1,14 +1,18 @@
 ---
 slug: architecture-washing
-name: Architecture Washing
-category: Slang
 title: Architecture Washing
-aliases: null
-short_description: Architecture Washing is a label for using architecture language
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A criticism for making a system look more carefully designed, governed,
+  or advanced than it really is.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
 ## Term status
@@ -17,16 +21,24 @@ Informal slang.
 
 ## Meaning
 
-An informal accusation that a product or programme is presented as more capable, autonomous or controlled than its implementation supports.
+Architecture washing is when something is described as carefully designed, well governed, or highly controlled, but the real system does not match that claim.
 
-## Boundary
+## In practice
 
-It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls and accountable owners.
+People use this term when diagrams, layers, or process language make a project look mature, but the system underneath is still messy, fragile, or vague.
 
-## How it is used
+It is a criticism of the story being told, not a formal technical diagnosis.
 
-Architecture Washing is used when diagrams, layers, or governance language are presented as evidence of maturity while the underlying system is still brittle or underspecified. It is usually a critique of presentation, not of architecture work itself.
+## Why it matters
 
-## Evidence
+Good architecture is not just a picture or a set of buzzwords. It should show real decisions, clear responsibilities, and proper controls.
 
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+If those things are missing, people may trust a system too much, spend money on the wrong thing, or miss important risks.
+
+## What it is not
+
+It is not the same as having a simple design.
+
+It is not a complaint that someone used diagrams or governance language.
+
+It means the language sounds stronger than the actual system.

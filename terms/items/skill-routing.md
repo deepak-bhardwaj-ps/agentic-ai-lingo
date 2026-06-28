@@ -1,32 +1,59 @@
 ---
-slug: skill-routing
-name: Skill Routing
-category: Runtime
 title: Skill Routing
-aliases: null
-short_description: Skill Routing is selecting the right capability from a tool or
-termStatus: Architecture/implementation term
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: Choosing which skill, tool, or sub-task should handle a request.
+category: Runtime
+tags:
+- agentic-ai
+- tools
+- routing
+- orchestration
+status: glossary
+aliases:
+- tool routing
+- capability routing
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse:
+- Treating it as a single standard architecture instead of a design pattern.
+- Confusing routing with the skill itself.
+- Assuming the model always picks the best skill without rules or checks.
+related_terms:
+- tool use
+- function calling
+- orchestration
+- agent routing
+- sub-agent
+evidence:
+- source_title: Building Effective AI Agents
+  source_url: https://www.anthropic.com/research/building-effective-agents
+  source_type: engineering_blog
+  relevance: Shows routing as a core agent pattern where a system chooses what to
+    do next.
+  key_point: Anthropic describes routing as a practical way to send a task to the
+    right next step or specialist.
+- source_title: Function calling
+  source_url: https://developers.openai.com/api/docs/guides/function-calling
+  source_type: official_docs
+  relevance: Explains how a model can decide when to call a tool, which is the same
+    basic choice skill routing makes.
+  key_point: The model can choose whether to use a tool and which tool to use through
+    the tool-choice flow.
+- source_title: Extend Claude with skills
+  source_url: https://docs.anthropic.com/en/docs/claude-code/skills
+  source_type: official_docs
+  relevance: Shows the modern product meaning of skills as reusable capability packs
+    that can be applied to tasks.
+  key_point: Skills are reusable instructions and resources that extend what the assistant
+    can do on specific tasks.
 ---
 
-## Term status
+Skill routing means choosing the right skill, tool, or helper for a job.
 
-Architecture/implementation term.
+In practice, a system looks at the task, picks a matching capability, and sends the work there. If the chosen skill cannot handle it, the system may try another one or stop with an error.
 
-## Meaning
+This matters because a general assistant is usually better when it can hand a task to the most suitable specialist instead of trying to do everything itself. Good routing can make results faster, safer, and more accurate.
 
-Skill routing chooses the right capability for a task and delivers it through the execution path that can use it.
+Skill routing is not a fixed standard design. It is a useful way to describe the decision step in an agent system.
 
-## Boundary
-
-It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
-
-## How it is used
-
-Skill Routing is used when the system chooses a capability at run time from a set of tools or skills. The routing policy should expose candidate selection, permission filtering, fallback and how a bad selection is observed.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is also not the same as the skill itself. The skill is the thing that does the work. Routing is the part that decides which skill to use.

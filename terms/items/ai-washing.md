@@ -1,32 +1,24 @@
 ---
 slug: ai-washing
-name: AI Washing
-category: Slang
 title: AI Washing
-aliases: null
-short_description: AI Washing is a label for products described as AI-powered when
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A claim that something is branded as AI even though the real system
+  uses little AI, or far less than the marketing suggests.
+category: Slang
+tags: []
+status: Informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI washing is when something is described as AI, or AI-powered, even though the real system uses little AI, or much less than the claim suggests.
 
-Informal slang.
+In practice, it usually means the marketing is bigger than the technology. A company might say a product uses advanced AI when it mostly follows simple rules, uses standard software, or has only one small AI feature.
 
-## Meaning
+Why it matters: people may trust a product too quickly, pay more than they should, or think it can do things it cannot. It also makes it harder to tell which tools are genuinely useful.
 
-An informal accusation that a product or programme is presented as more capable, autonomous or controlled than its implementation supports.
-
-## Boundary
-
-It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls and accountable owners.
-
-## How it is used
-
-AI Washing is used when marketing claims more AI than the system actually uses or when a minor feature is presented as the core value. In practice it is a challenge to inspect the real implementation, the decision boundary, and who is accountable for failure.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical term. It is a criticism of how a product is described. A product can use real AI and still be called AI washing if the label is misleading.

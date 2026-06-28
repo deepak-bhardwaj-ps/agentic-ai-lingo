@@ -1,32 +1,24 @@
 ---
 slug: semantic-memory
-name: Semantic Memory
-category: Memory
 title: Semantic Memory
-aliases: null
-short_description: Semantic Memory is stored facts and concepts an agent can reuse
-termStatus: Established cognitive term; applied metaphor
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: Semantic memory is stored facts and concepts that can be reused
+  later.
+category: Memory
+tags: []
+status: established
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Semantic memory is stored knowledge about facts, meanings, and concepts.
 
-Established cognitive term; applied metaphor.
+In an AI agent, it means the things the system should know for later, such as a definition, a user preference, or a stable fact about a project. It is meant for information that stays useful across tasks.
 
-## Meaning
+This matters because an agent needs more than a short chat history. It needs a place to keep stable knowledge so it can answer questions, make better choices, and avoid relearning the same facts again.
 
-Semantic memory denotes durable facts, entities and relationships available to an agent, often held in a database, graph or curated knowledge base.
-
-## Boundary
-
-Do not mix it with episodic execution logs. Facts need provenance, ownership and update controls.
-
-## How it is used
-
-Semantic Memory is used when the system needs to remember facts, concepts, or definitions across tasks. It is the memory layer for stable knowledge, not execution traces.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as [[Episodic Memory|episodic memory]], which stores what happened in a specific session or event. It is also [[Context Collapse|n]]ot [[Procedural Memory|procedural memory]], which stores how to do something. Semantic memory is about what something means or what is true.

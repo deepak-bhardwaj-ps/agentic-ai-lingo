@@ -1,32 +1,24 @@
 ---
 slug: tokenmaxxing
-name: Tokenmaxxing
-category: Slang
 title: Tokenmaxxing
-aliases: null
-short_description: Tokenmaxxing is a term for pushing context, prompt length, or output
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Informal slang for trying to use as many tokens as possible in
+  an AI prompt or response.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: high
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Tokenmaxxing is informal slang for trying to use as many tokens as possible in an AI prompt or response.
 
-Informal slang.
+In practice, it usually means someone is stuffing in more context, asking for longer outputs, or pushing a model close to its limit. People use the word when they are talking about whether extra tokens help or just make the system slower and more expensive.
 
-## Meaning
+The term matters because tokens are not just a technical detail. They affect cost, speed, and whether a model can still follow the conversation properly.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Tokenmaxxing is used when people deliberately stretch context windows, prompts, or outputs to the edge of what the model can handle. It usually implies a trade-off discussion about cost, latency, and whether more tokens are actually buying better judgement.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical term. In serious writing, it is better to say exactly what is happening, such as using a larger context window, increasing the token budget, or sending a very long prompt.

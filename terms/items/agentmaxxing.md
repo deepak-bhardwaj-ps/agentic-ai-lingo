@@ -1,34 +1,25 @@
 ---
 slug: agentmaxxing
-name: Agentmaxxing
-category: Slang
 title: Agentmaxxing
-aliases: null
-short_description: Agentmaxxing is practitioner slang for pushing an agent stack
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+name: Agentmaxxing
+short_description: Slang for pushing AI agent use as far as possible, often by stacking
+  more agents, tools, and automation.
+category: Slang
+tags: []
+status: active
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentmaxxing is slang for pushing AI agent use as far as possible, usually by adding more agents, tools, loops, memory, or automation.
 
-Informal slang.
+In practice, it means someone is trying to make an agent system do more of the work on its own. That might involve several agents working in parallel, more tool calls, or extra coordination between steps.
 
-## Meaning
+The term matters because adding more agent features can help, but it can also make a system slower, harder to understand, more expensive, and more likely to fail in messy real-world cases.
 
-Informal online shorthand used in discussion of AI, software, or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts, or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-It is used in enthusiast and builder circles when someone keeps adding more tools, loops, memory, or orchestration in the name of getting more agent capability. It often implies diminishing returns, where added complexity serves status or curiosity more than reliability.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance backdrop for challenging complexity that is not tied to a measurable outcome.
-
-The label is slang, not a formal category. Its value is rhetorical: it calls out overreach, not a technical defect class.
+It is not a formal technical standard, and there is no agreed measurement for it. It also does not mean “good agent design”. A strong system is judged by whether it reliably does the job, not by how extreme the setup sounds.

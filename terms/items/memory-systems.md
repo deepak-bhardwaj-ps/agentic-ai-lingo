@@ -3,31 +3,23 @@ slug: memory-systems
 name: Memory Systems
 category: Memory
 title: Memory Systems
-aliases: null
-short_description: Memory Systems is the full stack that stores, retrieves, updates,
-updated_at: '2026-06-22T20:54:07.902480+00:00'
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+aliases: []
+short_description: A memory system is the part of an agent that decides what to keep,
+  what to look up, what to update, and what to forget over time.
+updated_at: '''2026-06-28T00:00:00+00:00'''
+status: active
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A memory system is the part of an agent that decides what information to keep, where to store it, when to bring it back, and when to forget it.
 
-Implementation pattern.
+In practice, it helps the agent remember useful facts from earlier chats, look up older details when needed, and keep track of changes over time. A simple memory system might save a user’s preferences. A more advanced one might keep short-term session notes and separate long-term facts in different places.
 
-## Meaning
+Memory systems matter because language models can only hold a limited amount of information at once. Without memory, an agent forgets earlier details too quickly and sounds inconsistent. With memory, it can stay more useful across a longer task or over many conversations.
 
-Memory Systems concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Systems is used when the discussion is about the complete stack of [[Agent Memory|agent memory]] rather than one store or one feature. It includes persistence, retrieval, summarisation, correction, and expiry.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as model training. It does not mean the model itself has learned new weights. It is also not just one database. A memory system is the whole design for storing, retrieving, updating, and forgetting information.

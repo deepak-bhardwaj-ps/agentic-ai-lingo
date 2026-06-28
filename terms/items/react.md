@@ -1,32 +1,24 @@
 ---
 slug: react
-name: ReAct
-category: Runtime
 title: ReAct
-aliases: null
-short_description: ReAct is the reasoning-plus-action pattern that interleaves thought,
-termStatus: Established research pattern
-researchBasis: Yao et al., ReAct (ICLR 2023)
-sources:
-- https://arxiv.org/abs/2210.03629
+short_description: ReAct is a way for an AI system to think, take an action, then
+  use what it learned to keep going.
+category: Runtime
+tags: []
+status: established
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: maturing
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+ReAct is a pattern for an AI system to think, do something, see the result, and then think again.
 
-Established research pattern.
+In practice, the system writes down a short reasoning step, chooses an action such as a tool call, reads the result, and uses that result to decide the next step. This is useful when one answer is not enough and the system needs to work through a task step by step.
 
-## Meaning
+The term matters because it shows one common way to build agents that use tools. It can make the system easier to follow than a single hidden guess, and it can help with tasks that need outside information.
 
-ReAct is the prompting pattern from Yao et al. that interleaves reasoning traces with actions and observations. It is one implementation pattern for tool-using agents.
-
-## Boundary
-
-It is not React the JavaScript library, and it is not a guarantee that hidden reasoning is faithful or that tool calls are safe.
-
-## How it is used
-
-ReAct is used when the system needs to alternate between reasoning and acting rather than answer in one shot. It is the canonical pattern for showing how a tool-using agent can loop through thought, action, and observation.
-
-## Evidence
-
-[Yao et al., ReAct (ICLR 2023)](https://arxiv.org/abs/2210.03629) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as React, the JavaScript library. It is also not a promise that the AI will always be right, or that every action is safe. It is only a way of organising the loop between thinking and acting.

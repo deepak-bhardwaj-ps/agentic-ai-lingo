@@ -1,32 +1,63 @@
 ---
 slug: tool-authorization
-name: Tool Authorization
-category: Governance
 title: Tool Authorization
-aliases: null
-short_description: Tool Authorization is used to govern whether a requested action
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: Rules that decide whether an agent may use a tool or take an action.
+category: Governance
+tags:
+- governance
+- security
+- agents
+- authorization
+status: active
+aliases:
+- tool access control
+- tool permissions
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: emerging
+common_misuse:
+- Treating the model’s choice to call a tool as proof that the user is allowed to
+  do it.
+- Hiding the rule inside prompts instead of enforcing it in a real policy check.
+- Giving every tool to every agent and calling that “guardrails”.
+related_terms:
+- authorization
+- least privilege
+- permission-gates
+- delegation-policy
+- human-oversight
+evidence:
+- source_title: Authorization - Model Context Protocol
+  source_url: https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization
+  source_type: official_docs
+  relevance: Shows that agent systems need transport-level authorisation for restricted
+    servers.
+  key_point: MCP defines authorization flows so clients can request access on behalf
+    of a resource owner and servers can validate tokens for the right audience.
+- source_title: RAG Security Cheat Sheet - Tool Invocation and Agent Safety
+  source_url: https://cheatsheetseries.owasp.org/cheatsheets/RAG_Security_Cheat_Sheet.html
+  source_type: official_docs
+  relevance: Explains why tool calls need their own checks in agent systems.
+  key_point: OWASP says tool-level authorisation must be enforced independently of
+    the model’s decision to call a tool.
+- source_title: Zero Trust Architecture
+  source_url: https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=930420
+  source_type: standards_doc
+  relevance: Provides the broader security idea behind limiting access per request.
+  key_point: NIST describes zero trust as making accurate least-privilege access decisions
+    for each request.
+- source_title: Agent approvals & security
+  source_url: https://developers.openai.com/codex/agent-approvals-security
+  source_type: official_docs
+  relevance: Shows a practical approval model for risky tool actions.
+  key_point: Destructive app or MCP tool calls require approval when the tool advertises
+    side effects.
 ---
 
-## Term status
+Tool Authorization is the rule that decides whether an agent is allowed to use a tool or carry out a specific action.
 
-Governance/security concept.
+In practice, it means the system checks the request before the action happens. The check should look at who the agent is acting for, what tool is being used, what the action will do, and whether the request fits the allowed scope. If the action is risky, a human may need to approve it.
 
-## Meaning
+This matters because an agent can choose the wrong tool, be tricked into using it badly, or be given more power than it should have. Good tool authorisation limits damage, makes responsibility clearer, and helps with auditing and stopping bad actions.
 
-Tool Authorization concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Tool Authorization is used to govern whether a requested action is allowed for a particular agent and principal. The policy decision needs a deterministic enforcement point, a reason record and revocation support.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a prompt saying “be careful”. It is also not the same as the model deciding to call a tool. Real authorisation is enforced by the system, not just described in text.

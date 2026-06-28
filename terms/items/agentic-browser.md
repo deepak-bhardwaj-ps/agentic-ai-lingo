@@ -1,34 +1,26 @@
 ---
 slug: agentic-browser
-name: Agentic Browser
-category: Core
 title: Agentic Browser
-aliases: null
-short_description: An agentic browser is a browser-driven agent that can navigate
-termStatus: Emerging product category
-researchBasis: OWASP Top 10 for LLM Applications, Anthropic
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A browser that lets an AI read web pages and carry out tasks for
+  a user.
+category: Core
+tags: []
+status: Emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An agentic browser is a browser that can look at web pages and take actions for you.
 
-Emerging product category.
+In practice, an AI can open pages, click links, fill in forms, scroll, and move through a website to complete a task. A person still sets the goal and should check important or risky steps.
 
-## Meaning
+This matters because a lot of everyday work happens in browsers. An agentic browser can save time on repetitive jobs like searching, booking, and form filling.
 
-An agentic browser describes a browser product or integration that lets an AI system navigate, read, and act on web content on a user's behalf.
+It is not a formal standard. It is also not the same as a simple script that clicks buttons in a fixed order. The hard part is that web pages are not always trustworthy, so the AI can be tricked by hidden or misleading instructions.
 
-## Boundary
-
-It is not a web standard or a security model. The important properties are browsing isolation, identity delegation, confirmation, and treatment of untrusted page content.
-
-## How it is used
-
-It is used when the browser itself is the working surface for the agent, typically through clicks, form fills, page reading, and navigation. The useful question is not whether it is “agentic” in the abstract, but what it can reliably do inside the browser without human micromanagement.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) is the security reference point: browser-mediated agents inherit prompt injection, tool abuse, and untrusted content problems.
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) reinforces the production lesson: keep the tool surface simple, explicit, and auditable.
+The term is still unsettled. People often use it to mean a browser with built-in AI that can act, not just explain what is on the page.

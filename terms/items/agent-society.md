@@ -1,36 +1,25 @@
 ---
-slug: agent-society
-name: Agent Society
-category: Protocols
 title: Agent Society
-aliases: null
-short_description: A society is a metaphor for many agents interacting under
-termStatus: Emerging interoperability/architecture label
-researchBasis: Multi-agent norms research, Anthropic
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A loose term for a group of AI agents that follow shared rules,
+  roles, or norms.
+category: Protocols
+tags: []
+status: emerging
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An agent society is a group of AI agents that work together under shared rules, roles, or norms.
 
-Emerging interoperability/architecture label.
+In practice, this means the agents are not acting alone. They may pass tasks to one another, follow agreed rules, or behave as if they belong to the same group.
 
-## Meaning
+The term matters because once many agents are involved, coordination becomes the main problem. You need clear communication, permissions, memory, trust, and control, or the system can become confused and unsafe.
 
-A society is a broad metaphor for many agents interacting under shared norms, incentives, or rules.
+This is not a formal standard. It does not tell you how agents send messages, how they are secured, or whether different systems can connect with each other.
 
-## Boundary
-
-It is not a protocol unless it defines a public wire format, lifecycle, compatibility, and security model. Do not imply interoperability from the label alone.
-
-## How it is used
-
-It is used when the emphasis is on emergent behaviour across many agents rather than a single orchestrated workflow. It is usually metaphorical, so it should be translated into actual rules, institutions, or platform constraints before it drives design.
-
-## Evidence
-
-[Normative Modules](https://arxiv.org/abs/2405.19328) shows that cooperation across agents depends on explicit norms and authoritative institutions, not just “many agents in a room.”
-
-[Run-time Norms Synthesis in Multi-Objective Multi-Agent Systems](https://arxiv.org/abs/2105.00124) reinforces that norms are operational controls, not slogans.
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) pushes the practical side: use simple composable patterns before inventing a grand social metaphor.
+So in plain terms, it is a useful label for a multi-agent system with shared norms, but it is not a technical specification on its own.

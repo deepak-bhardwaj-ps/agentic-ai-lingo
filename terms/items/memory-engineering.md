@@ -1,33 +1,24 @@
 ---
 slug: memory-engineering
-name: Memory Engineering
-category: Memory
 title: Memory Engineering
-aliases: null
-short_description: Memory Engineering is the practice of designing and operating agent
-updated_at: '2026-06-22T20:54:07.866809+00:00'
-termStatus: Emerging practitioner term
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: The practice of designing how an agent stores, updates, retrieves,
+  and forgets information over time.
+category: Memory
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory engineering is the work of designing how an AI agent remembers things.
 
-Emerging practitioner term.
+In practice, it means deciding what the agent should store, how it should summarise or update that information, how it should find it again later, and when old or wrong information should be removed. A good memory design usually keeps only the useful parts, not every message ever sent.
 
-## Meaning
+This matters because agents have limited space to think with. If memory is badly designed, the agent can forget important details, keep stale facts, or use the wrong information at the wrong time. Good memory engineering helps an agent stay consistent, cheaper to run, and more helpful over time.
 
-Memory engineering is the design of what an agent stores, how it is summarised and retrieved, and when it expires or is corrected.
-
-## Boundary
-
-It is not a standard discipline. A credible design specifies schemas, write authority, retrieval evaluation and deletion behaviour.
-
-## How it is used
-
-Memory Engineering is used when teams need to design, implement, and operate the memory layer itself. It covers storage, retrieval, correction, and the trade-off between recall quality and cost.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as training a model, and it is not just saving chat logs. It is also not a fixed standard term with one agreed meaning. Different teams use it to mean slightly different things, but they usually mean the same broad idea: building the memory system an agent depends on.

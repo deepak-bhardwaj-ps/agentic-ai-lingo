@@ -1,36 +1,24 @@
 ---
 slug: agentic-coding
-name: Agentic Coding
-category: Core
 title: Agentic Coding
-aliases: null
-short_description: Agentic coding is coding in which an AI system can propose,
-termStatus: Emerging practitioner term
-researchBasis: Harness engineering, Anthropic, OpenAI Agents SDK
-sources:
-- https://developers.openai.com/api/docs/guides/agents
+short_description: Coding where an AI system can plan, use tools, test changes, and
+  improve its work over more than one step.
+category: Core
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic coding is a way of writing software where an AI system can do several steps by itself, not just suggest one piece of code.
 
-Emerging practitioner term.
+In practice, it may read files, change code, run tests, look at the results, and try again until the task is done. A person still usually sets the goal, chooses the limits, and checks the final code.
 
-## Meaning
+This matters because the AI is doing more than autocomplete. Once it can work through a task step by step, you need to think about safety, mistakes, permissions, and who is responsible for the result.
 
-Agentic coding is software development in which an AI system plans and executes changes through repository tools, terminals, tests, and review loops; it may work across many files and turns.
-
-## Boundary
-
-It is not autocomplete, and it is not autonomous delivery. The engineering boundary is the permitted repository, command, credential, and merge authority.
-
-## How it is used
-
-It is used when the coding workflow includes tool use, multi-step revision, and explicit recovery rather than a single code completion. It matters because the control problem is different from autocomplete: you are designing the loop, the review boundary, and the rollback path.
-
-## Evidence
-
-[[[Harness Engineering|Harness engineering]]](https://mitchellh.com/writing/my-ai-adoption-journey) is the practical reference point for coding workflows that depend on explicit loops, verification, and recovery.
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) supports the broader point that the useful unit is the tool-using loop, not a single completion.
-
-[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) makes the same control split explicit with orchestration, tools, state, and evaluation.
+It is not just a chat bot that writes code on request. It is also not fully independent. If it cannot plan, act, check its work, and correct itself within clear limits, it is not really agentic coding.

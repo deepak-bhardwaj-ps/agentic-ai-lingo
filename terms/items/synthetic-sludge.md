@@ -1,32 +1,25 @@
 ---
-slug: synthetic-sludge
-name: Synthetic Sludge
-category: Slang
 title: Synthetic Sludge
-aliases: null
-short_description: Synthetic Sludge is a label for machine-generated content that
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A slang term for piles of machine-made content that are low value,
+  repetitive, and hard to sort through.
+category: Slang
+tags: []
+status: Informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Synthetic sludge is a slang term for a lot of machine-made content that feels weak, repetitive, or hard to trust.
 
-Informal slang.
+In practice, it means an online space, inbox, feed, or workflow is getting filled with generated material faster than people can check, improve, or use it.
 
-## Meaning
+The term matters because too much low-quality output can hide the useful parts, waste time, and make people less confident about what they are reading.
 
-Informal pejorative for low-value, insufficiently reviewed AI-generated material.
+It is not a formal technical measure. It does not mean all AI-generated content is bad, and it does not describe every machine-made item in the same way.
 
-## Boundary
-
-It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
-
-## How it is used
-
-Synthetic Sludge is used when synthetic content accumulates across a workflow or platform until it obscures the useful signal underneath. The term is often used for content ecosystems where quantity keeps rising but clarity, provenance, and usefulness keep falling.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is also not the older wastewater engineering term for a lab-made sludge sample.

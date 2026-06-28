@@ -1,32 +1,56 @@
 ---
 slug: cost-per-workflow
-name: Cost per Workflow
-category: AgentOps
 title: Cost per Workflow
-aliases: null
-short_description: Cost per Workflow is the average cost of completing one workflow
-termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://platform.openai.com/docs/guides/evals
+short_description: The average total cost of completing one workflow from start to
+  finish.
+category: AgentOps
+tags:
+- agentic-ai
+- cost
+- metrics
+- unit-economics
+- workflows
+status: active
+aliases:
+- workflow cost
+- cost per task
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: established
+common_misuse: Treating it as only model token spend, or comparing workflows without
+  defining the same start, finish, and cost items.
+related_terms:
+- unit economics
+- token cost
+- workflow
+- evaluation
+- observability
+evidence:
+- source_title: Evaluation best practices
+  source_url: https://developers.openai.com/api/docs/guides/evaluation-best-practices
+  source_type: official_docs
+  relevance: Shows that evals should define success criteria and metrics before comparing
+    systems.
+  key_point: OpenAI recommends defining the evaluation objective and metrics first,
+    which supports measuring the cost of one complete workflow in a consistent way.
+- source_title: Evals guide
+  source_url: https://platform.openai.com/docs/guides/evals
+  source_type: official_docs
+  relevance: Shows that running evals uses real API calls and therefore real cost.
+  key_point: OpenAI's evals workflow makes cost a real operational concern because
+    tests and model graders consume API usage.
+- source_title: A guide to cloud unit economics
+  source_url: https://www.datadoghq.com/blog/cloud-unit-economics/
+  source_type: industry_article
+  relevance: Explains the idea of measuring cost per discrete business outcome.
+  key_point: Datadog describes unit economics as measuring the cost of achieving a
+    specific outcome, which is the same idea behind cost per workflow.
 ---
 
-## Term status
+Cost per Workflow is the average cost of completing one workflow from start to finish.
 
-Operational metric/practice.
+In practice, it means adding up all the costs tied to that workflow, then dividing by the number of workflows completed. Those costs may include model calls, tool calls, storage, human review, and other operating costs if they are part of the workflow.
 
-## Meaning
+This matters because two agent systems can look similar on the surface but cost very different amounts to run. A lower cost per workflow can make a system easier to scale, while a higher one may still be worth it if the workflow is more accurate or saves more time.
 
-Cost per Workflow is the average cost of completing one workflow end to end.
-
-## Boundary
-
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
-
-## How it is used
-
-Cost per Workflow is used when you need to compare the unit economics of different agent flows or versions. It is only useful if the workflow boundary is stable and the cost allocations are explicit.
-
-## Evidence
-
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not just token cost. It is also not a universal standard metric with one fixed formula. The exact boundary has to be defined first, or the number can be misleading.

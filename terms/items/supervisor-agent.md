@@ -3,30 +3,28 @@ slug: supervisor-agent
 name: Supervisor Agent
 category: Runtime
 title: Supervisor Agent
-aliases: null
-short_description: Supervisor Agent is the top-level agent that delegates, checks,
-termStatus: Common framework pattern
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A supervisor agent is the main agent that assigns tasks to other
+  agents, checks their work, and decides what happens next.
+aliases: []
+status: Common framework pattern
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: maturing
+common_misuse: []
+related_terms: []
+evidence: []
 ---
-
-## Term status
-
-Common framework pattern.
 
 ## Meaning
 
-A supervisor agent routes work to specialised workers, synthesises results and decides whether to continue, retry or stop.
+A supervisor agent is the main agent in a team of agents. It gives out tasks, checks the replies, and decides whether to keep going, try again, or stop.
 
-## Boundary
+## Description
 
-It is not an authoritative control plane. High-risk authorisation and policy checks should be deterministic services, not another model prompt.
+In practice, this means one agent acts like a team lead and other agents act like specialists. The supervisor may ask one agent to research, another to compare options, and another to draft an answer, then it puts the pieces together.
 
-## How it is used
+This matters because some jobs are too big for one agent to do well on its own. Splitting the work can make the result better and easier to follow.
 
-Supervisor Agent is used when one agent is responsible for routing work to specialised workers and deciding whether to continue or stop. It is the right term when orchestration is still model-led, but the system needs a clear top of chain.
+A supervisor agent is not the same as a safety rule or a permission system. It should not be the thing that decides on its own whether a risky action is allowed. Important approvals and policy checks should be handled by separate, deterministic systems.
 
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is also not just any chatbot that forwards a message. The term is used when there is a clear top-level agent coordinating other agents.

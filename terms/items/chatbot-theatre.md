@@ -1,32 +1,23 @@
 ---
-slug: chatbot-theatre
-name: Chatbot Theatre
-category: Slang
 title: Chatbot Theatre
-aliases: null
-short_description: Chatbot Theatre is a label for chat interfaces that imply capability
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A criticism for chat interfaces that look useful but do not actually
+  get the work done
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Chatbot Theatre is a criticism for a chatbot that looks helpful, but in practice does very little real work.
 
-Informal slang.
+In practice, it means the chat window gives the appearance of progress, while the important parts behind it are missing, broken, or handled by people anyway.
 
-## Meaning
+The term matters because a polished conversation can hide weak usefulness. A system should be judged by whether it actually completes the job, not by whether it sounds smart.
 
-Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
-
-## Boundary
-
-It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
-
-## How it is used
-
-Chatbot Theatre is used when the conversational front end creates the impression of a capable assistant but the downstream workflow cannot actually complete the task. It is a precise complaint about interface-led overstatement.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical category, and it is not the same as any chatbot. A simple chat tool can still be useful if it really helps people finish tasks.

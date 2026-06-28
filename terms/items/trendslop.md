@@ -1,32 +1,23 @@
 ---
 slug: trendslop
-name: Trendslop
-category: Slang
 title: Trendslop
-aliases: null
-short_description: Trendslop is a label for AI content assembled to match current
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+category: Slang
+short_description: A slang term for AI-generated output that chases buzzwords or trends
+  instead of giving useful, well-checked advice.
+aliases: []
+status: Informal slang
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Trendslop is a slang word for AI output that sounds current and clever but is shallow, repetitive, or not properly thought through.
 
-Informal slang.
+In practice, it means the AI has copied the shape of popular ideas, buzzwords, or trends instead of giving advice that fits the actual problem. The result can look polished while still being weak, vague, or misleading.
 
-## Meaning
+The term matters because not all AI output is useful just because it is fluent. People use it to warn that the content may be chasing attention rather than helping someone make a good decision.
 
-Informal pejorative for low-value, insufficiently reviewed AI-generated material.
-
-## Boundary
-
-It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
-
-## How it is used
-
-Trendslop is used when content is built to chase the current trend cycle instead of solving a real problem or holding up over time. It is a critique of opportunism dressed up as relevance.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical label or a score you can measure directly. It is also not the same as saying all AI output is bad. Good AI output is clear, specific, and checked against the real task; trendslop is the opposite of that.

@@ -1,32 +1,24 @@
 ---
 slug: ai-sprawl
 name: AI Sprawl
-category: Slang
 title: AI Sprawl
-aliases: null
-short_description: AI Sprawl is a label for AI tools and pilots multiplying faster
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+category: Slang
+short_description: A messy situation where too many AI tools, pilots, or agents are
+  created without shared control.
+aliases: []
+status: informal
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI sprawl is what happens when too many AI tools, pilots, or agents appear across a company without one clear way to manage them.
 
-Informal slang.
+In practice, it means different teams may buy or build their own AI tools, connect them to different data, and use them in different ways. That can make costs rise, create overlap, and make it harder to know which tools are safe, useful, or still needed.
 
-## Meaning
+The term matters because AI systems can spread quickly. If no one keeps track, a company can end up with many similar tools, confused users, uneven rules, and weak security checks.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-AI Sprawl is used when AI tools, pilots, and copilots spread across teams without a common operating model. It usually points to duplicated spend, inconsistent [[Guardrails|guardrails]], and no clear path from experiments to standardised use.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+AI sprawl is not a formal technical standard. It is a shorthand label for a management problem. It is also not the same as having a lot of AI use in general. A company can use many AI tools safely if it has clear rules, ownership, and review.

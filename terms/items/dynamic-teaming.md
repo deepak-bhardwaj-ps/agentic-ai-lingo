@@ -1,32 +1,24 @@
 ---
 slug: dynamic-teaming
-name: Dynamic Teaming
-category: Runtime
 title: Dynamic Teaming
-aliases: null
-short_description: Dynamic Teaming is runtime allocation of work to the most suitable
-termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: Dynamic teaming is a loose term for forming and changing teams
+  at runtime instead of relying on fixed groups.
+category: Runtime
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Dynamic teaming is a loose term for changing who works on a task while the work is happening.
 
-Emerging practitioner shorthand.
+In practice, it means a system does not rely on one fixed team or one fixed queue. It can find the best helper for the job, pass work to that helper, and move the work again if the first choice is busy, unavailable, or not the best fit.
 
-## Meaning
+This matters because some problems are hard to plan in advance. When the right helper depends on what happens next, a flexible setup can work better than a rigid one.
 
-Dynamic Teaming is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
-
-## Boundary
-
-Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
-
-## How it is used
-
-Dynamic Teaming is used when work is assigned at runtime rather than by a fixed org chart or static queue. The important design question is how the system chooses, reassigns, and recovers when a team member is unavailable or inappropriate for the task.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal standard term. People may use it to mean team switching, task routing, [[Agentic Multi-Agent Architecture|agent orchestration]], or dynamic task a[[Context Collapse|l]]location. If you use the phrase, be clear about the exact mechanism.

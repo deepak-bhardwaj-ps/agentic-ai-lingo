@@ -1,32 +1,24 @@
 ---
 slug: promptmaxxing
-name: Promptmaxxing
-category: Slang
 title: Promptmaxxing
-aliases: null
-short_description: Promptmaxxing is a slang term for extreme prompt tuning, usually
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+category: Slang
+short_description: Slang for pushing prompt writing, formatting, and instruction detail
+  as far as possible to squeeze out small gains from a model.
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Promptmaxxing is slang for pushing prompt writing as far as possible to get slightly better results from an AI model.
 
-Informal slang.
+In practice, it means someone keeps adding more detail, formatting, examples, or instructions to a prompt and keeps testing the output. The goal is usually to squeeze out small improvements, even when the gains are getting tiny.
 
-## Meaning
+It matters because it describes a real habit people have when working with AI tools. Sometimes careful prompt writing helps. But after a point, the extra effort gives very little benefit.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Promptmaxxing is used in enthusiast circles when people push prompt design, formatting, or instruction layering as far as it will go in search of small gains. The term often implies a mix of experimentation, identity, and diminishing returns.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical term. It is not the same as proper prompt engineering, which is a clearer and more useful way to say the same general idea. It also does not mean the model itself has been improved.

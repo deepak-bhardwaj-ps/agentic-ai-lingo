@@ -1,33 +1,23 @@
 ---
-slug: memory-governance
-name: Memory Governance
-category: Memory
-addedDate: May 8, 2025
 title: Memory Governance
-aliases: null
-short_description: Memory Governance is policy for who can read, write, retain, or
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: Rules for who can store, read, change, keep, and delete an agent's
+  memory.
+category: Memory
+tags: []
+status: active
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory governance is the set of rules for who can use an agent's memory, what can be stored there, how long it stays, and when it must be changed or deleted.
 
-Implementation pattern.
+In practice, it decides things like who may write a new memory, who may read old memories, whether a memory can be edited, and when stale or wrong memories should be removed.
 
-## Meaning
+It matters because an agent's memory can improve continuity, but it can also spread mistakes, leak private information, or keep facts for too long if nobody controls it.
 
-Memory Governance concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Governance is used when teams need rules for who may read, write, retain, or delete [[Agent Memory|agent memory]]. It is the control layer that keeps memory from becoming a liability.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as training the model. It is also not just the memory content itself. It is the rule set around the memory: access, retention, correction, provenance, and deletion.

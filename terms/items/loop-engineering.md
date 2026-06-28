@@ -1,32 +1,24 @@
 ---
 slug: loop-engineering
-name: Loop Engineering
-category: Runtime
 title: Loop Engineering
-aliases: null
-short_description: Loop Engineering is the practice of designing repeated plan-act-observe
-termStatus: Architecture/implementation term
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: Designing the repeated decide, act, and check cycle an agent uses
+  to make progress.
+category: Runtime
+tags: []
+status: active
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Loop engineering is the work of designing the repeated decide, act, and check cycle that lets an agent make progress step by step.
 
-Architecture/implementation term.
+In practice, it means choosing what the agent should do next, giving it a tool or action to use, checking the result, and then deciding whether to stop, try again, or change direction.
 
-## Meaning
+It matters because many useful agents do not finish a task in one turn. They have to keep working across several steps, but that loop needs clear limits, or the agent can waste time, cost too much, or get stuck.
 
-Loop engineering is the design of the repetitive plan-act-observe cycle that lets an agent make progress over multiple steps.
-
-## Boundary
-
-It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
-
-## How it is used
-
-Loop Engineering is used when the repeated plan-act-observe cycle itself has to be designed and controlled. It becomes a production concern once stop conditions, iteration limits, and spend limits matter.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal standard, and it is not the same as the model itself. It is also not just "keep looping". Good loop engineering needs clear stop rules, error handling, and a sensible way to remember what has already happened.

@@ -1,36 +1,23 @@
 ---
-slug: agentic-trust
-name: Agentic Trust
-category: Core
 title: Agentic Trust
-aliases: null
-short_description: Agentic trust names the confidence threshold for letting an
-termStatus: Emerging marketing/governance label
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://www.nist.gov/itl/ai-risk-management-framework
+short_description: How much freedom an AI agent should get before a person needs to
+  check its actions.
+category: Core
+tags: []
+status: active
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic trust is how much freedom you give an AI agent to act on its own before a person checks it.
 
-Emerging marketing/governance label.
+In practice, it means deciding whether the agent can do a task alone or whether it must ask first. A low-risk task, like sorting messages, may allow more freedom. A high-risk task, like moving money, changing code, or editing shared settings, needs tighter limits and human approval.
 
-## Meaning
+This matters because an agent does more than answer questions. It can take actions. So trust is not just a feeling. It is a safety decision about permissions, monitoring, and stopping the agent if something goes wrong.
 
-Agentic trust is a broad label for the conditions under which people and organisations will allow an agent to act: competence, predictable constraints, security, traceability, and recourse. The phrase is useful only when it points to a real control decision.
-
-## Boundary
-
-It is not a measurable primitive or a control framework. Make each trust claim testable against a specific risk and control.
-
-## How it is used
-
-Use it when deciding how much autonomy a system should receive and what evidence is enough to justify it. It is not a sentiment score: it has to be grounded in permissions, failure modes, monitoring, and the cost of being wrong.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the governance backdrop for assessing when a system is safe enough to act.
-
-[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) is the broader risk-management frame behind that question.
-
-The label is useful only if the trust claim can be tied to concrete controls, failure modes, and recourse.
+Agentic trust is not the same as liking the system. It is not a general score that says an AI is “good” or “bad”. It is not a promise that the agent will always make the right choice.

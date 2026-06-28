@@ -1,36 +1,24 @@
 ---
 slug: agent-memory
-name: Agent Memory
-category: Memory
 title: Agent Memory
-aliases: null
-short_description: A memory layer stores governed state so an agent can reuse
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT, provenance-focused memory research
-sources:
-- https://arxiv.org/abs/2603.02473
+short_description: Information kept outside the model so an agent can remember useful
+  facts, preferences, and past steps across turns or sessions.
+category: Memory
+tags: []
+status: active
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agent memory is information kept outside the model so an agent can remember useful things later.
 
-Implementation pattern.
+In practice, it is a separate place where the system saves selected facts, preferences, instructions, or past steps. When the agent needs them again, the system looks up the useful parts and gives them back to the model.
 
-## Meaning
+This matters because a model can only read a limited amount of text at once. Memory helps an agent stay consistent across turns and sessions, and reduces the chance that it forgets important details.
 
-A memory layer is externally managed state that helps an agent retain task context, facts, preferences, or past experiences across model calls or sessions.
-
-## Boundary
-
-It is not persistent model learning. Memory writes and retrieval must be scoped, attributable, correctable, and access-controlled.
-
-## How it is used
-
-It is used when an agent must carry facts, preferences, or past work between turns. Teams still need to define record type, write trigger, provenance, retrieval rule, retention period, and correction route.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) is the baseline reference for separating an agent’s working context from longer-lived memory.
-
-[Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation](https://arxiv.org/abs/2605.25869) shows why memory has to preserve source and claim structure, not just raw text.
-
-[Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473) highlights that retrieval quality can dominate write-time sophistication in real systems.
+Agent memory is not the model secretly learning forever. It is also not a full copy of every message. Good memory is selective, has a purpose, and can be updated or removed when it is wrong.

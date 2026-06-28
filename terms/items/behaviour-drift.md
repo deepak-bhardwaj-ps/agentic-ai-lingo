@@ -1,32 +1,23 @@
 ---
-slug: behaviour-drift
-name: Behaviour Drift
-category: Governance
 title: Behaviour Drift
-aliases: null
-short_description: Behaviour Drift is used in risk reviews for a gradual divergence
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: Behaviour Drift is a label for an agent gradually changing how
+  it behaves compared with the behaviour people expected.
+category: Governance
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Behaviour Drift is when an AI agent slowly starts acting differently from what people expected.
 
-Governance/security concept.
+In practice, this means the agent may become less consistent, follow the task less well, or begin using tools in a different way after many steps, retries, or conversations.
 
-## Meaning
+It matters because small changes can build up. An agent that looks fine at first can later make worse decisions, break rules, or need more human correction.
 
-Behaviour Drift concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Behaviour Drift is used in risk reviews for a gradual divergence from a stated goal, policy or expected behaviour. It requires a baseline, monitoring signal, tolerance and named intervention owner.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a one-off mistake. It is also not a fixed technical standard. The phrase is used to describe a pattern of gradual change, especially in risk reviews and evaluation work.

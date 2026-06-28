@@ -1,32 +1,23 @@
 ---
-slug: memory-hallucination
-name: Memory Hallucination
-category: Memory
 title: Memory Hallucination
-aliases: null
-short_description: Memory Hallucination is false, irrelevant, malicious, or misretrieved
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: A memory failure where an agent stores, recalls, or uses the wrong
+  information.
+category: Memory
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory hallucination is when an AI agent gets the wrong memory and then acts on it.
 
-Implementation pattern.
+It can happen when the agent stores something false, pulls back the wrong detail, or uses an old fact that no longer fits. In practice, that means the agent may remember the wrong name, repeat an outdated instruction, or make a decision based on a memory that should have been removed.
 
-## Meaning
+This matters because memory is supposed to help an agent stay consistent over time. If the memory is wrong, the agent can stay confidently wrong for longer than if it had no memory at all.
 
-Memory Hallucination concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Hallucination is used when stored agent state is false, irrelevant, malicious or incorrectly retrieved and then affects a later decision. Teams investigate source provenance, write controls, retrieval ranking and correction or deletion paths.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a normal hallucination, where the model makes up an answer in the moment. It is also not a fixed technical standard. People use the term loosely, so it should be defined clearly in each project.

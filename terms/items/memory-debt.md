@@ -1,32 +1,25 @@
 ---
 slug: memory-debt
 name: Memory Debt
-category: Memory
 title: Memory Debt
-aliases: null
-short_description: Memory Debt is used for accumulated shortcuts in storage, retrieval
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: A phrase for the growing mess that builds up when an agent’s memory
+  is not cleaned, checked, or updated properly.
+category: Memory
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory debt is the pile-up of bad or messy memory in an AI agent when old facts are not cleaned up, checked, or replaced.
 
-Implementation pattern.
+In practice, it means the agent may keep stale details, repeat itself, forget important changes, or store too much useless information. Over time, that makes the agent slower, less reliable, and harder to fix.
 
-## Meaning
+This matters because an agent that remembers badly can give wrong answers even when the language model itself is fine. The problem is not just how much it remembers, but whether the memory is organised, current, and trustworthy.
 
-Memory Debt concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Debt is used for accumulated shortcuts in storage, retrieval and summarisation that make an agent’s state unreliable or expensive to change. It should be tracked through concrete defects such as stale records, missing provenance or uncontrolled growth.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical standard. People use it as a shorthand for memory problems in agent systems, especially when stored context grows messy over time. It is also not the same as model training or general software debt, even though the idea is related.

@@ -3,32 +3,22 @@ slug: agentic-delivery
 name: Agentic Delivery
 category: Core
 title: Agentic Delivery
-aliases: null
-short_description: Agentic delivery names the operational work of turning intent
-termStatus: Emerging consultancy label
-researchBasis: Anthropic, NIST AI RMF
-sources:
-- https://www.nist.gov/itl/ai-risk-management-framework
+short_description: A loosely used term for getting work done with AI agents that can
+  take steps, use tools, and hand control back to a person when needed.
+aliases: []
+status: emerging
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic delivery means getting work done with AI agents that can take actions, not just chat.
 
-Emerging consultancy label.
+In practice, the agent may help plan the work, write drafts, run tools, or move a task forward step by step. A person still checks the important parts, especially when the work could affect money, safety, privacy, or quality.
 
-## Meaning
+The term matters because it describes a different way of working. Instead of asking an AI for a single answer, you let it help carry out a task. That can save time, but only if there are clear limits, review points, and someone responsible for the result.
 
-Agentic delivery is a loose label for using agents to execute parts of a delivery process such as discovery, implementation, testing, or operations. It is most useful when someone cares about how work actually gets finished, not whether the system can produce a plan.
-
-## Boundary
-
-It is not a defined operating model. Specify the workflow, accountable human, assurance gates, and business outcome instead.
-
-## How it is used
-
-Use it when the emphasis is on getting work to completion rather than merely generating a plan or suggestion. It fits systems that have to coordinate people, tools, retries, and verification to finish a job.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) is the best reference for the practical mechanics: tool use, checkpoints, and handoffs around a task.
-
-[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) supplies the governance angle: delivery only matters if the work is measurable, accountable, and controlled.
+It is not a formal standard. It is not the same as a chatbot. It is not just ordinary automation either. If a system cannot act, stop for review, or hand work back to a person, then calling it agentic delivery is probably overstating it.

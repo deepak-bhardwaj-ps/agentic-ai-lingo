@@ -1,32 +1,79 @@
 ---
 slug: vibe-coding
-name: Vibe Coding
-category: Slang
 title: Vibe Coding
-aliases: null
-short_description: Vibe Coding is Andrej Karpathy’s label for steering coding by natural
-termStatus: Informal slang
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+category: Slang
+short_description: Vibe coding means using natural language to steer an AI coding
+  tool, often with little line-by-line writing by the person.
+tags:
+- ai
+- coding
+- slang
+- software-development
+status: active
+aliases:
+- vibecoding
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse:
+- Treating it as a formal engineering method
+- Assuming review and testing are optional
+- Using it to mean any AI help with code
+related_terms:
+- prompt engineering
+- AI-assisted coding
+- coding agent
+- pair programming
+evidence:
+- source_title: Andrej Karpathy on X, "There's a new kind of coding I call 'vibe coding'"
+  source_url: https://x.com/karpathy/status/1886192184808149383
+  source_type: industry_article
+  relevance: Original coined usage from Andrej Karpathy.
+  key_point: Karpathy introduced the phrase as a casual label for coding by telling
+    an AI what you want and then steering by feel rather than by manual line-by-line
+    writing.
+- source_title: Merriam-Webster, "VIBE CODING"
+  source_url: https://www.merriam-webster.com/slang/vibe-coding
+  source_type: standards_doc
+  relevance: Shows that the term is now recognised as slang with a widely understood
+    meaning.
+  key_point: Merriam-Webster defines it as using an AI programme to make code from
+    plain-language instructions, with the person often accepting some bugs and glitches.
+- source_title: Collins Dictionary, "vibe coding"
+  source_url: https://www.collinsdictionary.com/us/dictionary/english/vibe-coding
+  source_type: standards_doc
+  relevance: Confirms the phrase has entered mainstream language.
+  key_point: Collins defines it as writing programs by using natural-language prompts
+    to get generative AI to output code.
+- source_title: Anthropic, "Building Effective AI Agents"
+  source_url: https://www.anthropic.com/research/building-effective-agents
+  source_type: official_docs
+  relevance: Helps explain why this style works in coding, and why it still needs
+    checks.
+  key_point: Anthropic notes that code is suited to AI agents because results can
+    be tested and improved using feedback from those tests.
 ---
-
-## Term status
-
-Informal slang.
 
 ## Meaning
 
-Vibe coding is Andrej Karpathy's informal label for directing an AI coding assistant in natural language while accepting generated code with limited direct inspection.
+Vibe coding means asking an AI coding tool to build or change software in plain language, then guiding it by trying things out instead of writing every line yourself.
 
-## Boundary
+## In practice
 
-It is not an engineering methodology and is unsuitable as a production assurance claim. The risk is unreviewed behaviour and accumulated maintenance debt.
+A person might say, "make me a simple to-do app with login and a dark theme", let the AI write most of the code, and then ask for changes until it looks right.
 
-## How it is used
+The person is still choosing the goal, but the AI is doing much of the writing.
 
-Vibe coding is used when someone lets an AI assistant generate most of the implementation from loose natural-language direction, then steers mainly by reading and adjusting rather than designing every line. In practice it describes a fast, high-leverage way of coding with real risk if review discipline is weak.
+## Why it matters
 
-## Evidence
+The term matters because it describes a real change in how some software is being made. It can make small projects faster and help beginners build things sooner.
 
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It also has limits. If no one checks the code carefully, mistakes, security problems, and messy design can slip in.
+
+## What it is not
+
+It is not a formal engineering method.
+
+It is not the same as careful AI-assisted coding where a person understands, reviews, and tests the code properly.
+
+It does not mean the AI is magically correct, and it does not remove the need for human judgement.

@@ -1,32 +1,24 @@
 ---
 slug: swarm-scanner
-name: Swarm Scanner
-category: Social
 title: Swarm Scanner
-aliases: null
-short_description: Swarm Scanner is a tool or process for detecting coordinated bot
-termStatus: Descriptive/social label
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A nonstandard label for a tool or process that looks for many accounts
+  acting together, often to detect bots or coordinated manipulation.
+category: Social
+tags: []
+status: draft
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Swarm Scanner is not a formal technical term. It is a loose label for a tool or process that looks for many accounts behaving together online, often to find bots, fake accounts, or coordinated manipulation.
 
-Descriptive/social label.
+In practice, a swarm scanner checks for patterns such as many accounts posting the same message, acting at the same time, or linking back to the same source. It tries to spot when activity looks organised rather than natural.
 
-## Meaning
+This matters because large groups of coordinated accounts can distort what people see online. They can make a false idea look popular, push spam, or hide real discussion.
 
-Swarm Scanner describes coordinated automated accounts or the social effects attributed to them.
-
-## Boundary
-
-It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy and evidence of real-world impact.
-
-## How it is used
-
-Swarm Scanner is used when the task is to detect, classify, or investigate coordinated automation at scale. It should produce a defensible signal, not just a score or a hunch.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as ordinary automation, and it is not proof that an account is fake by itself. Real people can also coordinate for normal reasons, such as a campaign, a fan group, or an emergency response. A useful scanner should raise a signal for review, not claim certainty on its own.

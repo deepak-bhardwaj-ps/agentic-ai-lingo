@@ -1,32 +1,25 @@
 ---
 slug: hierarchical-agent-architecture
 name: Hierarchical Agent Architecture
-category: Runtime
 title: Hierarchical Agent Architecture
-aliases: null
-short_description: Hierarchical Agent Architecture is a multi-level system with supervisors,
-termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A way of organising agents into layers, where higher-level agents
+  break work down, assign tasks, and check results from lower-level agents.
+category: Runtime
+tags: []
+status: Emerging practitioner shorthand
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A hierarchical agent architecture is a way of organising multiple AI agents so that one higher-level agent directs one or more lower-level agents.
 
-Emerging practitioner shorthand.
+In practice, the higher-level agent splits a job into smaller parts, gives those parts to specialist agents, and checks or combines their answers. For example, one agent might plan the work, others might gather facts or write drafts, and the top agent decides whether the result is good enough.
 
-## Meaning
+This matters because some tasks are too big or too messy for one agent to do well on its own. A hierarchy can make the system easier to manage, easier to debug, and better at handling specialist work.
 
-A hierarchical agent architecture uses supervisors, delegates, and lower-level workers across multiple layers of control.
-
-## Boundary
-
-It is not a standard term unless a specific product or protocol defines it. State the concrete responsibilities, interfaces and ownership.
-
-## How it is used
-
-Hierarchical Agent Architecture is used when one agent allocates, supervises, or verifies the work of others. It is the right term when control and delegation are layered rather than flat.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as just having many agents. If the agents work as equals, that is a different design. It is also not a formal universal standard name; people often use it as shorthand for supervisor-worker or orchestrator-worker setups.

@@ -1,32 +1,24 @@
 ---
 slug: productivity-cosplay
-name: Productivity Cosplay
-category: Slang
 title: Productivity Cosplay
-aliases: null
-short_description: Productivity Cosplay is a label for appearing efficient with AI
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A slang term for looking productive without producing much real
+  value.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Productivity Cosplay means acting busy or advanced without creating much real value.
 
-Informal slang.
+In practice, it is when someone uses AI tools, meetings, dashboards, or polished language to look efficient, while the actual work does not improve much. The outside may look impressive, but the important results stay the same.
 
-## Meaning
+The term matters because people can mistake visibility for usefulness. A team can show lots of AI activity, but if work is not faster, better, cheaper, or safer, then the effort is mostly theatre.
 
-Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
-
-## Boundary
-
-It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
-
-## How it is used
-
-Productivity Cosplay is used when AI use is performed for the appearance of speed, modernity, or hustle rather than for measurable operational gain. The term usually points to theatre, status signalling, or slide-friendly activity with little real throughput impact.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal metric. It is also not the same as real productivity improvement. Real improvement shows up in completed tasks, better quality, lower effort, or clearer ownership.

@@ -1,33 +1,24 @@
 ---
 slug: memory-federation
-name: Memory Federation
-category: Memory
 title: Memory Federation
-aliases: null
-short_description: Memory Federation is separate memory stores exposed through a common
-updated_at: '2026-06-22T20:54:07.871658+00:00'
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+category: Memory
+short_description: A way of linking several memory stores so an agent can look across
+  them through one shared interface.
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory federation is a way of connecting several memory stores so an agent can use them through one shared layer.
 
-Implementation pattern.
+In practice, this means one agent may have to check more than one place for useful memory. One store might hold short-term chat context, another might hold long-term user preferences, and another might hold project notes or team knowledge. The federation layer decides where to look, what to trust, and what to pass back to the agent.
 
-## Meaning
+This matters because real agents often need memory from different places, owned by different systems. Without federation, the agent can miss important facts, repeat questions, or use stale information.
 
-Memory Federation concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Federation is used when several systems retain their own agent-related state but expose it through a common access pattern. The design must resolve identity, authority, conflict handling, freshness and deletion across stores.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a single standard product or a fixed memory type. It is also not the same as training the model, and it does not automatically solve conflicts between sources. If two stores disagree, the system still needs rules for which one wins.

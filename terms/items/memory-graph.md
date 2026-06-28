@@ -3,30 +3,25 @@ slug: memory-graph
 name: Memory Graph
 category: Memory
 title: Memory Graph
-aliases: null
-short_description: Memory Graph is used where entities, facts and relationships need
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+aliases: []
+short_description: A memory graph stores facts, people, events, and links between
+  them so an AI agent can find related information more easily.
+status: active
+tags: []
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A memory graph is a way of storing information as points and links.
 
-Implementation pattern.
+The points can be things like people, places, events, facts, or decisions. The links show how they are related. An AI agent can then follow those links to find useful information that belongs together.
 
-## Meaning
+In practice, a memory graph helps an agent remember across many chats or tasks. For example, if it learns that a user likes football, that fact can be linked to the user, to past conversations, and to related topics. Later, the agent can find that memory even if the new question does not use the exact same words.
 
-Memory Graph means representing the relevant entities and relationships as a graph so an agent can query or traverse them.
+This matters because AI systems have a limited amount of space to think at once. A memory graph can help them store older information in a more organised way than a flat list of notes.
 
-## Boundary
-
-A graph representation does not itself provide truth, provenance, permissions or reasoning. Define the schema and update authority.
-
-## How it is used
-
-Memory Graph is used where entities, facts and relationships need traversable structure rather than flat retrieved chunks. It needs a defined schema, source authority and update process; a graph alone does not make memory reliable.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+A memory graph is not magic. It does not make the information true, fair, or complete. It also does not replace careful rules about what gets saved, who can change it, or how old facts are updated.

@@ -1,32 +1,24 @@
 ---
 slug: data-mesh
-name: Data Mesh
-category: Context
 title: Data Mesh
-aliases: null
-short_description: Data Mesh is a decentralised data architecture based on domain-owned
-termStatus: Established data-architecture term
-researchBasis: Dehghani, Data Mesh principles
-sources:
-- https://martinfowler.com/articles/data-mesh-principles.html
+short_description: A data architecture that gives business teams ownership of their
+  own data products instead of putting everything in one central data team.
+category: Data architecture
+tags: []
+status: established
+aliases: []
+meaning_type: rebranded_old_idea
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Data mesh is a way of organising data so that the teams closest to the data own it and manage it as a product.
 
-Established data-architecture term.
+In practice, this means a sales team, finance team, or logistics team is responsible for the data it creates and uses, instead of sending everything to one central data team. A shared platform and common rules help those teams publish data that other people can find, trust, and use.
 
-## Meaning
+It matters because large companies often get stuck when one central team has to do all the data work. Data mesh tries to remove that bottleneck and make data easier to share across the business.
 
-Data mesh is a decentralised data architecture organised around domain-owned data products, self-serve platform capabilities, federated governance and interoperability.
-
-## Boundary
-
-It predates [[Agentic AI|agentic AI]]. Agents may consume governed data products, but data mesh is not an agent communication architecture.
-
-## How it is used
-
-Data Mesh is used when teams want domain-owned, interoperable data products rather than one central data lake team. It matters for agents because it changes how authoritative data is published, discovered, and governed.
-
-## Evidence
-
-[Dehghani, Data Mesh principles](https://martinfowler.com/articles/data-mesh-principles.html) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a single database, a dashboard tool, or a replacement for good data governance. It is also not the same thing as a service mesh. It is a design approach for people, processes, and data systems.

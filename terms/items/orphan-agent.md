@@ -3,30 +3,23 @@ slug: orphan-agent
 name: Orphan Agent
 category: AgentOps
 title: Orphan Agent
-aliases: null
-short_description: Orphan Agent is an agent that exists without a clear owner, support
-termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://platform.openai.com/docs/guides/evals
+aliases: []
+short_description: An orphan agent is an agent with no clear owner for its behaviour,
+  upkeep, or retirement.
+tags: []
+status: draft
+meaning_type: emerging_unsettled
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An orphan agent is an agent that does not have a clear owner.
 
-Operational metric/practice.
+In practice, this means nobody is clearly responsible for its behaviour, updates, monitoring, cost, or retirement. If something goes wrong, no team is obviously accountable for fixing it.
 
-## Meaning
+This matters because agents can keep running, keep spending money, or keep making decisions even when the original team has moved on. That makes problems harder to spot and slower to fix.
 
-Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement.
-
-## Boundary
-
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
-
-## How it is used
-
-Orphan Agent is used when no team clearly owns the agent’s behaviour, upkeep, or retirement. It is a governance smell because failures, changes, and costs become nobody’s problem.
-
-## Evidence
-
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal standard term. It is a useful shorthand for a governance problem: the agent exists, but its ownership does not.

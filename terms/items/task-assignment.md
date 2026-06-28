@@ -1,32 +1,23 @@
 ---
-slug: task-assignment
-name: Task Assignment
-category: Runtime
 title: Task Assignment
-aliases: null
-short_description: Task Assignment is the mechanism that allocates work to agents
-termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: Task Assignment means deciding which agent or worker should do
+  which piece of work.
+category: Runtime
+tags: []
+status: Emerging practitioner shorthand
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Task assignment means deciding which agent or worker should do which piece of work.
 
-Emerging practitioner shorthand.
+In practice, it is the part of a system that matches a job to a suitable agent, then decides what happens if that agent cannot finish it. The choice can be simple, like giving every request to the next available worker, or more careful, like sending different kinds of work to different specialist agents.
 
-## Meaning
+This matters because good assignment can make a system faster, cheaper, and more reliable. Bad assignment can waste time, overload one agent, or send work to the wrong place.
 
-Task assignment is the mechanism that allocates work to agents or workers.
-
-## Boundary
-
-Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
-
-## How it is used
-
-Task Assignment is used when the system has to decide who should do a piece of work and on what basis. The important details are the assignment rule, the fallback path, and how reassignment is handled if the first choice fails.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a magical feature on its own. It is a design choice inside a larger system, usually called orchestration, delegation, routing, or task allocation. The exact rule for assignment matters more than the label.

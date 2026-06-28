@@ -3,36 +3,74 @@ slug: agent-estate
 name: Agent Estate
 category: AgentOps
 title: Agent Estate
-aliases: null
-short_description: Agent Estate is the collection of agents, workflows, and controls
-termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://openai.com/business/frontier/
+aliases:
+- agent fleet
+short_description: The full live set of AI agents an organisation runs, plus the people,
+  rules, tools, permissions, and controls around them.
+status: active
+tags:
+- agentops
+- governance
+- inventory
+- lifecycle
+- risk
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse:
+- Treating it as just a count of agents.
+- Treating it as a static spreadsheet instead of a live operational view.
+- Mixing it up with an agent portfolio, which is about funding and strategy rather
+  than day-to-day control.
+related_terms:
+- Agent Inventory
+- Agent Registry
+- Agent Portfolio
+- Agent Lifecycle Management
+- Agent Ownership Model
+- Agent Sprawl
+- Control Plane
+evidence:
+- source_title: Manage agent registry in Microsoft 365 admin center
+  source_url: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide
+  source_type: official_docs
+  relevance: Shows that organisations need a central inventory for viewing and governing
+    agents.
+  key_point: Microsoft describes an agent registry as a central place to monitor,
+    manage, and govern agents across the organisation.
+- source_title: Governance and Lifecycle actions for agents available in Microsoft
+    365 admin center
+  source_url: https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide
+  source_type: official_docs
+  relevance: Shows that agent management includes visibility, access, distribution,
+    and retirement.
+  key_point: Microsoft frames agent governance as lifecycle management, not just listing
+    agents.
+- source_title: Overview of Microsoft Agent 365
+  source_url: https://learn.microsoft.com/en-us/microsoft-agent-365/overview
+  source_type: official_docs
+  relevance: Shows the shift towards a single operational view of all agents.
+  key_point: Microsoft says admins can view all agents in one central registry with
+    adoption, activity, and health signals.
+- source_title: Introducing OpenAI Frontier
+  source_url: https://openai.com/index/introducing-openai-frontier/
+  source_type: official_docs
+  relevance: Shows enterprise agent platforms are built around shared context, permissions,
+    and boundaries.
+  key_point: OpenAI describes a platform for building, deploying, and managing agents
+    with clear permissions and boundaries.
+- source_title: Agent Identity overview
+  source_url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/agent-identity-overview
+  source_type: official_docs
+  relevance: Shows that agents need their own identity and access controls.
+  key_point: Google says the agent itself can be the principal, with permissions granted
+    directly to that identity.
 ---
 
-## Term status
+An agent estate is the full live set of AI agents an organisation runs, plus the rules and controls around them.
 
-Operational metric/practice.
+In practice, that includes the agents themselves, their instructions, tools, permissions, identities, owners, data access, and retirement rules. It is not just a list. It is a working view of what exists and what each agent is allowed to do.
 
-## Meaning
+This matters because agents can act on behalf of people. They may read data, call systems, or change records. If an organisation does not keep track of them properly, it can lose control, create duplicates, or leave old agents active when they should have been removed.
 
-Agent estate describes the organisation-wide operational footprint of deployed agents and the dependencies that make them real systems: prompts, models, tools, identities, data connections, evaluations, policies, run histories, and accountable owners. It becomes the right lens when isolated pilots turn into a managed population with shared risk and cost.
-
-The phrase is borrowed from enterprise IT “application estate” language. It is useful operational shorthand, not a standardised inventory model.
-
-## Common misconceptions
-
-An estate is not an agent count. Ten low-permission assistants with one approved connector present a different operating problem from ten agents that can change customer records. Inventory must capture purpose, owner, publisher, identity, permissions, data classes, lifecycle state, and actual usage.
-
-It is also broader than a portfolio of business cases. An [[Agent Portfolio|agent portfolio]] helps decide where to invest; the estate includes the technical and governance assets needed to operate whatever has been approved.
-
-## How it is used
-
-An estate review should expose orphaned agents, duplicated connectors, owners who have left, dormant but still privileged workloads, untested prompt versions, and concentration around a shared model or system of record. Microsoft’s [[Agent Registry|agent registry]] illustrates the practical core: centralised discovery, governance, lifecycle actions, and ownership assignment.
-
-Maintain an estate register as a controlled configuration record rather than a spreadsheet for quarterly reporting. Join it to deployment pipelines, identity governance, spend data, incident records, evaluations, and retirement workflows so it can answer: what agents exist, who is responsible, what can they do, and should they still run?
-
-## Evidence
-
-“Agent estate” itself has no canonical specification. [Microsoft’s agent lifecycle actions](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions) and [agent registry](https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/agent-registry-convergence) show the inventory and control requirements in practice; [OpenAI Frontier](https://openai.com/business/frontier/) supplies a current enterprise operating-platform example.
+An agent estate is not the same as an [[Agent Portfolio|agent portfolio]]. A portfolio is about which agents to fund, build, or keep. An estate is about controlling the agents that already exist.

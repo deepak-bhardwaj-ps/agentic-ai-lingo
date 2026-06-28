@@ -1,32 +1,24 @@
 ---
 slug: continuous-validation
-name: Continuous Validation
-category: AgentOps
 title: Continuous Validation
-aliases: null
-short_description: Continuous Validation is ongoing checking that an agent system
-termStatus: Operational metric/practice
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://platform.openai.com/docs/guides/evals
+short_description: Ongoing checks that an agent or AI system still behaves the way
+  it should.
+category: AgentOps
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Continuous validation means checking again and again that an AI system still behaves as expected after it has been built or launched.
 
-Operational metric/practice.
+In practice, it means running tests, watching real-world behaviour, and comparing results over time. If the system starts making worse choices, ignores instructions, or fails on new cases, the checks should catch that early.
 
-## Meaning
+This matters because AI systems can change in behaviour when the model, prompts, tools, data, or surroundings change. Regular checks help teams notice problems before users do.
 
-Continuous validation is ongoing checking that an agent system still behaves within the expected envelope.
-
-## Boundary
-
-It is not a canonical KPI or discipline. Define the event boundary, numerator and denominator, threshold, owner and operational decision it informs.
-
-## How it is used
-
-Continuous Validation is used when checks run repeatedly over time rather than only at release. It matters for catching drift, regressions, and environmental changes before they become customer-visible failures.
-
-## Evidence
-
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a single fixed rule, official KPI, or universal industry standard. People often use the term to mean continuous evaluation, online monitoring, or repeated regression testing.

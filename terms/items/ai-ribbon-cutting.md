@@ -1,32 +1,25 @@
 ---
-slug: ai-ribbon-cutting
-name: AI Ribbon-Cutting
-category: Slang
 title: AI Ribbon-Cutting
-aliases: null
-short_description: AI Ribbon-Cutting is a label for ceremonial AI launches that create
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Slang for an AI launch that looks impressive but does not yet deliver
+  real use or value.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI Ribbon-Cutting is slang for an AI project launch that looks important, but has not yet become real working practice.
 
-Informal slang.
+In practice, it usually means there was a demo, a press release, a pilot, or a big announcement, but the tool is not yet helping people do their normal work every day.
 
-## Meaning
+The term matters because a flashy launch can hide weak results. A project is only useful if it is actually adopted, works reliably, and solves a real problem.
 
-Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
+It is not the same as a finished AI system. It is also not a formal technical term. People use it to criticise showy AI activity that has more ceremony than substance.
 
-## Boundary
-
-It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
-
-## How it is used
-
-AI Ribbon-Cutting is used when a launch event, pilot announcement, or executive demo is more ceremony than production change. It usually signals that the organisation wants the optics of innovation before the delivery side has matured.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+If someone says a company is doing AI ribbon-cutting, they usually mean the company is celebrating the start of AI, not proving that AI is delivering value yet.

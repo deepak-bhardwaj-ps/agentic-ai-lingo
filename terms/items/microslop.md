@@ -1,32 +1,23 @@
 ---
-slug: microslop
-name: Microslop
-category: Slang
 title: Microslop
-aliases: null
-short_description: Microslop is an insider jab at Microsoft-branded software or AI
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A mocking nickname for Microsoft software or AI features that people
+  think are bloated, intrusive, or low quality.
+category: Slang
+tags: []
+status: active
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Microslop is a mocking nickname for Microsoft software or AI features that people think are bloated, intrusive, or badly made.
 
-Informal slang.
+In practice, people use it when Microsoft adds AI in a way that feels forced, noisy, or not very useful. It is usually a complaint about the user experience, not a careful technical judgement.
 
-## Meaning
+The term matters because it shows when people feel a product is getting in the way instead of helping. It is a sign of distrust, especially when a tool looks flashy but does not solve the problem well.
 
-Informal pejorative for low-value, insufficiently reviewed AI-generated material.
-
-## Boundary
-
-It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
-
-## How it is used
-
-Microslop is used as a satirical, often dismissive nickname for Microsoft-branded software or AI output that is seen as noisy, bloated, or weakly integrated. It is colloquial branding criticism, not a neutral technical term.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal quality measure, and it is not the same as saying all Microsoft products are bad. It is also not a neutral word. It is slang, and it is meant to sound sharp.

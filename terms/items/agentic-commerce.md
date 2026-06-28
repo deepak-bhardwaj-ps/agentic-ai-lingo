@@ -1,36 +1,24 @@
 ---
 slug: agentic-commerce
-name: Agentic Commerce
-category: Core
 title: Agentic Commerce
-aliases: null
-short_description: Agentic commerce is commerce in which an agent can compare
-termStatus: Emerging industry label
-researchBasis: OWASP Top 10 for LLM Applications, Anthropic, OpenAI Agents SDK
-sources:
-- https://developers.openai.com/api/docs/guides/agents
+short_description: Buying and selling where an AI agent helps a person discover, choose,
+  order, or pay for goods or services.
+category: Core
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic commerce is buying and selling where an AI agent helps a person find, choose, order, or pay for something.
 
-Emerging industry label.
+In practice, the agent might compare products, fill in forms, start checkout, or send the order to a merchant. The person still sets the rules. That usually means giving the agent permission, spending limits, and a way to review what it did.
 
-## Meaning
+The term matters because shopping is no longer only a human clicking buttons. If an AI agent can act in the buying process, the system needs identity checks, clear records, and safety controls.
 
-Agentic commerce describes shopping, comparison, ordering, and payment flows initiated or completed by an agent for a user or business.
-
-## Boundary
-
-It is not a payments protocol. It requires explicit authority, merchant and user identity, transaction limits, confirmation, receipts, and dispute handling.
-
-## How it is used
-
-It is used when buying, booking, reordering, or negotiating is delegated to a system that can act on the user’s behalf. The hard part is not the shopping flow; it is the authority to spend, the verification of intent, and the audit trail for what was actually agreed.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) frames the security side: delegated actions need explicit controls and auditability.
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) emphasises tool use, checkpoints, and human feedback when autonomy crosses into action.
-
-[OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) reinforces the same operational split between orchestration, state, tools, and [[Guardrails|guardrails]].
+It is not a payment system by itself. It is not the same as a normal chatbot that only talks about products. It also does not mean the agent should be able to buy anything it wants. The term is still new, and different companies use it in slightly different ways.

@@ -3,30 +3,22 @@ slug: dead-internet
 name: Dead Internet
 category: Slang
 title: Dead Internet
-aliases: null
-short_description: Dead Internet is a label for the belief that bots and synthetic
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A label for the belief that much of the internet is now dominated
+  by bots, spam, and machine-made content.
+aliases: []
+status: informal
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Dead Internet is the belief that the web has become so full of bots, spam, filler pages, and machine-made posts that real human activity is hard to find.
 
-Informal slang.
+In practice, people use the term when online spaces feel repetitive, fake, or crowded with automated content. It is usually a complaint or a theory, not a measured fact.
 
-## Meaning
+The term matters because bot traffic, spam, and synthetic content are real problems. They can make search results worse, damage trust, and hide useful human voices.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Dead Internet is used when people argue that the web has become saturated with bots, filler pages, and machine-generated content to the point that human signal is harder to find. The term usually marks a cultural diagnosis, not a measurable platform metric.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical standard, and it is not proof that most of the internet is “dead”. When you need to be precise, name the actual problem instead, such as bots, spam, fake accounts, or synthetic content.

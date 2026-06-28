@@ -1,32 +1,24 @@
 ---
 slug: governed-context
-name: Governed Context
-category: Context
 title: Governed Context
-aliases: null
-short_description: Governed Context is context assembled and delivered under explicit
-termStatus: Emerging practitioner shorthand
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+short_description: Governed context means the information given to an AI agent is
+  chosen, checked, and controlled by rules.
+category: Context
+tags: []
+status: Emerging practitioner shorthand
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Governed context means the information an AI agent sees is chosen and controlled by clear rules.
 
-Emerging practitioner shorthand.
+In practice, that means the system does not just dump random text into the model. It decides what can be included, where it came from, whether the user is allowed to see it, how fresh it is, and whether anything unsafe should be removed first.
 
-## Meaning
+This matters because AI agents can make better answers when they use the right context, but they can also make worse or unsafe decisions if the context is stale, irrelevant, hidden from the wrong person, or secretly trying to mislead them.
 
-Governed Context concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
-
-## Boundary
-
-It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
-
-## How it is used
-
-Governed Context is used when the context surface itself needs policy enforcement: who can see what, which sources are allowed, and what must be redacted or expired. It is a stronger term than generic context management because it implies control, not just assembly.
-
-## Evidence
-
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical standard. It is also not the same as simply giving a model a longer prompt. The key idea is control: the context is managed with rules about quality, access, and trust.

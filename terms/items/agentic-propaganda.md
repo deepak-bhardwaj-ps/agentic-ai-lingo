@@ -1,34 +1,24 @@
 ---
 slug: agentic-propaganda
-name: Agentic Propaganda
-category: Social
 title: Agentic Propaganda
-aliases: null
-short_description: Agentic propaganda is coordinated automated messaging or the
-termStatus: Descriptive/social label
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A loose label for propaganda spread by software that acts on its
+  own or with little human help.
+category: Social
+tags: []
+status: descriptive
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: high
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic propaganda is a loose label for propaganda spread by software agents or automated systems that act with little human help.
 
-Descriptive/social label.
+In practice, it means posts, comments, images, or messages are being made or repeated by software to shape what people think. The important part is not just that a machine was used. The point is that the system is trying to influence opinion, often by repeating the same message many times or by making it look like many different people agree.
 
-## Meaning
+This term matters because online influence campaigns can spread faster than people can check them. That can make false stories look popular, hide who is behind a message, and make it harder to tell what is real.
 
-Agentic propaganda describes coordinated automated accounts or the social effects attributed to them.
-
-## Boundary
-
-It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy, and evidence of real-world impact.
-
-## How it is used
-
-It is used when the concern is coordinated messaging, amplification, or manipulation carried out by automated accounts or agentic systems. It is a social-risk term, so it should be anchored to evidence of coordination and effect.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for separating capability from misuse and for asking for evidence before assigning a risk label.
-
-The label is descriptive, not a technical category. Its job is to focus attention on coordination, amplification, and impact rather than on the model itself.
+It is not a precise technical category. It is not the same as normal automation, such as a customer service bot or a scheduled post. It is also not proven just because AI was used to write something. To use the term well, there should be evidence of coordination, deception, or manipulation.

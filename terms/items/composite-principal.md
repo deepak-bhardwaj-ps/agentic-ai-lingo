@@ -1,32 +1,24 @@
 ---
 slug: composite-principal
-name: Composite Principal
-category: Governance
 title: Composite Principal
-aliases: null
-short_description: Composite Principal is a principal made from multiple identities
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: A composite principal is one acting identity made from more than
+  one identity or delegated role.
+category: Governance
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A composite principal is one acting identity made from more than one identity, role, or delegated permission.
 
-Governance/security concept.
+In practice, it means a system is not just asking “who are you?” It is also asking “who gave you the right to act, and under what limits?” That matters when an agent, service, or person acts on behalf of someone else, or when several identities together create one effective authority.
 
-## Meaning
+This term matters because modern systems often split identity and power across steps. One account may start the action, another may approve it, and a third may actually carry it out. If you cannot trace that chain clearly, you cannot tell who is responsible when something goes wrong.
 
-Composite Principal concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Composite Principal is used when multiple identities or delegated authorities have to act as one principal. In practice, the chain of authority has to stay traceable.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a magic security feature. A composite principal does not become safe just because it has a fancy name. It is also not the same as authentication. Authentication tells you who or what is present. A composite principal is about how authority is combined, delegated, and recorded.

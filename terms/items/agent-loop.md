@@ -1,34 +1,24 @@
 ---
 slug: agent-loop
-name: Agent Loop
-category: Runtime
 title: Agent Loop
-aliases: null
-short_description: A loop repeats planning, acting, and observation updates until
-termStatus: Architecture term
-researchBasis: Yao et al., ReAct, Anthropic
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A repeating cycle where an AI system does something, checks the
+  result, and decides the next step.
+category: Runtime
+tags: []
+status: active
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: maturing
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An agent loop is a repeating cycle where an AI system does a step, checks what happened, and then decides what to do next.
 
-Architecture term.
+In practice, the system may plan, use a tool, read the result, adjust its next move, and repeat this until it reaches a stopping point. The result of one step becomes the input for the next step.
 
-## Meaning
+This matters because many jobs cannot be finished well in one reply. Looking things up, comparing choices, fixing mistakes, and checking work often need several rounds.
 
-A loop repeatedly feeds state to a model, interprets the decision, executes an allowed action, appends the observation, and stops on a success, budget, or policy condition.
-
-## Boundary
-
-It is not necessarily [[ReAct]] and it is not safe by default. It needs explicit loop, cost, and failure limits, otherwise it becomes an uncontrolled retry mechanism.
-
-## How it is used
-
-It is used when a system must repeatedly plan, act, and incorporate observations. In production it needs explicit stop conditions, spend limits, and a way to detect looping.
-
-## Evidence
-
-[Yao et al., ReAct](https://arxiv.org/abs/2210.03629) gives the canonical reasoning-and-acting loop that many agent implementations build on.
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) describes agents as tool-using systems that operate in a loop with checkpoints, stop conditions, and human feedback when needed.
+It is not the same as a normal chat response. It is also not automatically safe or correct. A good agent loop still needs limits, such as when to stop, how much it may do, and what happens if it keeps making the same mistake.

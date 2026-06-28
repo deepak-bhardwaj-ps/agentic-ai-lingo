@@ -1,32 +1,24 @@
 ---
 slug: slopcoding
-name: Slopcoding
-category: Slang
 title: Slopcoding
-aliases: null
-short_description: Slopcoding is a label for code that is generated quickly but has
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A rude term for code that is produced quickly by AI but is messy,
+  weakly checked, or costly to maintain.
+category: Slang
+tags: []
+status: informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Slopcoding is a rude term for code that AI produced quickly but did not produce well.
 
-Informal slang.
+In practice, it usually means code that looks finished at first glance but is messy underneath: weak tests, awkward structure, hidden bugs, or choices that make future changes harder. People use the term when the speed of generation is higher than the quality of checking.
 
-## Meaning
+The term matters because it highlights a real risk. AI can write code very fast, but fast code is not the same as good code. If no one reviews, tests, or understands the result, the project can end up with more work later.
 
-Informal pejorative for low-value, insufficiently reviewed AI-generated material.
-
-## Boundary
-
-It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
-
-## How it is used
-
-Slopcoding is used when generated code ships with obvious structural debt: brittle abstractions, shallow tests, or patterns that will cost more to maintain than to rewrite. It is the coding analogue of [[AI Slop|AI slop]].
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal engineering metric, and it is not a neutral technical term. It is also not proof that AI was used badly. Sometimes poor code comes from human shortcuts, bad requirements, or rushed deadlines. Slopcoding is mainly a complaint about low-quality code, especially when AI helped produce it.

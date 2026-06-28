@@ -1,35 +1,62 @@
 ---
 slug: ai-agents
 name: AI Agents
-category: Core
 title: AI Agents
-aliases: null
-short_description: AI agents is the umbrella label for software systems that can
-updated_at: '2026-06-22T20:54:06.685468+00:00'
-termStatus: Umbrella term
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+category: Core
+short_description: Software that can work towards a goal by choosing next steps, using
+  tools, and learning from what happens after it acts.
+aliases:
+- agentic AI
+status: Umbrella term
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse:
+- Treating any chatbot as an agent
+- Assuming the system is fully autonomous
+- Using the word without saying what actions it can take, what tools it can use, or
+  when a human must approve
+related_terms:
+- chatbot
+- workflow
+- tool use
+- autonomy
+- multi-agent system
+evidence:
+- source_title: Agents SDK
+  source_url: https://developers.openai.com/api/docs/guides/agents
+  source_type: official_docs
+  relevance: Defines agents in terms of planning, tool use, coordination, and state.
+  key_point: Agents are applications that plan, call tools, collaborate across specialists,
+    and keep enough state to complete multi-step work.
+- source_title: Building Effective AI Agents
+  source_url: https://www.anthropic.com/research/building-effective-agents
+  source_type: engineering_blog
+  relevance: Shows the term is broad and that many useful agents are built from simple
+    parts.
+  key_point: Effective agent systems are usually combinations of a model, tools, memory,
+    and control logic rather than one fixed design.
+- source_title: AI Agent Standards Initiative
+  source_url: https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative
+  source_type: standards_doc
+  relevance: Shows the term is now used in security and standards work around autonomous
+    actions.
+  key_point: NIST describes agents as systems capable of autonomous actions that need
+    trusted, interoperable, secure behaviour.
+- source_title: Software and AI Agent Identity and Authorization
+  source_url: https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization
+  source_type: official_docs
+  relevance: Gives a government framing of agent systems and their risks.
+  key_point: Agent systems can make decisions and take actions with limited human
+    supervision to achieve complex goals.
 ---
 
-## Term status
+An AI agent is software that can try to reach a goal by deciding what to do next, using tools, and changing its plan based on what happens.
 
-Umbrella term.
+In practice, that might mean it reads a request, picks a next step, uses something like search, a database, or email, checks the result, and then decides whether to continue or stop.
 
-## Meaning
+This matters because it describes software that does more than answer one question. An agent can carry out parts of a job, not just talk about the job.
 
-AI agent is an overloaded label for a model-based system that selects actions towards a goal, commonly by invoking tools and using observations. The autonomy and planning depth vary widely, so the label only becomes useful once you name the actual runtime shape.
+It is not the same as a normal chatbot. A chatbot mostly replies to messages. An agent may also act. It is also not always fully autonomous. Many agents still need human approval, and many only work inside a fixed set of steps.
 
-## Boundary
-
-A chatbot, workflow, and autonomous agent are not interchangeable. State the action surface, stopping condition, and human approval points.
-
-## How it is used
-
-Use it when the discussion is about a system that can plan, call tools, track state, and recover from failure rather than only answer a prompt. In practice it is the broadest umbrella in the glossary, so it should be narrowed quickly to the real runtime, governance, or workflow question.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) is the clearest reference for the modern tool-using, stateful agent pattern.
-
-The label is umbrella terminology, not a technical standard. Its value is to name the family of systems before you narrow to the actual runtime or governance problem.
+The term is broad and not tightly agreed. When someone says “agent”, ask what tools it can use, what actions it can take, what memory it keeps, and when a human must check the result.

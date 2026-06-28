@@ -1,32 +1,25 @@
 ---
 slug: zombie-internet
 name: Zombie Internet
-category: Slang
 title: Zombie Internet
-aliases: null
-short_description: Zombie Internet is a label for a web increasingly filled with stale,
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+category: Slang
+short_description: A slang term for a web that feels crowded with copied, automated,
+  stale, or low-trust content.
+aliases: []
+status: informal
+tags: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Zombie Internet is a slang term for a web that feels full of copied, automated, stale, or low-trust content.
 
-Informal slang.
+In practice, it is used when people think the internet is becoming harder to trust because too much material is repetitive, machine-made, or lifted from somewhere else. The term usually points to a feeling that fresh human publishing is being pushed aside.
 
-## Meaning
+The term matters because it captures a real problem: when lots of weak or synthetic pages spread across the web, it becomes harder to find original sources, judge what is true, and know where content came from.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Zombie Internet is used when people describe a web that feels less like human publishing and more like an ecosystem of copied, automated, or stale material. The term captures the sense that discovery, trust, and originality are all being eroded at once.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical term. Different people use it differently, and it does not have one agreed meaning. It is also not the same as saying all AI content is bad. The problem is not AI by itself, but a web where origin, quality, and freshness are unclear.

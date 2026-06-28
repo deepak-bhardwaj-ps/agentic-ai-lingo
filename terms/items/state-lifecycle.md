@@ -1,32 +1,23 @@
 ---
-slug: state-lifecycle
-name: State Lifecycle
-category: Memory
 title: State Lifecycle
-aliases: null
-short_description: State Lifecycle is the phases an agent state item passes through
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: A state lifecycle is the set of steps a piece of agent state goes
+  through from creation to deletion.
+category: Memory
+tags: []
+status: draft
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+State lifecycle is the path a piece of [[Execution State|agent state]] follows from the moment it is created [[Context Collapse|u]]ntil it is updated, reused, archived, or deleted.
 
-Implementation pattern.
+In practice, it means deciding what state should stay active for the next tur[[Context Collapse|n]], what should be saved for later, and when old state should be thrown away or corrected.
 
-## Meaning
+This matters because agents can collect a lot of information over time. If you do not manage that state well, the agent can get confused, keep stale facts, or save things it should not keep.
 
-State Lifecycle concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-State Lifecycle is used when the design needs a clear path from creation to expiry for each state item. It matters when the team has to know when state is active, stale, archived, or deleted.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as model training, and it is not one fixed kind of memory. It is a way of organising how state changes over time.

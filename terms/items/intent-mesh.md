@@ -1,33 +1,23 @@
 ---
-slug: intent-mesh
-name: Intent Mesh
-category: Protocols
-addedDate: May 9, 2025
 title: Intent Mesh
-aliases: null
-short_description: Intent Mesh is a routing layer that moves intents across agents,
-termStatus: Emerging interoperability/architecture label
-researchBasis: Model Context Protocol specification
-sources:
-- https://modelcontextprotocol.io/specification/2025-06-18
+short_description: A loose term for routing a user's intent across multiple agents,
+  tools, or services before action is taken.
+category: Protocols
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+An intent mesh is a loose name for a system that moves a user's intent across several agents, tools, or services before anything is carried out.
 
-Emerging interoperability/architecture label.
+In practice, it means one part of the system receives a request, decides where it should go, and passes it on to the right agent or tool. That may include checking what is available, choosing who should handle the next step, and keeping track of where the request is in the process.
 
-## Meaning
+The term matters because real agent systems often need more than one model or tool to finish a task. A clear routing layer can reduce confusion about who owns the next action and help larger systems stay organised.
 
-An intent mesh routes intent across agents, tools, or services before it becomes action.
-
-## Boundary
-
-It is not a protocol unless it defines a public wire format, lifecycle, compatibility and security model. Do not imply interoperability from the label alone.
-
-## How it is used
-
-Intent Mesh is used when intent has to move across several systems before it becomes action. The term only earns its keep if there is a real routing model for resolution, escalation, and ownership.
-
-## Evidence
-
-[Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-06-18) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a widely agreed technical standard. By itself, the phrase does not guarantee a public interface, security rules, versioning, or compatibility between different systems. It is also not the same thing as [[MCP|Model Context Protocol]], which is a defined standard for connecting AI applications to tools and data.

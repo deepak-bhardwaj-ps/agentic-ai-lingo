@@ -1,32 +1,28 @@
 ---
 slug: episodic-memory
-name: Episodic Memory
-category: Memory
 title: Episodic Memory
-aliases: null
-short_description: Episodic Memory is stored memory of specific interactions, events,
-termStatus: Established cognitive term; applied metaphor
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: Memory for specific events, times, and experiences; in AI, a metaphor
+  for storing past interactions so they can be recalled later.
+category: Memory
+tags: []
+status: established
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Episodic memory is memory for specific events that happened at a particular time and place.
 
-Established cognitive term; applied metaphor.
+In people, it is the kind of memory that helps you remember what you did yesterday, what you ate for lunch, or a conversation you had with a friend.
 
-## Meaning
+In AI agents, the term is used by analogy. It usually means a stored record of a past interaction, task, or episode that the system can look up later.
 
-Episodic memory is commonly used for stored records of prior agent interactions or task runs, retrieved when relevant to a new task.
+This matters because agents have limited context. If they only rely on the current chat window, they forget earlier details. Episodic memory lets them bring back relevant past events instead of starting from zero.
 
-## Boundary
+It is not the same as general knowledge. General knowledge stores facts, while episodic memory stores particular experiences.
 
-It is an implementation convention, not evidence that the system has human-like memory. Define retention, retrieval and correction policies.
-
-## How it is used
-
-Episodic Memory is used when the agent needs to remember specific interactions, events, or episodes from earlier work. The design still has to define what counts as an episode and when it expires.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It also does not mean the system has human memory. In AI, it is a useful label for a design choice, not proof of human-like understanding.

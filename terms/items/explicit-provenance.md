@@ -3,30 +3,22 @@ slug: explicit-provenance
 name: Explicit Provenance
 category: Context
 title: Explicit Provenance
-aliases: null
-short_description: Explicit Provenance is provenance that is visible, machine-readable,
-termStatus: Emerging practitioner shorthand
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+aliases: []
+short_description: Provenance that is made visible and machine-readable so an agent
+  can trace where information came from and how it was used.
+status: emerging
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Explicit provenance means the source of information is shown clearly enough for a person or machine to trace it.
 
-Emerging practitioner shorthand.
+In practice, it means you can see where a fact came from, which version was used, when it was accessed, and what happened to it along the way. In an AI system, that might mean a response is linked back to the documents, database rows, or tools that supported it.
 
-## Meaning
+This matters because people need to check whether information is fresh, trusted, allowed to be used, and taken in the right context. If a system can show its provenance, it is easier to debug mistakes, audit decisions, and spot bad or outdated inputs.
 
-Explicit Provenance concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
-
-## Boundary
-
-It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
-
-## How it is used
-
-Explicit Provenance is used when a model’s evidence needs to be traceable back to its source, version, and access path. It is the term to use when provenance is not optional metadata but part of the decision contract.
-
-## Evidence
-
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a simple citation list. It is not a guarantee that the answer is correct. It is also not a fully fixed industry standard phrase. People use it as shorthand for making provenance visible and machine-readable.

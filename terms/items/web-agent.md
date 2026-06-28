@@ -1,32 +1,24 @@
 ---
 slug: web-agent
-name: Web Agent
-category: Core
 title: Web Agent
-aliases: null
-short_description: Web Agent is an agent whose main operating environment is the web.
-termStatus: Descriptive capability term
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: An agent that uses a browser or web tools to complete tasks on
+  the web.
+category: Core
+tags: []
+status: active
+aliases: []
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A web agent is an agent that uses a browser or other web tools to do tasks on websites.
 
-Descriptive capability term.
+In practice, it can open pages, click buttons, type into forms, search, read results, and sometimes carry out steps across several sites. It may use [[Browser Use|browser automation]], a visual interface, or web APIs.
 
-## Meaning
+This term matters because the web is where many everyday tasks happen, such as booking, checking accounts, filling in forms, or finding information. A web agent is useful when a system needs to act on the web, not just talk about it.
 
-A web agent is an agent whose observation and action environment is the web, using browser automation, search, scraping or web APIs.
-
-## Boundary
-
-It is not synonymous with a browser extension or a search bot. Separate read-only retrieval from authenticated or consequential action.
-
-## How it is used
-
-Web Agent is used when the agent’s primary job is to inspect, navigate, search, or act on web content. It is a useful term when the question is whether the agent is browser-first, API-first, or able to move between both.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a search engi[[Context Collapse|n]]e, a browser extension, or a simple scraper. A web agent is meant to do work on the web. It is also not always fully automatic, because some web agents still need a person to check important steps or approve actions.

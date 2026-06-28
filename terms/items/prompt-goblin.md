@@ -1,32 +1,23 @@
 ---
-slug: prompt-goblin
-name: Prompt Goblin
-category: Slang
 title: Prompt Goblin
-aliases: null
-short_description: Prompt Goblin is a term for someone who obsessively tweaks prompts
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Slang for a person who keeps tweaking prompts and prompt wrappers
+  in search of small improvements.
+category: Slang
+tags: []
+status: informal
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Prompt Goblin is slang for a person who keeps changing prompts, prompt templates, or related instructions in search of small gains.
 
-Informal slang.
+In practice, it usually means someone is spending a lot of time testing tiny wording changes, examples, or formatting to get a model to behave better.
 
-## Meaning
+The term matters because prompt writing can help, but endless tweaking can also waste time if the problem really needs better data, better instructions, or a different tool.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Prompt Goblin is used for a person who keeps refining prompts, templates, or jailbreaks long after the gains have become marginal. It is usually affectionate or teasing, and it implies optimisation as a hobby rather than a stable operating practice.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal role, and it is not the same as being a prompt engineer. It is a casual label, often used jokingly, for someone who obsesses over prompt details.

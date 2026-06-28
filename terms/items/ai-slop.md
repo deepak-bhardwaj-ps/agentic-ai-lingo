@@ -1,32 +1,24 @@
 ---
 slug: ai-slop
-name: AI Slop
-category: Slang
 title: AI Slop
-aliases: null
-short_description: AI Slop is a pejorative for low-value AI-generated output that
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A rude term for low-quality AI-generated content that is made in
+  large amounts and is often messy, generic, or poorly checked.
+category: Slang
+tags: []
+status: informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI slop is a rude term for low-quality content made by AI, usually in large amounts.
 
-Informal slang.
+In practice, it usually means posts, images, videos, or text that look rushed, generic, repetitive, or not properly checked. People use the term when AI makes more work than it saves because the output still needs heavy editing, fact-checking, or removal.
 
-## Meaning
+The term matters because it points to a real problem: tools that can make content very fast can also fill the web with weak, misleading, or junky material.
 
-AI slop is a pejorative for abundant, low-value or poorly reviewed AI-generated content.
-
-## Boundary
-
-It is a cultural judgement, not a measurable quality category. Define the actual defect: inaccuracy, duplication, deception, poor fit or lack of provenance.
-
-## How it is used
-
-AI Slop is used when AI output is fast to produce but expensive to clean up, usually because it is generic, repetitive, or careless about facts and structure. The label is common in critique of content farms, low-review drafting, and overproduced internal material.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a strict technical label. It is a judgement about quality. It does not mean every bad piece of content came from AI, and it does not prove that AI was used incorrectly. Some people also use it more broadly for cheap, careless content even when no AI is involved.

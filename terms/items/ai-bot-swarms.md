@@ -1,34 +1,26 @@
 ---
 slug: ai-bot-swarms
-name: AI Bot Swarms
-category: Social
 title: AI Bot Swarms
-aliases: null
-short_description: AI bot swarms are coordinated automated accounts or the effects
-termStatus: Descriptive/social label
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A loose term for many automated or semi-automated accounts acting
+  together online.
+category: Social
+tags: []
+status: descriptive
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI bot swarms is a loose term for many automated or semi-automated accounts acting together online.
 
-Descriptive/social label.
+In practice, it means a group of accounts is posting, liking, replying, or sharing in a coordinated way. The accounts may be fully automated, partly automated, or controlled by people who use software to move faster and at a larger scale.
 
-## Meaning
+People use the term when they think the activity is meant to shape what other people see, believe, or talk about. That matters because repeated messages from many accounts can make an idea look more popular or more trustworthy than it really is.
 
-AI bot swarms describes coordinated automated accounts or the social effects attributed to them.
+This is not a strict technical term. It does not prove the accounts are bots, and it does not prove harmful intent by itself. It is also not the same as normal automation, such as scheduled posts or customer support replies.
 
-## Boundary
-
-It is not a precise technical category. Distinguish legitimate automation, coordinated inauthentic behaviour, platform policy, and evidence of real-world impact.
-
-## How it is used
-
-It is used when the discussion is about large-scale coordinated automation on social platforms. The term should lead to a testable claim about coordination, timing, identity, or impact rather than a vague suspicion of “bots everywhere”.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for separating plausible concern from evidence.
-
-The label is descriptive, not a technical category. Its value is to force a claim that can be checked against coordination and effect.
+The useful question is not whether bots exist somewhere. It is whether there is evidence that the accounts are coordinated and whether that coordination had a real effect.

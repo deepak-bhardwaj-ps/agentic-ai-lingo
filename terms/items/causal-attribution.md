@@ -1,32 +1,23 @@
 ---
-slug: causal-attribution
-name: Causal Attribution
-category: Context
 title: Causal Attribution
-aliases: null
-short_description: Causal Attribution is the ability to explain which source or step
-termStatus: Emerging practitioner shorthand
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A loose term for working out which source, step, or action actually
+  caused an AI result.
+category: Context
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Causal attribution means working out which thing actually caused an outcome.
 
-Emerging practitioner shorthand.
+In AI work, people use it when they want to trace a result back to the source, step, tool call, or decision that most likely made it happen. For example, if an assistant gives a wrong answer, causal attribution asks which retrieved document, prompt step, or action led to that answer.
 
-## Meaning
+It matters because AI systems often do several things in a row. If you cannot tell which step caused the result, it is hard to debug mistakes, improve the system, or decide whether it is safe to trust.
 
-Causal Attribution is an emerging label whose practical meaning depends on the concrete mechanism or operating practice being described.
-
-## Boundary
-
-Treat it as a proposal, not a capability. Replace it with a concrete mechanism, measurable outcome or referenced specification.
-
-## How it is used
-
-Causal Attribution is used when you need to trace a model decision back to the specific source, step, or retrieval event that influenced it. It is the term for turning “the model saw this” into a testable chain of cause and effect.
-
-## Evidence
-
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as a summary, a guess, or a simple explanation. It is also not just correlation, where two things happen together. Real causal attribution tries to show a cause-and-effect link, not just a pattern.

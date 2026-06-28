@@ -3,30 +3,30 @@ slug: context-collapse
 name: Context Collapse
 category: Context
 title: Context Collapse
-aliases: null
-short_description: Context Collapse is the failure mode where too much or the wrong
-termStatus: Emerging practitioner shorthand
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+aliases: 'null'
+short_description: A failure mode where an agent gets too much, too little, or the
+  wrong context to do the task well.
+status: emerging
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
-
-## Term status
-
-Emerging practitioner shorthand.
 
 ## Meaning
 
-Context Collapse concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
+Context collapse is when an agent stops doing well because the context it gets is overloaded, confused, stale, or badly chosen.
 
-## Boundary
+## In practice
 
-It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
+This can happen when the prompt is too long, when the wrong documents are retrieved, when old instructions are mixed with new ones, or when important facts are hidden among lots of noise.
 
-## How it is used
+## Why it matters
 
-Context Collapse is used when context becomes overloaded, conflicting, or poorly prioritised and the model can no longer separate signal from noise. It is a warning to simplify the source set, not just increase the token budget.
+An agent can only use the context it is given. If that context is messy, the answer can be wrong even when the model is capable enough.
 
-## Evidence
+## What it is not
 
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal product category. It does not just mean "more tokens". The real problem is often poor selection, poor ordering, or poor freshness of the information.

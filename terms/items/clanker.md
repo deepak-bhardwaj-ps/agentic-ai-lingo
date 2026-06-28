@@ -1,32 +1,23 @@
 ---
 slug: clanker
-name: Clanker
-category: Slang
 title: Clanker
-aliases: null
-short_description: Clanker is a blunt pejorative for noisy, brittle, or obviously
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+category: Slang
+short_description: A rude slang word for robots, chatbots, and other AI systems, usually
+  used to mock or criticise them.
+aliases: []
+status: informal
+meaning_type: emerging_unsettled
+novelty_level: high
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Clanker is a rude slang word for a robot, chatbot, or other AI system.
 
-Informal slang.
+In practice, people use it to mock machines that feel cold, noisy, awkward, or too much like they are replacing human work. It is mostly found in jokes, memes, and angry online posts.
 
-## Meaning
+The word matters because it shows how some people feel about robots and AI. It is not a neutral name. It carries attitude, and usually a negative one.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Clanker is used in informal technical culture as a sneering name for systems that feel noisy, brittle, or awkwardly mechanical. It is usually expressive shorthand, not a term you would use in neutral documentation.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not an official technical term. It is also not a precise way to describe one specific kind of machine. If you need clear writing, say exactly what the system is, such as robot vacuum, chatbot, or customer service bot.

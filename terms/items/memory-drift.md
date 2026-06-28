@@ -1,32 +1,23 @@
 ---
-slug: memory-drift
-name: Memory Drift
 category: Memory
 title: Memory Drift
-aliases: null
-short_description: Memory Drift is gradual change in stored state or retrieval behaviour
-termStatus: Implementation pattern
-researchBasis: Packer et al., MemGPT
-sources:
-- https://arxiv.org/abs/2310.08560
+short_description: Gradual change in what an agent remembers, how it stores it, or
+  how it later uses that memory.
+tags: []
+status: active
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Memory drift is when stored memory changes a little at a time until it no longer matches what was originally true.
 
-Implementation pattern.
+In an agent, this can happen when earlier notes are repeatedly summarised, rewritten, or merged. Small changes build up, so the memory starts to say something slightly different from the original facts.
 
-## Meaning
+This matters because the agent may begin to act on an older, weaker, or distorted version of the truth. A user preference can slowly turn into the opposite of what they actually said.
 
-Memory Drift concerns how agent state is stored, selected, updated or retired across model calls and sessions.
-
-## Boundary
-
-It is not model training or a standard memory type. Specify retention, retrieval, provenance, access control and correction behaviour.
-
-## How it is used
-
-Memory Drift is used when stored state changes slowly enough that behaviour shifts without an obvious breakage event. It is the term for a memory layer that has started to answer differently than it used to.
-
-## Evidence
-
-[Packer et al., MemGPT](https://arxiv.org/abs/2310.08560) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not the same as model training drift. It is also not just any wrong answer. The key idea is that the memory itself changes over time.

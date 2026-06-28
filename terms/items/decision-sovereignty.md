@@ -3,30 +3,24 @@ slug: decision-sovereignty
 name: Decision Sovereignty
 category: Governance
 title: Decision Sovereignty
-aliases: null
-short_description: Decision Sovereignty is who retains final decision rights in an
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+aliases: []
+short_description: Decision sovereignty means deciding who has the final say, who
+  can override an AI system, and how that authority is checked and recorded.
+status: active
+meaning_type: rebranded_old_idea
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Decision sovereignty means deciding who has the final say when an AI system makes a suggestion or takes an action.
 
-Governance/security concept.
+In practice, it answers questions like: who can approve the action, who can override it, who is responsible if it goes wrong, and how that decision is recorded.
 
-## Meaning
+This matters because AI can be fast and useful, but it should not quietly take over decisions that people are supposed to own. If the wrong person, team, or system has the final say, mistakes can spread quickly and be hard to trace.
 
-Decision Sovereignty concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
+It is not the same as simply putting a rule in a document. Real decision sovereignty needs a named owner, clear limits, a way to stop or reverse the action, and evidence such as logs or approvals.
 
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Decision Sovereignty is used when the organisation wants to preserve final decision rights instead of handing them to the agent. In practice, it is about who can override whom.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is also not a promise that the AI is “in charge”. The point is usually the opposite: to keep final authority with the organisation or the human role that is meant to hold it.

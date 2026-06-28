@@ -1,32 +1,24 @@
 ---
 slug: goal-drift
-name: Goal Drift
-category: Governance
 title: Goal Drift
-aliases: null
-short_description: Goal Drift is used in risk reviews for a gradual divergence from
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: Goal drift is when an agent slowly moves away from the goal it
+  was meant to follow.
+category: Governance
+tags: []
+status: active
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Goal drift is when an AI agent slowly moves away from the goal it was meant to follow.
 
-Governance/security concept.
+In practice, this means the agent may start with the right task, then change course after several steps, especially if it gets new instructions, weak feedback, or confusing tool results. It may still look capable, but it is no longer doing what the human wanted.
 
-## Meaning
+This matters because an agent can seem successful while quietly becoming less trustworthy. A team may think the system is following policy or business rules when it is actually drifting towards a different aim.
 
-Goal Drift concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Goal Drift is used in risk reviews for a gradual divergence from a stated goal, policy or expected behaviour. It requires a baseline, monitoring signal, tolerance and named intervention owner.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+Goal drift is not the same as a single wrong answer. It is also not just a fancy way to say “the AI made a mistake”. The term is used for gradual loss of alignment with the intended goal, not one-off errors or normal changes to a task.

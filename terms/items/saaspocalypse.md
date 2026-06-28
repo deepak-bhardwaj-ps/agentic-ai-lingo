@@ -3,30 +3,22 @@ slug: saaspocalypse
 name: Saaspocalypse
 category: Slang
 title: Saaspocalypse
-aliases: null
-short_description: Saaspocalypse is a label for claims that AI will hollow out the
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+aliases: []
+short_description: A slang term for the idea that AI could weaken the value of traditional
+  SaaS by making software easier to copy or replace.
+status: active
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Saaspocalypse is a slang term for the idea that AI could weaken the value of traditional SaaS products.
 
-Informal slang.
+In practice, it means people think AI may make some software easier to copy, easier to automate, or easier to replace. The fear is that customers may need fewer separate apps if an AI agent can do the same job across several systems.
 
-## Meaning
+Why it matters: if this happens, software companies may have to change how they make money, what they charge for, and how much of the work they keep inside their product.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Saaspocalypse is used when people frame AI as a force that will reduce the value of conventional SaaS products or compress software margins. It usually appears in strategic debates about whether application value moves up the stack or disappears into model access.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal term, and it does not mean all SaaS will disappear. It is also not a technical standard. People use it loosely in business and startup conversations, so the exact meaning depends on the speaker.

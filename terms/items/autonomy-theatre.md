@@ -1,32 +1,23 @@
 ---
-slug: autonomy-theatre
-name: Autonomy Theatre
-category: Slang
 title: Autonomy Theatre
-aliases: null
-short_description: Autonomy Theatre is a label for systems that are described as self-directing
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A criticism for AI systems that look self-directing, but still
+  depend on people for the important decisions.
+category: Slang
+tags: []
+status: Informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Autonomy Theatre is a critical label for a system that is presented as self-directing, but still depends on people for the important decisions, approvals, or recovery steps.
 
-Informal slang.
+In practice, it means the system may look impressive in a demo or marketing slide, but the real work is still being guided, checked, or fixed by humans. The machine may suggest actions or carry out small steps, but the meaningful control has not really been handed over.
 
-## Meaning
+The term matters because it helps separate real autonomy from a performance. A system should not be called autonomous just because it has a chat interface, runs a workflow, or makes a few choices on its own. What matters is whether it can safely do the job with the amount of human control that people think it has.
 
-Informal criticism of performative AI activity: visible demonstrations or process language without commensurate operational capability or value.
-
-## Boundary
-
-It is not a formal assessment category. Identify the missing evidence—task success, adoption, controls, economics or ownership.
-
-## How it is used
-
-Autonomy Theatre is used when a system is marketed as autonomous but humans still decide the important steps, approve the risky ones, or recover failures. The phrase is useful for distinguishing orchestration from genuine delegated control.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal technical category. It is also not the same as ordinary automation. Automation can follow fixed rules very well. Autonomy Theatre is about exaggerated claims: the system sounds independent, but the humans are still doing the deciding.

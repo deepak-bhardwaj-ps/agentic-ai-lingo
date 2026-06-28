@@ -3,30 +3,22 @@ slug: specification-engineering
 name: Specification Engineering
 category: Governance
 title: Specification Engineering
-aliases: null
-short_description: Specification Engineering is turning behaviour into testable, enforceable
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: Specification Engineering is the practice of writing behaviour
+  as clear, testable rules that can be checked and enforced.
+aliases: []
+status: active
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Specification Engineering is the practice of turning what a system should do into clear rules that can be checked, tested, and enforced.
 
-Governance/security concept.
+In practice, it means writing down the allowed actions, the limits, the checks, and what should happen when something goes wrong. The goal is to make behaviour precise enough that people and systems can tell whether it is following the rule or breaking it.
 
-## Meaning
+This matters because vague instructions are easy to misunderstand. If a system can take actions on behalf of a person, the rules need to be specific enough to show who is responsible, what is allowed, and when a human must step in.
 
-Specification Engineering concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Specification Engineering is used when behaviour has to be translated into something testable and enforceable. In practice, prose alone is not enough.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not just a polished prompt, a policy document, or a list of wishes. If nothing checks the rule and nothing enforces it, it is not real specification engineering.

@@ -1,32 +1,24 @@
 ---
 slug: rag
-name: RAG
-category: Context
 title: RAG
+short_description: RAG means a language model looks up relevant information before
+  it answers.
+category: Context
+tags: []
+status: Established
 aliases: []
-short_description: '''RAG is retrieval-augmented generation: retrieving external evidence'
-termStatus: Established research term
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+meaning_type: old_idea_new_tools
+novelty_level: medium
+maturity_level: maturing
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+RAG means retrieval-augmented generation. It is a way for a language model to look up relevant information before it writes an answer.
 
-Established research term.
+In practice, the system searches a set of documents, picks the most useful parts, and gives them to the model as extra context. The model then uses that context to answer the question. This helps when the answer needs current, private, or specialised information.
 
-## Meaning
+RAG matters because language models do not automatically know everything, and their built-in knowledge can be incomplete or out of date. Looking up the right source first can make answers more useful and easier to check.
 
-Retrieval-augmented generation retrieves external passages at inference time and conditions generation on them. In an agent, retrieval is usually one tool or context-construction step.
-
-## Boundary
-
-RAG is not memory, a knowledge graph, or proof that an answer is grounded; retrieval relevance, provenance and citation still need evaluation.
-
-## How it is used
-
-RAG is used when the model should answer from retrieved evidence rather than from parametric memory alone. It is the default term for retrieval-based grounding, but the quality still depends on retrieval, ranking, freshness, and citation discipline.
-
-## Evidence
-
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+RAG is not the same as memory. It is not a guarantee that the answer is right. If the search step finds the wrong material, the answer can still be wrong. It is also not just "using search" unless the retrieved text is actually used to shape the answer.

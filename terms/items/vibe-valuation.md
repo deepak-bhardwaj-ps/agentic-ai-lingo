@@ -3,30 +3,23 @@ slug: vibe-valuation
 name: Vibe Valuation
 category: Slang
 title: Vibe Valuation
-aliases: null
-short_description: Vibe Valuation is a label for valuation driven by narrative, demos,
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+aliases: []
+short_description: A slang term for valuing a company more by story, buzz, or polished
+  demos than by real business results.
+tags: []
+status: informal
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Vibe Valuation is a slang term for judging a company’s worth by the feeling it gives off rather than by hard evidence.
 
-Informal slang.
+In practice, it means people are impressed by the pitch, the demo, the hype, or the mood around the business, even if the numbers do not yet prove it is worth much.
 
-## Meaning
+It matters because a good story can make a weak business look strong for a while. The risk is paying for promise instead of proof.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Vibe Valuation is used when market value is being argued from sentiment, demo quality, or AI hype rather than from revenue quality, retention, or operating leverage. It is a finance and strategy critique, not a formal valuation method.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a formal finance term or a real valuation method. It is also not the same as careful investing, where people look at things like revenue, profit, cash flow, retention, and whether the business can keep growing.

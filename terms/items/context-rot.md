@@ -1,32 +1,26 @@
 ---
 slug: context-rot
-name: Context Rot
-category: Context
 title: Context Rot
-aliases: null
-short_description: Context Rot is the gradual degradation of context quality as sources
-termStatus: Emerging practitioner shorthand
-researchBasis: Lewis et al., Retrieval-Augmented Generation
-sources:
-- https://arxiv.org/abs/2005.11401
+short_description: A name for when an AI system gets worse at using its input as the
+  context gets longer, messier, or less fresh.
+category: Context
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: Treating it as a formal technical standard, or using it to mean any
+  AI mistake instead of the specific problem of context quality falling over time
+  or length.
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Context rot is when an AI system becomes less reliable because the context it is given gets too long, too messy, or too stale.
 
-Emerging practitioner shorthand.
+In practice, this means the model may miss the important part, focus on the wrong detail, or use old information that should have been replaced. The problem is not just “more text”. It is also about whether the right information is still clear, current, and easy to find inside the context.
 
-## Meaning
+The term matters because AI systems often get worse quietly as more messages, documents, or tool results are added. A reply can sound confident and still be wrong if the useful facts are buried under noise or outdated notes.
 
-Context Rot concerns the selection, quality, lineage or delivery of information presented to an agent at runtime.
-
-## Boundary
-
-It is not a defined product category. Make the retrieval, freshness, ownership, permissions and token-budget rules explicit.
-
-## How it is used
-
-Context Rot is used when the model’s context has decayed enough that even correct-looking evidence is no longer dependable. It is the term for stale summaries, obsolete references, and hidden inconsistencies that accumulate over time.
-
-## Evidence
-
-[Lewis et al., Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+Context rot is not a formal scientific category with one fixed definition. It is a practical label people use for a real set of problems around long context, stale summaries, weak retrieval, and poor context management.

@@ -1,32 +1,25 @@
 ---
-slug: workslop
-name: Workslop
-category: Slang
 title: Workslop
-aliases: null
-short_description: Workslop is a label for polished-looking AI output that creates
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Workslop is AI-made work that looks polished but creates extra
+  work for the person who receives it.
+category: Slang
+tags: []
+status: Informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Workslop is AI-made work that looks finished and polished, but still creates extra work for the person who gets it.
 
-Informal slang.
+In practice, it is often an email, report, slide deck, or summary that seems fine at first glance but still needs checking, fixing, or rewriting before it is actually useful.
 
-## Meaning
+The term matters because it names a real problem: instead of saving time, the AI output pushes the work onto someone else.
 
-Informal pejorative for low-value, insufficiently reviewed AI-generated material.
+It is not the same as all AI use. AI can still be helpful when a person checks the result and it truly saves effort.
 
-## Boundary
-
-It is not a technical quality metric. Specify the defect and measure it against a real audience or task.
-
-## How it is used
-
-Workslop is used when an AI-produced deliverable looks finished at first glance but creates more work for the recipient than it saves. It is especially useful in organisations where review, hand-off, or downstream correction is the real cost centre.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is also not a formal quality score. It is a plain word people use for output that looks good but does not do the job properly.

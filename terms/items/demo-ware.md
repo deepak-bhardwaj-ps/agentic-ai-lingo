@@ -1,32 +1,23 @@
 ---
-slug: demo-ware
-name: Demo-ware
-category: Slang
 title: Demo-ware
-aliases: null
-short_description: Demo-ware is a label for software that works in the polished demo
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: Demo-ware is software that looks good in a prepared demo but does
+  not hold up in normal use.
+category: Slang
+tags: []
+status: Informal slang
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Demo-ware is software that looks good when someone follows the prepared demo script, but breaks or behaves badly when real people use it for real work.
 
-Informal slang.
+In practice, it means the product was made to impress in a short showcase instead of being ready for normal use. The happy path works, but other cases have not been made reliable yet.
 
-## Meaning
+This matters because a demo can hide weak spots. Real users bring messy data, unexpected actions, and failure cases that do not appear in a rehearsed presentation.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
-
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-Demo-ware is used when a product only behaves correctly in the prepared showcase path and fails once real data, real users, or real failure modes arrive. It is a practical warning that the demo artefact has outrun the production system.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+Demo-ware is not the same as a prototype, which is often built to learn something quickly. It is also not the same as production software, which should be dependable outside the demo room.

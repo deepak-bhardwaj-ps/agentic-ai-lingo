@@ -3,30 +3,24 @@ slug: autonomy-boundaries
 name: Autonomy Boundaries
 category: Governance
 title: Autonomy Boundaries
-aliases: null
-short_description: Autonomy Boundaries define where the agent can decide alone and
+aliases: []
+short_description: Rules that say what an AI agent may do on its own and what needs
+  approval.
+status: active
 termStatus: Governance/security concept
 researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+meaning_type: rebranded_old_idea
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Autonomy Boundaries are the rules that say what an AI agent may do by itself and what needs a person to check first.
 
-Governance/security concept.
+In practice, this means deciding which tools it can use, which actions it can take, which data it can reach, and when it must stop and ask for approval. It also means keeping a record of what happened so people can review it later.
 
-## Meaning
+The term matters because an agent that can act without clear limits can make mistakes faster than a person can notice them. Good boundaries reduce the chance of unsafe actions, surprise costs, data leaks, and changes that nobody approved.
 
-Autonomy Boundaries concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Autonomy Boundaries is used when the team needs to say what the agent may decide alone and when approval is required. In practice, the boundary needs an owner and a fallback.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+Autonomy Boundaries are not the same as “the model is smart” or “the system is automated”. They are not just a label on a diagram. If the limits are not written down and enforced, there is no real boundary.

@@ -3,30 +3,38 @@ slug: star-topology
 name: Star Topology
 category: Runtime
 title: Star Topology
-aliases: null
-short_description: Star Topology is used to explain the communication shape among
-termStatus: Architecture/implementation term
-researchBasis: Anthropic, Building effective agents
-sources:
-- https://www.anthropic.com/engineering/building-effective-agents
+short_description: A communication shape where one central node talks to several others.
+aliases: []
+tags: []
+status: active
+meaning_type: old_idea_new_tools
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+## Definition
 
-Architecture/implementation term.
+Star topology is a way of connecting parts of a system so that one central node talks to several others.
 
-## Meaning
+## What it means in practice
 
-A star topology has one central coordinator that all workers or agents communicate through.
+In an agent system, the central node is usually a coordinator. It sends work to other agents or workers, collects their results, and decides what happens next.
 
-## Boundary
+This makes the flow easy to understand because most messages go through one place.
 
-It is not a standard architecture. The useful design question is the decision rule, state boundary, failure handling and termination condition.
+## Why it matters
 
-## How it is used
+It is useful when you want one place to manage tasks, keep track of progress, and stop the system when the job is done.
 
-Star Topology is used to explain the communication shape among coordinator and worker agents. The diagram should be accompanied by message ownership, state-sharing, error propagation and termination rules.
+It also makes the structure simple to draw and reason about.
 
-## Evidence
+## What it is not
 
-[Anthropic, Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a complete system design by itself.
+
+It does not say how the central node chooses work, how shared state is stored, what happens when something fails, or how the system ends.
+
+It is also not a special AI term. It is a borrowed network idea used to describe a simple communication shape.

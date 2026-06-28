@@ -1,34 +1,23 @@
 ---
-slug: agent-washing
-name: Agent Washing
-category: Slang
 title: Agent Washing
-aliases: null
-short_description: Agent washing relabels ordinary automation as an agent to
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A marketing trick where simple automation is presented as if it
+  were a real agent.
+category: Slang
+tags: []
+status: active
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agent washing is when ordinary automation is marketed as if it were a real agent.
 
-Informal slang.
+In practice, it means a product gets a bigger label than its behaviour deserves. A simple script, chatbot, or workflow may be sold as an agent even though it cannot plan much, choose tools for itself, or keep working without human help.
 
-## Meaning
+This matters because the name can hide how limited the system really is. If people think it can act on its own, they may trust it too much, buy the wrong product, or miss the need for human checks.
 
-An informal accusation that a product or programme is presented as more capable, autonomous, or controlled than its implementation supports.
-
-## Boundary
-
-It is rhetoric rather than a technical diagnosis. Test the claim against concrete autonomy, evidence, controls, and accountable owners.
-
-## How it is used
-
-It is used when a workflow, bot, or automation layer is repackaged as an agent even though it has no meaningful autonomy. It is useful when comparing the marketing description with the actual control flow and decision rights.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) gives the governance frame for challenging claims that exceed the system’s real controls and accountability.
-
-The label is slang, not a formal category. Its value is diagnostic: it spots a mismatch between branding and operational reality.
+It is not a formal technical category. It is a warning term for when the marketing is stronger than the actual system.

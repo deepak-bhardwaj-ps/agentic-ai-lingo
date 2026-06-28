@@ -1,32 +1,25 @@
 ---
 slug: ai-leaderboards
-name: AI Leaderboards
-category: Slang
 title: AI Leaderboards
-aliases: null
-short_description: AI Leaderboards is a label for treating model rankings or scoreboards
-termStatus: Informal slang
-researchBasis: 'NIST AI RMF: Generative AI Profile'
-sources:
-- https://doi.org/10.6028/NIST.AI.600-1
+short_description: A ranked list that compares AI models using scores from set tests.
+category: evaluation
+tags: []
+status: active
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+AI leaderboards are ranked lists that compare AI models by scores from the same tests.
 
-Informal slang.
+In practice, they show which model did better on a chosen benchmark. That can help people compare models quickly.
 
-## Meaning
+But the ranking only means something for that specific test. A model that is first on one leaderboard may be worse for your own job, your data, or your safety needs.
 
-Informal online shorthand used in discussion of AI, software or work. Its meaning varies by speaker and has no normative definition.
+This matters because people often use leaderboards as a shortcut for choosing a model. That can lead to bad decisions if the test is narrow, outdated, easy to game, or unlike the real world.
 
-## Boundary
-
-Do not use it in requirements, governance artefacts or architecture decisions without replacing it with observable criteria.
-
-## How it is used
-
-AI Leaderboards is used when model rankings, benchmark tables, or vendor scorecards are treated as stand-ins for a real product decision. The term is usually a warning that the ranking is being over-read beyond the actual task, data, or operating context.
-
-## Evidence
-
-[NIST AI RMF: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+AI leaderboards are not the same as real-world performance. They are not proof that a model is reliable, safe, cheap, or best overall.

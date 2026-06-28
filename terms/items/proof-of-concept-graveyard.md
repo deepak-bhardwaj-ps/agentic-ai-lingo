@@ -1,32 +1,24 @@
 ---
 slug: proof-of-concept-graveyard
-name: Proof-of-Concept Graveyard
-category: AgentOps
 title: Proof-of-Concept Graveyard
-aliases: null
-short_description: Proof-of-Concept Graveyard is the accumulation of pilots or prototypes
-termStatus: Operational shorthand
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://platform.openai.com/docs/guides/evals
+short_description: A proof-of-concept graveyard is a pile-up of demos or pilots that
+  never become real products.
+category: AgentOps
+tags: []
+status: active
+aliases: []
+meaning_type: overloaded_buzzword
+novelty_level: low
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+A proof-of-concept graveyard is the pile-up of demos, pilots, or prototypes that never turn into a working product.
 
-Operational shorthand.
+In practice, it means a team can make something look good in a small test, but it never gets the extra work needed for real use. That work usually includes ownership, integration with other systems, testing, security, monitoring, support, and a clear reason for customers to use it.
 
-## Meaning
+The term matters because many projects fail not at the idea stage, but when they try to survive outside the lab. A prototype can prove that something is possible. A product has to keep working for real users over time.
 
-Proof-of-Concept Graveyard describes the gap between a convincing limited demonstration and a production service with ownership, integration, reliability, security and measurable value.
-
-## Boundary
-
-It is not an inevitable lifecycle stage. Diagnose the limiting production capability rather than treating the label as an explanation.
-
-## How it is used
-
-Proof-of-Concept Graveyard is used when the organisation has a trail of demos and pilots that were never retired, productised, or learned from. It is a portfolio-management term, not just a complaint about failed innovation.
-
-## Evidence
-
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a rule that prototypes must fail. It is also not a careful technical diagnosis on its own. If a project ends up in this situation, the useful question is: what stopped it from becoming useful in the real world?

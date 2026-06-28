@@ -1,32 +1,23 @@
 ---
-slug: harness-engineering
-name: Harness Engineering
-category: AgentOps
 title: Harness Engineering
-aliases: null
-short_description: Practitioners use Harness Engineering when they improve the operating
-termStatus: Emerging practitioner term
-researchBasis: Hashimoto, Harness engineering
-sources:
-- https://mitchellh.com/writing/my-ai-adoption-journey
+short_description: The work of shaping the tools, rules, checks, and safe workspace
+  around an AI agent so it can do tasks reliably.
+category: AgentOps
+tags: []
+status: emerging
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Harness engineering is the work of building the system around an AI agent so it can finish tasks safely and repeatably.
 
-Emerging practitioner term.
+In practice, that means setting the rules, tools, checks, and safe workspace the agent uses. It can include what information the agent sees, which tools it can call, how errors are handled, when a human must approve something, and how results are tested.
 
-## Meaning
+This matters because a good model alone is not enough. An agent can still fail if it cannot access the right files, if it is allowed to do dangerous things, or if nobody checks its work. Harness engineering tries to make those failures less likely and easier to catch.
 
-Harness engineering is the work around a coding or tool-using agent that makes behaviour repeatable: task specification, context selection, tools, sandbox, hooks, tests, review and recovery. The label became prominent in 2026 practitioner writing.
-
-## Boundary
-
-It is not a settled discipline or a replacement for software engineering. The useful claim is specific: turn a recurring agent failure into a deterministic constraint, test or feedback loop.
-
-## How it is used
-
-Practitioners use Harness Engineering when they improve the operating environment around an agent after observing a failure—for example by adding repository guidance, a typed tool, a sandbox rule or an executable check. The result should be a regression-resistant change to the harness, not a better prompt alone.
-
-## Evidence
-
-[Hashimoto, Harness engineering](https://mitchellh.com/writing/my-ai-adoption-journey) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not just writing a better prompt. It is also not a fully settled branch of computer science. The term is used by practitioners to describe the support system around the agent, especially for coding agents and other tool-using systems.

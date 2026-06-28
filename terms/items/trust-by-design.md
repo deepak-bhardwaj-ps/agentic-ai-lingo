@@ -1,32 +1,24 @@
 ---
 slug: trust-by-design
-name: Trust-by-Design
-category: Governance
 title: Trust-by-Design
-aliases: null
-short_description: Trust-by-Design is designing the system so trust is earned by evidence
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications
-sources:
-- https://genai.owasp.org/llm-top-10/
+short_description: A way of designing an AI system so trust comes from clear roles,
+  controls, records, and human oversight rather than blind confidence.
+category: Governance
+tags: []
+status: draft
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: medium
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Trust-by-Design means building a system so trust is earned through clear rules, checks, records, and human oversight.
 
-Governance/security concept.
+In practice, it means you do not just hope people will trust the system. You design who is allowed to do what, what the system must record, how mistakes are spotted, and how the system can be stopped or limited if needed.
 
-## Meaning
+This matters because systems that act on behalf of people can cause harm if their power is unclear. If you can show the decision path, the responsible owner, the limits, and the audit record, it is easier to trust the system for the right reasons.
 
-Trust-by-Design concerns how an agent's authority, obligations, actions or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation and human escalation.
-
-## How it is used
-
-Trust-by-Design is used when trust has to come from evidence, controls, and revocation rather than confidence by default. In practice, it is a design choice, not a slogan.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+It is not a magic label that makes a system trustworthy. It is also not the same as saying “the AI is safe”. A system is only trust-by-design if the trust is backed by real controls, evidence, and a way to revoke access or call for human help.

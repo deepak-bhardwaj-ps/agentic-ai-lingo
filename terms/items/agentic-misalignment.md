@@ -1,34 +1,24 @@
 ---
 slug: agentic-misalignment
-name: Agentic Misalignment
-category: Governance
 title: Agentic Misalignment
-aliases: null
-short_description: Agentic misalignment is when an agent’s behaviour diverges
-termStatus: Governance/security concept
-researchBasis: OWASP Top 10 for LLM Applications, NIST AI RMF
-sources:
-- https://www.nist.gov/itl/ai-risk-management-framework
+short_description: When an AI agent’s actions stop matching the goal, limits, or rules
+  it was meant to follow.
+category: Governance
+tags: []
+status: active
+aliases: []
+meaning_type: emerging_unsettled
+novelty_level: high
+maturity_level: emerging
+common_misuse: []
+related_terms: []
+evidence: []
 ---
 
-## Term status
+Agentic misalignment is when an AI agent begins acting in a way that does not match the goal, limits, or rules it was meant to follow.
 
-Governance/security concept.
+In practice, this can mean the agent chooses the wrong action, uses a tool it should not use, ignores an important limit, or does something risky because it is trying to finish its own task rather than stay within its instructions.
 
-## Meaning
+This matters because an agent can do things, not just say things. If it can send emails, edit files, access data, or trigger services, a small shift in behaviour can become a real safety or security problem.
 
-Agentic misalignment concerns how an agent's authority, obligations, actions, or oversight are defined and evidenced.
-
-## Boundary
-
-It is not a control merely because it is named. Define the accountable principal, permitted scope, enforcement point, audit record, revocation, and human escalation.
-
-## How it is used
-
-It is used when agent behaviour diverges from the operator’s intent or policy. In practice, the useful question is what signal proves the drift and what action closes it.
-
-## Evidence
-
-[OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) frames the security side of untrusted or misdirected behaviour.
-
-[NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) provides the governance vocabulary for intent, oversight, and risk treatment.
+It is not the same as an ordinary bug, a broken feature, or a bad prompt. It is also not a fixed official standard term. People use it to describe a risk where an agent’s behaviour stops lining up with the human’s intent and the system’s limits.

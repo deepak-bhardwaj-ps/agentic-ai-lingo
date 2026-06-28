@@ -3,30 +3,27 @@ slug: pilot-purgatory
 name: Pilot Purgatory
 category: AgentOps
 title: Pilot Purgatory
-aliases: null
-short_description: Pilot Purgatory is the state where a promising pilot never gets
-termStatus: Operational shorthand
-researchBasis: OpenAI, Evals design guide
-sources:
-- https://platform.openai.com/docs/guides/evals
+aliases: []
+short_description: A project gets stuck after a promising pilot and never becomes
+  a reliable, owned production service.
+tags: []
+status: active
+meaning_type: rebranded_old_idea
+novelty_level: low
+maturity_level: established
+common_misuse: []
+related_terms: []
+evidence: []
 ---
-
-## Term status
-
-Operational shorthand.
 
 ## Meaning
 
-Pilot Purgatory describes the gap between a convincing limited demonstration and a production service with ownership, integration, reliability, security and measurable value.
+Pilot Purgatory is when a pilot looks promising, but it never becomes a real service that people can rely on.
 
-## Boundary
+In practice, the work gets stuck between “this is interesting” and “this is live”. The team may have a demo, a prototype, or a small test deployment, but it has no clear owner, no proper integration, no support plan, and no way to prove it is useful at scale.
 
-It is not an inevitable lifecycle stage. Diagnose the limiting production capability rather than treating the label as an explanation.
+This matters because a pilot can create the illusion of progress while nothing permanent is being built. The project may keep running in a temporary state for months because no one has made the hard decisions needed to move it into production.
 
-## How it is used
+It is not a formal stage in software delivery. It is a label for a problem: the team has not solved the real blockers to shipping.
 
-Pilot Purgatory is used when a pilot has traction but is stuck without clear ownership, funding, or integration work. The term is a signal that the project is neither a throwaway experiment nor a supported product.
-
-## Evidence
-
-[OpenAI, Evals design guide](https://platform.openai.com/docs/guides/evals) provides the relevant primary source or established reference. For coined labels, it is background for the underlying concept—not evidence that the label itself is standard.
+What it is not: it is not the same as a normal pilot, a proof of concept, or a project that is still being tested on purpose. It is also not just “slow work”. The key sign is that the pilot is stuck without a clear path to becoming a supported production system.
