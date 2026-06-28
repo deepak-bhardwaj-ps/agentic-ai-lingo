@@ -338,7 +338,7 @@ def generate_readme(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
         lines.extend([f"## {category}", ""])
         for term in group:
             title = str(term["meta"].get("title") or term["meta"].get("name") or term["path"].stem)
-            summary = str(term["meta"].get("short_description") or "").strip()
+            summary = str(term["meta"].get("short_description") or "")
             rel = term["path"].as_posix().replace(str(ROOT.as_posix()) + "/", "")
             lines.append(f"- [{title}]({rel}): {summary}")
         lines.append("")
