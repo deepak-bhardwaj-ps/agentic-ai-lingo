@@ -1,7 +1,7 @@
 ---
 title: GenBench
 short_description: A workshop and research effort for benchmarking generalisation in NLP, not a single test.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, nlp, generalisation, evals]
 status: draft
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: Confirms that GenBench is also used as the name of an active workshop series in NLP.
     key_point: The proceedings show GenBench as a workshop venue for papers about generalisation benchmarking, which supports treating the term as a research community and event, not just a dataset.
 ---
-
 GenBench is a workshop and research effort about how to test whether NLP models generalise well to new data.
 
 In practice, it is used for work that compares different kinds of generalisation tests, explains how those tests differ, and helps researchers describe their evaluation clearly. It also includes tools like a taxonomy and evaluation cards.

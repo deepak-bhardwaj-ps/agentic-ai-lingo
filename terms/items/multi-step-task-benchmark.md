@@ -1,7 +1,7 @@
 ---
 title: Multi-step task benchmark
 short_description: A fixed test used to check how well an AI system can complete a task that takes several steps.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, agent, multi-step, interactive-tasks]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Confirms that task-completion benchmarks for agents are part of a larger, still-emerging evaluation field.
     key_point: The survey treats task completion as a core agent-evaluation goal and shows that benchmark design for agents is still varied and not fully standardised.
 ---
-
 A multi-step task benchmark is a fixed test that checks whether an AI system can finish a task that takes several steps.
 
 In practice, the system has to do more than give one answer. It may need to plan, use tools, react to new information, and keep going until the job is done. The benchmark gives the same task and scoring rules to every system so results can be compared.

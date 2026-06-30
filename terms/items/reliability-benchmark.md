@@ -1,7 +1,7 @@
 ---
 title: Reliability benchmark
 short_description: A benchmark that tests whether an AI system keeps working reliably across repeated runs, wording changes, and failures.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evals
   - benchmarks
@@ -43,7 +43,6 @@ evidence:
     relevance: Shows a real benchmark being improved to better measure whether model performance is trustworthy and not overstated.
     key_point: OpenAI says some benchmark tasks can mislead about real capability, which is why more reliable benchmark design matters.
 ---
-
 Reliability benchmark is a benchmark that checks whether an AI system keeps giving good results across repeated runs and small changes.
 
 In practice, it is used to see if a system is steady or flaky. A system may solve a task once, but still fail when the same task is asked again, when the wording changes a little, or when a tool or API breaks. A reliability benchmark tries to catch that.

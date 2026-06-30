@@ -1,7 +1,7 @@
 ---
 title: Financial decision benchmark
 short_description: A benchmark that tests how well an AI system makes or supports financial decisions
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - finance
@@ -44,7 +44,6 @@ evidence:
     relevance: Confirms how benchmark maintainers frame finance benchmarks in practice: as fixed evaluation sets with scoring, not production systems.
     key_point: The repository presents FinanceBench as an annotated evaluation sample for model assessment, which supports the benchmark part of the term.
 ---
-
 A financial decision benchmark is a fixed test used to check how well an AI system helps with financial choices.
 
 In practice, it gives the same finance tasks to different systems so they can be compared fairly. Those tasks may ask a model to pick an action, judge a scenario, use financial evidence, or work through a realistic investing or research problem.

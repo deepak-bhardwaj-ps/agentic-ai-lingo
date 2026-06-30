@@ -1,7 +1,7 @@
 ---
 title: Function calling
 short_description: A way for a model to ask an app to run a named function with arguments and then use the result.
-category: Protocols and standards
+category: Protocols
 tags:
 - ai
 - protocol
@@ -40,7 +40,6 @@ evidence:
     relevance: Shows the same pattern in Google’s current API docs and makes the execution boundary explicit.
     key_point: The model receives function declarations, but your application executes the function and sends the result back.
 ---
-
 Function calling is a way for an AI model to ask an app to run a named function with specific inputs.
 
 In practice, the model does not do the work itself. It picks a function, sends the arguments, and waits for the app to run that function and return the result. The app then uses that result to continue the conversation or finish the task.

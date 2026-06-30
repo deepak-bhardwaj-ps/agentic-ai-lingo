@@ -1,7 +1,7 @@
 ---
 title: ProteinGym
 short_description: Benchmark suite for testing models that predict how protein mutations change protein function.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - biology
@@ -38,7 +38,6 @@ evidence:
     relevance: The NeurIPS paper is the original research description and explains the benchmark’s scope and intent.
     key_point: The paper presents ProteinGym v1.0 as a large-scale benchmark for protein fitness prediction and design, built from over 250 deep mutational scanning assays plus curated clinical datasets.
 ---
-
 ProteinGym is a benchmark suite for checking how well models predict what happens when a protein changes.
 
 In practice, it gives models the same protein mutation tasks and compares their scores under the same rules. The tasks are based on real experimental data, including deep mutational scanning assays and curated clinical variants.

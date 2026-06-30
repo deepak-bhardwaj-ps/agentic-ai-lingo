@@ -1,7 +1,7 @@
 ---
 title: Cascading failures
 short_description: A failure that spreads from one part of a system to another, making the outage bigger over time.
-category: Governance and security
+category: Governance
 tags:
 - resilience
 - reliability
@@ -38,7 +38,6 @@ evidence:
   relevance: Google Cloud gives practical mitigation examples and shows that the term is used in real system design, not just in theory.
   key_point: Google Cloud warns that the failure of one service can cause other services to fail, and recommends circuit breakers, backoff, and graceful degradation to reduce that risk.
 ---
-
 Cascading failures is when one part of a system fails and that failure spreads to other parts, making the problem bigger.
 
 In practice, this often happens in software systems when a service becomes slow or stops working, so other services retry, wait, or pile up work. That extra pressure can then break the next part of the system too.

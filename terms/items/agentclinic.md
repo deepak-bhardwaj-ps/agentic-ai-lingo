@@ -1,7 +1,7 @@
 ---
 title: AgentClinic
 short_description: A benchmark for testing clinical AI agents in simulated doctor-patient settings.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evals
@@ -39,7 +39,6 @@ evidence:
   relevance: This newer journal publication confirms the term’s current framing and shows how the benchmark has been formalised.
   key_point: The article describes AgentClinic as a benchmark that tests clinical AI agents in simulated environments with multimodal data and tools.
 ---
-
 AgentClinic is a benchmark for testing clinical AI agents in a simulated doctor-patient setting.
 
 It is used to see how well an AI can ask questions, use tools, collect information, and reach a diagnosis step by step.

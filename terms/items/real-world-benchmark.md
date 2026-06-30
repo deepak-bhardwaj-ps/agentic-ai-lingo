@@ -1,7 +1,7 @@
 ---
 title: Real-world benchmark
 short_description: A benchmark built from tasks that resemble real work, not just toy examples
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -44,7 +44,6 @@ evidence:
     relevance: Helps distinguish real-world benchmarks from simpler tests by showing that realistic evaluations often need clearer success criteria and careful test design.
     key_point: Anthropic frames evaluations as tests against success criteria, which fits the idea that real-world benchmarks are still structured evaluations, not real deployment.
 ---
-
 A real-world benchmark is a test that uses tasks meant to look like actual work people do.
 
 In practice, it usually measures how well an AI system handles realistic jobs, such as fixing a software issue, answering a work question, or completing a task that has the same shape as something a person would do on the job.

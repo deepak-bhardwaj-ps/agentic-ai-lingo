@@ -1,7 +1,7 @@
 ---
 title: LongBench-Chat
 short_description: Benchmark for testing whether LLMs can follow instructions across very long chat or document contexts.
-category: Evals and benchmarks
+category: Evals
 tags:
   - long-context
   - benchmark
@@ -37,7 +37,6 @@ evidence:
     relevance: This later paper summarises LongBench-Chat’s size and task mix, which helps confirm the benchmark’s scope.
     key_point: It describes LongBench-Chat as 50 real-world queries spanning reasoning, coding, summarisation, and multilingual translation over long contexts.
 ---
-
 LongBench-Chat is a benchmark used to test whether a language model can follow instructions when the input is very long.
 
 In practice, it gives a model long prompts or chat histories and checks how well the answer matches the task. The focus is on long-context instruction-following, not on training the model.

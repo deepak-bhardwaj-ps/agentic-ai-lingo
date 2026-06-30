@@ -1,7 +1,7 @@
 ---
 title: Environment benchmark
 short_description: A benchmark that tests an AI agent inside a controlled environment, such as a game, simulator, browser, or app workspace.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evaluation
@@ -44,7 +44,6 @@ evidence:
     relevance: Confirms the broader research pattern that benchmark environments are used as standardised test beds, especially in safety-focused RL.
     key_point: The paper defines Safety-Gymnasium as an environment suite for safe reinforcement learning, which shows how the term is used for controlled evaluation spaces.
 ---
-
 An environment benchmark is a test that checks how well an AI agent does inside a controlled environment.
 
 In practice, the environment might be a game, a simulator, a browser, a phone, a desktop, or a small app workspace. The benchmark gives the agent the same setup and rules each time, then measures what it can do and whether it can finish the task.

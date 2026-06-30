@@ -1,7 +1,7 @@
 ---
 title: BioASQ
 short_description: Biomedical question-answering and semantic indexing challenge and benchmark.
-category: Evals and benchmarks
+category: Evals
 tags:
   - biomedical
   - question-answering
@@ -36,7 +36,6 @@ evidence:
     relevance: Peer-reviewed overview paper that defines the scope of the competition.
     key_point: BioASQ is a competition for semantic indexing of biomedical articles and for answering natural-language biomedical questions using biomedical articles and ontologies.
 ---
-
 BioASQ is a biomedical question-answering challenge and benchmark.
 
 It is used to test systems that can search biomedical sources and answer questions in a way people can use. The tasks are not just about picking a label. They can also ask a system to find relevant articles, choose supporting snippets, give a short exact answer, and write a fuller answer.

@@ -1,7 +1,7 @@
 ---
 title: AgentSecBench
 short_description: A short name for Agent Security Bench (ASB), a benchmark for testing security failures in LLM-based agents.
-category: Evals and benchmarks
+category: Evals
 tags:
   - agent
   - benchmark
@@ -42,7 +42,6 @@ evidence:
     relevance: This conference record confirms the term as a research benchmark and helps verify that it is used in published academic work.
     key_point: OpenReview describes ASB as a framework for benchmarking attacks and defences of LLM-based agents.
 ---
-
 AgentSecBench is a short name for Agent Security Bench, often written as ASB.
 
 It is a benchmark for testing how secure an LLM-based agent is when it can use tools, follow instructions, and act on a person’s behalf.

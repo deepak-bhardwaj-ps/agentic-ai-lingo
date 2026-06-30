@@ -1,7 +1,7 @@
 ---
 title: CRM-bench
 short_description: A benchmark for testing AI agents on CRM tasks such as sales and customer service work.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, crm, agentic-ai]
 status: active
 aliases: [CRM benchmark]
@@ -40,7 +40,6 @@ evidence:
     relevance: Newer paper showing how the CRM benchmark line has expanded.
     key_point: Shows the benchmark family has grown beyond basic customer service into sales, CPQ, B2B and B2C tasks, which matters for using the term today.
 ---
-
 CRM-bench is a benchmark for testing how well an AI agent can do CRM work, such as sales and customer service tasks.
 
 In practice, it usually means a controlled test set where an agent is asked to carry out CRM-style jobs and is scored on how well it performs. The work may include looking up customer information, handling sales steps, or summarising service cases.

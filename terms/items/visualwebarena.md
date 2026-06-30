@@ -1,7 +1,7 @@
 ---
 title: VisualWebArena
 short_description: A benchmark for testing multimodal web agents on realistic visual tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, web-agents, multimodal, vision-language]
 status: active
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Official project page with a plain-language description and examples of how the benchmark is used.
     key_point: The site explains that agents must process image-text inputs, follow natural-language instructions, and act on websites, which clarifies that this is an evaluation suite rather than a general web app.
 ---
-
 VisualWebArena is a benchmark for testing whether a multimodal agent can do real tasks on websites while also understanding what it sees.
 
 In practice, it gives an agent web pages, screenshots, and instructions, then checks whether it completes the task correctly. The benchmark is built around realistic web tasks and is meant to measure how well an agent handles both text and visual information.

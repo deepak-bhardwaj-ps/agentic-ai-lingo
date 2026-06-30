@@ -1,7 +1,7 @@
 ---
 title: Competition benchmark
 short_description: A benchmark built from a competition, usually with fixed tasks, fixed scoring, and a hidden test set.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - competition
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows current platform usage of the term benchmark in a competition setting.
     key_point: Kaggle describes benchmarks as something people can build, run, and share for evaluating AI models and agents.
 ---
-
 A competition benchmark is a benchmark made from a competition.
 
 It usually gives everyone the same task, the same data, and the same scoring rules. In many cases, the real test answers are kept hidden, so people cannot simply copy the right output from the training data.

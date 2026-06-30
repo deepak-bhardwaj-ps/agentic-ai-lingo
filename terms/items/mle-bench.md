@@ -1,7 +1,7 @@
 ---
 title: MLE-bench
 short_description: A benchmark for testing how well AI agents can do machine learning engineering tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -38,7 +38,6 @@ evidence:
     relevance: The repository documents how the benchmark is packaged and used in practice.
     key_point: The README says the dataset is a collection of 75 Kaggle competitions used to evaluate AI systems’ ML engineering capabilities.
 ---
-
 MLE-bench is a benchmark for testing how well AI agents can do machine learning engineering.
 
 In practice, it gives an agent real competition-style tasks, mostly based on Kaggle, and checks whether it can work through them well enough to score highly. The tasks include things like preparing data, training models, and running experiments.

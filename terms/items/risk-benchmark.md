@@ -1,7 +1,7 @@
 ---
 title: Risk benchmark
 short_description: A benchmark that measures how risky an AI system’s behaviour is in a given situation.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - safety
@@ -46,7 +46,6 @@ evidence:
     relevance: This shows a newer, different use of “risk benchmark” as a benchmark about benchmark reliability, which is a common source of confusion.
     key_point: The paper frames “benchmark risk” as the chance that benchmark failure modes lead users to wrong or unsupported conclusions.
 ---
-
 Risk benchmark is a benchmark that tries to show how risky an AI system is in a specific situation.
 
 In practice, it usually asks whether a model or agent might say harmful things, encourage unsafe actions, leak private data, or behave badly under pressure. The benchmark then scores those outcomes against named risk categories.

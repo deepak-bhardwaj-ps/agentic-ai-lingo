@@ -1,7 +1,7 @@
 ---
 title: WorkflowsBench
 short_description: A benchmark term for testing AI systems on end-to-end workflows, but the name is not standardised.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evals
@@ -44,7 +44,6 @@ evidence:
   relevance: This shows that current research treats workflow evaluation as a real benchmark problem and often separates the model from the execution harness.
   key_point: Harness-Bench is a diagnostic benchmark for evaluating configuration-level harness effects in realistic agent workflows.
 ---
-
 WorkflowsBench is a loose name for a benchmark that tests how well an AI system can complete a workflow from start to finish.
 
 In practice, that means the system is not being judged on one short answer. It has to move through several steps, often using tools, following rules, and producing a result that can be checked.

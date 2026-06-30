@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol
 short_description: An open standard, usually called MCP, that lets AI apps connect to tools, data, and workflows in a shared way.
-category: Protocols and standards
+category: Protocols
 tags:
   - ai
   - protocol
@@ -40,7 +40,6 @@ evidence:
     relevance: Early maintainer explanation that shows the intended use of MCP as a connection standard, not a model or app.
     key_point: MCP is an open standard for secure, two-way connections between data sources and AI-powered tools.
 ---
-
 Model Context Protocol is the full name for MCP.
 
 It is a standard way for an AI app to connect to outside tools and data. In practice, that can mean reading files, checking a database, or asking a helper service to do a job for the app.

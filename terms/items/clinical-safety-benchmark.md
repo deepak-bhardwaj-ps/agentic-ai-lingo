@@ -1,7 +1,7 @@
 ---
 title: Clinical safety benchmark
 short_description: A test for checking whether medical AI avoids harmful advice and unsafe actions.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evals
@@ -39,7 +39,6 @@ evidence:
   relevance: Explains why benchmark-style testing is useful but limited for clinical systems that must behave safely in changing real-world settings.
   key_point: The FDA says static benchmarks can provide a baseline, but they are not designed to predict behaviour in dynamic real-world environments, so benchmark scores do not by themselves prove clinical safety.
 ---
-
 Clinical safety benchmark is a test used to check whether a medical AI system gives safe answers and avoids harmful advice.
 
 In practice, it usually means a fixed set of clinical cases or prompts that look for dangerous mistakes, such as missing a serious illness, giving unsafe treatment advice, or ignoring important patient details.

@@ -1,7 +1,7 @@
 ---
 title: Agent Card
 short_description: A JSON document that tells other systems what an A2A agent is, what it can do, and how to contact it.
-category: Protocols and standards
+category: Protocols
 tags:
 - protocol
 - interoperability
@@ -38,7 +38,6 @@ evidence:
   relevance: Gives a plain-language explanation from a main protocol backer.
   key_point: Google explains that each A2A agent publishes an Agent Card at a well-known URL so other systems can discover its name, capabilities, and endpoint.
 ---
-
 An Agent Card is a JSON file that describes an A2A agent so other systems can find it and know how to talk to it.
 
 In practice, it works like a small digital business card for an agent. It usually tells you the agent's name, what it can do, where its service lives, and what kind of login or permission it needs.

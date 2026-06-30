@@ -1,7 +1,7 @@
 ---
 title: FinQA
 short_description: A benchmark dataset for testing numerical reasoning over financial reports
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, finance, evals, question-answering, numerical-reasoning]
 status: active
 aliases: [FINQA]
@@ -36,7 +36,6 @@ evidence:
     relevance: This repository confirms how the benchmark is packaged and named for reuse by other researchers.
     key_point: The repository identifies FinQA as the dataset and code for the EMNLP 2021 paper, reinforcing that it is a research benchmark rather than a product.
 ---
-
 FinQA is a benchmark dataset for testing how well a model can answer questions that need number handling from financial reports.
 
 In practice, FinQA gives a model questions about financial documents and checks whether it can work out the answer from the evidence. The questions are not just about reading words. They often need the model to add, subtract, compare, or combine numbers from tables and text.

@@ -1,7 +1,7 @@
 ---
 title: Human approval
 short_description: A pause in a workflow where a person must approve a sensitive action before it continues.
-category: Governance and security
+category: Governance
 tags:
   - agent safety
   - human-in-the-loop

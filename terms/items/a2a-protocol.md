@@ -1,7 +1,7 @@
 ---
 title: A2A protocol
 short_description: A2A protocol is the Agent2Agent standard for letting one AI agent find, talk to, and hand work to another.
-category: Protocols and standards
+category: Protocols
 tags:
 - ai
 - protocol
@@ -37,7 +37,6 @@ evidence:
   relevance: Early design explanation from one of the main backers.
   key_point: Google describes A2A as a protocol for agents from different vendors and frameworks to communicate and coordinate work.
 ---
-
 A2A protocol is the standard for letting one AI agent find another agent, talk to it, and hand work to it.
 
 In practice, A2A gives agents a shared way to advertise what they can do, send a task, show progress, and return a result. It is meant for cases where agents come from different teams, products, or companies.

@@ -1,7 +1,7 @@
 ---
 title: SWE-agent
 short_description: An AI agent project that helps a language model work through software engineering tasks in code repositories.
-category: Evals and benchmarks
+category: Evals
 tags:
 - coding-agents
 - software-engineering
@@ -44,7 +44,6 @@ evidence:
     relevance: SWE-agent is closely tied to SWE-bench, and this source helps separate the agent from the benchmark it is evaluated on.
     key_point: SWE-bench is the benchmark; SWE-agent is one of the systems evaluated on real GitHub issues.
 ---
-
 SWE-agent is an AI coding agent project that helps a language model work on software engineering tasks in a code repository.
 
 In practice, it can read files, edit code, and run tests so it can try to fix a GitHub issue or complete a coding task step by step.

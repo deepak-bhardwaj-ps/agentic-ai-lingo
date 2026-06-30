@@ -1,7 +1,7 @@
 ---
 title: Biomni-Eval1
 short_description: A benchmark dataset for testing Biomni and other biomedical agents on fixed biology tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - biomedical

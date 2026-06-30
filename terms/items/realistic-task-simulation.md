@@ -1,7 +1,7 @@
 ---
 title: Realistic task simulation
 short_description: A test setup that mimics a real task closely enough to judge how an AI system would behave in practice
-category: Evals and benchmarks
+category: Evals
 tags:
   - evaluation
   - simulation
@@ -43,7 +43,6 @@ evidence:
     relevance: Shows that realistic task settings are often judged by whether they are hard in a natural way but still easy to check.
     key_point: OpenAI presents BrowseComp as a benchmark for browsing agents and highlights the need for tasks that are challenging yet straightforward to verify.
 ---
-
 Realistic task simulation is a test setup that imitates a real job or user task closely enough to see how an AI system would behave in practice.
 
 In practice, it means creating a scenario that looks like the real situation the system will face. That might include the same kind of tools, steps, constraints, or interruptions a person would meet on the job. The goal is not to make a perfect copy. The goal is to make the test close enough to reveal likely mistakes.

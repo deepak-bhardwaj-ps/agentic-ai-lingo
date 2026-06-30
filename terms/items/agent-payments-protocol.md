@@ -1,7 +1,7 @@
 ---
 title: Agent Payments Protocol
 short_description: An open protocol for letting an AI agent make or prepare a payment with clear user approval, spending limits, and an audit trail.
-category: Protocols and standards
+category: Protocols
 tags:
   - payments
   - agentic-commerce
@@ -45,7 +45,6 @@ evidence:
     relevance: Confirms AP2 is now part of a broader standards effort for trusted agent interactions.
     key_point: Shows AP2 is being used as input to FIDO Alliance work on open, interoperable standards for agentic payments.
 ---
-
 Agent Payments Protocol, often called AP2, is an open payments protocol for AI agents.
 
 It is used when a person wants an agent to help with a purchase, but the payment still needs clear approval, spending limits, and a record of what happened. In AP2, the agent does not just pay freely. It works with signed authorisation records, often called mandates, so merchants and payment providers can check that the purchase was allowed.

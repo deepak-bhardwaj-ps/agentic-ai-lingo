@@ -1,7 +1,7 @@
 ---
 title: Human evaluation
 short_description: Judging an AI system by having people review its outputs or task results.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evals
   - benchmarks

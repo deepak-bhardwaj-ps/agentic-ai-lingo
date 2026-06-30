@@ -1,7 +1,7 @@
 ---
 title: Contamination-resistant benchmark
 short_description: A benchmark designed to stay useful even if models have seen similar tasks during training.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evaluation
@@ -44,7 +44,6 @@ evidence:
     relevance: This benchmark paper shows a concrete design pattern for contamination resistance: new questions, recent sources, and objective scoring.
     key_point: LiveBench is described as designed to be resistant to test set contamination by using frequently updated questions and verifiable answers.
 ---
-
 Contamination-resistant benchmark is a benchmark designed so training leakage does not make the score misleading.
 
 In practice, that means the benchmark tries to avoid problems where a model has already seen the questions, answers, or very similar examples during training. Good designs often use fresh tasks, private data, changing question sets, or answers that can be checked objectively.

@@ -1,7 +1,7 @@
 ---
 title: Scientific benchmark
 short_description: A fixed test for checking how well a system handles scientific tasks
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, science]
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Gives the general meaning of a benchmark as a repeatable way to measure performance, which is the base idea behind a scientific benchmark.
     key_point: The paper explains that benchmarks usually contain datasets and metrics for measuring performance, and that they help define the task being measured.
 ---
-
 Scientific benchmark is a repeatable test used to measure how well a system handles scientific work.
 
 In practice, it usually means a set of science questions, data-analysis tasks, or research-style problems with fixed rules for scoring. Some scientific benchmarks test knowledge, but the stronger ones test scientific reasoning, judgement, or parts of the research process.

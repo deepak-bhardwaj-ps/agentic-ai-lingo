@@ -1,7 +1,7 @@
 ---
 title: Gold set
 short_description: A small, carefully checked reference set used to judge whether an evaluation is working.
-category: Evals and benchmarks
+category: Evals
 tags: [evals, benchmark, ground-truth, reference-set]
 status: draft
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: Anthropic describes evals as tests with inputs and grading logic, and discusses gold-standard human judgements as the reference for evaluating agent behaviour.
     key_point: The post supports the idea that a gold set is the trusted reference against which automated or human scoring is compared.
 ---
-
 A gold set is a small set of examples that people have checked carefully and use as the reference for scoring an evaluation.
 
 In practice, a gold set is the answer key for a test. If the model gives the same answer as the gold set, the result can be counted as correct. Teams use it to check whether a model, prompt, or agent is getting better or worse over time.

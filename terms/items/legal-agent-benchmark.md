@@ -1,7 +1,7 @@
 ---
 title: Legal Agent Benchmark
 short_description: Harvey’s open benchmark for testing AI agents on long legal work tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [agent benchmark, legal AI, legal work, Harvey, LAB]
 status: draft
 aliases: [LAB]
@@ -41,7 +41,6 @@ evidence:
     relevance: Provides a current third-party summary of how the benchmark is used and what kinds of tools it tests.
     key_point: Vals AI says the benchmark tests an agent’s ability to complete legal work using documents, spreadsheets, presentations, and file-system tools.
 ---
-
 Legal Agent Benchmark is Harvey’s benchmark for testing AI agents on long legal tasks.
 
 In practice, it gives an agent legal work to do, along with files and instructions, and checks whether the result meets the rules for that task. It is meant to look more like real law-firm work than a simple quiz.

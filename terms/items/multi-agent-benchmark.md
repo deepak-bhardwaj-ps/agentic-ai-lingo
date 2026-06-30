@@ -1,7 +1,7 @@
 ---
 title: Multi-agent benchmark
 short_description: A fixed test for measuring how well a system of several AI agents works together, competes, or coordinates.
-category: Evals and benchmarks
+category: Evals
 tags: [agent, benchmark, evals, multi-agent]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Shows that agent evaluation is still fragmented and that benchmarks for agent behaviour are a distinct area.
     key_point: The survey frames LLM agent evaluation as a separate field and discusses benchmarks that assess sequences of actions and interactions, which supports the idea that multi-agent benchmarks are about coordinated behaviour, not single-turn answers.
 ---
-
 A multi-agent benchmark is a fixed test that checks how well several AI agents work together, compete, or coordinate on a task.
 
 In practice, it gives the agents the same challenge in a controlled setup and then scores things like whether they finished the task, how well they shared work, and whether they avoided confusion or conflict.

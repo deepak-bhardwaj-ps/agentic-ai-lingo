@@ -1,7 +1,7 @@
 ---
 title: Bioinformatics benchmark
 short_description: A test or dataset used to measure how well a tool or model handles bioinformatics tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - bioinformatics
   - benchmarks
@@ -38,7 +38,6 @@ evidence:
     relevance: Anchors the older, established meaning of benchmarking in bioinformatics for validating analysis methods against trusted reference materials.
     key_point: NIST describes GIAB as providing reference standards and reference data for benchmarking whole-genome sequencing methods and technology development.
 ---
-
 Bioinformatics benchmark is a test, dataset, or task set used to measure how well a tool or model works on bioinformatics work.
 
 In practice, it is used to check things like genome analysis, variant calling, protein analysis, or AI help with biological data. The benchmark gives a common way to compare systems, so people can see which one does better on the same jobs.

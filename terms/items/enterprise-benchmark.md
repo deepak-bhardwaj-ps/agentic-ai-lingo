@@ -1,7 +1,7 @@
 ---
 title: Enterprise benchmark
 short_description: A benchmark built around business or knowledge-work tasks that matter in real organisations.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - enterprise
@@ -43,7 +43,6 @@ evidence:
     relevance: Explains why business-style evaluations need to test whole workflows, not just one answer, which is central to enterprise benchmarks.
     key_point: Anthropic says evaluations should measure real task completion across the full workflow, especially when tools and multi-step action are involved.
 ---
-
 An enterprise benchmark is a fixed test for AI systems that checks how well they do work-like tasks used in businesses or organisations.
 
 In practice, it might test things like writing a business email, handling a support case, searching company documents, following a policy, or completing a job that matters in an office or specialist workplace. The tasks are usually designed to feel like real work, not toy examples.

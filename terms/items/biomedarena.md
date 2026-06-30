@@ -1,7 +1,7 @@
 ---
 title: BioMedArena
 short_description: 'An open-source toolkit for evaluating biomedical deep-research agents in a shared benchmark environment.'
-category: Evals and benchmarks
+category: Evals
 tags:
   - biomedical-ai
   - agent-evals
@@ -37,7 +37,6 @@ evidence:
     relevance: This documentation supports the claim that BioMedArena bundles many biomedical benchmark datasets rather than being one dataset itself.
     key_point: The docs list the benchmark inventory and explain how the toolkit standardises benchmark handling across tasks.
 ---
-
 BioMedArena is an open-source toolkit for testing biomedical deep-research agents.
 
 In practice, it gives researchers a shared place to run many biomedical benchmarks with the same kind of agent setup, tools, and scoring rules. That makes results easier to compare across models and papers.

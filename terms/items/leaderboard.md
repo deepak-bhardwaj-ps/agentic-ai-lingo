@@ -1,7 +1,7 @@
 ---
 title: Leaderboard
 short_description: A ranked list that compares models or systems using scores from the same benchmark or evaluation.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evals
   - benchmark
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows how benchmark results are collected and displayed as published results that people can review and compare.
     key_point: MLCommons presents benchmark results in a dashboard and uses official rules as the source of truth, which is the common structure behind many leaderboards.
 ---
-
 A leaderboard is a ranked list that shows how different models or systems scored on the same benchmark or evaluation.
 
 In practice, each entry gets a score, and the list is ordered from higher to lower. People use leaderboards to compare models quickly and to see which ones do well on a particular test.

@@ -1,7 +1,7 @@
 ---
 title: Business process benchmark
 short_description: A test or comparison set used to measure how well a model or method handles business-process work.
-category: Evals and benchmarks
+category: Evals
 tags: []
 status: draft
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: Supports the broader evaluation meaning of a benchmark as a test with grading logic, which is how this term is used in AI work.
     key_point: An eval is a test for an AI system with input and grading logic, which is the basic pattern behind benchmarks.
 ---
-
 A business process benchmark is a test or comparison set used to measure how well a model or method handles business-process work.
 
 In practice, it usually means a collection of realistic process scenarios, questions, or tasks with correct answers. Teams use it to compare models, check whether a change helped, and see how well a system handles work like understanding a workflow or reasoning about business operations.

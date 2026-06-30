@@ -1,7 +1,7 @@
 ---
 title: SWE-bench verified
 short_description: A human-validated subset of SWE-bench used to test coding agents on real software issues.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, coding-agents, software-engineering]
 status: active
 aliases: [SWE-Bench Verified]
@@ -35,7 +35,6 @@ evidence:
     relevance: The original paper defines SWE-bench itself, which is necessary context for understanding the verified subset.
     key_point: Defines SWE-bench as a benchmark of software engineering problems drawn from real GitHub issues and pull requests, showing that SWE-bench Verified is a curated version of an existing benchmark.
 ---
-
 SWE-bench Verified is a human-checked subset of SWE-bench used to test how well an AI system can fix real software issues.
 
 In practice, a model gets a code repository and an issue description, then tries to make a code change that solves the problem. The result is judged by tests and other checks.

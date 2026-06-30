@@ -1,7 +1,7 @@
 ---
 title: Medical benchmark
 short_description: A fixed test for checking how well an AI system handles medical or healthcare tasks
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, medical, healthcare, evals]
 status: active
 aliases: []
@@ -33,7 +33,6 @@ evidence:
     relevance: Explains why medical benchmarks are tricky and why they need to match real clinical tasks.
     key_point: The paper argues that many medical LLM benchmarks are built from exam-style questions and can fail to measure the real-world clinical construct they claim to represent.
 ---
-
 Medical benchmark is a fixed test used to check how well an AI system does on medical or healthcare tasks.
 
 In practice, a medical benchmark may ask a model to answer health questions, read clinical information, or respond to a patient-style scenario. The best benchmarks try to match real medical work as closely as possible, not just textbook-style questions.

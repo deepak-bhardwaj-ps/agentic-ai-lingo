@@ -1,7 +1,7 @@
 ---
 title: Safety benchmark
 short_description: A fixed test used to check whether an AI system behaves safely on risky or harmful cases.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -43,7 +43,6 @@ evidence:
     relevance: Anthropic explains why frontier models go through safety evaluations for dangerous capabilities, which helps bound the practical purpose of safety benchmarks.
     key_point: Anthropic says new AI models are tested with safety evaluations for harmful capabilities such as helping create biological or chemical weapons, showing that safety benchmarks are about specific risky behaviours rather than general ability.
 ---
-
 A safety benchmark is a fixed test used to check whether an AI system behaves safely when it faces risky or harmful cases.
 
 In practice, it usually gives the system the same kinds of prompts, tasks, or scenarios every time, then checks for things like unsafe advice, harmful instructions, dangerous actions, or failure to refuse when it should.

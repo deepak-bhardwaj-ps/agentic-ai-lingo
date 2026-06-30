@@ -1,7 +1,7 @@
 ---
 title: GraphAgentBench
 short_description: A benchmark term for testing AI agents on graph tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, agent, graph, evals]
 status: draft
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: Helps distinguish graph-agent benchmarking from ordinary graph reasoning by showing agent-based graph evaluation at larger scales.
     key_point: The paper presents GraphAgent-Reasoner for graph reasoning and reports benchmark results across graph tasks, reinforcing that this area is still developing and has several nearby but distinct benchmark names.
 ---
-
 GraphAgentBench is a benchmark for testing how well an AI agent can work with graphs.
 
 In practice, it usually means a set of graph tasks where the agent has to follow links, use tools, or answer questions that depend on graph structure.

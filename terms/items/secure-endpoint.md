@@ -1,7 +1,7 @@
 ---
 title: Secure endpoint
 short_description: A network endpoint designed to reduce the risk of eavesdropping, tampering, and unauthorised access.
-category: Protocols and standards
+category: Protocols
 tags:
 - networking
 - security
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows how a secure endpoint is commonly implemented in practice with certificates and HTTPS/TLS configuration.
     key_point: AWS requires a server certificate and a security policy for an HTTPS listener, and uses the certificate to terminate and decrypt client connections.
 ---
-
 An endpoint is the address where a service can be reached. A secure endpoint is an endpoint set up so traffic is protected, usually with HTTPS or TLS, and often with a certificate and access checks.
 
 In practice, this means the data sent to and from the service is harder to read or change while it travels over the network. The server also proves its identity with a certificate, which helps stop fake sites or services from pretending to be real ones.

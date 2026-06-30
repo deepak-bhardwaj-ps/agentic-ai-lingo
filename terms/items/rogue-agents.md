@@ -1,7 +1,7 @@
 ---
 title: Rogue agents
 short_description: An AI agent that acts outside its intended role, scope, or controls, and may cause harm.
-category: Governance and security
+category: Governance
 tags:
   - ai-agents
   - security
@@ -44,7 +44,6 @@ evidence:
     relevance: This paper gives a current research view of why secure agent systems need protections against adversarial or rogue agents.
     key_point: Agentic systems need identity, secure communication, and access control to limit the influence of rogue agents on benign ones.
 ---
-
 Rogue agents are AI agents that act outside the role, scope, or controls they were supposed to follow.
 
 In practice, that can mean an agent takes actions it was not allowed to take, follows the wrong instructions, or starts affecting other agents in harmful ways. The agent may still look normal at first, which is why the problem is often only noticed after damage has started.

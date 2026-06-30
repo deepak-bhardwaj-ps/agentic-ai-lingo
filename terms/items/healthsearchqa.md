@@ -1,7 +1,7 @@
 ---
 title: HealthSearchQA
 short_description: Google’s dataset of commonly searched consumer health questions used in the MultiMedQA benchmark.
-category: Evals and benchmarks
+category: Evals
 tags:
 - medical QA
 - health benchmarks
@@ -37,7 +37,6 @@ evidence:
   relevance: Dataset listing that restates the paper's description and confirms the question-only, open-domain format.
   key_point: The dataset contains commonly searched consumer health questions and is formatted as question-only, free-text, open-domain examples.
 ---
-
 HealthSearchQA is a dataset of commonly searched consumer health questions.
 
 In practice, it is used to test whether a language model can answer everyday health questions that people search for online, such as questions about symptoms, causes, or whether something is serious.

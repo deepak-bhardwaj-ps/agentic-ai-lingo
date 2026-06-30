@@ -1,7 +1,7 @@
 ---
 title: Interactive benchmark
 short_description: A benchmark that tests an AI system through back-and-forth interaction instead of one fixed answer.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, interactive, agent-evaluation]
 status: active
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: Provides another current example of a benchmark built specifically around interactive, multi-turn evaluation.
     key_point: The paper describes a benchmark for reasoning in multi-turn interactive scenarios and says it uses an automated interactive framework.
 ---
-
 An interactive benchmark is a test where the AI has to respond step by step instead of giving one answer all at once.
 
 In practice, the system may need to answer, react to new information, use tools, or keep track of what happened in earlier turns. The score depends on how well it handles the interaction, not just on the final reply.

@@ -1,7 +1,7 @@
 ---
 title: Open-ended benchmark
 short_description: A benchmark that tests free-form tasks where there may be more than one good answer
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, open-ended, rubric]
 status: draft
 aliases: []
@@ -39,7 +39,6 @@ evidence:
     relevance: Supports the idea that open-ended benchmarks are used for broad capabilities where fixed test sets are too limited.
     key_point: The paper describes ONEBench as an open-ended benchmarking framework and says traditional fixed datasets fall short for evaluating open-ended capabilities.
 ---
-
 An open-ended benchmark is a test for things where there is not just one exact answer.
 
 In practice, it checks how well a model handles tasks with many possible good responses, such as writing, research, or advice. These benchmarks usually need rules, rubrics, or human judgement to score the answer, because simple exact-match scoring is not enough.

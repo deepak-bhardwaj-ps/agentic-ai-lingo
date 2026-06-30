@@ -1,7 +1,7 @@
 ---
 title: FinToolBench
 short_description: A benchmark for testing how well AI agents use real financial tools
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, finance, evals, tool-use]
 status: active
 aliases: []
@@ -33,7 +33,6 @@ evidence:
     relevance: This summarises the paper in a widely used research index and confirms the term’s current framing.
     key_point: It presents FinToolBench as a benchmark for realistic financial tool-use scenarios, not static question answering.
 ---
-
 FinToolBench is a benchmark for checking how well an AI agent uses real financial tools.
 
 In practice, it gives the agent financial tasks that require calling tools, not just writing text. The benchmark checks whether the agent picks the right tool, uses it correctly, and follows finance-specific rules such as timing, intent, and domain limits.

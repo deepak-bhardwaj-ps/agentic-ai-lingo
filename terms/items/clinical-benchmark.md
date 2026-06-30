@@ -1,7 +1,7 @@
 ---
 title: Clinical benchmark
 short_description: A test or benchmark suite used to compare AI systems on clinical tasks in healthcare.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, clinical-ai, healthcare, evals]
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Shows the term being used for a broader clinic-focused benchmark covering many tasks, not just exam-style questions.
     key_point: The ClinicBench project describes a comprehensive benchmark across clinical language understanding, generation, reasoning, and open-ended decision-making tasks.
 ---
-
 If something is called a clinical benchmark, it usually means a test used to compare AI systems on healthcare tasks that happen in clinics, such as answering patient questions, reading medical text, or helping with clinical decisions.
 
 In practice, it is usually a fixed set of cases or tasks that many models try under the same rules. That makes the results easier to compare. Some clinical benchmarks focus on short question-and-answer tasks. Others use longer, more realistic conversations or hospital-style records.

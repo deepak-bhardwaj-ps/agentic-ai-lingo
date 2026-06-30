@@ -1,7 +1,7 @@
 ---
 title: WebArena
 short_description: A benchmark for testing web agents on realistic, self-hosted websites
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, web-agents, browser-automation]
 status: active
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: The repository shows how the benchmark is packaged and used in practice, which helps distinguish it from a general product.
     key_point: The repo describes WebArena as a standalone, self-hostable web environment for building autonomous agents and notes that it is the canonical implementation of the benchmark.
 ---
-
 WebArena is a benchmark for testing web agents on realistic websites that are set up to be self-hosted and reproducible.
 
 In practice, it gives an agent tasks to do on websites such as shopping, forums, software development, maps, or content management. The agent must use the site, follow instructions, and finish the task correctly. The score is based on whether the final result matches the goal.

@@ -1,7 +1,7 @@
 ---
 title: BioKGBench
 short_description: A benchmark for testing biomedical AI agents on knowledge graph checking and literature-backed claim verification.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -40,7 +40,6 @@ evidence:
     relevance: Conference record for the same benchmark, useful for confirming the formal name and framing.
     key_point: The OpenReview listing identifies BioKGBench as a benchmark for biomedical knowledge graph checking, reinforcing that it is a formal evaluation task rather than a generic term.
 ---
-
 BioKGBench is a benchmark for testing biomedical AI agents on knowledge graph checking.
 
 In practice, it checks whether an AI can read scientific text, answer questions about a knowledge graph, and spot mistakes in biomedical facts.

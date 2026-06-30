@@ -1,7 +1,7 @@
 ---
 title: MedMCQA
 short_description: A benchmark of multiple-choice medical questions used to test AI models on medical knowledge and reasoning
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, medical, question-answering, evals]
 status: active
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: This dataset card confirms the public packaging and summary used by downstream users.
     key_point: The card describes MedMCQA as a large-scale MCQA dataset for real medical entrance exam questions and notes its breadth across medical topics and subjects.
 ---
-
 MedMCQA is a benchmark made of multiple-choice medical questions used to test how well an AI system understands medical facts and reasoning.
 
 In practice, a model gets a medical question and several answer options, then has to pick the right one. The benchmark was built from Indian medical entrance-exam questions, so it reflects exam-style medical knowledge rather than free-form chat.

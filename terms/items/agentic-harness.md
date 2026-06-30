@@ -1,7 +1,7 @@
 ---
 title: Agentic harness
 short_description: Software around a model that runs the agent loop, tools, state, and checks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - agents
   - orchestration
@@ -39,7 +39,6 @@ evidence:
     relevance: Provides a plain-language definition used by a major agent framework and confirms that a harness is the software around the model loop.
     key_point: LangChain says an agent is a model calling tools in a loop and that the harness is everything around that loop, including the model, prompt, tools, and middleware.
 ---
-
 An agentic harness is the software around an AI model that lets it act like an agent.
 
 In practice, it runs the loop that sends work to the model, lets the model call tools, keeps track of what has happened, and decides when to continue, stop, ask for approval, or hand work to another step.

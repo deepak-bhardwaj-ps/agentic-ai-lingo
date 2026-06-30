@@ -1,7 +1,7 @@
 ---
 title: Hallucination benchmark
 short_description: A test used to measure how often a model gives false or unsupported answers.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -45,7 +45,6 @@ evidence:
     relevance: Shows a well-known research benchmark built specifically to evaluate hallucination recognition, confirming the term is used for targeted test sets.
     key_point: The paper introduces HaluEval as a large collection of generated and human-annotated hallucinated samples for evaluating how well LLMs recognise hallucination.
 ---
-
 A hallucination benchmark is a test that checks how often an AI model gives answers that are false, made up, or not supported by the evidence.
 
 In practice, it gives the model questions or tasks with known answers, then scores whether the model stays accurate, admits uncertainty, or makes up details. Some hallucination benchmarks focus on short fact questions. Others test whether a model can spot hallucinated text.

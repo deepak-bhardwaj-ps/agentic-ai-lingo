@@ -1,7 +1,7 @@
 ---
 title: Closed-form benchmark
 short_description: A benchmark with exact answers that can be checked automatically, often used in maths and other tasks with a fixed final result
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, exact-answer, maths, verification]
 status: review
 aliases: []
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows that short, fact-seeking benchmarks are built around answers that can be judged against a known reference.
     key_point: OpenAI describes SimpleQA as a factuality benchmark for short, fact-seeking questions, which fits the same exact-answer style of evaluation.
 ---
-
 Closed-form benchmark is a benchmark where the answer has a fixed final form and can be checked automatically.
 
 In practice, this usually means the task has one correct answer, or a small set of acceptable answers, and the score can be computed by a rule or a program. These benchmarks are common in maths, factual question answering, and some other tasks where the final result is easy to compare with a reference answer.

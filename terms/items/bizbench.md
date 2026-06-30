@@ -1,7 +1,7 @@
 ---
 title: BizBench
 short_description: A benchmark for testing AI models on business and finance questions that need careful numerical reasoning.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, finance, business, quantitative-reasoning]
 status: draft
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: Official benchmark hub from the organisation behind the dataset, confirming this is part of a benchmark programme rather than a general product name.
     key_point: The site presents BizBench as one of Kensho’s business and finance evaluation benchmarks.
 ---
-
 BizBench is a benchmark for testing AI models on business and finance problems that need careful number handling.
 
 In practice, it gives a model tasks such as answering questions from financial data, reading tables and text, and working out answers with formulas or code.

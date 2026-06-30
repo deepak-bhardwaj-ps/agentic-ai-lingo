@@ -1,7 +1,7 @@
 ---
 title: Open Knowledge Format
 short_description: An open standard for storing knowledge as linked Markdown files with YAML frontmatter so people and AI tools can read it.
-category: Protocols and standards
+category: Protocols
 tags:
 - knowledge-management
 - markdown
@@ -32,7 +32,6 @@ evidence:
   relevance: The specification defines the structure and scope of the format, including what it is and what it is not.
   key_point: The spec says OKF is a minimal format for knowledge representation, with Markdown files, YAML frontmatter, portability, and no required SDK or runtime.
 ---
-
 Open Knowledge Format is a standard for writing knowledge down in a simple, shareable way.
 
 In practice, it means storing information as a folder of Markdown files, where each file describes one idea and has small bits of structured data at the top in YAML frontmatter. The files can link to each other, so the knowledge works like a wiki that both people and AI tools can read.

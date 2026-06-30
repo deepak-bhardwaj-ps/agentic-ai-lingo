@@ -1,7 +1,7 @@
 ---
 title: BioML-bench
 short_description: A benchmark suite for testing AI agents on end-to-end biomedical machine learning tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - biomedical-ai
   - benchmark
@@ -37,7 +37,6 @@ evidence:
     relevance: BioML-bench is explicitly described as being built on top of MLE-bench, so this paper explains the benchmark lineage and evaluation style.
     key_point: MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering, which BioML-bench adapts for biomedicine.
 ---
-
 BioML-bench is a benchmark suite for checking how well AI agents can do end-to-end biomedical machine learning tasks.
 
 In practice, it gives an agent a biomedical task, a dataset, and rules for producing a result. The agent has to work through the problem, build a solution, and be scored against a standard.

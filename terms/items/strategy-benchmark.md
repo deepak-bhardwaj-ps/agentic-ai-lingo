@@ -1,7 +1,7 @@
 ---
 title: Strategy benchmark
 short_description: A benchmark that tests how well a person or AI system makes strategic decisions over time.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -38,7 +38,6 @@ evidence:
     relevance: Supports the broader idea that strategy benchmarks are used to measure decision-making in business simulations, not just chat quality.
     key_point: The paper presents a business-game benchmark for evaluating strategic decision-making in a dynamic management simulation.
 ---
-
 Strategy benchmark is a test that checks how well a person or AI system makes strategic choices over time.
 
 In practice, it usually puts the system into a simulated business or planning situation and scores the results across several rounds. The system has to balance short-term wins with longer-term goals, because a good strategy often means choosing what to invest in now and what to leave for later.

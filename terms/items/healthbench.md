@@ -1,7 +1,7 @@
 ---
 title: HealthBench
 short_description: OpenAI's benchmark for testing how well AI models handle realistic health conversations safely and clearly.
-category: Evals and benchmarks
+category: Evals
 tags:
   - healthcare
   - evaluation
@@ -37,7 +37,6 @@ evidence:
     relevance: Confirms how OpenAI positions HealthBench in its healthcare evaluation stack.
     key_point: Explains that HealthBench measures behaviour in realistic medical scenarios, including accuracy, safety, uncertainty handling, and communication quality.
 ---
-
 HealthBench is a benchmark for checking how well an AI model handles health questions and conversations.
 
 In practice, that means people use it to test whether a model gives clear, safe, and useful answers in realistic medical situations. It is not a medical tool itself. It is a scorecard used to compare models and track improvement over time.

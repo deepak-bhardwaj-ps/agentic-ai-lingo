@@ -1,7 +1,7 @@
 ---
 title: Finance-Agent-Benchmark
 short_description: A benchmark for testing finance-focused AI agents on realistic research tasks
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - finance
@@ -39,7 +39,6 @@ evidence:
     relevance: Current benchmark page from the same benchmark family, useful for understanding how the benchmark is being used now.
     key_point: Vals AI describes the benchmark as measuring how well AI can help analysts with real research work, showing that the term refers to a practical evaluation suite for finance-agent performance.
 ---
-
 Finance-Agent-Benchmark is a benchmark suite for checking how well an AI agent can do finance research tasks.
 
 In practice, it gives models the same finance questions and the same rules so their answers can be compared fairly. The tasks usually involve reading company filings, finding facts, doing calculations, and using tools such as search.

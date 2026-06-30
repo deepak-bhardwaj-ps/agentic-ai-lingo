@@ -1,7 +1,7 @@
 ---
 title: Planning benchmark
 short_description: A benchmark that tests how well an AI system can plan a sequence of actions to reach a goal
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, planning, agents]
 status: active
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: This recent survey shows that planning benchmarks are a broader category, not one single named test.
     key_point: The paper groups planning benchmarks into embodied environments, web navigation, scheduling, games and puzzles, and everyday task automation, which supports treating the term as a benchmark category.
 ---
-
 Planning benchmark is a test that checks whether an AI system can work out a sequence of steps to reach a goal.
 
 In practice, the system is given a goal and has to choose actions in the right order, often while following rules, limits, or changing conditions. Some planning benchmarks use puzzles or formal planning tasks. Others use real-world settings like travel, web use, or household tasks.

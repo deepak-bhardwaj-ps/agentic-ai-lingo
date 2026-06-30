@@ -1,7 +1,7 @@
 ---
 title: LongBench
 short_description: A bilingual benchmark for testing long-context understanding in large language models
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, long-context, evals, llm]
 status: active
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: This is the ACL publication of the benchmark and reinforces the formal definition.
     key_point: The paper says LongBench standardises datasets into a unified format for automatic evaluation of long-context understanding.
 ---
-
 LongBench is a benchmark for checking how well a large language model understands long pieces of text.
 
 In practice, it gives a model long documents, long chats, or other extended text and tests whether it can answer questions, summarise, or complete tasks from that context. It was designed for both English and Chinese, which makes it more than a single-language test.

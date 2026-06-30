@@ -1,7 +1,7 @@
 ---
 title: Zero-trust identity
 short_description: Identity-focused zero trust that checks who or what is asking for access every time.
-category: Protocols and standards
+category: Protocols
 tags:
   - security
   - identity
@@ -37,7 +37,6 @@ evidence:
     relevance: CISA's NSTAC report links zero trust directly with trusted identity management, showing that the identity side of zero trust is a recognised government framing.
     key_point: This supports the term as identity-centred zero trust rather than a separate security model.
 ---
-
 Zero-trust identity means using identity checks as the main gate for access in a zero trust system.
 
 In practice, that means a system does not trust a person, device, or app just because it is inside a company network. It checks who or what is asking, whether the device looks safe, and whether the request should be allowed right now.

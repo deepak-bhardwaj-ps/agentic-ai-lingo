@@ -1,7 +1,7 @@
 ---
 title: BioBench
 short_description: 'A benchmark suite for evaluating computer vision models on biology and ecology image tasks.'
-category: Evals and benchmarks
+category: Evals
 tags:
   - biology
   - ecology
@@ -38,7 +38,6 @@ evidence:
     relevance: The paper explains why the benchmark exists and what problem it is trying to solve in scientific computer vision.
     key_point: BioBench is an ecology vision benchmark designed to measure performance on real scientific images where ImageNet-style scores stop predicting downstream usefulness.
 ---
-
 BioBench is a benchmark suite for testing computer vision models on biology and ecology image tasks.
 
 In practice, it gives a set of real-looking image tasks and checks how well a model handles them. The benchmark is mainly about ecological images such as camera-trap photos, microscope images, specimen photos, drone footage, and other scientific pictures.

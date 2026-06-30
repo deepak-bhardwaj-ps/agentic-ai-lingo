@@ -1,7 +1,7 @@
 ---
 title: CAJAL
 short_description: 'A local model family for generating scientific papers.'
-category: Evals and benchmarks
+category: Evals
 tags:
   - scientific-writing
   - local-models
@@ -35,7 +35,6 @@ evidence:
     relevance: This paper matters because CAJAL is presented as part of the wider P2PCLAW ecosystem, so it helps separate the model family from the broader platform.
     key_point: The paper describes P2PCLAW as a decentralised autonomous peer-review network for scientific research, which is the broader system around CAJAL.
 ---
-
 CAJAL is a local model family and tool for writing scientific papers.
 
 In practice, it is meant to help produce structured academic text on a user’s own computer, rather than sending the work to a cloud service. The published materials describe it as a specialised system for scientific paper generation.

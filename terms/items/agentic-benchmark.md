@@ -1,7 +1,7 @@
 ---
 title: Agentic benchmark
 short_description: A fixed test designed to measure how well an AI agent completes a multi-step task.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evaluation
@@ -43,7 +43,6 @@ evidence:
   relevance: Confirms that benchmark design for agents is still a developing area and that current work spans behaviour, reliability, safety, datasets, and tooling.
   key_point: The survey treats LLM agent evaluation as a distinct and still-fragmented research area.
 ---
-
 An agentic benchmark is a fixed test for an AI agent that must do more than answer once. It usually checks whether the agent can take steps, use tools, and finish a task in a realistic setup.
 
 In practice, the benchmark gives the agent the same task in a controlled way and then scores the result. The task may involve searching the web, fixing code, planning actions, or moving through a simple environment. Good benchmarks try to make the answer easy to check, even when the task itself is hard.

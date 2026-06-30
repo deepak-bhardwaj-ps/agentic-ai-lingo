@@ -1,7 +1,7 @@
 ---
 title: Checklist-based evaluation
 short_description: An evaluation method that scores work by checking whether it meets a list of specific criteria.
-category: Evals and benchmarks
+category: Evals
 tags:
 - evals
 - benchmarks
@@ -37,7 +37,6 @@ evidence:
     relevance: This lab blog explains why agent evaluations need structured tasks, scoring, and harnesses, which is the practical setting where checklists are often used.
     key_point: Anthropic describes agent evaluation as a structured process rather than a loose opinion, which supports checklist-based scoring as one way to make evaluation more repeatable.
 ---
-
 Checklist-based evaluation is a way of judging an answer, tool result, or benchmark run by checking a list of specific yes-or-no points.
 
 In practice, someone writes down the things that should be true, then checks each item one by one. The final score can be the number of boxes ticked, or a pass/fail result.

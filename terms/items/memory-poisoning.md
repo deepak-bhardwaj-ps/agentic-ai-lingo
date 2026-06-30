@@ -1,7 +1,7 @@
 ---
 title: Memory poisoning
 short_description: Memory poisoning is when someone puts bad or misleading information into an AI agent's long-term memory so it changes later behaviour.
-category: Governance and security
+category: Governance
 tags:
 - agentic-ai
 - security
@@ -40,7 +40,6 @@ evidence:
   relevance: Places memory poisoning inside a current security taxonomy for agentic systems.
   key_point: OWASP treats memory and context poisoning as a major risk for systems that plan and act over time.
 ---
-
 Memory poisoning is when bad or misleading information gets into an AI agent's long-term memory and changes what it does later.
 
 In practice, this means the agent stores something it should not trust, then reads it back in a later session or task. The bad memory can come from a document, web page, chat message, tool output, or another place the agent treats as memory.

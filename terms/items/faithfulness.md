@@ -1,7 +1,7 @@
 ---
 title: Faithfulness
 short_description: A measure of whether an answer stays supported by the context it was given.
-category: Evals and benchmarks
+category: Evals
 tags:
 - rag
 - evaluation
@@ -37,7 +37,6 @@ evidence:
   relevance: This paper clarifies that faithfulness is about staying aligned with the provided context, especially when the context is incomplete, contradictory, or false.
   key_point: Faithfulness is a contextual property: the model should not add unsupported claims, even if those claims sound plausible or match outside knowledge.
 ---
-
 Faithfulness is how well an answer stays supported by the context it was given.
 
 In practice, this means checking whether each claim in the answer can be backed up by the supplied documents or other context. If the answer adds facts that are not in that context, it is less faithful.

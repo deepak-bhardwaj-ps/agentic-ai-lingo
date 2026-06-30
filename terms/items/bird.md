@@ -1,7 +1,7 @@
 ---
 title: BIRD
 short_description: A benchmark for testing how well systems turn plain English questions into SQL on real databases
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - text-to-sql
@@ -42,7 +42,6 @@ evidence:
     relevance: This shows that BIRD is widely used, but also that some parts of the dataset have quality issues.
     key_point: The paper reports noise in BIRD questions and gold SQL queries, which means scores on the benchmark need careful interpretation.
 ---
-
 BIRD is a benchmark for testing whether an AI system can turn a plain English question into a correct SQL query on a real database.
 
 In practice, BIRD gives a system a question and database context, then checks whether the SQL it produces gets the right answer when run on the database. It is designed to be harder and more realistic than simple schoolbook examples, because the databases are large and messy.

@@ -1,7 +1,7 @@
 ---
 title: SME validation
 short_description: A check where a subject matter expert reviews an AI evaluation, label set, or output to see whether it matches real domain judgement.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evaluation
   - human-in-the-loop
@@ -39,7 +39,6 @@ evidence:
     relevance: Grounds the term in NIST’s broader AI testing and validation vocabulary, where validation is one part of a formal evaluation process.
     key_point: NIST treats validation as part of AI TEVV work across the lifecycle, not as a casual label for any human review.
 ---
-
 SME validation means asking a subject matter expert to check whether an AI evaluation, label, or output matches real knowledge in that field.
 
 In practice, the expert may review examples, correct labels, judge answer quality, or help write the rules used to score the system.

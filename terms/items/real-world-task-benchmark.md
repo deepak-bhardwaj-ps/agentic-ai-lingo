@@ -1,7 +1,7 @@
 ---
 title: Real-world task benchmark
 short_description: A benchmark built from tasks that resemble real work people actually do
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -44,7 +44,6 @@ evidence:
     relevance: Concrete example of a benchmark described as real-world because it uses actual software issues and code changes, which is a common pattern for the term.
     key_point: Anthropic describes SWE-bench as a benchmark for real-world software engineering tasks based on real GitHub issues and unit tests.
 ---
-
 Real-world task benchmark is a benchmark built from tasks that resemble real work people do.
 
 In practice, it tries to test something useful and believable, such as fixing a software bug, handling a work request, or completing a job-like task. The task is usually based on real work products or realistic situations, not just simple quiz questions.

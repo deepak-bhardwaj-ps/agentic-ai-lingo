@@ -1,7 +1,7 @@
 ---
 title: FinanceBench
 short_description: A benchmark for testing how well AI models answer finance questions using real company documents
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, finance, evals, question-answering]
 status: active
 aliases: []
@@ -28,7 +28,6 @@ evidence:
     relevance: This is the project repository for the benchmark and confirms how the dataset is packaged and described for use.
     key_point: The repository says FinanceBench is a test suite for open-book financial QA and that the open-source sample contains annotated examples, answers, and evidence.
 ---
-
 FinanceBench is a benchmark for testing how well an AI model answers finance questions by using real company documents and evidence.
 
 In practice, it gives the model questions about public companies and checks whether the answer matches the evidence. The idea is to see if the model can find and use the right facts instead of guessing.

@@ -1,7 +1,7 @@
 ---
 title: τ-bench
 short_description: A benchmark for testing how AI agents handle realistic tool use and user interaction.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - agent
@@ -39,7 +39,6 @@ evidence:
     relevance: Official repository showing the benchmark structure and its current maintenance status.
     key_point: The repository states that the original tasks are outdated and points users to τ³-bench for the latest fixed tasks and new domains, which matters for using the term accurately today.
 ---
-
 τ-bench is a benchmark for testing AI agents that have to talk with a user and use tools to finish a task.
 
 In practice, it gives the agent a realistic job, like handling a customer request in a domain such as travel or retail. The agent must follow rules, choose the right tool actions, and keep the conversation on track.

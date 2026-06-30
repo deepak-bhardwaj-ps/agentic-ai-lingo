@@ -1,7 +1,7 @@
 ---
 title: AgentDojo
 short_description: Benchmark environment for testing whether AI agents can be hijacked by prompt injection while using tools.
-category: Evals and benchmarks
+category: Evals
 tags: [agent-security, prompt-injection, benchmark, llm-agents]
 status: draft
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: Shows how a public-sector evaluation team used and extended AgentDojo in practice.
     key_point: AgentDojo is used as a framework for testing agent hijacking, and NIST extended it with new injection tasks for higher-risk scenarios.
 ---
-
 AgentDojo is a benchmark environment for testing whether an AI agent can be tricked into doing the wrong thing by hidden instructions in the data it reads.
 
 In practice, it is used to see if an agent can finish a normal task while ignoring malicious prompt injection. The agent may be reading emails, web pages, or other tool outputs that contain instructions written by an attacker.

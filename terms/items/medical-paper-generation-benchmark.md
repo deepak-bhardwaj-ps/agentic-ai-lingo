@@ -1,7 +1,7 @@
 ---
 title: Medical paper generation benchmark
 short_description: A benchmark for testing systems that generate medical papers or report-like medical text
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - medical-ai
@@ -39,7 +39,6 @@ evidence:
     relevance: This recent paper shows active work on medical paper generation itself, which supports the idea that benchmark-style evaluation around this task is emerging.
     key_point: The paper explicitly targets medical paper generation through structured feedback and evaluation, showing the term’s close link to current research on generating medical research text.
 ---
-
 Medical paper generation benchmark is a test used to check how well a system can write medical papers or medical report-style text.
 
 In practice, it is usually a fixed set of tasks, prompts, or datasets that different models try under the same rules. That makes it easier to compare results fairly. The output may be a short report, a longer clinical write-up, or a paper-like medical summary, depending on the benchmark.

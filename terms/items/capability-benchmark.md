@@ -1,7 +1,7 @@
 ---
 title: Capability benchmark
 short_description: A test used to check what an AI system can do in a specific task area.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evaluation
@@ -38,7 +38,6 @@ evidence:
     relevance: Confirms that capability-focused evaluations are used to assess model abilities and risks, while also showing that such evaluations are still limited.
     key_point: Anthropic says third-party evaluations are needed to measure advanced capabilities in AI models.
 ---
-
 A capability benchmark is a test that checks what an AI system can do in a specific area.
 
 In practice, it gives the model a set of tasks and then scores how well it performs. The tasks might check reasoning, coding, scientific thinking, or another skill. The point is to see the model’s ability in that area, not to judge every part of the model at once.

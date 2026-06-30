@@ -3,7 +3,7 @@ slug: data-mesh
 title: Data Mesh
 short_description: An approach to organising data where the teams closest to the
   data own it as a product, with shared rules and platform support.
-category: Data architecture
+category: Core
 tags:
   - data architecture
   - data governance
@@ -38,7 +38,6 @@ evidence:
     relevance: Current Google Cloud documentation that clarifies practical meaning.
     key_point: Calls data mesh an architectural and organisational framework where teams that understand the data create data products under organisation-wide governance standards.
 ---
-
 Data mesh is a way of organising data so that the teams closest to the data own it and manage it like a product.
 
 In practice, this means a sales team, finance team, or logistics team is responsible for the data it creates and uses, instead of sending everything to one central data team. Shared rules and a shared platform help those teams publish data that other people can find, trust, and use.

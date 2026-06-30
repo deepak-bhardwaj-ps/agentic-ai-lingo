@@ -1,7 +1,7 @@
 ---
 title: PubMedQA
 short_description: A biomedical question-answering dataset and benchmark built from PubMed abstracts.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, dataset, biomedical-qa, medical-qa]
 status: draft
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: ArXiv version of the original paper, useful for the dataset summary and stated evaluation setting.
     key_point: The paper says PubMedQA is the first QA dataset where reasoning over biomedical research texts, especially quantitative contents, is required.
 ---
-
 PubMedQA is a biomedical question-answering dataset and benchmark built from PubMed abstracts.
 
 It gives a research question and a matching abstract, then asks a model to answer yes, no, or maybe.

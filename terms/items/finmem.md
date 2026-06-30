@@ -1,7 +1,7 @@
 ---
 title: FinMem
 short_description: A research framework for building an LLM-based trading agent with layered memory and a decision module.
-category: Evals and benchmarks
+category: Evals
 tags:
   - finance
   - trading
@@ -37,7 +37,6 @@ evidence:
     relevance: Later finance-agent benchmark paper that references FinMem as an earlier trading agent design and distinguishes its memory structure.
     key_point: FinMem is cited as a prior layered-memory trading agent, which supports treating it as a named framework rather than a benchmark.
 ---
-
 FinMem is a research framework for building an LLM-based trading agent.
 
 In practice, FinMem combines a profile for the agent, a memory system that organises financial information by importance and timing, and a decision step that turns that information into trading choices.

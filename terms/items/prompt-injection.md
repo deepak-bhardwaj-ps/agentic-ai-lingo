@@ -1,7 +1,7 @@
 ---
 title: Prompt injection
 short_description: An attack where malicious instructions are hidden inside text or data so an AI follows them instead of the user’s request.
-category: Governance and security
+category: Governance
 tags:
   - security
   - ai-agents
@@ -45,7 +45,6 @@ evidence:
     relevance: This paper shows prompt injection in real LLM-integrated systems and explains why the risk matters once models are connected to tools and services.
     key_point: Prompt injection can cause serious application-level harm, including prompt theft, arbitrary model use, and unintended actions.
 ---
-
 Prompt injection is when someone hides instructions inside text or data so an AI system follows those instructions instead of the user’s real request.
 
 In practice, it often happens when an AI reads a web page, email, document, chat message, or tool result that contains secret instructions written for the model. The AI may treat that hidden instruction as if it were part of the task. Direct prompt injection is when the attacker sends the harmful instruction straight to the AI. Indirect prompt injection is when the instruction is hidden inside content the AI reads on the user’s behalf.

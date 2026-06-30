@@ -1,7 +1,7 @@
 ---
 title: Interactive task benchmark
 short_description: A benchmark that tests whether an AI system can finish a task through back-and-forth interaction, not just one-shot answers.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -38,7 +38,6 @@ evidence:
     relevance: Supports the idea that multi-turn, interactive evaluation is a distinct and still fragmented area, which is important because the term is not tightly standardised.
     key_point: The survey frames evaluation of LLM-based agents in multi-turn conversational settings as a separate area of research with many different methods and task types.
 ---
-
 An interactive task benchmark is a test that checks whether an AI system can complete a task through back-and-forth steps.
 
 In practice, the system does not just give one answer. It may need to ask questions, use tools, follow rules, or react to new information before the task is finished.

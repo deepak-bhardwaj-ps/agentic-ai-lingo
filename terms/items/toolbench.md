@@ -1,7 +1,7 @@
 ---
 title: ToolBench
 short_description: Benchmark and dataset for testing how well language models can use external tools and APIs.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, tool-use, agent]
 status: draft
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: Explains a limitation of ToolBench and why later work needed to stabilise it.
     key_point: The paper says ToolBench-based evaluation can be unstable because real APIs change, which is why StableToolBench adds caching, simulators, and steadier scoring.
 ---
-
 ToolBench is a benchmark and dataset for testing whether a language model can use external tools such as APIs.
 
 In practice, it gives a model tasks that need tool calls, not just a single text answer. The model has to choose the right tool, use it in the right way, and follow the task to the end.

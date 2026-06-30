@@ -1,7 +1,7 @@
 ---
 title: NatureGym
 short_description: A pipeline that turns Nature-family papers into reproducible benchmark tasks for AI coding agents
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, scientific-research, coding-agents]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Official repository documentation confirming the project's own wording.
     key_point: The README describes NatureGym as the automated pipeline that turns a published Nature-family paper into a runnable NatureBench task package and says it is the construction half of NatureBench.
 ---
-
 NatureGym is the pipeline that turns a Nature-family research paper into a benchmark task an AI coding agent can try to solve.
 
 In practice, NatureGym takes a paper, its data, and an evaluation rule, then packages them into one repeatable task. The idea is to make different research papers look more alike so they can be tested in a fair way.

@@ -1,7 +1,7 @@
 ---
 title: Healthcare benchmark
 short_description: A benchmark used to compare AI systems on healthcare tasks, usually medical or clinical ones.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, healthcare, clinical-ai, evals]
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Explains why healthcare benchmarks can be misleading if they do not reflect the real clinical skill they claim to measure.
     key_point: The paper argues that a medical LLM benchmark should reliably distinguish between stronger and weaker models on the clinical construct being tested, which supports warning that benchmark scores do not automatically mean real-world readiness.
 ---
-
 Healthcare benchmark is a test used to compare AI systems on healthcare tasks.
 
 In practice, it usually means a fixed set of health-related questions, cases, or tasks that many models try under the same rules. The task may involve patient questions, medical text, clinical decisions, or other work used in healthcare. Some healthcare benchmarks are narrow and exam-like. Others use longer, more realistic cases.

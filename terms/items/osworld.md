@@ -1,7 +1,7 @@
 ---
 title: OSWorld
 short_description: A benchmark for testing how well multimodal agents can complete real computer tasks across desktop apps and operating systems.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - computer-use agents
@@ -39,7 +39,6 @@ evidence:
     relevance: Official repository for the benchmark, useful for confirming it is an active maintained project rather than a one-off paper result.
     key_point: States that OSWorld is the official repository for the benchmark and notes later updates such as OSWorld-Verified, which shows the term refers to a living benchmark family.
 ---
-
 OSWorld is a benchmark that tests how well an AI agent can use a real computer to do tasks.
 
 In practice, the agent has to look at the screen, understand what is happening, and click, type, or switch between apps to finish a job. The tasks are built to feel like normal computer use, such as working in desktop software, moving files, or carrying out steps across more than one app.

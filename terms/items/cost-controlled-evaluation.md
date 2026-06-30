@@ -1,7 +1,7 @@
 ---
 title: Cost-controlled evaluation
 short_description: An evaluation that compares systems under a fixed or clearly stated cost budget.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evaluation
   - benchmarks
@@ -39,7 +39,6 @@ evidence:
     relevance: This official guide supports the broader idea that evaluation should be designed around clear objectives and metrics instead of vague scoring.
     key_point: OpenAI recommends defining the evaluation objective and metrics up front, which is necessary if cost is one of the things being controlled.
 ---
-
 Cost-controlled evaluation is an evaluation that compares systems under a fixed or clearly stated cost budget.
 
 In practice, it means the test does not just ask, “Which system got the best score?” It also asks, “What did that score cost to produce?” The cost might be extra model calls, more retries, more tool use, or a larger amount of compute.

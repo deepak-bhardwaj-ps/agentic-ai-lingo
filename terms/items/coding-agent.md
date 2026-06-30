@@ -1,7 +1,7 @@
 ---
 title: Coding agent
 short_description: A coding agent is an AI agent that can work on software code by reading files, changing code, running checks, and improving its own work.
-category: Agents and workflows
+category: Core
 tags:
 - agent
 - coding
@@ -50,7 +50,6 @@ evidence:
   relevance: Gives a general definition of agents that helps distinguish a coding agent from a normal chatbot.
   key_point: Anthropic defines an agent as a model that plans, acts, checks results, and repeats until the task is done or human help is needed.
 ---
-
 A coding agent is an AI agent that works on software code.
 
 In practice, it can read files, change code, run tests or commands, and then use the results to keep improving its work. People often use it for tasks like fixing bugs, building small features, or understanding a codebase.

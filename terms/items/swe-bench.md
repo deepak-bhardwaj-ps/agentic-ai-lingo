@@ -1,7 +1,7 @@
 ---
 title: SWE-bench
 short_description: A benchmark that tests whether AI can fix real software bugs from GitHub issues.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -38,7 +38,6 @@ evidence:
     relevance: Explains the verified subset and helps distinguish the base benchmark from its curated version.
     key_point: OpenAI says SWE-bench Verified is a human-validated subset made to more reliably evaluate models on real software issues, which shows that the base benchmark and the verified subset are related but not identical.
 ---
-
 SWE-bench is a benchmark for checking whether an AI system can fix real software bugs.
 
 It gives the system a real GitHub issue and the related code base, then asks it to make a patch that solves the problem. In other words, the AI is tested on a task that looks like a small software repair job.

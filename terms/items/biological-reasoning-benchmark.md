@@ -1,7 +1,7 @@
 ---
 title: Biological reasoning benchmark
 short_description: A benchmark that tests how well an AI system can reason about biology
-category: Evals and benchmarks
+category: Evals
 tags:
   - biology
   - benchmark
@@ -43,7 +43,6 @@ evidence:
     relevance: Shows a narrower but important subtype of biology reasoning benchmark focused on experimental protocols and step-by-step reasoning.
     key_point: The paper defines BioProBench as a benchmark for biological protocol understanding and reasoning, with tasks such as step ordering, error correction, protocol generation, and protocol reasoning.
 ---
-
 Biological reasoning benchmark is a test used to check how well an AI system can think through biology problems.
 
 In practice, it usually means a set of biology questions or tasks that need more than memory. The system may need to compare evidence, follow a lab procedure, read scientific data, or work out what a result means.

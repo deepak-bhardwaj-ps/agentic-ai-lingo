@@ -1,7 +1,7 @@
 ---
 title: Finance benchmark
 short_description: A test used to compare AI systems on finance tasks, such as reading financial documents, answering financial questions, or making financial decisions
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - finance
@@ -46,7 +46,6 @@ evidence:
     relevance: Shows a broader benchmark suite for financial contexts rather than one narrow task.
     key_point: FinBen is described as a comprehensive benchmark suite for financial reasoning and understanding, which shows why the term is often used as a loose umbrella phrase.
 ---
-
 A finance benchmark is a test used to compare AI systems on finance work.
 
 In practice, it is usually a fixed set of questions or tasks about money, companies, markets, reports, or decisions. Some finance benchmarks check whether a system can read filings and answer questions. Others check financial reasoning, document understanding, or decision-making.

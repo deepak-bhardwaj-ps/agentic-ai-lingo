@@ -1,7 +1,7 @@
 ---
 title: Live benchmark
 short_description: A benchmark that keeps adding or refreshing tasks over time so it stays current and harder to memorise.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evals
@@ -38,7 +38,6 @@ evidence:
   relevance: Shows the term being used for a benchmark that is continuously refreshed to reduce contamination and better reflect current tasks.
   key_point: The paper describes SWE-bench-Live as a live benchmark with an automated, scalable update method and frames it as contamination-resistant.
 ---
-
 Live benchmark is a benchmark that is kept up to date by adding new tasks or refreshing old ones over time.
 
 In practice, that usually means the test does not stay frozen. New questions are taken from current sources, and old questions may be replaced or updated. The point is to make the test less easy to memorise and less likely to overlap with training data.

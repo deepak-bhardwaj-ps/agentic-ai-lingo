@@ -1,7 +1,7 @@
 ---
 title: Security and compliance benchmark
 short_description: A benchmark that checks whether an AI system follows security rules and compliance requirements.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - security
@@ -39,7 +39,6 @@ evidence:
     relevance: Shows current research using compliance benchmarks against legal frameworks such as the EU AI Act and GDPR.
     key_point: The paper evaluates models on safety compliance benchmarks by comparing accuracy on classifications tied to EU AI Act and GDPR chapters.
 ---
-
 Security and compliance benchmark is a broad label for a test that checks whether an AI system follows security rules and compliance requirements.
 
 In practice, this kind of benchmark gives the system set tasks or cases and checks whether it behaves the way a policy, standard, or law expects. The focus is not just on getting the right answer, but on whether the system avoids unsafe behaviour and respects required rules.

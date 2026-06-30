@@ -1,7 +1,7 @@
 ---
 title: ClinBench
 short_description: A benchmark for checking how well language models extract clinical information from medical notes.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - clinical-ai
@@ -38,7 +38,6 @@ evidence:
     relevance: This shows that similarly named clinical benchmarks exist, so the glossary term should stay narrowly tied to the ClinBench information-extraction framework.
     key_point: ClinBench-HPB is a separate benchmark for HPB disease questions and diagnosis cases, which is not the same thing as ClinBench.
 ---
-
 ClinBench is a benchmark for testing how well a language model can pull useful clinical facts out of medical notes.
 
 In practice, it gives different models the same clinical text and checks whether they extract the right information in a consistent way. That makes it useful for comparing models fairly and for spotting where a model is fast, accurate, or unreliable.

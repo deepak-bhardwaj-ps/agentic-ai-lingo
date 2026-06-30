@@ -2,7 +2,7 @@
 title: Tool Gateway
 short_description: A tool gateway is a middle layer that checks and controls agent
   tool calls before they reach real systems.
-category: Architecture patterns
+category: Core
 tags:
 - agentic-ai
 - tools
@@ -56,7 +56,6 @@ evidence:
   key_point: Gateways can validate MCP requests and tool schemas before the upstream
     server sees them.
 ---
-
 A tool gateway is a middle layer that sits between an agent and the tools it can use.
 
 It checks a tool call before letting it through. That can include who is allowed to call it, whether the request matches the expected shape, whether the call should be logged, and whether it should be slowed down or blocked.

@@ -1,7 +1,7 @@
 ---
 title: Red team evaluation
 short_description: A structured test that tries to break an AI system by using adversarial, harmful, or unexpected inputs.
-category: Evals and benchmarks
+category: Evals
 tags:
 - evals
 - safety
@@ -44,7 +44,6 @@ evidence:
   relevance: Shows current industry use of red-team exercises for specific safety and abuse tests such as prompt injection.
   key_point: Anthropic describes externally conducted red-team exercises and prompt-injection evaluations as ways to measure whether attacks succeed.
 ---
-
 Red team evaluation is a structured test that tries to break an AI system by using adversarial, harmful, or unexpected inputs.
 
 In practice, people use a red team evaluation to see how a system behaves when someone tries to trick it, overload it, or make it do the wrong thing. The test may look for unsafe answers, prompt injection, jailbreaks, or other failures that do not show up in ordinary testing.

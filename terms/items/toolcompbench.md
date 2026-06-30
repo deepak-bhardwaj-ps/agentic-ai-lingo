@@ -1,7 +1,7 @@
 ---
 title: ToolCompBench
 short_description: A non-standard name that appears to refer to ToolComp, a benchmark for multi-step tool-use reasoning.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - tool-use
@@ -38,7 +38,6 @@ evidence:
     relevance: Provides a nearby but distinct benchmark family, useful for separating ToolComp from the older tool-learning benchmark ToolBench.
     key_point: ToolBench is an open platform for training, serving, and evaluating tool learning, so it should not be collapsed into ToolComp.
 ---
-
 ToolCompBench is not a widely established name. In current sources, people usually say ToolComp.
 
 ToolComp is a benchmark for checking how well an AI model handles tasks that need several tool calls in a row. It does not just score the final answer. It also looks at the steps the model took to get there.

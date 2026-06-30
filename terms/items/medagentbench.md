@@ -1,7 +1,7 @@
 ---
 title: MedAgentBench
 short_description: A benchmark that tests medical AI agents in a virtual electronic health record environment.
-category: Evals and benchmarks
+category: Evals
 tags:
   - medical-ai
   - benchmark
@@ -37,7 +37,6 @@ evidence:
     relevance: Implementation repository for the benchmark and its dataset.
     key_point: Confirms that the benchmark is a research codebase built on AgentBench and intended for evaluation, not for production clinical use.
 ---
-
 MedAgentBench is a benchmark for testing medical AI agents inside a virtual electronic health record, or EHR.
 
 In practice, it gives an agent clinical tasks to complete in a realistic medical-record setting. The point is not just to answer questions. The agent has to plan, choose actions, and use the available record tools correctly.

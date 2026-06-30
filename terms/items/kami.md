@@ -1,7 +1,7 @@
 ---
 title: KAMI
 short_description: A benchmark for testing enterprise-focused agentic AI performance, including tool use and multi-step tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -46,7 +46,6 @@ evidence:
     relevance: This earlier report helps confirm the name and practical use of KAMI as a benchmark for agentic tasks.
     key_point: Signal65 says it collaborated with Kamiwaza to establish the KAMI benchmark for enterprise-focused agentic tasks.
 ---
-
 KAMI is a benchmark for testing how well an AI agent handles enterprise-style tasks.
 
 In practice, it checks things like whether the agent can use tools, follow a sequence of steps, handle uncertainty, and avoid making things up. It is meant to measure more than a single chat reply.

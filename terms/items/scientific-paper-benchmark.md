@@ -1,7 +1,7 @@
 ---
 title: Scientific paper benchmark
 short_description: A benchmark built from scientific papers to test tasks like reading, summarising, and answering questions about research articles.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -39,7 +39,6 @@ evidence:
     relevance: Shows the term’s broader modern use for benchmarking understanding of research papers, not just summarisation.
     key_point: RPC-Bench is built from research papers and tests fine-grained comprehension, showing that paper benchmarks can measure reading and reasoning over scientific literature.
 ---
-
 A scientific paper benchmark is a test built from research papers to check how well a model can work with scientific writing.
 
 In practice, the benchmark may ask a model to summarise a paper, answer questions about it, find key claims, or explain parts of the text. Many of these benchmarks use papers from sources like arXiv or PubMed because the articles are long, structured, and harder to read than ordinary text.

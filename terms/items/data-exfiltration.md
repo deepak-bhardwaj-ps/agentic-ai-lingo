@@ -1,7 +1,7 @@
 ---
 title: Data exfiltration
 short_description: Data exfiltration is the unauthorised transfer of data out of a system.
-category: Governance and security
+category: Governance
 tags:
 - security
 - governance
@@ -39,7 +39,6 @@ evidence:
     relevance: CISA shows how the term is used in incident response, especially when attackers steal data before or during extortion.
     key_point: Data exfiltration is a real incident sign that defenders look for, and it often appears in ransomware cases alongside threats to publish stolen data.
 ---
-
 Data exfiltration is the unauthorised transfer of data out of a system.
 
 In practice, it means someone gets data out of a computer, network, app, or cloud service without permission. The data might be copied to another server, sent through an API, uploaded to cloud storage, emailed out, or packaged and hidden to avoid detection.

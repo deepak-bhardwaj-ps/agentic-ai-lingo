@@ -1,7 +1,7 @@
 ---
 title: AgentBench
 short_description: A benchmark suite for testing how well language models can act as agents in interactive tasks
-category: Evals and benchmarks
+category: Evals
 tags: [agent, benchmark, evals, interactive-tasks]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Conference record confirming the paper’s framing and helping distinguish the benchmark from informal uses of the name.
     key_point: The OpenReview record presents AgentBench as a benchmark for evaluating agents in interactive settings, reinforcing that it is a formal evaluation suite.
 ---
-
 AgentBench is a benchmark suite for testing how well a language model can act like an agent in interactive tasks.
 
 In practice, it gives the same kinds of tasks to different models so their behaviour can be compared fairly. The tasks are not just one answer at a time. They can involve several steps, using tools, and making choices as the situation changes.

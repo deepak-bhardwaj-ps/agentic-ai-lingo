@@ -1,7 +1,7 @@
 ---
 title: Agent goal hijacking
 short_description: An attack where an AI agent is pushed to follow an attacker’s goal instead of the user’s goal.
-category: Governance and security
+category: Governance
 tags:
   - ai-agents
   - security
@@ -40,7 +40,6 @@ evidence:
     relevance: This paper shows how attackers can steer agent reasoning, planning, and actions, which is the practical mechanism behind goal hijacking.
     key_point: Indirect prompt injection can control an agent’s reasoning and planning through malicious instructions hidden in external content.
 ---
-
 Agent goal hijacking is when someone tricks an AI agent into chasing the wrong goal.
 
 In practice, the agent still looks busy and helpful, but its actions are being steered towards what the attacker wants instead of what the user asked for. The trick can come through a message, a web page, a document, a tool result, or stored memory.

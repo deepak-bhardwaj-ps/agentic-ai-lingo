@@ -1,7 +1,7 @@
 ---
 title: MiniWoB++
 short_description: A benchmark suite of small web-browser tasks used to test whether an AI agent can click, type, drag, and fill forms correctly.
-category: Evals and benchmarks
+category: Evals
 tags:
   - web-benchmarks
   - agent-evals
@@ -43,7 +43,6 @@ evidence:
     relevance: This later paper shows how MiniWoB++ is used in current agent research and confirms the practical task range.
     key_point: MiniWoB++ is described as a suite of browser-based tasks ranging from simple button clicking to more complex form filling.
 ---
-
 MiniWoB++ is a benchmark suite of small web-browser tasks.
 
 In practice, it gives an AI agent a short instruction and a browser page, then checks whether the agent can do the right actions, such as clicking buttons, typing into fields, dragging items, or filling in forms.

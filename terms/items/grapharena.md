@@ -1,7 +1,7 @@
 ---
 title: GraphArena
 short_description: A benchmark for testing large language models on graph problems.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -39,7 +39,6 @@ evidence:
     relevance: Official repository showing the released benchmark code, tasks, and evaluation workflow.
     key_point: The repository documents GraphArena as the official implementation of the paper and lists the graph tasks and benchmarking scripts used to run evaluations.
 ---
-
 GraphArena is a benchmark for testing large language models on graph problems.
 
 In practice, it gives a model graph tasks to solve, such as finding shortest paths or handling harder graph problems where the answer is not easy to compute.

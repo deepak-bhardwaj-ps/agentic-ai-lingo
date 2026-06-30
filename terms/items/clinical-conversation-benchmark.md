@@ -1,7 +1,7 @@
 ---
 title: Clinical conversation benchmark
 short_description: A test used to compare AI systems on realistic doctor-patient or clinician chat conversations in healthcare.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, clinical-ai, healthcare, evals]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Clarifies the limits of conversation benchmarks for real-world clinical readiness.
     key_point: The review notes that benchmark performance does not automatically mean better care, safety, or workflow performance in actual clinical settings.
 ---
-
 A clinical conversation benchmark is a test used to check how well an AI system handles healthcare conversations. These are usually short or long chats that look like a real exchange between a patient and a clinician, or between a user and a health assistant.
 
 In practice, the benchmark gives many systems the same conversation and asks them to answer in the same way. Human experts, often doctors, then score the answers using clear rules. The score can check things like accuracy, safety, clarity, and whether the model asks good follow-up questions.

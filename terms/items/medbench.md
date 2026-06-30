@@ -1,7 +1,7 @@
 ---
 title: MedBench
 short_description: A Chinese medical benchmark and open evaluation platform for testing medical large language models
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, medical-ai, medical-llm, evals]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: The current project site shows how MedBench is presented today and confirms it is still an active evaluation platform.
     key_point: The site describes MedBench as a scientific, fair, rigorous Chinese medical model evaluation system and open platform for real medical scenarios.
 ---
-
 MedBench is a Chinese medical benchmark and open evaluation platform for testing medical language models.
 
 In practice, it gives models a set of medical questions and tasks to answer under the same rules. The goal is to see how well a model understands medical language, medical facts, reasoning, and safety-related cases.

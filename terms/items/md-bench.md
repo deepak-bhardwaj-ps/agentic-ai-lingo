@@ -1,7 +1,7 @@
 ---
 title: MD-Bench
 short_description: A synthetic benchmark for testing multi-document reasoning in language models
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, reasoning, long-context, documents]
 status: draft
 aliases: [MDBench]
@@ -35,7 +35,6 @@ evidence:
     relevance: Preprint version of the same work, useful as a second independent record of the benchmark’s purpose and scope.
     key_point: The abstract says MDBench evaluates models on multi-document reasoning and exists because this kind of benchmark is hard to build with hand annotation.
 ---
-
 MD-Bench is a benchmark for testing how well a language model can reason across more than one document.
 
 In practice, the benchmark gives a model several related documents and asks questions that need information from more than one of them. It is meant to check whether the model can pull details together, follow links between documents, and answer correctly after reading a set of texts.

@@ -1,7 +1,7 @@
 ---
 title: Abstention
 short_description: A model or evaluator chooses not to give an answer when it is unsure or the question cannot be answered safely.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evaluation
   - uncertainty
@@ -39,7 +39,6 @@ evidence:
     relevance: This explains why modern LLM evaluations matter for abstention: if tests reward guessing, models learn to answer when they should say they are unsure.
     key_point: Standard training and evaluation can reward guessing over admitting uncertainty, which encourages hallucinations instead of abstention.
 ---
-
 Abstention is when a model decides not to answer a question.
 
 In evaluation work, this usually means the model says, in effect, “I do not know,” “I cannot tell from the information given,” or gives no answer on purpose. The point is to avoid making up a confident but wrong response.

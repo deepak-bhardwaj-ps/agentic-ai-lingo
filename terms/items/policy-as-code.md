@@ -2,7 +2,7 @@
 title: Policy-as-code
 short_description: Writing rules as machine-readable code so they can be checked, tested,
   and enforced automatically.
-category: Protocols and standards
+category: Protocols
 tags:
 - governance
 - security
@@ -56,7 +56,6 @@ evidence:
     key_point: CNCF’s newer explainer treats policy as code as a practical way to
       implement guardrails with code-like artefacts.
 ---
-
 Policy-as-code means writing rules in a machine-readable form so software can check them automatically.
 
 In practice, teams use it for things like security rules, access rules, cloud configuration checks, and deployment approvals. The policy is kept like software: it can be stored in version control, reviewed, tested, and updated over time.

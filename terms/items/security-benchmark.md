@@ -1,7 +1,7 @@
 ---
 title: Security benchmark
 short_description: A fixed test that measures how well an AI system handles security tasks, risks, or defences.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, security, cybersecurity]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Shows a defensive security benchmark used to evaluate AI on real security workflows, not just attack generation.
     key_point: Anthropic refers to CTI-REALM as an open-source security benchmark and uses it to assess end-to-end detection engineering.
 ---
-
 A security benchmark is a fixed test that checks how well an AI system handles security work.
 
 In practice, it may ask the system to spot a vulnerability, resist a harmful prompt, generate a detection rule, or carry out another security-related task in a controlled setting. Different security benchmarks can focus on different parts of security, so the term is broad.

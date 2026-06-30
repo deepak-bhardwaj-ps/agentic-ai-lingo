@@ -1,20 +1,20 @@
-<svg width="1000" height="570" viewBox="0 0 1000 570" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1000" height="570" fill="white"/>
+<svg width="1000" height="738" viewBox="0 0 1000 738" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1000" height="738" fill="white"/>
 <rect x="45" y="52" width="167" height="108" rx="20" fill="#B3E6EC"/>
 <rect x="44" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="44" y="51" width="165" height="106" rx="19" fill="#B3E6EC"/>
 <text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="126.5" y="78">Terms</tspan></text>
-<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="40" font-weight="900"><tspan x="126.5" y="135">231</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="40" font-weight="900"><tspan x="126.5" y="135">612</tspan></text>
 <rect x="232" y="52" width="167" height="108" rx="20" fill="#F3A880"/>
 <rect x="231" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="231" y="51" width="165" height="106" rx="19" fill="#F3A880"/>
 <text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="313.5" y="78">Categories</tspan></text>
-<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="313.5" y="135">9</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="313.5" y="135">15</tspan></text>
 <rect x="419" y="52" width="167" height="108" rx="20" fill="#9BB982"/>
 <rect x="418" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="418" y="51" width="165" height="106" rx="19" fill="#9BB982"/>
 <text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="500.5" y="78">Emerging</tspan></text>
-<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="500.5" y="135">84</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="40" font-weight="900"><tspan x="500.5" y="135">308</tspan></text>
 <rect x="606" y="52" width="167" height="108" rx="20" fill="#FFA5A4"/>
 <rect x="605" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="605" y="51" width="165" height="106" rx="19" fill="#FFA5A4"/>
@@ -24,37 +24,55 @@
 <rect x="792" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="792" y="51" width="165" height="106" rx="19" fill="#4DC5D4"/>
 <text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="874.5" y="78">Updated</tspan></text>
-<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="874.5" y="114">28 Jun</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="874.5" y="114">30 Jun</tspan></text>
 <text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="874.5" y="140">2026</tspan></text>
 <text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="32"><tspan x="43.5898" y="227.594">Number of terms by category</tspan></text>
 <g clip-path="url(#clip0)">
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="270.000">Core</tspan></text>
-<path d="M171.5898 254H332.86555918367344C338.66555918367345 254 343.36555918367344 258.701 343.36555918367344 264.5V265.5C343.36555918367344 271.299 338.66555918367345 276 332.86555918367344 276H171.5898V254Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="270.000">11</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="298.000">Runtime</tspan></text>
-<path d="M171.5898 282H699.401375510204C705.201375510204 282 709.901375510204 286.701 709.901375510204 292.5V293.5C709.901375510204 299.299 705.201375510204 304 699.401375510204 304H171.5898V282Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="298.000">36</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="326.000">Memory</tspan></text>
-<path d="M171.5898 310H450.15702040816325C455.95702040816326 310 460.65702040816325 314.701 460.65702040816325 320.5V321.5C460.65702040816325 327.299 455.95702040816326 332 450.15702040816325 332H171.5898V310Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="326.000">19</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="354.000">Governance</tspan></text>
-<path d="M171.5898 338H890.0C895.8 338 900.5 342.701 900.5 348.5V349.5C900.5 355.299 895.8 360 890.0 360H171.5898V338Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="354.000">49</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="382.000">Protocols</tspan></text>
-<path d="M171.5898 366H479.47988571428573C485.27988571428574 366 489.97988571428573 370.701 489.97988571428573 376.5V377.5C489.97988571428573 383.299 485.27988571428574 388 479.47988571428573 388H171.5898V366Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="382.000">21</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="410.000">AgentOps</tspan></text>
-<path d="M171.5898 394H567.448481632653C573.248481632653 394 577.948481632653 398.701 577.948481632653 404.5V405.5C577.948481632653 411.299 573.248481632653 416 567.448481632653 416H171.5898V394Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="410.000">27</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="438.000">Slang</tspan></text>
-<path d="M171.5898 422H640.7556448979592C646.5556448979592 422 651.2556448979592 426.701 651.2556448979592 432.5V433.5C651.2556448979592 439.299 646.5556448979592 444 640.7556448979592 444H171.5898V422Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="438.000">32</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="466.000">Context</tspan></text>
-<path d="M171.5898 450H596.7713469387755C602.5713469387755 450 607.2713469387755 454.701 607.2713469387755 460.5V461.5C607.2713469387755 467.299 602.5713469387755 472 596.7713469387755 472H171.5898V450Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="466.000">29</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="494.000">Social</tspan></text>
-<path d="M171.5898 478H230.2355306122449C236.0355306122449 478 240.7355306122449 482.701 240.7355306122449 488.5V489.5C240.7355306122449 495.299 236.0355306122449 500 230.2355306122449 500H171.5898V478Z" fill="#60A5FA"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="494.000">4</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="270.000">AgentOps</tspan></text>
+<path d="M331.58979999999997 254H434.85743972602734C440.65743972602735 254 445.35743972602734 258.701 445.35743972602734 264.5V265.5C445.35743972602734 271.299 440.65743972602735 276 434.85743972602734 276H331.58979999999997V254Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="270.000">27</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="298.000">Agentic patterns</tspan></text>
+<path d="M331.58979999999997 282H450.1563493150685C455.9563493150685 282 460.6563493150685 286.701 460.6563493150685 292.5V293.5C460.6563493150685 299.299 455.9563493150685 304 450.1563493150685 304H331.58979999999997V282Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="298.000">31</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="326.000">Context</tspan></text>
+<path d="M331.58979999999997 310H442.5068945205479C448.3068945205479 310 453.0068945205479 314.701 453.0068945205479 320.5V321.5C453.0068945205479 327.299 448.3068945205479 332 442.5068945205479 332H331.58979999999997V310Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="326.000">29</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="354.000">Core</tspan></text>
+<path d="M331.58979999999997 338H392.7854383561644C398.5854383561644 338 403.2854383561644 342.701 403.2854383561644 348.5V349.5C403.2854383561644 355.299 398.5854383561644 360 392.7854383561644 360H331.58979999999997V338Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="354.000">16</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="382.000">Evals</tspan></text>
+<path d="M331.58979999999997 366H890.0C895.8 366 900.5 370.701 900.5 376.5V377.5C900.5 383.299 895.8 388 890.0 388H331.58979999999997V366Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="382.000">146</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="410.000">Governance</tspan></text>
+<path d="M331.58979999999997 394H572.5476260273972C578.3476260273972 394 583.0476260273972 398.701 583.0476260273972 404.5V405.5C583.0476260273972 411.299 578.3476260273972 416 572.5476260273972 416H331.58979999999997V394Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="410.000">63</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="438.000">Industry verticals</tspan></text>
+<path d="M331.58979999999997 422H595.4959904109589C601.2959904109589 422 605.9959904109589 426.701 605.9959904109589 432.5V433.5C605.9959904109589 439.299 601.2959904109589 444 595.4959904109589 444H331.58979999999997V422Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="438.000">69</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="466.000">Knowledge and wiki systems</tspan></text>
+<path d="M331.58979999999997 450H473.1047136986301C478.90471369863013 450 483.6047136986301 454.701 483.6047136986301 460.5V461.5C483.6047136986301 467.299 478.90471369863013 472 473.1047136986301 472H331.58979999999997V450Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="466.000">37</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="494.000">Memory</tspan></text>
+<path d="M331.58979999999997 478H404.2596205479452C410.0596205479452 478 414.7596205479452 482.701 414.7596205479452 488.5V489.5C414.7596205479452 495.299 410.0596205479452 500 404.2596205479452 500H331.58979999999997V478Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="494.000">19</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="522.000">Protocols</tspan></text>
+<path d="M331.58979999999997 506H465.45525890410954C471.25525890410955 506 475.95525890410954 510.701 475.95525890410954 516.5V517.5C475.95525890410954 523.299 471.25525890410955 528 465.45525890410954 528H331.58979999999997V506Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="522.000">35</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="550.000">Roles</tspan></text>
+<path d="M331.58979999999997 534H411.9090753424657C417.7090753424657 534 422.4090753424657 538.701 422.4090753424657 544.5V545.5C422.4090753424657 551.299 417.7090753424657 556 411.9090753424657 556H331.58979999999997V534Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="550.000">21</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="578.000">Runtime</tspan></text>
+<path d="M331.58979999999997 562H469.27998630136983C475.07998630136984 562 479.77998630136983 566.701 479.77998630136983 572.5V573.5C479.77998630136983 579.299 475.07998630136984 584 469.27998630136983 584H331.58979999999997V562Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="578.000">36</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="606.000">Slang</tspan></text>
+<path d="M331.58979999999997 590H450.1563493150685C455.9563493150685 590 460.6563493150685 594.701 460.6563493150685 600.5V601.5C460.6563493150685 607.299 455.9563493150685 612 450.1563493150685 612H331.58979999999997V590Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="606.000">31</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="634.000">Social</tspan></text>
+<path d="M331.58979999999997 618H346.88870958904107C352.6887095890411 618 357.38870958904107 622.701 357.38870958904107 628.5V629.5C357.38870958904107 635.299 352.6887095890411 640 346.88870958904107 640H331.58979999999997V618Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="634.000">4</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="662.000">Tools and products</tspan></text>
+<path d="M331.58979999999997 646H515.1767150684931C520.976715068493 646 525.6767150684931 650.701 525.6767150684931 656.5V657.5C525.6767150684931 663.299 520.976715068493 668 515.1767150684931 668H331.58979999999997V646Z" fill="#60A5FA"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="914" y="662.000">48</tspan></text>
 </g>
-<defs><clipPath id="clip0"><rect width="915" height="260" fill="white" transform="translate(43.5898 240)"/></clipPath></defs>
+<defs><clipPath id="clip0"><rect width="915" height="428" fill="white" transform="translate(43.5898 240)"/></clipPath></defs>
 </svg>

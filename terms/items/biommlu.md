@@ -1,7 +1,7 @@
 ---
 title: BioMMLU
 short_description: A biomedical subset of MMLU used to test language models on medicine and biology questions.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - biomedical-ai
@@ -38,7 +38,6 @@ evidence:
     relevance: This later paper uses BioMMLU in biomedical evaluation, confirming the term is used as a domain-specific benchmark label in recent research.
     key_point: The paper reports BioMMLU alongside PubMedQA, USMLE, and RCT as part of biomedical task evaluation.
 ---
-
 BioMMLU is a biomedical subset of MMLU.
 
 In practice, it is used to check how well a language model answers multiple-choice questions in biomedicine, rather than across all subjects in MMLU.

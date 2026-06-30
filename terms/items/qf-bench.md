@@ -1,7 +1,7 @@
 ---
 title: QF-Bench
 short_description: A benchmark for testing AI agents on quantitative finance tasks
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, finance, quantitative-finance, agent-evals]
 status: active
 aliases: [QuantitativeFinance-Bench]
@@ -34,7 +34,6 @@ evidence:
     relevance: Shows how the maintainers define a good task, which helps pin down the benchmark’s meaning.
     key_point: Tasks must be state-aware, use real data, and be programmatically verifiable, so the benchmark is about interactive quantitative work rather than simple question answering.
 ---
-
 QF-Bench is a benchmark for checking how well an AI agent can do quantitative finance tasks.
 
 In practice, this means the agent has to work through real finance problems, often by running code, reading files, and producing answers that can be checked automatically.

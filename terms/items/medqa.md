@@ -1,7 +1,7 @@
 ---
 title: MedQA
 short_description: A medical question-answering benchmark built from professional board-exam questions.
-category: Evals and benchmarks
+category: Evals
 tags:
 - medical
 - question-answering
@@ -37,7 +37,6 @@ evidence:
   relevance: Shows how MedQA is used today in an evaluation harness.
   key_point: Describes MedQA as a Q&A benchmark with questions collected from professional medical board exams and notes that the Inspect eval uses only the English subset.
 ---
-
 MedQA is a benchmark for asking and scoring answers to medical exam questions.
 
 It was built from real professional medical board-exam questions. In practice, people use it to test whether a model can answer medical multiple-choice questions and do basic medical reasoning.

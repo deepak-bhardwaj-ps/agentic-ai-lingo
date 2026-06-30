@@ -1,7 +1,7 @@
 ---
 title: Lint
 short_description: A lint tool checks source code for mistakes, risky patterns, and style problems before the code is run.
-category: Software engineering
+category: Core
 tags:
   - software
   - code-quality
@@ -38,7 +38,6 @@ evidence:
     relevance: Gives the original meaning of lint as a code checker for C, which explains why the word is used this way today.
     key_point: The original lint command examined C source programs for bugs, portability issues, and wasteful or error-prone constructions.
 ---
-
 Lint is a tool that checks source code for mistakes, risky patterns, and style problems before the code is run.
 
 In practice, a lint tool scans code and warns you about things like unused variables, suspicious logic, or rules your team has chosen to follow. It does not usually change the code for you. It only points out possible problems.

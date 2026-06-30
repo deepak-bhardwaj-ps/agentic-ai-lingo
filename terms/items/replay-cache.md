@@ -1,7 +1,7 @@
 ---
 title: Replay cache
 short_description: A stored copy of agent run outputs that lets a benchmark or debugger replay the same trace without rerunning everything.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evals
   - benchmarking
@@ -40,7 +40,6 @@ evidence:
     relevance: Gives a clear baseline for replay in agent systems and helps distinguish replay from cache-based shortcuts.
     key_point: LangGraph says replay re-executes nodes and does not just read from cache, which shows that a replay cache is a separate idea from replay itself.
 ---
-
 Replay cache is a saved copy of the outputs an agent produced during a run so that the same trace can be replayed later without doing all the work again.
 
 In practice, a replay cache is used when people want to review or reproduce an eval run. It may store tool responses, model outputs, or short response previews, depending on the system. The point is to make the run easier to inspect and compare later.

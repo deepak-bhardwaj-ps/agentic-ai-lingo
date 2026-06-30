@@ -1,7 +1,7 @@
 ---
 title: Fraud benchmark
 short_description: A test or dataset set used to compare fraud detection methods
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - fraud
@@ -43,7 +43,6 @@ evidence:
     relevance: Shows the term now covers newer fraud detection settings such as private graph-structured data.
     key_point: The paper frames benchmarking fraud detectors on private graph data as a distinct evaluation problem, which shows the field is broader than one fixed dataset.
 ---
-
 Fraud benchmark is a test used to compare how well different systems find fraud.
 
 In practice, it is usually a fixed set of fraud-related tasks or datasets. The system is scored on how well it spots fraud, how often it misses real fraud, and how many false alarms it makes.

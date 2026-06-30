@@ -1,7 +1,7 @@
 ---
 title: Biomedical benchmark
 short_description: A test set or benchmark suite used to compare AI systems on tasks in medicine, biology, or clinical text
-category: Evals and benchmarks
+category: Evals
 tags: []
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Confirms that current biomedical and medical benchmarks often cover a limited slice of real work and are still evolving.
     key_point: The paper notes that many public medical and biomedical benchmarks focus on multiple-choice tasks, which shows the field is still incomplete and the term can cover a narrow or broader test design depending on context.
 ---
-
 A biomedical benchmark is a test used to compare AI systems on work in medicine, biology, or clinical text.
 
 In practice, it is usually a fixed set of tasks or datasets that many models can try under the same rules. That makes it easier to compare results fairly. Some biomedical benchmarks test reading medical text. Others test question answering, image analysis, or other healthcare tasks.

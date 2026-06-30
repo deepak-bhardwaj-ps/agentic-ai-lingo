@@ -1,7 +1,7 @@
 ---
 title: State-aware benchmark
 short_description: A benchmark that checks a system against the state it should have after a change
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -39,7 +39,6 @@ evidence:
     relevance: This paper explains why basic benchmark checks are not enough and why stronger, state-focused evaluation is needed in unlearning.
     key_point: The authors propose improved machine-unlearning benchmarks that use stronger privacy tests, update-leakage checks, and iterative evaluation, showing that benchmark quality depends on the target state and attack setting.
 ---
-
 State-aware benchmark is a benchmark that checks whether a system ends up in the right state after something changes.
 
 In machine unlearning, that usually means checking whether a model looks like it should after some training data has been removed. The benchmark compares the actual result with a target state, often a counterfactual one, instead of only checking one output score.

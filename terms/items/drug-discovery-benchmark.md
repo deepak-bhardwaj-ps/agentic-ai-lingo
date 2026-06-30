@@ -1,7 +1,7 @@
 ---
 title: Drug discovery benchmark
 short_description: A fixed test used to compare AI or machine learning methods on drug-discovery tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [drug-discovery, benchmark, evals, chemistry, molecules]
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Shows that the field still debates what a good benchmark should look like, which is why the term is broad and uneven.
     key_point: The paper proposes a new benchmark standard because current benchmarking practice is still seen as incomplete for small-molecule drug discovery.
 ---
-
 A drug discovery benchmark is a fixed test used to compare how well models help with parts of finding and improving medicines.
 
 In practice, it usually means a curated dataset, a scoring rule, and a shared test setup so different methods can be judged fairly. The task might ask a model to predict a molecule property, find promising compounds, or estimate safety.

@@ -1,7 +1,7 @@
 ---
 title: Agentic Benchmark Checklist
 short_description: A checklist for judging whether an agent benchmark is built and reported rigorously.
-category: Evals and benchmarks
+category: Evals
 tags:
 - evals
 - benchmarks
@@ -38,7 +38,6 @@ evidence:
     relevance: Broader current guidance from a major AI lab showing that agent evaluations need careful task design, scoring, and reporting.
     key_point: Anthropic describes agent evaluation as a structured process with an evaluation suite and a harness, which supports the idea that checklists matter because agent tests are easy to misdesign.
 ---
-
 Agentic Benchmark Checklist is a set of checks for judging whether a benchmark for AI agents is fair, clear, and trustworthy.
 
 In practice, it helps people who build agent tests ask whether the task really measures the skill they want, whether the scoring actually detects success, and whether the results are reported clearly.

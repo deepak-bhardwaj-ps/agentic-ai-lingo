@@ -1,7 +1,7 @@
 ---
 title: WebLINX
 short_description: A benchmark and dataset for conversational web navigation, where an agent uses a browser to follow multi-turn instructions on real websites.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, dataset, web-navigation, agents, evaluation]
 status: active
 aliases: []
@@ -34,7 +34,6 @@ evidence:
     relevance: Official BrowserGym repository showing the current packaging of the benchmark.
     key_point: BrowserGym lists WebLINX as a built-in static benchmark, which helps distinguish the benchmark itself from the platform that now hosts it.
 ---
-
 WebLINX is a benchmark and dataset for testing how well an AI agent can navigate websites in a browser while following instructions across multiple turns of a conversation.
 
 In practice, this means the agent has to read what the user wants, look at the page, choose actions like clicking or typing, and keep going as the task changes. The focus is on web browsing behaviour, not on writing essays or answering general trivia.

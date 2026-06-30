@@ -1,7 +1,7 @@
 ---
 title: Medical agent benchmark
 short_description: A test used to measure how well an AI agent can do medical or clinical tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - healthcare
@@ -46,7 +46,6 @@ evidence:
     relevance: Shows the term sits in a broader family of medical agent benchmarks and that the field is still expanding.
     key_point: Presents MedAgentBoard as a benchmark for comparing multi-agent, single-LLM, and conventional methods across several medical task types.
 ---
-
 Medical agent benchmark is a test for checking how well an AI agent can do medical or clinical tasks.
 
 In practice, it gives the agent a medical task to complete step by step, often with tools, records, or a simulated clinic system. The aim is to see whether the agent can plan, act, and make sensible choices, not just give a good-looking answer.

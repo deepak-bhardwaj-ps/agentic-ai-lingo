@@ -1,7 +1,7 @@
 ---
 title: Reasoning benchmark
 short_description: A test set used to check how well an AI system handles tasks that need step-by-step thinking.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -43,7 +43,6 @@ evidence:
     relevance: This shows how current model providers talk about reasoning tasks in practice, including ambiguous tasks and complex documents that need multi-step analysis.
     key_point: OpenAI says reasoning models are especially useful for ambiguous tasks and for finding relationships and nuance across large, complex inputs.
 ---
-
 A reasoning benchmark is a fixed test used to check how well an AI system handles tasks that need step-by-step thinking.
 
 In practice, it usually asks the system to solve problems that cannot be answered well by simple recall alone. The tasks may involve maths, logic, commonsense, science, or drawing conclusions from several clues.

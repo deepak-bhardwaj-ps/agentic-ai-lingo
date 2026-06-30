@@ -1,7 +1,7 @@
 ---
 title: MedHALT
 short_description: A benchmark for testing whether medical AI models make confident but wrong claims.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, medical-ai, hallucination, evaluation]
 status: active
 aliases: [Med-HALT, Medical Domain Hallucination Test]
@@ -34,7 +34,6 @@ evidence:
     relevance: This later medical-AI paper shows how the term is understood in current clinical-evaluation work and notes its limits.
     key_point: The paper says MedHALT is limited to reasoning questions in a QA format, which helps distinguish it from broader clinical safety evaluation.
 ---
-
 MedHALT is a benchmark for checking whether a medical AI model says things that sound confident but are wrong.
 
 In practice, MedHALT is used to test how well a model handles medical questions without making up facts. It looks at hallucinations, which means answers that sound plausible but are not supported by evidence.

@@ -1,7 +1,7 @@
 ---
 title: AgenticHealthAI
 short_description: A loose label for using agentic AI in healthcare.
-category: Evals and benchmarks
+category: Evals
 tags:
 - healthcare
 - agentic-ai
@@ -44,7 +44,6 @@ evidence:
   relevance: Shows that the field is active and broad, which supports treating this as an emerging umbrella term rather than a settled definition.
   key_point: The survey groups many kinds of healthcare agents, including clinical, administrative, and patient-facing uses.
 ---
-
 AgenticHealthAI is a loose label for agentic AI used in healthcare.
 
 In practice, it usually means software that can take steps in a healthcare setting, such as helping with patient intake, appointment handling, document work, triage support, or other admin tasks. It may also be used for research about healthcare agents in general.

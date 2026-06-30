@@ -1,7 +1,7 @@
 ---
 title: Tool-use benchmark
 short_description: A fixed test for checking how well an AI system chooses and uses tools to complete tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -44,7 +44,6 @@ evidence:
     relevance: Explains why tool-using agents need evaluations that cover multi-step behaviour rather than one-shot answers.
     key_point: Anthropic says agents act over many turns and use tools, so evaluation must look at behaviour across the whole task.
 ---
-
 A tool-use benchmark is a fixed test that checks how well an AI system chooses tools and uses them to finish a task.
 
 In practice, the test may ask the system to pick the right tool, pass the right inputs, handle the result, and sometimes do that over several steps. The benchmark gives the same tasks and scoring rules each time so different systems can be compared fairly.

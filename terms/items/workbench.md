@@ -1,7 +1,7 @@
 ---
 title: WorkBench
 short_description: A benchmark for testing AI agents on realistic workplace tasks with tools and changing database state
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, agentic-ai, tool-use, workplace]
 status: active
 aliases: []
@@ -36,7 +36,6 @@ evidence:
     relevance: This follow-up paper confirms the term is still used for the same benchmark and shows current framing in the literature.
     key_point: The paper revisits WorkBench as a benchmark for workplace agents and reports newer model results on the same task set.
 ---
-
 WorkBench is a benchmark for testing AI agents on realistic workplace tasks.
 
 In practice, it gives an AI tools, databases, and tasks such as sending emails or scheduling meetings. The AI has to choose actions and make changes in the right place, and the result is checked against the expected outcome.

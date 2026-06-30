@@ -1,7 +1,7 @@
 ---
 title: QuantitativeFinance-Bench
 short_description: A state-aware benchmark for testing AI agents on quantitative finance tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, finance, agent, quantitative-finance]
 status: draft
 aliases: [QFBench]
@@ -34,7 +34,6 @@ evidence:
     relevance: This newer paper shows the broader research direction for quantitative-finance evaluation and helps distinguish coding-and-reasoning benchmarks from ordinary finance QA.
     key_point: It frames quantitative finance evaluation around knowledge QA, mathematical reasoning, and strategy coding with execution-based backtesting, which matches the kind of skills this term targets.
 ---
-
 QuantitativeFinance-Bench is a benchmark that tests whether an AI agent can handle real quantitative finance tasks.
 
 In practice, it gives the agent finance problems that need code, calculations, debugging, and careful checking of numbers. The tasks are meant to behave more like real quant work than like a normal quiz.

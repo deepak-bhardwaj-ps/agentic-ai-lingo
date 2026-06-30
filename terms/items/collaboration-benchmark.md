@@ -1,7 +1,7 @@
 ---
 title: Collaboration benchmark
 short_description: A benchmark that measures how well a person and an AI system work together on a task.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evaluation
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows that collaboration benchmarks often measure shared understanding, coordination, and repair during interaction.
     key_point: The paper defines a benchmark for human-AI collaboration around common ground, joint action, and repair, which are core parts of collaborative work.
 ---
-
 Collaboration benchmark is a test that measures how well a person and an AI system work together.
 
 In practice, it checks things like whether the AI understands the person's intent, whether both sides can stay coordinated, and whether they can fix mistakes during the task. The task is often interactive, which means the result depends on back-and-forth communication, not just one final answer.

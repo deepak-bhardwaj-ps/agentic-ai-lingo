@@ -1,7 +1,7 @@
 ---
 title: Insecure inter-agent communication
 short_description: A security weakness where agents send messages to each other without enough checks on identity, secrecy, or message integrity.
-category: Governance and security
+category: Governance
 tags:
 - ai
 - security
@@ -40,7 +40,6 @@ evidence:
     relevance: Shows how a major vendor explains the same risk in practical terms for agentic systems.
     key_point: Microsoft summarises the risk as spoofing, intercepting, or manipulating agent-to-agent messages when authentication or integrity checks are weak.
 ---
-
 Insecure inter-agent communication is when one AI agent sends messages to another without enough protection.
 
 In practice, this means an attacker could pretend to be a trusted agent, change a message while it is moving, or send a fake instruction into the agent chain. The problem is not just the network link itself. It is the lack of checks on who sent the message, whether it was altered, and whether the receiver should trust it.

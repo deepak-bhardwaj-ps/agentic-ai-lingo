@@ -1,7 +1,7 @@
 ---
 title: AP2
 short_description: An open payments protocol that lets an AI agent help with a purchase only within the user's approved limits and payment rules.
-category: Protocols and standards
+category: Protocols
 tags:
   - payments
   - agentic-commerce
@@ -45,7 +45,6 @@ evidence:
     relevance: Confirms AP2 is being folded into broader work on trusted agent interactions.
     key_point: Shows AP2 is part of a wider standards effort for secure delegation and trusted transactions involving AI agents.
 ---
-
 AP2 is short for Agent Payments Protocol.
 
 It is a way for an AI agent to help with a payment without being allowed to spend freely. The person still sets the rules, such as what can be bought, how much can be spent, and what counts as approval.

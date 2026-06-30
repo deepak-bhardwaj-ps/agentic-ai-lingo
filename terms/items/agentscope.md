@@ -1,7 +1,7 @@
 ---
 title: AgentSCOPE
 short_description: A benchmark for checking privacy leaks across the steps of an agent workflow.
-category: Evals and benchmarks
+category: Evals
 tags:
   - agentic-ai
   - evaluation
@@ -37,7 +37,6 @@ evidence:
     relevance: Later work that cites AgentSCOPE as evidence that intermediate tool-use traces can leak data even when the final answer looks safe.
     key_point: This helps confirm AgentSCOPE is used as a privacy-evaluation reference for agent workflows, not as a general agent framework.
 ---
-
 AgentSCOPE is a benchmark for checking whether an AI agent leaks private information while it works.
 
 In practice, it tests the steps inside an agent workflow, not just the final answer. That matters because an agent can expose private details while it is looking things up, calling tools, or passing information between steps.

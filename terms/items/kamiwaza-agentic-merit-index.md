@@ -1,7 +1,7 @@
 ---
 title: Kamiwaza Agentic Merit Index
 short_description: Kamiwaza’s benchmark and leaderboard for testing how well AI agents handle enterprise-style tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - leaderboard
@@ -45,7 +45,6 @@ evidence:
     relevance: This supports the need for contamination-resistant benchmarks in modern model evaluation.
     key_point: The survey explains that benchmark contamination can make evaluation scores unreliable, which is one of the problems KAMI says it is trying to avoid.
 ---
-
 Kamiwaza Agentic Merit Index is a benchmark and leaderboard for checking how well AI agents do on enterprise-style tasks.
 
 In practice, it is used to test models on work that needs several steps, tool use, and decisions made with incomplete information. Kamiwaza says the benchmark is designed to be harder to game by memorisation, so it tries to measure what a model can really do.

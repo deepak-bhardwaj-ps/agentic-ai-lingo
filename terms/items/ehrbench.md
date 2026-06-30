@@ -1,7 +1,7 @@
 ---
 title: EHRBench
 short_description: A benchmark for testing AI models on clinical decision-making using electronic health record data.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, healthcare, clinical-ai, evals, ehr]
 status: draft
 aliases: [EHR-Bench]
@@ -37,7 +37,6 @@ evidence:
     relevance: This later paper shows how the term is used in current EHR evaluation work and confirms the benchmark framing.
     key_point: The paper describes EHR-Bench as a benchmark derived from MIMIC-IV and spanning 42 EHR tasks, which supports treating EHRBench as a named benchmark suite rather than a general idea.
 ---
-
 EHRBench is a benchmark for testing AI models on clinical decisions using electronic health record data.
 
 In practice, it turns patient record timelines into questions or tasks that a model has to answer. The goal is to see how well the model can reason about things like diagnosis, treatment, and future risk from real clinical data.

@@ -1,7 +1,7 @@
 ---
 title: LAB
 short_description: A biology benchmark for testing whether an AI system can handle practical research tasks
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - biology
@@ -40,7 +40,6 @@ evidence:
     relevance: Confirms that LAB-Bench is a published evaluation dataset, not just a paper title.
     key_point: The dataset card describes LAB-Bench as an evaluation dataset for AI systems intended to benchmark capabilities needed for scientific research in biology.
 ---
-
 LAB is short for LAB-Bench, which means Language Agent Biology Benchmark. It is a test set used to see how well an AI system can handle practical biology research tasks.
 
 In practice, LAB asks the system to do things like read biology papers, understand figures or tables, work with DNA or protein sequences, and use biological databases.

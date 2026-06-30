@@ -1,7 +1,7 @@
 ---
 title: Blue-team benchmark
 short_description: A test used to measure how well an AI system supports defensive cybersecurity work such as threat hunting, detection, and incident response.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, cybersecurity, blue-team, evals]
 status: draft
 aliases: []
@@ -40,7 +40,6 @@ evidence:
     relevance: IBM provides a current industry explanation of blue-team work, which helps bound what a blue-team benchmark is measuring.
     key_point: IBM describes a blue team as the defensive IT security team that protects assets and improves security measures.
 ---
-
 Blue-team benchmark is a test used to check how well an AI system helps with defensive cybersecurity work.
 
 In practice, it usually measures tasks like finding threats, investigating alerts, understanding attacks, and helping respond to incidents. The benchmark may use logs, attack traces, simulated environments, or step-by-step security workflows.

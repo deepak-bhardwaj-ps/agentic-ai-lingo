@@ -1,7 +1,7 @@
 ---
 title: Protocol benchmark
 short_description: A test that compares AI agent communication protocols on speed, success, overhead, and robustness.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - protocol
@@ -39,7 +39,6 @@ evidence:
     relevance: Confirms that agent-to-agent protocols are a real and active layer in the stack, which is what protocol benchmarks try to compare.
     key_point: Google describes A2A as a protocol for agents to communicate securely and coordinate actions, which supports the idea that benchmarks can measure protocol choice.
 ---
-
 A protocol benchmark is a test used to compare different ways AI agents talk to each other or connect to tools.
 
 In practice, it checks things like whether the agents finish the task, how long they take, how much data they send, and how well they recover when something goes wrong.

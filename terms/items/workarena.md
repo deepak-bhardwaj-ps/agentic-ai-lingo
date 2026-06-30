@@ -1,7 +1,7 @@
 ---
 title: WorkArena
 short_description: A benchmark for testing web agents on common knowledge-work tasks in ServiceNow.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -46,7 +46,6 @@ evidence:
     relevance: Shows the related follow-up benchmark, which helps distinguish WorkArena from its extension.
     key_point: The follow-up paper extends the WorkArena idea towards more complex planning and reasoning tasks, showing that WorkArena is the original benchmark rather than the more advanced variant.
 ---
-
 WorkArena is a benchmark for testing how well an AI agent can do common knowledge-work tasks in a browser, usually in ServiceNow.
 
 In practice, it gives the agent tasks that look like real office work, such as moving through forms, dashboards, lists, and service requests. The point is to see whether the agent can complete multi-step work in a real business system, not just answer questions.

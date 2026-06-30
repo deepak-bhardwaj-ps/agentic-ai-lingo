@@ -1,7 +1,7 @@
 ---
 title: ToolSandbox
 short_description: Apple's benchmark for testing how well LLMs use tools in multi-turn, stateful conversations.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -39,7 +39,6 @@ evidence:
     relevance: The repository shows how the benchmark is packaged and confirms it is a concrete evaluation suite, not a vague concept.
     key_point: The project README says the software accompanies the paper and repeats the stateful, conversational benchmark framing.
 ---
-
 ToolSandbox is Apple’s benchmark for testing how well an LLM uses tools in a conversation that changes over time.
 
 In practice, it checks whether a model can keep track of what has already happened, use the right tool, and handle results across several steps. It is meant for tasks where one choice affects the next one, not just for a single question and answer.

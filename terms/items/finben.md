@@ -1,7 +1,7 @@
 ---
 title: FinBen
 short_description: A finance benchmark for evaluating large language models across many financial tasks
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - finance
@@ -38,7 +38,6 @@ evidence:
     relevance: This later publication record helps confirm that FinBen is a formal benchmark name, not a casual nickname.
     key_point: The paper record shows FinBen as a benchmark spanning 24 financial tasks, which supports the term as a broad finance evaluation suite.
 ---
-
 FinBen is a benchmark for testing how well a large language model handles financial tasks.
 
 In practice, it gives models many finance-related tasks, such as reading financial text, answering questions, doing calculations, and reasoning about risk or decisions. Researchers use it to compare models in a fair way.

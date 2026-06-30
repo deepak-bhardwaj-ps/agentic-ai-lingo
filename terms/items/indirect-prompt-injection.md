@@ -1,7 +1,7 @@
 ---
 title: Indirect prompt injection
 short_description: Malicious instructions hidden inside content an AI system reads later, such as a web page, file, email, or tool output.
-category: Governance and security
+category: Governance
 tags:
   - security
   - prompt-injection
@@ -43,7 +43,6 @@ evidence:
     relevance: Current explanation from a major lab showing why third-party content in agent context is the core problem.
     key_point: The threat comes from content from many sources being mixed into the conversation context, not just the user prompt.
 ---
-
 Indirect prompt injection is when harmful instructions are hidden inside content that an AI system reads later.
 
 In practice, the attacker does not need to talk to the model directly. They can hide instructions in a web page, document, email, chat message, or tool result. If the agent reads that content as part of its task, it may follow the hidden instructions instead of the user's request.

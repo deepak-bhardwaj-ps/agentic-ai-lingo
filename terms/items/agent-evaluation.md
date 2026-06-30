@@ -1,7 +1,7 @@
 ---
 title: Agent evaluation
 short_description: Testing how well an AI agent completes tasks, uses tools, and behaves safely across steps.
-category: Evals and benchmarks
+category: Evals
 tags:
 - evaluation
 - benchmarking
@@ -43,7 +43,6 @@ evidence:
   relevance: Places evaluation inside the broader work of managing AI risk across design, development, use, and evaluation.
   key_point: NIST says AI systems should be managed across design, development, use, and evaluation.
 ---
-
 Agent evaluation is the process of testing how well an AI agent does a task.
 
 An AI agent is a system that can take steps, use tools, and make choices to try to finish work. Agent evaluation checks more than the final answer. It also looks at the steps the agent took, whether it used the right tools, whether it stayed within rules, and whether it finished the task reliably.

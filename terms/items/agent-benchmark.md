@@ -1,7 +1,7 @@
 ---
 title: Agent benchmark
 short_description: A fixed test used to compare how well AI agents do a task
-category: Evals and benchmarks
+category: Evals
 tags: [agent, benchmark, evals]
 status: draft
 aliases: []
@@ -46,7 +46,6 @@ evidence:
     relevance: Explains why agent benchmarks and evals must measure multi-step behaviour, not just one final answer.
     key_point: Anthropic says agents act over many turns, using tools and changing state, which makes them harder to evaluate than single-response systems.
 ---
-
 An agent benchmark is a fixed test used to compare how well AI agents do a task.
 
 In practice, a benchmark gives every agent the same kind of task, the same rules, and the same way of scoring. For agent benchmarks, the task often involves more than one step, such as using tools, browsing, editing files, or making a plan and then acting on it.

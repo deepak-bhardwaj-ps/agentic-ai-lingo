@@ -1,7 +1,7 @@
 ---
 title: Physician validation
 short_description: A check where physicians review medical AI benchmark items, rubrics, or outputs to see whether they match medical judgement and real clinical practice.
-category: Evals and benchmarks
+category: Evals
 tags:
   - healthcare
   - medical-ai
@@ -38,7 +38,6 @@ evidence:
     relevance: Explains why physician-backed benchmarks still do not prove real-world clinical readiness.
     key_point: Benchmark scores can be useful, but without external validation they do not automatically translate into better diagnostic accuracy, workflow efficiency, or patient safety.
 ---
-
 Physician validation means having doctors check a medical AI benchmark, rubric, or model output so it better matches real clinical judgement.
 
 In practice, physicians may review questions, label good and bad answers, write scoring rules, or check whether test cases feel realistic and medically sensible.

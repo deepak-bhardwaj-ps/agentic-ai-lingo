@@ -1,7 +1,7 @@
 ---
 title: Search benchmark
 short_description: A fixed test used to measure how well a search system finds the right information.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - search
@@ -43,7 +43,6 @@ evidence:
     relevance: Helps distinguish search benchmarks from agent benchmarks that involve browsing as part of a larger task.
     key_point: OpenAI describes BrowseComp as a benchmark for browsing agents that measures the ability to locate hard-to-find information.
 ---
-
 Search benchmark is a fixed test used to measure how well a search system finds the right information.
 
 In practice, people give the same search tasks to different systems and score how well each one finds the right results. The test may measure things like whether the best answer appears near the top, whether the system retrieves enough relevant items, or how well it handles different topics.

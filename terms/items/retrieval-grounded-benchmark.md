@@ -1,7 +1,7 @@
 ---
 title: Retrieval-grounded benchmark
 short_description: A benchmark that checks whether answers are supported by retrieved evidence.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -44,7 +44,6 @@ evidence:
     relevance: This is a concrete retrieval-augmented benchmark that evaluates how well systems answer using retrieved medical evidence, which is a strong example of the term in practice.
     key_point: The benchmark tests retrieval-augmented generation on medical QA, combining evidence retrieval with answer generation and evaluation.
 ---
-
 A retrieval-grounded benchmark is a test that checks whether a model’s answer is supported by the evidence it was given or retrieved.
 
 In practice, the model is asked a question, some documents or search results are retrieved, and then the answer is judged on whether it stays close to that evidence. Good scores usually mean the system found the right material and did not add unsupported claims.

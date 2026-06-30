@@ -1,7 +1,7 @@
 ---
 title: Web agent benchmark
 short_description: A benchmark that tests whether an AI agent can carry out tasks on websites.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - agent
@@ -45,7 +45,6 @@ evidence:
     relevance: Older but still widely used example of web interaction benchmarks, useful for pinning down the term’s scope.
     key_point: The docs describe MiniWoB++ as over 100 web interaction environments, which shows that web agent benchmarks often mean fixed web tasks inside a controlled environment.
 ---
-
 Web agent benchmark is a test that checks whether an AI agent can do tasks on websites.
 
 In practice, these benchmarks give the agent a website or browser task and watch whether it can click, type, navigate, fill forms, or finish a job correctly. The task is usually controlled, so different agents can be compared under the same rules.

@@ -1,7 +1,7 @@
 ---
 title: Financial analysis benchmark
 short_description: A benchmark for testing AI on financial analysis tasks such as reading filings, doing calculations, and explaining results.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - finance
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows the broader modern use of finance analysis benchmarks for multi-step agent tasks using recent company filings and tools.
     key_point: The benchmark tests real-world finance research problems using SEC filings, search, and calculation tools, which makes clear that these benchmarks check more than one-answer chat behaviour.
 ---
-
 Financial analysis benchmark is a benchmark for testing how well an AI system can do finance work with facts, numbers, and documents.
 
 In practice, it may ask the system to read company filings, compare figures, work out ratios, or explain what the numbers mean. Some versions are open-book, which means the system can look at source documents while answering.

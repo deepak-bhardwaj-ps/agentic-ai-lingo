@@ -1,7 +1,7 @@
 ---
 title: Agentic law firm benchmark
 short_description: A benchmark that measures how well an AI agent can do law-firm-style work
-category: Evals and benchmarks
+category: Evals
 tags: [agent, benchmark, evals, legal, law-firm]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Provides an independent research benchmark showing that legal agent evaluation is broader than one product and is still evolving.
     key_point: The paper describes a legal-agent benchmark with real-world legal corpora, tools, and multi-step tasks, which supports the idea that this term refers to an agentic legal-work evaluation, not a single fixed standard.
 ---
-
 An agentic law firm benchmark is a test that checks how well an AI agent can do law-firm-style work from start to finish.
 
 In practice, that means the agent may get a client matter, supporting documents, and a task to complete. It might need to find useful facts, use tools, follow instructions, and produce a work product that a lawyer could review.

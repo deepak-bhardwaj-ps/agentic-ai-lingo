@@ -1,7 +1,7 @@
 ---
 title: Benchmark suite
 short_description: A fixed collection of tests and scoring rules used to compare systems or models fairly.
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - evals
@@ -38,7 +38,6 @@ evidence:
     relevance: Shows how modern AI evaluation is often organised as a suite of evals rather than a single test.
     key_point: OpenAI describes evals as a way to test model outputs against criteria you specify and recommends building evals to understand and compare performance over time.
 ---
-
 A benchmark suite is a fixed set of tests used to compare how well different systems or models do the same job.
 
 In practice, each test in the suite checks one part of the job, and each test uses the same rules and scoring method every time. That makes the results easier to trust and compare.

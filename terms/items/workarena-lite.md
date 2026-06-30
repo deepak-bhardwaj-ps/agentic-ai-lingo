@@ -1,7 +1,7 @@
 ---
 title: WorkArena-Lite
 short_description: A lighter name for the basic WorkArena task set, usually meaning the low-level ServiceNow benchmark tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, web-agents, browser-automation, enterprise-software]
 status: active
 aliases: [WorkArena-L1]
@@ -40,7 +40,6 @@ evidence:
     relevance: BrowserGym is the main evaluation environment that now packages WorkArena, so it helps confirm how the benchmark is used in practice.
     key_point: The repository lists WorkArena as one of the default BrowserGym benchmarks and shows that the atomic WorkArena task set is the basic level, distinct from higher-composition variants.
 ---
-
 WorkArena-Lite is the lighter name for the basic WorkArena benchmark. It usually means the simpler, low-level ServiceNow tasks that make up the “atomic” task set.
 
 In practice, these tasks ask an agent to do routine office-style work in a browser, such as finding information, filling forms, filtering lists, using menus, or ordering items from a service catalogue. The point is to check whether an agent can carry out common work steps correctly on enterprise software.

@@ -1,7 +1,7 @@
 ---
 title: Tool calling
 short_description: A way for a model to ask an app to run a tool and return the result.
-category: Protocols and standards
+category: Protocols
 tags:
 - ai
 - protocol
@@ -40,7 +40,6 @@ evidence:
     relevance: Shows the broader protocol view, where tools are exposed by servers and invoked by language models through a standard interface.
     key_point: MCP lets servers expose tools that language models can invoke to interact with external systems.
 ---
-
 Tool calling is when a model asks an app to run a tool and send back the result.
 
 In practice, the model picks a tool, sends the inputs it needs, and waits for the app or platform to do the real work. The tool might look up data, call an API, calculate something, or make a change in another system.

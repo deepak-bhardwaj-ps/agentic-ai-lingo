@@ -1,7 +1,7 @@
 ---
 title: OSWorld-MCP
 short_description: A benchmark for testing computer-use agents on GUI actions and MCP tool use.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - computer-use agents
@@ -44,7 +44,6 @@ evidence:
   relevance: Defines MCP so the term is not confused with the benchmark itself.
   key_point: MCP is an open standard for connecting AI applications to external systems, so OSWorld-MCP is about testing MCP tool use, not redefining MCP.
 ---
-
 OSWorld-MCP is a benchmark for testing computer-use agents.
 
 It checks whether an agent can use a computer interface and also choose when to use MCP tools.

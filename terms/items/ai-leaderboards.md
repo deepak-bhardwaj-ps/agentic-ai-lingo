@@ -2,7 +2,7 @@
 slug: ai-leaderboards
 title: AI Leaderboards
 short_description: A ranked list that compares AI models on a chosen set of tests or votes.
-category: evaluation
+category: Evals
 tags:
   - benchmarking
   - evaluation
@@ -44,7 +44,6 @@ evidence:
     relevance: Supports the caution that leaderboard rank can be misleading when a system is tuned to the leaderboard rather than to general usefulness.
     key_point: The paper reports that Arena-specific data access can improve arena performance without necessarily reflecting general model quality.
 ---
-
 AI leaderboards are ranked lists that compare AI models using the results of a chosen test or voting system.
 
 In practice, a leaderboard may rank models by scores on a benchmark, or by human votes turned into a score. It gives a quick way to compare models on one specific task or set of tasks.

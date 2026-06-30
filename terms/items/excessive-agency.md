@@ -1,7 +1,7 @@
 ---
 title: Excessive agency
 short_description: An agent has excessive agency when it is given too much power, permission, or freedom to act, so it can do harmful things.
-category: Governance and security
+category: Governance
 tags:
 - governance
 - security
@@ -43,7 +43,6 @@ evidence:
   relevance: Shows a current vendor recommendation to keep tool approvals on for agent actions.
   key_point: OpenAI advises enabling tool approvals so users can review and confirm operations, including reads and writes, before they happen.
 ---
-
 Excessive agency means an AI agent has too much power to act on its own.
 
 In practice, this usually means the agent can call tools, change data, send messages, or make other real-world changes when it should have been more limited.

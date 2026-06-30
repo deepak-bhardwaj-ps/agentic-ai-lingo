@@ -1,7 +1,7 @@
 ---
 title: Cybersecurity benchmark
 short_description: A cybersecurity benchmark is a standard test used to measure how well a model, tool, or agent handles cyber tasks such as spotting vulnerabilities or answering security questions.
-category: Evals and benchmarks
+category: Evals
 tags:
 - cybersecurity
 - benchmark
@@ -37,7 +37,6 @@ evidence:
   relevance: This paper shows that cybersecurity benchmarks can also test agent behaviour in sandboxed exploit tasks, not just question answering.
   key_point: CVE-Bench measures whether AI agents can exploit vulnerable web applications in controlled environments that mimic real-world conditions.
 ---
-
 Cybersecurity benchmark is a standard test for checking how well a system handles security-related tasks.
 
 In practice, it gives the system a set of cyber problems to solve, such as finding weaknesses, answering security questions, or carrying out steps in a controlled test environment. The benchmark then scores the results so people can compare systems more fairly.

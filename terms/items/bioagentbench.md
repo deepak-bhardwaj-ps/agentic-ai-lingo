@@ -1,7 +1,7 @@
 ---
 title: BioAgentBench
 short_description: A benchmark suite for testing AI agents on bioinformatics workflows
-category: Evals and benchmarks
+category: Evals
 tags: [agent, benchmark, bioinformatics, evals]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Conference record confirming the published framing of the benchmark.
     key_point: The OpenReview entry describes BioAgent Bench as an evaluation suite for measuring performance and robustness on common bioinformatics tasks, which helps distinguish it from looser uses of the name.
 ---
-
 BioAgentBench is a benchmark suite for testing AI agents on bioinformatics tasks.
 
 In practice, it gives agents the same kinds of biology data-workflow tasks and checks how well they can carry them out. The tasks include multi-step work such as analysing sequencing data, building pipelines, and producing the requested output files.

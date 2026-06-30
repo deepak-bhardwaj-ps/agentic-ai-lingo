@@ -1,7 +1,7 @@
 ---
 title: Agentic security
 short_description: Security for AI systems that can plan, use tools, and take actions on a user's behalf.
-category: Governance and security
+category: Governance
 tags:
 - agentic-ai
 - security
@@ -45,7 +45,6 @@ evidence:
   relevance: OWASP treats agentic applications as having their own major risk areas, which shows the term is emerging but increasingly formalised.
   key_point: Agentic systems create security risks such as tool misuse, identity abuse, memory poisoning, and goal hijacking.
 ---
-
 Agentic security means keeping AI systems safe when they can plan, use tools, and take actions instead of only answering questions.
 
 In practice, it means putting clear limits around what the system can see, what it can change, and when a person must approve an action. It also means checking identity, permissions, logs, and outside controls, because the AI itself should not be the thing that enforces safety.

@@ -1,7 +1,7 @@
 ---
 title: MoleculeNet
 short_description: A benchmark suite for comparing machine learning methods on molecular tasks.
-category: Evals and benchmarks
+category: Evals
 tags: [drug-discovery, benchmark, chemistry, molecules, deepchem]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Confirms that the name is still used today as a benchmark collection and shows its scope across molecular tasks.
     key_point: PyTorch Geometric calls MoleculeNet a benchmark collection from the paper and says it covers datasets from physical chemistry, biophysics, and physiology.
 ---
-
 MoleculeNet is a benchmark suite for testing machine learning models on molecular tasks.
 
 In practice, that means it is a grouped set of datasets and scoring rules that researchers use to compare different models in a fairer way. The tasks usually involve molecules, such as predicting a property of a molecule or judging how it might behave.

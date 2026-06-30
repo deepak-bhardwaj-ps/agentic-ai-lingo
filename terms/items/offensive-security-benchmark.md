@@ -1,7 +1,7 @@
 ---
 title: Offensive security benchmark
 short_description: A test used to measure how well an AI system can carry out offensive cyber tasks in a controlled setting
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, cybersecurity, offensive-security, ai-agents]
 status: active
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: This benchmark extends the idea beyond CTF tasks to real-world web application exploits, showing how the term is used in practice.
     key_point: CVE-Bench evaluates AI agents on exploiting real web vulnerabilities in a sandbox, which matches the offensive-security benchmark pattern.
 ---
-
 An offensive security benchmark is a controlled test that checks how well an AI system can do attack-style cybersecurity tasks.
 
 In practice, that usually means tasks such as solving Capture the Flag challenges, finding weaknesses, or trying to exploit a known vulnerability inside a safe sandbox. The point is to measure capability, not to let the system attack real targets.

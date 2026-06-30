@@ -1,7 +1,7 @@
 ---
 title: Evaluation harness
 short_description: Software that runs the same evaluation the same way each time so results can be compared fairly.
-category: Evals and benchmarks
+category: Evals
 tags:
   - evaluation
   - benchmarking
@@ -43,7 +43,6 @@ evidence:
     relevance: Confirms the practical use of agent evaluation setups for repeatable quality and safety checks before release.
     key_point: Microsoft describes agent-targeted evaluations as a way to establish baselines and pass/fail thresholds before deploying an agent.
 ---
-
 An evaluation harness is the software that runs tests on a model or agent in the same way each time.
 
 In practice, it feeds inputs into the system, collects the outputs, scores them with rules or graders, and records the results. A good harness makes it easier to compare one version with another and to spot when a change helped or hurt.

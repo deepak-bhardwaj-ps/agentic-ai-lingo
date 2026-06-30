@@ -1,7 +1,7 @@
 ---
 title: Red-team benchmark
 short_description: A benchmark that uses adversarial prompts, attacks, or probes to test how a model or agent fails under pressure
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, red-teaming, evals, safety, security]
 status: draft
 aliases: []
@@ -41,7 +41,6 @@ evidence:
     relevance: Shows the term being used today for a concrete benchmark name, not just a general testing approach.
     key_point: The paper defines AIRTBench as an AI red teaming benchmark for evaluating whether models can autonomously find and exploit security weaknesses.
 ---
-
 Red-team benchmark is a benchmark that uses adversarial prompts, attacks, or probes to see how a model or agent fails under pressure.
 
 In practice, people use it to test for weak spots such as unsafe answers, prompt injection, jailbreaks, or other ways the system can be pushed off course. The test is usually set up so the same model or agent can be checked against the same kinds of attacks and compared with other systems.

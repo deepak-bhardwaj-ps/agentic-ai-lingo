@@ -1,7 +1,7 @@
 ---
 title: BenchFlow
 short_description: A frontier environment lab for AI agents that provides a runtime for running and scoring agent tasks.
-category: Evals and benchmarks
+category: Evals
 tags:
 - benchmark
 - evaluation
@@ -40,7 +40,6 @@ evidence:
   relevance: This older project page shows why the name is ambiguous and why the glossary should distinguish the modern AI-agent project from the earlier workflow benchmark.
   key_point: BenchFlow was also used for a separate academic project about benchmarking workflow management systems, so the term is not unique across contexts.
 ---
-
 BenchFlow is the name of a project that builds environments for AI agents to run in and be scored on. In the current AI-agent context, it is not just a single test; it is a framework and runtime for running tasks, collecting results, and comparing agents fairly.
 
 In practice, BenchFlow provides the setup around a task: the environment, the rules for running the agent, and the way the outcome is scored. It is used with related projects such as SkillsBench and ClawsBench.

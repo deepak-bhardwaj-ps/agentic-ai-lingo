@@ -1,7 +1,7 @@
 ---
 title: NatureBench
 short_description: A benchmark for testing AI coding agents on scientific tasks drawn from Nature-family papers
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, evals, scientific-research, coding-agents]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: Clarifies the related pipeline name, which is easy to confuse with the benchmark itself.
     key_point: The README says NatureGym is the automated pipeline that turns a published paper into a containerized NatureBench task package, making it the construction system rather than the benchmark name.
 ---
-
 NatureBench is a benchmark for checking how well an AI coding agent can solve scientific tasks taken from Nature-family research papers.
 
 In practice, it gives the agent a set of paper-based problems and scores the result against the paper’s reported best performance. The tasks are built to see whether the agent can go beyond copying a known method and actually make progress on a real research problem.

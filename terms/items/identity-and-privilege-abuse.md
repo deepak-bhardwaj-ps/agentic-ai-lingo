@@ -1,7 +1,7 @@
 ---
 title: Identity and privilege abuse
 short_description: An attack where an AI agent gets more identity, access, or permission than it should have.
-category: Governance and security
+category: Governance
 tags:
   - agentic-ai
   - security
@@ -46,7 +46,6 @@ evidence:
     relevance: Google gives a concrete example of agent security using a custom identity and least privilege, which helps show how identity abuse is prevented in practice.
     key_point: Agents should be given only the precise permissions they need, with controls that limit what commands and actions they can perform.
 ---
-
 Identity and privilege abuse is when an AI agent uses the wrong identity, or gets more permission than it should have, so it can do things it was never meant to do.
 
 In practice, this can happen when an agent is given a service account, token, or tool permission that is too broad, reused across too many tasks, or not checked carefully enough. It can also happen when a lower-trust agent finds a way to reach higher-trust tools, data, or admin actions.

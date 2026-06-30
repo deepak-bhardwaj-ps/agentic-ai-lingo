@@ -1,7 +1,7 @@
 ---
 title: Tool use
 short_description: A model asking outside software to do something for it, such as look up data, call an API, or run a check.
-category: Protocols and standards
+category: Protocols
 tags:
   - agentic-ai
   - tools
@@ -41,7 +41,6 @@ evidence:
     relevance: Shows how OpenAI frames tools as part of agent building, including built-in tools such as web search, file search, and computer use.
     key_point: Tools are the actions an agent can take outside the model, often through the Responses API and Agents SDK.
 ---
-
 Tool use is when a model asks another system to do a job for it.
 
 In practice, the model does not just write text. It may ask for a database lookup, an API call, a file search, a calculation, or another action that software can carry out. The system then sends the result back to the model, so it can continue with better information.

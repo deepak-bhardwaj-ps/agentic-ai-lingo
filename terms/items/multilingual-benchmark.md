@@ -1,7 +1,7 @@
 ---
 title: Multilingual benchmark
 short_description: A test set or suite used to check how well a model works in more than one language
-category: Evals and benchmarks
+category: Evals
 tags:
   - benchmark
   - multilingual
@@ -44,7 +44,6 @@ evidence:
     relevance: This official repository description is useful because it states the benchmark’s purpose in plain terms and confirms the cross-lingual evaluation framing.
     key_point: The repository describes XTREME as a benchmark for evaluating the cross-lingual generalisation ability of multilingual models across diverse languages and tasks.
 ---
-
 A multilingual benchmark is a test set or test suite used to check how well an AI model works in more than one language.
 
 In practice, it gives the model the same kind of task in several languages, or it uses parallel questions so results can be compared across languages. The tasks can be question answering, text understanding, translation, or other language work.

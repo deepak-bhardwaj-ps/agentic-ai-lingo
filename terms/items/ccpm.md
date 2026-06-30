@@ -1,7 +1,7 @@
 ---
 title: CCPM
 short_description: Critical Chain Project Management, a way of scheduling projects that focuses on resources and buffers.
-category: Project management
+category: Core
 tags:
 - project-management
 - scheduling
@@ -44,7 +44,6 @@ evidence:
     relevance: This PMI paper states that CCPM differs from critical path by including resource dependencies and using buffers, which is the key distinction needed for a clear glossary entry.
     key_point: CCPM adds resource dependencies and buffers to project scheduling.
 ---
-
 CCPM means Critical Chain Project Management.
 
 It is a way to plan and manage projects that pays close attention to the people, equipment, and other resources needed to do the work. It also uses buffers, which are chunks of time set aside to help protect the finish date if some tasks run late.

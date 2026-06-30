@@ -1,7 +1,7 @@
 ---
 title: MedQBench
 short_description: A benchmark for testing how well multimodal AI can judge medical image quality
-category: Evals and benchmarks
+category: Evals
 tags: [benchmark, medical-ai, multimodal]
 status: draft
 aliases: []
@@ -35,7 +35,6 @@ evidence:
     relevance: The dataset card confirms the benchmark structure and the kinds of tasks included.
     key_point: The dataset page lists 3,308 medical images, five imaging types, and two task families: perception questions and reasoning assessments.
 ---
-
 MedQBench is a benchmark for checking how well an AI can judge the quality of medical images.
 
 In practice, it asks a multimodal AI system to look at medical images such as CT, MRI, or endoscopy images and answer questions about how clear, usable, or damaged the image is. Some tasks ask simple questions. Others ask the AI to explain its judgement or compare two images.

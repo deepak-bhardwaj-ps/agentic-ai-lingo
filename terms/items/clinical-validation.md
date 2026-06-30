@@ -1,7 +1,7 @@
 ---
 title: Clinical validation
 short_description: Evidence that a medical AI or software tool works in the real clinical situation it was built for.
-category: Evals and benchmarks
+category: Evals
 tags:
 - healthcare
 - medical-ai
@@ -38,7 +38,6 @@ evidence:
   relevance: Explains why evidence for AI-based medical devices must cover clinical use, not just model performance in isolation.
   key_point: WHO frames evidence generation for AI medical devices across development and post-market use, with clinical validation as part of that evidence chain.
 ---
-
 Clinical validation is evidence that a medical AI or software tool works in the real clinical setting it was designed for.
 
 In practice, it asks a simple question: if this tool is used with real patients, real clinicians, and real workflows, does it give a result that is useful and clinically meaningful?
