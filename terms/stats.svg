@@ -3,29 +3,29 @@
 <rect x="45" y="52" width="167" height="108" rx="20" fill="#B3E6EC"/>
 <rect x="44" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="44" y="51" width="165" height="106" rx="19" fill="#B3E6EC"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="96" y="78">Terms</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="40" font-weight="900"><tspan x="74" y="135">231</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="126.5" y="78">Terms</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="40" font-weight="900"><tspan x="126.5" y="135">231</tspan></text>
 <rect x="232" y="52" width="167" height="108" rx="20" fill="#F3A880"/>
 <rect x="231" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="231" y="51" width="165" height="106" rx="19" fill="#F3A880"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="283" y="78">Categories</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="280" y="135">9</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="313.5" y="78">Categories</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="313.5" y="135">9</tspan></text>
 <rect x="419" y="52" width="167" height="108" rx="20" fill="#9BB982"/>
 <rect x="418" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="418" y="51" width="165" height="106" rx="19" fill="#9BB982"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="470" y="78">Emerging</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="467" y="135">84</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="500.5" y="78">Emerging</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="500.5" y="135">84</tspan></text>
 <rect x="606" y="52" width="167" height="108" rx="20" fill="#FFA5A4"/>
 <rect x="605" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="605" y="51" width="165" height="106" rx="19" fill="#FFA5A4"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="657" y="78">Sources</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="654" y="135">0</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="687.5" y="78">Sources</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="48" font-weight="900"><tspan x="687.5" y="135">4</tspan></text>
 <rect x="793" y="52" width="167" height="108" rx="20" fill="#4DC5D4"/>
 <rect x="792" y="51" width="165" height="106" rx="19" fill="#EFEFEF" opacity="0.0"/>
 <rect x="792" y="51" width="165" height="106" rx="19" fill="#4DC5D4"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="844" y="78">Updated</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="838" y="114">28 Jun</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="854" y="140">2026</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="874.5" y="78">Updated</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="874.5" y="114">28 Jun</tspan></text>
+<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="874.5" y="140">2026</tspan></text>
 <text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="32"><tspan x="43.5898" y="227.594">Number of terms by category</tspan></text>
 <g clip-path="url(#clip0)">
 <text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="18"><tspan x="43.5898" y="270.000">Core</tspan></text>

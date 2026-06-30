@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 from datetime import date
+from urllib.parse import urlparse
 from pathlib import Path
 from typing import Any
 
@@ -173,6 +174,16 @@ def svg_escape(value: Any) -> str:
     )
 
 
+def source_domain(value: str) -> str | None:
+    parsed = urlparse(value.strip())
+    host = (parsed.hostname or "").lower().strip()
+    if not host:
+        return None
+    if host.startswith("www."):
+        host = host[4:]
+    return host
+
+
 def load_meta() -> dict[str, Any]:
     if not META_PATH.exists():
         return {}
@@ -196,16 +207,27 @@ def build_stats_svg(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
         categories = sorted({str(term["meta"].get("category") or "Uncategorised") for term in terms})
     canonical_by_lower = {category.lower(): category for category in categories}
     counts = {category: 0 for category in categories}
-    source_urls: set[str] = set()
+    source_domains: set[str] = set()
     for term in terms:
         raw_category = str(term["meta"].get("category") or "Uncategorised").strip()
         category = canonical_by_lower.get(raw_category.lower(), raw_category)
         if category not in counts:
             continue
         counts[category] = counts.get(category, 0) + 1
+        for item in term["meta"].get("sources") or []:
+            if isinstance(item, dict):
+                url = str(item.get("url") or "").strip()
+                domain = source_domain(url)
+                if domain:
+                    source_domains.add(domain)
+            else:
+                domain = source_domain(str(item))
+                if domain:
+                    source_domains.add(domain)
         source_url = str(term["meta"].get("source_url") or "").strip()
-        if source_url:
-            source_urls.add(source_url)
+        domain = source_domain(source_url)
+        if domain:
+            source_domains.add(domain)
 
     total_terms = len(terms)
     total_categories = len(categories)
@@ -220,7 +242,7 @@ def build_stats_svg(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
         ("Terms", str(total_terms), "#B3E6EC"),
         ("Categories", str(total_categories), "#F3A880"),
         ("Emerging", str(emerging_terms), "#9BB982"),
-        ("Sources", str(len(source_urls)), "#FFA5A4"),
+        ("Sources", str(len(source_domains)), "#FFA5A4"),
         ("Updated", updated.split()[0] + " " + updated.split()[1] + "\n" + updated.split()[2], "#4DC5D4"),
     ]
 
@@ -240,13 +262,14 @@ def build_stats_svg(meta: dict[str, Any], terms: list[dict[str, Any]]) -> str:
         parts.append(f'<rect x="{x + 1}" y="{card_y + 1}" width="{widths[idx] + 2}" height="{card_h}" rx="20" fill="{fill}"/>')
         parts.append(f'<rect x="{x}" y="{card_y}" width="{widths[idx]}" height="{card_h - 2}" rx="19" fill="#EFEFEF" opacity="0.0"/>')
         parts.append(f'<rect x="{x}" y="{card_y}" width="{widths[idx]}" height="{card_h - 2}" rx="19" fill="{fill}"/>')
-        parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{x + 52}" y="78">{svg_escape(label)}</tspan></text>')
+        centre_x = x + widths[idx] / 2
+        parts.append(f'<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{centre_x}" y="78">{svg_escape(label)}</tspan></text>')
         if label == "Updated":
-            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="{x + 46}" y="114">{svg_escape(value.split()[0] + " " + value.split()[1])}</tspan></text>')
-            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{x + 62}" y="140">{svg_escape(value.split()[2])}</tspan></text>')
+            parts.append(f'<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="24" font-weight="900"><tspan x="{centre_x}" y="114">{svg_escape(value.split()[0] + " " + value.split()[1])}</tspan></text>')
+            parts.append(f'<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="20"><tspan x="{centre_x}" y="140">{svg_escape(value.split()[2])}</tspan></text>')
         else:
             font_size = 48 if len(value) < 3 else 40
-            parts.append(f'<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="{font_size}" font-weight="900"><tspan x="{x + (49 if len(value) < 3 else 30)}" y="135">{svg_escape(value)}</tspan></text>')
+            parts.append(f'<text fill="black" text-anchor="middle" style="white-space: pre" xml:space="preserve" font-family="Arial Black" font-size="{font_size}" font-weight="900"><tspan x="{centre_x}" y="135">{svg_escape(value)}</tspan></text>')
         x += widths[idx] + gap
 
     parts.append('<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Arial" font-size="32"><tspan x="43.5898" y="227.594">Number of terms by category</tspan></text>')
